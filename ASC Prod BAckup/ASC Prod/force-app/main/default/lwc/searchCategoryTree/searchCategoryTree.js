@@ -15,6 +15,8 @@ import { CurrentPageReference } from "lightning/navigation";
 import { getRecord } from "lightning/uiRecordApi";
 import getChildCategories from '@salesforce/apex/ChildCategoryProductService.getChildCategories';
 
+
+
 /**
  * Tree node representation for a single category and its sub-categories.
  * @typedef {object} CategoryInfoTreeAncestorNode
