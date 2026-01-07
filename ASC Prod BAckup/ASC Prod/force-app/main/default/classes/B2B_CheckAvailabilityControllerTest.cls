@@ -2,7 +2,7 @@
  * @description       :
  * @author            : Mradul Maheshwari
  * @group             :
- * @last modified on  : 11-13-2025
+ * @last modified on  : 12-19-2025
  * @last modified by  : Swati Chilap
  **/
 @isTest
@@ -494,34 +494,7 @@ public class B2B_CheckAvailabilityControllerTest {
         'testKIT'
       );
     }
-  }
-
-
-
-@isTest
-public static void B2B_FeaturedProductControllerTest(){
-B2B_FeaturedProductController.testCoverage();
-}
-
-@isTest
-public static void B2B_FeaturedProductControllerServiceTest(){
-B2B_FeaturedProductControllerService.testCoverage();
-} 
-
-@isTest
-public static void B2B_FeaturedProductServiceTest(){
-B2B_FeaturedProductService.testCoverage();
-}    
-
-@isTest
-public static void B2B_PeriodicTableControllerTest(){
-B2B_PeriodicTableController.testCoverage();
-}    
-
-@isTest
-public static void B2B_PeriodicTableServiceTest(){
-B2B_PeriodicTableService.testCoverage();
-}
+  }    
 
 @isTest
 public static void B2B_ProductDetailCOAControllerTest(){
@@ -639,18 +612,8 @@ Tech_SdsController.testCoverage();
 }
 
 @isTest
-public static void B2B_HomepageCarouselServiceTest(){
-B2B_HomepageCarouselService.testCoverage();
-}
-
-@isTest
 public static void Test_ConvertToFormulaTest(){
 Test_ConvertToFormula.testCoverage();
-}
-
-@isTest
-public static void Test_b2bHomepageCarouselControllerTest(){
-b2bHomepageCarouselController.testCoverage();
 }
 
  @isTest
