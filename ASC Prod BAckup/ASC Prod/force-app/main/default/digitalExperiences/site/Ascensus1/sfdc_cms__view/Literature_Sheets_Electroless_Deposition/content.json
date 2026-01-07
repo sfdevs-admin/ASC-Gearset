@@ -1,0 +1,269 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Literature Sheets-Electroless Deposition",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b45b1f02-0898-4378-b57a-dd2abb7df5ba\",\"columns\":[{\"UUID\":\"fe507cf6-f1e6-4cfe-9ca5-77ed792a8686\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">Literature Sheets - Electroless Deposition for the Synthesis of Bimetallic Catalysts</strong></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b3b75607-4326-4802-ad7c-bc723d8308cd",
+              "type" : "component"
+            } ],
+            "id" : "fe507cf6-f1e6-4cfe-9ca5-77ed792a8686",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b45b1f02-0898-4378-b57a-dd2abb7df5ba",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7597d3ca-6a52-4c57-942c-b65ad31571c1\",\"columns\":[{\"UUID\":\"492643d0-633b-4dc5-a6d1-0eae6e30a8b2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "autoScrollToMostRecent" : false,
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "dxpStyle" : { },
+                "horizontalAlignment" : "center",
+                "itemSpacing" : "small",
+                "numberOfColumns" : 1,
+                "showPagination" : false,
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "borderColor" : "rgb(0, 0, 0)",
+                    "borderRadius" : 0,
+                    "borderWidth" : 1,
+                    "buttonDirection" : "horizontal",
+                    "buttonGroupAlignment" : "center",
+                    "buttonGroupHeight" : 50,
+                    "buttonGroupSpacingHorizontal" : "space-evenly",
+                    "buttonGroupSpacingVertical" : "space-evenly",
+                    "buttonGroupWidth" : 50,
+                    "contentPadding" : "none",
+                    "contentPosition" : "center",
+                    "contentWidth" : 100,
+                    "dxpStyle" : { },
+                    "height" : 100,
+                    "imageAlignment" : "left",
+                    "imageFit" : "contain",
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Item.body.contentBody.image.url}\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "imagePortion" : "33.33%",
+                    "imagePosition" : "center center",
+                    "isLink" : true,
+                    "linkAssistiveText" : "",
+                    "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}",
+                    "showButtons" : true,
+                    "showSecondaryButton" : false,
+                    "singleButtonAlignment" : "center",
+                    "width" : 100
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.Title}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h1\", \"textStyle\": \"heading-large\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "5351d5e4-b63b-43ee-a57b-9048b5df3cda",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.description}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "205c0899-4131-45f7-a684-bd5fa2b26742",
+                      "type" : "component"
+                    } ],
+                    "id" : "0310110d-ccb0-4281-92a4-3a889c248700",
+                    "name" : "contentRegion",
+                    "title" : "contentRegion",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Read More",
+                        "type" : "primary",
+                        "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "a966dfb8-c1e8-44a4-b54b-3e03ce6fc70e",
+                      "type" : "component"
+                    } ],
+                    "id" : "7d5ade59-cd47-4b07-8ccd-00958f112e7f",
+                    "name" : "primaryButton",
+                    "title" : "primaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Contact Us",
+                        "type" : "secondary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "f51cf837-f74f-4430-8a07-dbe1739a945b",
+                      "type" : "component"
+                    } ],
+                    "id" : "fdb92c00-506f-4831-8570-271e2a42dbb2",
+                    "name" : "secondaryButton",
+                    "title" : "secondaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "8af5c61d-dbed-4b36-ac37-d2a0ac8cb8d6",
+                      "type" : "component"
+                    } ],
+                    "id" : "bffbdcee-70d1-4fa2-a565-f1f8d4983b29",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:card",
+                  "id" : "9a746731-3478-4161-8853-0132e4225022",
+                  "type" : "component"
+                } ],
+                "id" : "40f20c36-3ff4-4215-81d4-3906f0a0a8a8",
+                "name" : "sfdcRepeaterItem",
+                "title" : "sfdcRepeaterItem",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorShowMore\",\"attributes\":{\"label\":\"Show More\",\"textDecoration\":\"{}\",\"buttonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\"}}}",
+                    "variant" : "showmore"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "32844f41-95dd-4505-9f16-581663b532cf",
+                      "type" : "component"
+                    } ],
+                    "id" : "a0bc7741-d2dc-447b-bb07-6236d335294c",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:paginator2",
+                  "id" : "8d0ebe32-2425-4b65-a28a-700390008566",
+                  "type" : "component"
+                } ],
+                "id" : "44886598-a8b7-4ea3-b2b7-b6ade679c0dc",
+                "name" : "pagination",
+                "title" : "pagination",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:grid",
+              "id" : "66e46549-a2fa-4e8d-80dd-71843f76b7bc",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__cmsCollectionDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "contentKey" : "MC4R4UNODGQ5HKDNPTHLEC3GTSYA",
+                  "pageSize" : 1
+                }
+              } ]
+            } ],
+            "id" : "492643d0-633b-4dc5-a6d1-0eae6e30a8b2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7597d3ca-6a52-4c57-942c-b65ad31571c1",
+          "type" : "component"
+        } ],
+        "id" : "6b31e216-09a6-4db6-80e3-aa93805b27c9",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Literature Sheets-Electroless Deposition",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "517d927b-5ac1-4479-bf7b-cffa54de1c4a",
+          "type" : "component"
+        } ],
+        "id" : "f853b7ed-e0ed-4d54-991a-39c9ebc4dc9d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0f4d49c0-5aef-4f2c-91a2-9b50e005f7f5",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-literature-sheets-electroless-deposition"
+  },
+  "urlName" : "literature-sheets-electroless-deposition"
+}

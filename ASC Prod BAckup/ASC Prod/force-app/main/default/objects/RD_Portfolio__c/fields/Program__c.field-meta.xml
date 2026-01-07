@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <label>Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advanced Electrolytes</fullName>
+                <default>false</default>
+                <label>Advanced Electrolytes</label>
+            </value>
+            <value>
+                <fullName>Alcoholates Extensions</fullName>
+                <default>false</default>
+                <label>Alcoholates Extensions</label>
+            </value>
+            <value>
+                <fullName>Alkyl Lithiums</fullName>
+                <default>false</default>
+                <label>Alkyl Lithiums</label>
+            </value>
+            <value>
+                <fullName>Applications Development</fullName>
+                <default>false</default>
+                <label>Applications Development</label>
+            </value>
+            <value>
+                <fullName>Boranes Extensions</fullName>
+                <default>false</default>
+                <label>Boranes Extensions</label>
+            </value>
+            <value>
+                <fullName>Deuterium Reagents</fullName>
+                <default>false</default>
+                <label>Deuterium Reagents</label>
+            </value>
+            <value>
+                <fullName>Emerging Pharma</fullName>
+                <default>false</default>
+                <label>Emerging Pharma</label>
+            </value>
+            <value>
+                <fullName>Enabling Ligands</fullName>
+                <default>false</default>
+                <label>Enabling Ligands</label>
+            </value>
+            <value>
+                <fullName>Generics API</fullName>
+                <default>false</default>
+                <label>Generic API</label>
+            </value>
+            <value>
+                <fullName>GMP INT &amp; Reagents</fullName>
+                <default>false</default>
+                <label>GMP INT &amp; Reagents</label>
+            </value>
+            <value>
+                <fullName>Lucky Strikes</fullName>
+                <default>false</default>
+                <label>Lucky Strikes</label>
+            </value>
+            <value>
+                <fullName>Organometallic Precursors</fullName>
+                <default>false</default>
+                <label>Organometallic Precursors</label>
+            </value>
+            <value>
+                <fullName>Product Improvement</fullName>
+                <default>false</default>
+                <label>Product Improvement</label>
+            </value>
+            <value>
+                <fullName>Spec. Intermediates</fullName>
+                <default>false</default>
+                <label>Spec. Intermediates</label>
+            </value>
+            <value>
+                <fullName>Analytical Development</fullName>
+                <default>false</default>
+                <label>Analytical Development</label>
+            </value>
+            <value>
+                <fullName>Electronic Gases</fullName>
+                <default>false</default>
+                <label>Electronic Gases</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,55 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 06-20-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <div if:true={showSpinner}>
+        <div class="loader-dots">{messageState}</div>
+        <div class="back-drop"></div>
+    </div>
+    <div class="slds-size_1-of-1 slds-medium-size_2-of-12 slds-large-size_2-of-12 right-dropdown">
+        <lightning-combobox
+            name="Layout"
+            label="Result Layout"
+            value={resultsLayout}
+            placeholder="Select the result layout"
+            options={comboOptions}
+            onchange={handleComboOptionsChange} 
+        ></lightning-combobox>
+    </div>
+    <c-search-results
+        search-term={searchTearm}
+        search-results={searchResults}
+        sort-rule-id={sortRuleId}
+        sort-rules={sortRules}
+        results-layout={resultsLayout}
+        grid-column-spacing={gridColumnSpacing}
+        grid-row-spacing={gridRowSpacing}
+        grid-max-columns-displayed={gridMaxColumnsDisplayed}
+        list-row-spacing={listRowSpacing}
+        show-product-image={showProductImage}
+        show-negotiated-price={showNegotiatedPrice}
+        show-original-price={showOriginalPrice}
+        show-call-to-action-button={showCallToActionButton}
+        negotiated-price-text-size={negotiatedPriceTextSize}
+        negotiated-price-text-color={negotiatedPriceTextColor}
+        original-price-text-size={originalPriceTextSize}
+        original-price-text-color={originalPriceTextColor}
+        add-to-cart-button-text={addToCartButtonText}
+        add-to-cart-button-style={addToCartButtonStyle}
+        add-to-cart-button-processing-text={addToCartButtonProcessingText}
+        view-options-button-text={viewOptionsButtonText}
+        card-content-mapping={normalizedCardContentMapping}
+        card-background-color={cardBackgroundColor}
+        card-alignment={cardAlignment}
+        card-border-color={cardBorderColor}
+        card-border-radius={cardBorderRadius}
+        card-divider-color={cardDividerColor}
+        current-page={currentPage}
+        onaddproducttocart={handleAddToCart}
+        onshowproduct={handleNavigateToProductPage}
+        onupdatecurrentpage={handleUpdateCurrentPage}></c-search-results>
+</template>

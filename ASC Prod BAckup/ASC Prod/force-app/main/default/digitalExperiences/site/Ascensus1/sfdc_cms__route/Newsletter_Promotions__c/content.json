@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Newsletter Promotions",
+  "contentBody" : {
+    "activeViewId" : "Newsletter_Promotions",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-newsletter-promotions",
+    "urlPrefix" : "newsletter-promotions"
+  },
+  "urlName" : "newsletter-promotions"
+}

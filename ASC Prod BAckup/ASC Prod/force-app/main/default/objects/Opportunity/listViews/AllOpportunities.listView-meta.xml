@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Product_Family__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>NBD_Lead__c</columns>
+    <columns>Current_Year_Volume__c</columns>
+    <columns>Full_Year_Volume__c</columns>
+    <columns>Proj_Full_Year_Revenue__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Region__c</columns>
+    <columns>Industry_Segment__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>Current_Supplier__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>Spec. Intermediates</value>
+    </filters>
+    <filters>
+        <field>Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>All Opportunities</label>
+</ListView>

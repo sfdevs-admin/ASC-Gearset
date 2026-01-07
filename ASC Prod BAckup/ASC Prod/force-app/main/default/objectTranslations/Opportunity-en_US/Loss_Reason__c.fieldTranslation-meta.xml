@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Loss Reason --></label>
+    <name>Loss_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Lack of Demand</masterLabel>
+        <translation><!-- Lack of Demand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost to Alternative Technology</masterLabel>
+        <translation><!-- Lost to Alternative Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost to Competitor</masterLabel>
+        <translation><!-- Lost to Competitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation><!-- Price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Killed by Customer</masterLabel>
+        <translation><!-- Project Killed by Customer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

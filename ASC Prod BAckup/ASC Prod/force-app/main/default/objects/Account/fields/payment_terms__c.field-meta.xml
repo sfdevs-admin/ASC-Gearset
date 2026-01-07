@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>payment_terms__c</fullName>
+    <label>payment_terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>credit card</fullName>
+                <default>false</default>
+                <label>credit card</label>
+            </value>
+            <value>
+                <fullName>purchase order</fullName>
+                <default>false</default>
+                <label>purchase order</label>
+            </value>
+            <value>
+                <fullName>ach</fullName>
+                <default>false</default>
+                <label>ach</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

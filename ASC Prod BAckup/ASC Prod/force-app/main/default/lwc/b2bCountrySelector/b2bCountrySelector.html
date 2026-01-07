@@ -1,0 +1,56 @@
+<template>
+    <div class="container">
+        <div if:true={showSpinner}>
+            <div class="loader-dots">{messageState}</div>
+            <div class="back-drop"></div>
+        </div>
+        <div>
+            <div class="country-box" onclick={handleClickOpen}>
+                <lightning-icon icon-name="utility:world" size="small" alternative-text="Country Icon"></lightning-icon>
+                <span class="selected-country">{selectedCountryName}</span>
+            </div>
+        </div>
+    </div>
+
+    <div if:true={showCountryList}>
+        <div class={showhidePanelClass}>
+            <div class="">
+                <div class="slds-grid slds-wrap slds-p-around_x-small">
+                    <div class="slds-col slds-size_12-of-12">
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-col slds-size_11-of-12">
+                            </div>
+                            <div class="slds-col slds-size_1-of-12">
+                                <div class="">
+                                    <lightning-icon onclick={handleClickClose} size="x-small"
+                                        class="slds-float_right slds-m-right_small closeIcon-pointer"
+                                        icon-name="utility:close"></lightning-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12">
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-col slds-size_12-of-12">
+                                <span>
+                                    <h2 class="slds-text-heading_medium slds-text-align_center"><b>Select Your
+                                            Location</b></h2>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-panel__body slds-scrollable_y">
+                <lightning-layout multiple-rows="false">
+                    <template for:each={countryOptions} for:item="option">
+                        <lightning-layout-item flexibility="auto" padding="around-small" size="4" key={option.value}>
+                            <div class=""><a href="javascript:void(0)" data-value={option.value}
+                                    onclick={handleChange}>{option.label}</a></div>
+                        </lightning-layout-item>
+                    </template>
+                </lightning-layout>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,59 @@
+.custom-card {
+  /* --sds-c-card-color-background: #8c9192; */
+  --sds-c-card-color-background: rgb(0, 114, 206);
+  color: #fff;
+  /* --sds-c-card-title-color:#fff !important; */
+}
+.slds-spinner_container {
+  background: rgba(255, 255, 255, 0.6); /* Semi-transparent white */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Light transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures it appears above all other elements */
+}
+
+/* .request button{
+    color: white !important;
+    background-color: rgb(0, 114, 206) !important;
+    border-radius:20px;
+    border-color:white;
+}
+.request button:hover{
+    background-color: #fff !important;
+    color: rgb(0, 114, 206) !important;
+} */
+/* .submit button{
+    background-color: white !important;
+    color:rgb(252,186,3,1) !important;
+} */
+/*.custom-card h2.slds-card__header-title  {
+    color: #fff !important; /* Specify your desired color 
+} */
+/*.custom-card h2.slds-card__header-title.slds-truncate {
+    color: #fff !important; /* Specify your desired color 
+}*/
+
+/* .invalid-input {
+    border: 1px solid red;
+    color:red;
+} */
+/* .error-message{
+    color:red;
+    margin-top: 5px;
+} */
+/* lightning-card.title {
+    color:white;
+} */

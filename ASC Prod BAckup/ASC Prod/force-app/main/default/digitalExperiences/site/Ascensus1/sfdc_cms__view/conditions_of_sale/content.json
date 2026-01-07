@@ -1,0 +1,129 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "conditions of sale",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC7BLLZ764XBGJPJO7QYWF3ASOTA?lastModifiedDate=Wed May 01 17:25:25 GMT 2024&height=144&width=192\",\"contentKey\":\"MC7BLLZ764XBGJPJO7QYWF3ASOTA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center right\",\"bgSizeOrRepeat\":\"repeat-y\"}",
+            "backgroundImageOverlay" : "rgba(0, 0, 0, 0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"34a3a55b-2bce-47f5-b8e4-6be0e3b23efd\",\"columns\":[{\"UUID\":\"456260a9-6606-47da-a5c4-e2d694a93d8d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2%",
+                    "left" : "6%",
+                    "right" : "",
+                    "top" : "2%"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Conditions of Sales",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "86c7ac00-fb1f-4d1b-908c-e44c8dd1d804",
+              "type" : "component"
+            } ],
+            "id" : "456260a9-6606-47da-a5c4-e2d694a93d8d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "34a3a55b-2bce-47f5-b8e4-6be0e3b23efd",
+          "scopedBrandingSetId" : "Static_Page_Background",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"23cf91b5-c3b3-4f25-8ba0-ae062e123792\",\"columns\":[{\"UUID\":\"69ecfbbc-e2b7-4073-b052-4e862d317d2d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "8%",
+                    "right" : "8%",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 24px;\">1. Applicability -</span></h3><p><br></p><p>All sales of goods (“Products”) by the “Seller” are made subject to these Terms and Conditions of Sale and are expressly conditioned upon the Buyer's assent thereto. The information contained in these Terms and Conditions of Sale serve to supplement the information contained in the Seller's catalog and on the Seller's web site, www.strem.com. The Seller will not be bound by any variations from or additions to these terms and conditions of sale contained in any purchase order or other document submitted by the Buyer. No variation from these Terms and Conditions of Sale shall be binding upon the Seller unless agreed to in writing by an authorized representative of the Seller. In addition to these Terms and Conditions of Sale, certain Products sold by Seller are sold in collaboration with the manufacturers and/or licensors of such Products, and such Products are sold subject to their respective manufacturer's and/or licensor's Terms and Conditions of sale. Please contact Seller for further details.</p><p><br></p><h3><span style=\"font-size: 24px;\">2. Orders -</span></h3><p><br></p><p>Acceptance and Cancellation, Returns - No order for Products placed by a buyer (“Buyer”) shall be binding on Seller unless and until accepted by Seller. Seller reserves the right to reject any order for any reason. Once submitted to Seller, an order may not be changed or cancelled by Buyer unless such change or cancellation is expressly agreed to in writing by an authorized representative of Seller. Any such agreement to change or cancel an order may be conditioned upon Buyer paying a change or cancellation charge intended to compensate Seller for costs incurred, including, but not limited to, storage and shipping costs, costs of producing non-standard catalog items, costs incurred in purchasing materials, change or cancellation costs imposed on Seller by its suppliers, disposal costs incurred in disposing of Products in accordance with law, and any other cost resulting from a change or cancellation of an order placed by Buyer.</p><p>If Seller is unable for any reason to fill Buyer's entire order for Products, Seller may allocate its supply among any or all Buyers on such basis as Seller deems convenient and practical, without liability for any failure of performance which may result from such determination.</p><p>Upon Buyer's receipt of Products, Buyer shall immediately inspect the same and shall notify Seller in writing within seven (7) days of delivery of any claims for shortages, defects or damages. If Buyer shall fail to so notify Seller within said 7 day period, such goods shall conclusively be deemed to conform to their respective specifications and to have been irrevocably accepted by Buyer. Seller shall not be liable to Buyer for any losses or damages resulting from a late delivery or from Seller's failure to perform due to any cause beyond Seller's reasonable control.</p><p>Conforming Products may not be returned for credit except with Seller's prior agreement, and then only in strict compliance with Seller's instructions. Any returned items may be subject to a restocking fee to be determined by Seller. Under no circumstances will Seller accept for return any customer special order products or any products that are in a non-saleable condition.</p><p>Blanket (standing) Orders may be accepted by Seller on behalf of Buyer under which Products will be shipped, from time to time, pursuant to an agreed upon schedule. Once a Blanket Order has been accepted, however, Buyer will not be permitted to cancel or change such Blanket Order without Seller's prior written agreement. All blanket orders will be invoiced according to the shipping schedule in place at the time of the Order. Seller shall have the further right to cease shipping Products under any such Blanket Order and to require payment in advance at any time that Seller, in its sole discretion, determines that there is any doubt regarding the ability to collect an invoice.</p><h3><br></h3><h3><span style=\"font-size: 24px;\">3. Shipment, Handling and Delivery -</span></h3><p><br></p><p>All sales are made FCA Seller's shipping point (Incoterms 2000). Shipping and handling charges will be added to the quoted price for the Products. Seller will bill actual shipping charges plus appropriate handling, insurance, and hazardous materials surcharges (where applicable). Delivery of the Products to the carrier at Seller's shipping point shall constitute Seller's sole shipping obligation and Buyer shall thereafter bear all risks of loss or damage in transit. Unless Buyer specifies mode of shipment, Seller will determine the method of shipment and choice of carrier.</p><p><br></p><h3><span style=\"font-size: 24px;\">4. Pricing, Terms of Payment –</span></h3><p><br></p><p>All prices are shown in the currency of Seller's shipping location and are subject to change without notice. In addition to the quoted price, Buyer shall also be responsible to pay all sales or use taxes, excise taxes, duties, customs, import or export fees and any other taxes, fees or charges of any nature applicable to the Buyer's purchase of Products. The terms of all invoices are net 30 days from the invoice date. Past due balances are subject to 1.5% service charge per month (18% per year) after 30 days. If for any reason Seller determines that it has concerns about the financial condition of Buyer, the Buyer's payment history or any other condition that in the Seller's opinion is grounds for refusing to sell to Buyer on credit, Seller may, without notice to Buyer cancel an order, change the payment terms or insist upon pre-payment of any order prior to shipment, or may delay the delivery of the Products until Buyer makes accommodations acceptable to the Seller. In the event Buyer defaults in the payment of the purchase price of any order, Buyer agrees that it will also be responsible to pay all costs, including attorney's fees and other expenses of collection resulting from any such default by Buyer.</p><p><br></p><h3><span style=\"font-size: 24px;\">5. Uses, Warranties, Liabilities And Safety -</span></h3><p><br></p><p>The Products are intended for laboratory research purposes only, and unless otherwise stated on Product labels, in the Seller's catalog or in other literature furnished to the Buyer by Seller, are not to be used for any other purposes, including but not limited to use as or as components in drugs, for human or animal use, or in medical devices, cosmetics, food additives, household chemicals, agricultural or horticultural products, pesticides, or for commercial purposes. Buyer acknowledges that the Products have not been tested by the Seller for safety or efficacy in any particular application unless otherwise stated in Seller's written materials furnished to Buyer.</p><h3><br></h3><h3><span style=\"font-size: 24px;\">a. Seller's Warranty -</span></h3><p><br></p><p>Seller warrants that the Products, at the time of delivery to Buyer, shall conform to the specifications for such Products as are set forth in Seller's catalog, Seller's website, or any other written material furnished to Buyer by Seller. THIS WARRANTY IS EXCLUSIVE, AND SELLER MAKES NO OTHER EXPRESS OR IMPLIED WARRANTIES OR REPRESENTATIONS CONCERNING THE PRODUCTS (WHETHER IMPLIED BY STATUTE OR OTHERWISE) AND SPECIFICALLY EXCLUDES SUCH WARRANTIES AND REPRESENTATIONS TO THE FULLEST EXTENT PERMITTED BY LAW. SELLER SPECIFICALLY MAKES NO WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE. SELLER SHALL NOT BE RESPONSIBLE FOR ANY LOSS OR DAMAGE ARISING FROM THE FAILURE OF ANY PRODUCT TO BE SUITABLE FOR ANY PURPOSE WHATSOEVER.</p><p><br></p><h3><span style=\"font-size: 24px;\">b. Patent disclaimer -</span></h3><p><br></p><p>Seller makes no warranty or representation that the use or sale of the Products, whether alone or in combination with other products, will not infringe the claims of any letters patent, trademarks, registered designs or other proprietary rights of any party and Buyer assumes all risks associated therewith.</p><p><br></p><h3><span style=\"font-size: 24px;\">c. Limitation of Damages -</span></h3><p><br></p><p>Notwithstanding anything else herein contained, in no event shall the aggregate liabilities of Seller to Buyer arising out of or relating to any transaction between them exceed the purchase price paid by Buyer to Seller for the Products at issue. SELLER SHALL NOT IN ANY EVENT BE LIABLE FOR INCIDENTAL, CONSEQUENTIAL OR SPECIAL DAMAGES OF ANY KIND RESULTING FROM ANY USE OR FAILURE OF THE PRODUCTS, EVEN IF SELLER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE INCLUDING, WITHOUT LIMITATION, LIABILITY FOR LOSS OF USE, LOSS OF WORK IN PROGRESS, DOWN TIME, LOSS OF REVENUE OR PROFITS, FAILURE TO REALIZE ANTICIPATED SAVINGS, LOSS OF BUYER PROPERTY OR ANY LIABILITY OF BUYER TO A THIRD PARTY, OR FOR ANY LABOR OR ANY OTHER EXPENSE, DAMAGE OR LOSS OCCASIONED BY SUCH PRODUCT INCLUDING PERSONAL INJURY OR PROPERTY DAMAGE UNLESS SUCH PERSONAL INJURY OR PROPERTY DAMAGE IS CAUSED BY SELLER'S GROSS NEGLIGENCE.</p><p><br></p><h3><span style=\"font-size: 24px;\">d. Buyer's Remedy -</span></h3><p><br></p><p>Seller's sole and exclusive liability to Buyer and Buyer's exclusive remedy with respect to Products proved to Seller's satisfaction to be defective or nonconforming shall be limited, at Seller's option, to 1) repairing or replacement of such Products without charge or refund of the purchase price, upon the return of such Products, at Buyer's expense, in accordance with Seller's instructions or 2) refunding the sales price received by the Seller for such Products. All claims for breach of warranty must be presented to Seller in writing within thirty (30) days after delivery to Buyer, regardless of their nature. Failure of Buyer to give such notice shall be deemed to be a waiver by Buyer of all claims with respect to the subject Products.</p><p><br></p><h3><span style=\"font-size: 24px;\">e. Exclusion of Seller's Warranty -</span></h3><p><br></p><p>Seller's warranty made in connection with a sale of Products shall not be effective if Seller has determined, in its sole discretion, that Buyer has misused the Products in any manner, has failed to use the Products in accordance with industry standards and practices, or has failed to use the Products in accordance with instructions, if any, furnished by Seller. In no event will Seller be liable for Products damaged in shipment or in any other manner without the fault of Seller, improper care or storage of the Products, or for any expenses incurred by Buyer in testing or attempting to correct any non-conformance of the Products.</p><p><br></p><h3><span style=\"font-size: 24px;\">f. Buyer's Representations and Indemnity –</span></h3><p><br></p><p>The Buyer represents and warrants to the Seller that it shall use the Products in accordance with applicable law, rule, regulation and not in violation of any patent or other proprietary rights of any third party. The Buyer expressly represents and warrants that Buyer will properly test, use, manufacture and market any Products purchased from Seller or materials produced with Products purchased by Seller in accordance with the practices of a reasonable person who is an expert in the field and in strict compliance with law. The Buyer agrees to indemnify and hold harmless the Seller, its employees, agents, successors, officers and assigns for and against any and all suits, claims, demands, liabilities, losses, damages and/or expenses, including costs and fees of legal counsel and all other costs of defending any action, that the Seller may incur as a result of any act or failure to act by the Buyer, its officers, agents or employees, successors or assignees, its customers or all other third parties, whether direct or indirect, in connection with the possession or use of any Product sold by Seller or by reason of Buyer's breach of any of its agreements contained herein. Buyer's indemnity shall extend to any claim brought against Seller by a third party alleging that the use of a Product by the Buyer infringes the patent rights, trademarks, intellectual property rights or other proprietary rights of any third party. Buyer shall notify Seller in writing within fifteen (15) days of Buyer's receipt of knowledge of any accident, or incident involving Seller's Products which results in personal injury or damage to property, and Buyer shall fully cooperate with Seller in the investigation and determination of the cause of such accident.</p><p><br></p><h3><span style=\"font-size: 24px;\">g. Safety -</span></h3><p><br></p><p>All of the Products offered by Seller are research chemicals. As such, they should be used or handled only by or under the direct supervisions of technically qualified individuals. The chemical, physical and toxicological properties of certain Products may not have been fully investigated, since the Products are for investigational use only. Seller, therefore, makes no guarantee of results and assumes no liability for injuries, damages or penalties resulting from their use, since the conditions of handling and use are beyond Seller's control. Any suggestions or recommendations for use of any Product are made without warranty and are not to be taken as a license to operate under or to infringe any patent. If any license, permit or approval of any person, entity or governmental or other regulatory authority shall be required for the acquisition, transport or use of the Products by the Buyer the Buyer shall be solely responsible to obtain the same at its own expense.</p><p>All Products should be handled only by properly trained persons who are familiar with laborator procedures and the potential hazards in handling laboratory chemicals. The Buyer assumes all responsibility to learn and understand the risks associated with any of the Products and for instructing its employees, agents, customers and any other persons who might reasonably be expected to come into contact with the Products, in techniques for safe handling and use of the Products and of any potential risks to person and property in any way connected with the Products. The Buyer also assumes the responsibility for the safe disposal of all Products in accordance with all applicable laws.</p><p><br></p><h3><span style=\"font-size: 24px;\">6. Governing Law –</span></h3><p><br></p><p>Any dispute concerning these Terms and Conditions of Sale, including as to the legality, interpretation or application shall be governed by the laws of the Commonwealth of Massachusetts, without regard to its principles of conflicts of laws. All Buyers agree that any disputes that concern the Products and/or these Terms and Conditions of Sale shall be brought in the state courts of the Commonwealth of Massachusetts.</p><p><br></p><h3><span style=\"font-size: 24px;\">7. Miscellaneous –</span></h3><p><br></p><p><strong>(i)</strong>&nbsp;Seller's failure to strictly enforce any term or condition contained in Seller's Terms and Conditions of Sale shall not constitute a waiver of Seller's right to strictly enforce such terms or conditions at any time in the future. If any provision of these Terms and Conditions of Sale shall be held to be invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions shall not be affected or impaired thereby. The paragraph headings contained herein are for convenience only and are not to be considered in interpreting these Terms and Conditions of Sale. These Terms and Conditions of Sale are intended to be binding upon, inure to the benefit of, and be enforceable by, the parties hereto, and their respective heirs, personal representatives, successors and assigns.</p><p><strong>(ii)</strong>&nbsp;Seller retains all rights, title, ownership, and control in and of its intellectual property, including without limitation any intellectual property created by Seller (alone or jointly with Buyer or another party) in the course of its provision of any Product or service to Buyer. Unless specifically set forth in writing in a separate agreement, Buyer shall not acquire any license or other interest, by implication or otherwise, in any intellectual property owned or otherwise controlled by Seller.</p><p><strong>(iii)</strong>&nbsp;In addition to these Terms and Conditions of Sale, certain Products manufactured by BASF AG are subject to BASF AG's Terms and Conditions of Sale. Please&nbsp;<a href=\"https://ascensusspecialties.file.force.com/sfc/dist/version/download/?oid=00D2E000000pAb6&amp;ids=068VN00000FaY0x&amp;d=%2Fa%2FVN000004fFs1%2FbYVIup7UFGOcp.5UaWXW9WqVHMsDeFpmrutR2AbObSo&amp;asPdf=false\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 107, 206);\">click here</a>&nbsp;for the full text of such Terms and Conditions of Sale. For further details, please contact Seller.</p><p><strong>(iv)</strong>&nbsp;Buyer represents and warrants that Buyer itself is not a Specially Designated National (“SDN”) identified by the Office of Foreign Assets Control (“OFAC”), nor is Buyer owned or controlled by any SDN or other designated party, and that neither Buyer nor any director, officer, agent, employee or affiliate of Buyer is subject to economic sanctions.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f0e16166-d8d6-4ded-9c97-8150f0a94880",
+              "type" : "component"
+            } ],
+            "id" : "69ecfbbc-e2b7-4073-b052-4e862d317d2d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "23cf91b5-c3b3-4f25-8ba0-ae062e123792",
+          "type" : "component"
+        } ],
+        "id" : "7fc89231-10af-4b9d-a0f2-af729bb98dd1",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "conditions of sale",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c949d32f-6fdc-42d0-9a8b-3c42eeeb85fb",
+          "type" : "component"
+        } ],
+        "id" : "e578f43e-737b-4521-b5e3-fec99d404747",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "cdaf587f-cd98-496b-a908-7f11e3efc6a8",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-conditions-of-sale"
+  },
+  "urlName" : "conditions-of-sale"
+}

@@ -1,0 +1,122 @@
+<template>
+    <lightning-card>
+        <div>
+            <lightning-layout>
+
+                <lightning-layout-item size="8" class="slds-p-around_small">
+                    <div style="display: flex;align-items: center;">
+                        <lightning-icon icon-name={icon}></lightning-icon>
+                        <p style="font-size: 1rem; font-weight: bold;" class="slds-p-left--x-small">{relatedListTitle}
+                        </p>
+                    </div>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="4" class="slds-p-around_small" style="text-align: end;">
+                    <template for:each={_actionList} for:item="action">
+                        <lightning-button class="slds-p-right--xx-small" key={action.value} label={action.label}
+                            title={action.value} onclick={handleActionButtonClick}></lightning-button>
+                    </template>
+                </lightning-layout-item>
+
+            </lightning-layout>
+        </div>
+
+        <template if:true={showSpinner}>
+            <lightning-spinner alternative-text="Loading" size="medium"
+                class="slds-m-around_medium"></lightning-spinner>
+        </template>
+
+        <div class="slds-box slds-box_xx-small slds-m-around--xx-small slds-var-p-vertical_medium"
+            style="height: 200px;">
+            <template if:true={showRelatedList}>
+                <lightning-datatable 
+                    key-field="Id" 
+                    data={data} 
+                    columns={columns} 
+                    onrowaction={handleRowAction}
+                    hide-checkbox-column 
+                    onsort={handleSort}                                      
+                    sorted-by={sortBy}
+                    sorted-direction={sortDirection}>
+                </lightning-datatable>
+            </template>
+            <template if:false={showRelatedList}>
+                <p class="slds-text-body_regular slds-text-align_center" style="font-size: larger; padding-top: 5%;">
+                    No {title} found.
+                </p>
+            </template>
+        </div>
+
+        <template if:true={showDeleteModal}>
+
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Delete {title}</h2>
+                    </header>
+
+
+                    <div class="slds-modal__content slds-p-around_medium" style="text-align: center;"
+                        id="modal-content-id-1">
+                        <p>Are you sure you want to delete this {title}?</p>
+                    </div>
+
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={handleDelete}>Delete</button>
+                    </footer>
+
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+
+        <template if:true={showEditSchedules}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_medium">
+                <div class="slds-modal__container">
+
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-02" class="slds-text-heading_medium slds-hyphenate">Edit {title}</h2>
+                    </header>
+
+
+                    <div class="slds-modal__content slds-p-around_medium" style="text-align: center;"
+                        id="modal-content-id-2">
+                        <div class="slds-box slds-box_xx-small slds-m-around--xx-small slds-var-p-vertical_medium">
+
+                            <template if:true={showRelatedList}>
+                                <c-atr-lightning-datatable key-field="Id" data={dataForEditModal}
+                                    columns={editableColumns} hide-checkbox-column
+                                    onrowaction={handleEditTableRowAction} ontablerowchange={handleTableRowChange}>
+                                </c-atr-lightning-datatable>
+                            </template>
+
+                            <template if:false={showRelatedList}>
+                                <p class="slds-text-body_regular slds-text-align_center slds-p-top--medium slds-p-bottom--medium"
+                                    style="font-size: larger;">
+                                    No {title} found.
+                                </p>
+                            </template>
+                        </div>
+                    </div>
+
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={closeSchdeuleEditModal}>Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={handleSave}>Save</button>
+                    </footer>
+
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+
+        <template if:true={showScheduleCreationModal}>
+            <c-atr-create-schedules record-id={recordId}
+                onclosemodal={closeEstablishSchedules} onrefresh={refreshRelatedListData}></c-atr-create-schedules>
+        </template>
+
+    </lightning-card>
+</template>

@@ -1,0 +1,288 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Literature Sheets - Metal Organic",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"246a081b-5700-41d5-94b2-a141b1c15ea8\",\"columns\":[{\"UUID\":\"cab149c9-093f-4af3-9200-4628df5ce76c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">Literature Sheets - Metal Organic Frameworks (MOF’s) and Ligands for MOF Synthesis</strong></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "306c4170-1cae-4030-ab2c-53c959bd0230",
+              "type" : "component"
+            } ],
+            "id" : "cab149c9-093f-4af3-9200-4628df5ce76c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "246a081b-5700-41d5-94b2-a141b1c15ea8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b2ced863-1b03-4b2e-a9ee-81c3d86a1cec\",\"columns\":[{\"UUID\":\"057a1035-46f6-44fb-8ab5-33b0224d79e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "autoScrollToMostRecent" : false,
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "dxpStyle" : { },
+                "horizontalAlignment" : "center",
+                "itemSpacing" : "small",
+                "numberOfColumns" : 1,
+                "showPagination" : false,
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "borderColor" : "rgb(0, 0, 0)",
+                    "borderRadius" : 0,
+                    "borderWidth" : 1,
+                    "buttonDirection" : "horizontal",
+                    "buttonGroupAlignment" : "center",
+                    "buttonGroupHeight" : 50,
+                    "buttonGroupSpacingHorizontal" : "space-evenly",
+                    "buttonGroupSpacingVertical" : "space-evenly",
+                    "buttonGroupWidth" : 50,
+                    "contentPadding" : "none",
+                    "contentPosition" : "center",
+                    "contentWidth" : 100,
+                    "dxpStyle" : { },
+                    "height" : 100,
+                    "imageAlignment" : "left",
+                    "imageFit" : "contain",
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Item.body.contentBody.image.url}\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "imagePortion" : "33.33%",
+                    "imagePosition" : "center center",
+                    "isLink" : true,
+                    "linkAssistiveText" : "",
+                    "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}",
+                    "showButtons" : true,
+                    "showSecondaryButton" : false,
+                    "singleButtonAlignment" : "center",
+                    "width" : 100
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.Title}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h1\", \"textStyle\": \"heading-large\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "d1439ff4-a96a-4e00-9cf5-c26a43f5d747",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.description}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "43bf7a94-d5e7-4cf0-9112-fe8cb9545fa5",
+                      "type" : "component"
+                    } ],
+                    "id" : "febf6e8c-eb7b-4631-b67d-8970a1d5fa05",
+                    "name" : "contentRegion",
+                    "title" : "contentRegion",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Read More",
+                        "type" : "primary",
+                        "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "a1d0909c-f9fe-491a-a548-88af54dcaa7a",
+                      "type" : "component"
+                    } ],
+                    "id" : "3db1a8cc-9431-472f-9fb2-be376e50a035",
+                    "name" : "primaryButton",
+                    "title" : "primaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Contact Us",
+                        "type" : "secondary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "7d76eef4-466b-4fef-b829-de3de53d104d",
+                      "type" : "component"
+                    } ],
+                    "id" : "a55f18d6-7bf6-49cc-a67a-7d723fa9c92e",
+                    "name" : "secondaryButton",
+                    "title" : "secondaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "24740a30-fd0c-4fb1-b86e-147a4e74ad47",
+                      "type" : "component"
+                    } ],
+                    "id" : "3de6485a-32b0-427e-986d-517decfd7a5e",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:card",
+                  "id" : "6b9382c2-6276-46ae-82ab-f0bbe1b509f3",
+                  "type" : "component"
+                } ],
+                "id" : "b9f1d259-b1fe-406d-a835-46b2dd129eb1",
+                "name" : "sfdcRepeaterItem",
+                "title" : "sfdcRepeaterItem",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorShowMore\",\"attributes\":{\"label\":\"Show More\",\"textDecoration\":\"{}\",\"buttonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\"}}}",
+                    "variant" : "showmore"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "7cfebc00-ef06-4b4d-8f0f-fa20bed715a5",
+                      "type" : "component"
+                    } ],
+                    "id" : "708a9102-970a-4c19-a672-33e627137969",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:paginator2",
+                  "id" : "e273b99c-c169-441e-a55c-7391c8bfa4f5",
+                  "type" : "component"
+                } ],
+                "id" : "3ea36758-2507-4805-a14c-c7eaa585008e",
+                "name" : "pagination",
+                "title" : "pagination",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:grid",
+              "id" : "893bbb4d-ba91-448a-a37c-23dca889e6f5",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__cmsCollectionDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "contentKey" : "MCBIBR2PAYCJHGFG6GBYGMAPPONE",
+                  "pageSize" : 7
+                }
+              } ]
+            } ],
+            "id" : "057a1035-46f6-44fb-8ab5-33b0224d79e1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b2ced863-1b03-4b2e-a9ee-81c3d86a1cec",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"44b212b7-0295-43e7-bf2f-cacb63bb1e2d\",\"columns\":[{\"UUID\":\"0422a28a-9e0c-4a1e-969e-edb640f7fc12\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "0422a28a-9e0c-4a1e-969e-edb640f7fc12",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "44b212b7-0295-43e7-bf2f-cacb63bb1e2d",
+          "type" : "component"
+        } ],
+        "id" : "d1e2e0ee-7e3d-43ff-a44c-6e600d2d9300",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Literature Sheets - Metal Organic",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "896812f7-98d4-4454-9f81-02aa65230df5",
+          "type" : "component"
+        } ],
+        "id" : "1afd9a78-18aa-44eb-b51b-6d175eec8115",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "051ceb2b-7d6e-44e2-a725-450fdda25ed1",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-literature-sheets-metal-organic"
+  },
+  "urlName" : "literature-sheets---metal-organic"
+}

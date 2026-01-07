@@ -1,0 +1,79 @@
+.lotNumberInput{
+    max-width: 40%;
+}
+.lotNumberInput-text{
+    min-height: 10px;
+    min-width: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.lotNumberInput-text-NotPDP{
+    min-height: 10px;
+    min-width: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    float: right;
+}
+.lotNumberInput-div{
+    align-self: center;
+    width: max-content;
+    margin-right: 5px;
+}
+.lotNumberInput-div-notPDP{
+    align-self: center;
+    width: 25%;
+    margin-right: 5px;
+}
+.submitBtn-div-notPDP{
+    width: 40%;
+}
+.showLotNumberDiv{
+    display: flex;
+    width: 11%;
+}
+.showLotNumberText{
+    flex: auto;
+    font-weight: bold;
+}
+.showLotNumberValue{
+    flex: auto;
+}
+.SearchResult{
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+}
+.showDataTable{
+    margin: 10px 0px 5px 0px;
+}
+.showDataTable-NotPdp{
+    margin: 30px 0px 5px 0px;
+}
+.showDataTable-row{
+    padding: 5px;
+}
+.SearchResultDisclaimerText{
+    text-align-last: center;
+}
+.showPrintBtn{
+    min-width: 100%;
+    min-height: 30px;   
+}
+.PrintBtn{
+    float: right;
+    cursor: pointer;
+    color: #107cad;
+}
+
+.titleHeader{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.prodSku-label{
+    font-size: 22px;
+    color: rgb(0, 102, 204);
+}

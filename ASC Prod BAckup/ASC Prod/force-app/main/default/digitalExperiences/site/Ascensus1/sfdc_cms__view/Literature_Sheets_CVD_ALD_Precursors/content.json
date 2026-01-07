@@ -1,0 +1,269 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Literature Sheets - CVD, ALD Precursors",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7f157ed3-a409-415e-be1c-51eeee533f84\",\"columns\":[{\"UUID\":\"cf8ec95f-d759-48e1-9661-333a55c0e822\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">    Literature Sheets - CVD, ALD Precursors and Equipment</strong></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "abb7f3e7-80e4-4493-a341-8200e6db785d",
+              "type" : "component"
+            } ],
+            "id" : "cf8ec95f-d759-48e1-9661-333a55c0e822",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7f157ed3-a409-415e-be1c-51eeee533f84",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"61968c80-154f-4bda-8f45-b483ed841612\",\"columns\":[{\"UUID\":\"bb577d06-5ddb-41a0-bc93-3cfd7848221a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "autoScrollToMostRecent" : false,
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "dxpStyle" : { },
+                "horizontalAlignment" : "center",
+                "itemSpacing" : "small",
+                "numberOfColumns" : 1,
+                "showPagination" : false,
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "borderColor" : "rgb(0, 0, 0)",
+                    "borderRadius" : 0,
+                    "borderWidth" : 1,
+                    "buttonDirection" : "horizontal",
+                    "buttonGroupAlignment" : "center",
+                    "buttonGroupHeight" : 50,
+                    "buttonGroupSpacingHorizontal" : "space-evenly",
+                    "buttonGroupSpacingVertical" : "space-evenly",
+                    "buttonGroupWidth" : 50,
+                    "contentPadding" : "none",
+                    "contentPosition" : "center",
+                    "contentWidth" : 100,
+                    "dxpStyle" : { },
+                    "height" : 100,
+                    "imageAlignment" : "left",
+                    "imageFit" : "contain",
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Item.body.contentBody.image.url}\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "imagePortion" : "33.33%",
+                    "imagePosition" : "center center",
+                    "isLink" : true,
+                    "linkAssistiveText" : "",
+                    "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}",
+                    "showButtons" : true,
+                    "showSecondaryButton" : false,
+                    "singleButtonAlignment" : "center",
+                    "width" : 100
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.Title}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h1\", \"textStyle\": \"heading-large\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "7eba9e3b-164c-4f2a-bf75-6d8d4c8fdbb2",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.description}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "9c813c0b-d28f-4466-8cb1-aae4fb359c48",
+                      "type" : "component"
+                    } ],
+                    "id" : "f993135a-43d6-4c56-ae59-9e92a8949ede",
+                    "name" : "contentRegion",
+                    "title" : "contentRegion",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Read More",
+                        "type" : "primary",
+                        "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "a43423cd-09d5-4b55-9aa0-5f1124f05e5e",
+                      "type" : "component"
+                    } ],
+                    "id" : "a1040e05-6966-4636-bf8d-a045a029453b",
+                    "name" : "primaryButton",
+                    "title" : "primaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Contact Us",
+                        "type" : "secondary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "9fbcb588-8e5d-4e27-b24b-cc8911fdef8e",
+                      "type" : "component"
+                    } ],
+                    "id" : "b1089b60-c933-48c0-9942-53cc3e115697",
+                    "name" : "secondaryButton",
+                    "title" : "secondaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "1c7f5928-134a-4da5-8af4-db1073184d7f",
+                      "type" : "component"
+                    } ],
+                    "id" : "314fecc9-ab85-4f65-98e2-6ffb7a1d56f7",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:card",
+                  "id" : "6598605e-e9e7-48bb-88e4-712b2e242f11",
+                  "type" : "component"
+                } ],
+                "id" : "7dcdb611-6de4-4d2e-8523-00be7bd5c94b",
+                "name" : "sfdcRepeaterItem",
+                "title" : "sfdcRepeaterItem",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorShowMore\",\"attributes\":{\"label\":\"Show More\",\"textDecoration\":\"{}\",\"buttonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\"}}}",
+                    "variant" : "showmore"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "f7c09c78-653e-4367-9000-498d17253c23",
+                      "type" : "component"
+                    } ],
+                    "id" : "2c4c9629-db00-44a9-844d-70d46ef0dade",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:paginator2",
+                  "id" : "4b5a25ae-9838-45ce-9c3e-981180ab4f27",
+                  "type" : "component"
+                } ],
+                "id" : "d753582d-dd20-46c1-8d3e-30db0775678e",
+                "name" : "pagination",
+                "title" : "pagination",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:grid",
+              "id" : "e1405784-6157-4ba4-920e-58b11d7e1dbe",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__cmsCollectionDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "contentKey" : "MCJ6QX3GU2A5DBBAAC66VEMVFREM",
+                  "pageSize" : 7
+                }
+              } ]
+            } ],
+            "id" : "bb577d06-5ddb-41a0-bc93-3cfd7848221a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "61968c80-154f-4bda-8f45-b483ed841612",
+          "type" : "component"
+        } ],
+        "id" : "3d04c78b-70d2-4642-9842-1d3063d0687c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Literature Sheets - CVD, ALD Precursors",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "9af33627-f59f-429e-9214-b1929263c585",
+          "type" : "component"
+        } ],
+        "id" : "44ef45a7-d49f-427a-9e41-a55dd18331d4",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "3e15dd75-2a86-4d5b-bb03-26a473208ea1",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-literature-sheets-cvd-ald-precursors"
+  },
+  "urlName" : "literature-sheets---cvd-ald-precursors"
+}

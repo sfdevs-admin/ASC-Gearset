@@ -1,0 +1,86 @@
+<!--
+  @description       : 
+  @author            : Mradul Maheshwari
+  @group             : 
+  @last modified on  : 03-06-2025
+  @last modified by  : Mradul Maheshwari
+-->
+<template>
+  <template if:true={isLoading}>
+    <lightning-spinner
+      alternative-text="Loading"
+      class="slds-is-absolute slds-align_absolute-center"
+    ></lightning-spinner>
+  </template>
+
+  <div if:true={noPaymentOptions}>
+    <p><strong>You have no approved credit cards</strong></p>
+    <br />
+    <p>If you wish to have the option of purchasing</p>
+    <p>by credit card you mus contact Strem Chemicals, inc.</p>
+    <p>so that we may validate your confirmation.</p>
+    <p>
+      Please contact a Customer Service Representative by calling 1-800-647-8736
+    </p>
+  </div>
+
+  <div if:false={noPaymentOptions}>
+    <div>
+      <lightning-radio-group
+        name="radioGroup"
+        class={customVisibility}
+        required
+        label="Select Payment Options"
+        options={lstPaymentOptions}
+        value={rdbPaymentValue}
+        onchange={handleRadioPaymentValue}
+        type="button"
+      >
+      </lightning-radio-group>
+    </div>
+    <div if:true={isCreditCardOption}>
+      <lightning-combobox
+        data-id="cmbPaymentValue"
+        class="drop-down-list-field"
+        tabindex="0"
+        label="My Payment Methods"
+        value={cmbPaymentValue}
+        placeholder="Please select a payment method"
+        options={lstPaymentMethods}
+        onchange={handlePaymentMethodChange}
+        required
+      >
+      </lightning-combobox>
+      <!--<div >-->
+      <p>
+        <b
+          >If you are paying by credit card and do not see the card you would
+          like to use, please contact customer service at (978) 499-1600.</b
+        >
+      </p>
+      <br />
+      <!--<p>card you would like to use, please contact customer </p>
+                <p>service at (978) 499-1600.</p>-->
+      <!--</div>-->
+    </div>
+    <div if:true={isCreditCardPurchaseOption}>
+      <lightning-input
+        required
+        class="purchase-order-number"
+        type="text"
+        data-id="txtPurchaseOrderNumber"
+        tabindex="0"
+        max-length="80"
+        label="Purchase Order Number"
+        value={txtPurchaseOrderNumber}
+        onchange={handlePurchaseOrderNumberChange}
+        onblur={handleLostFocus}
+      ></lightning-input>
+    </div>
+  </div>
+  <div>
+    <label if:true={showError} class="slds-text-color_error">
+      {errorMessage}
+    </label>
+  </div>
+</template>

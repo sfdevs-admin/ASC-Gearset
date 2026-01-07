@@ -1,0 +1,94 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 06-04-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <template if:true={showSpinner}>
+        <div class="loader-dots">{messageState}</div>
+        <div class="back-drop"></div>
+    </template>
+    <template if:false={showSpinner}>
+        <div class="slds-grid min-height-custom">
+            <!-- Paging Control - paging navigation -->
+            <!-- <c-search-paging-control class="slds-p-top_x-large slds-p-bottom_medium pagination-control"
+                if:true={showPagingControl} current-page-number={_currentPageNumber} page-size={pageSize}
+                total-item-count={totalItemCount} onpageprevious={handlePreviousPageEvent} onpagenext={handleNextPageEvent}
+                onpagegoto={handleGotoPageEvent}>
+            </c-search-paging-control> -->
+            <!-- to match search and category view need to add this empty div with some height -->
+            <div if:false={showPagingControl} class="searchEmptyDiv">
+                <p>&nbsp;</p>
+            </div>
+        </div>
+        <article class="layout-container">
+            <!-- <div if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading" size="large" class="slds-p-top_large"></lightning-spinner>
+            </div> -->
+            <aside if:true={hasResults} class="aside-section">
+                <c-builder-search-sort-menu sort-rule-id={sortRuleId} sort-rules={sortRules}></c-builder-search-sort-menu>
+                <c-builder-search-filters search-results={searchResults}></c-builder-search-filters>
+            </aside>
+            <section if:true={hasResults} class="section-results" style={customCssProperties}>
+                <!-- Product Grid - shows results as product cards in a grid  -->
+                <div class="search-label sticky-label-first" if:true={searchTerm}>
+                    <label class="label-larger"><b>{searchTerm}</b></label>
+                </div>
+                <div class="search-label" if:false={searchTerm}>
+                    <label>We found {totalItemCount} results</label>
+                </div>
+    
+                <!-- <c-b2b-exact-search-result class="" if:true={searchTerm} configuration={resultsConfiguration.layoutConfiguration} card-config={cardConfiguration}
+                display-data={normalizedExactSearchResults.cardCollection} search-term={originalSearchTerm} current-page={currentPage}
+                    onaddproducttocart={handleAddToCart} onshowproduct={handleNavigateToProductPage}>
+                </c-b2b-exact-search-result> -->
+                <template if:true={displayExactMatches}>
+                    <div class="scroll-enabled slds-scrollable_y exact" style={dynamicDivHeight}>
+                        <c-search-product-grid configuration={resultsConfiguration.layoutConfiguration}
+                            display-data={normalizedExactSearchResults.cardCollection} onaddproducttocart={handleAddToCart}
+                            onshowproduct={handleNavigateToProductPage}>
+                        </c-search-product-grid>
+                    </div>
+                    <div if:true={hasMoreExactMatches} class="showMoreButton slds-m-top_x-large slds-m-bottom_medium">
+                        <!-- <lightning-button variant="brand" label="Load More" title="Show More" onclick={handleShowMoreExactMatch} stretch></lightning-button> -->
+                    </div>
+                </template>
+                <template if:false={displayExactMatches}>
+                    <div class="search-label" if:true={searchTerm}>
+                        <label>{Label.B2B_No_Exact_Match}</label>
+                    </div>
+                </template>
+    
+                <template if:true={displaySuggestionMatches}>
+                    <div class="slds-p-top_medium search-label sticky-label-second" if:true={searchTerm}>
+                        <!-- header to display only in search page -->
+                        <label class="label-larger"><b>{Label.B2B_Search_recommended_title}</b></label>
+                    </div>
+                    <div class="scroll-enabled slds-scrollable_y suggestions" style={dynamicFuzzyMatchHeight}>
+                        <c-search-product-grid configuration={resultsConfiguration.layoutConfiguration}
+                            display-data={normalizedSearchResults.cardCollection} onaddproducttocart={handleAddToCart}
+                            onshowproduct={handleNavigateToProductPage}>
+                        </c-search-product-grid>
+                    </div>
+                    <div if:true={hasMoreSuggestMatches} class="showMoreButton slds-m-top_x-large slds-m-bottom_medium">
+                        <!-- <lightning-button variant="brand" label="Load More" title="Show More" onclick={handleShowMoreSuggestMatch} stretch></lightning-button> -->
+                    </div>
+                </template>
+            </section>
+        </article>
+        <div class="slds-grid">
+            <!-- Paging Control - paging navigation -->
+            <!-- <c-search-paging-control class="slds-p-top_x-large slds-p-bottom_medium pagination-control"
+                if:true={showPagingControl} current-page-number={_currentPageNumber} page-size={pageSize}
+                total-item-count={totalItemCount} onpageprevious={handlePreviousPageEvent} onpagenext={handleNextPageEvent}
+                onpagegoto={handleGotoPageEvent}>
+            </c-search-paging-control> -->
+            <!-- to match search and category view need to add this empty div with some height -->
+            <div if:false={showPagingControl} class="searchEmptyDiv">
+                <p>&nbsp;</p>
+            </div>
+        </div>
+    </template>
+</template>

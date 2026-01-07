@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RD Lab --></label>
+    <name>RD_LAb__c</name>
+    <picklistValues>
+        <masterLabel>Cambridge</masterLabel>
+        <translation><!-- Cambridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evans City</masterLabel>
+        <translation><!-- Evans City --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External</masterLabel>
+        <translation><!-- External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newburyport</masterLabel>
+        <translation><!-- Newburyport --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

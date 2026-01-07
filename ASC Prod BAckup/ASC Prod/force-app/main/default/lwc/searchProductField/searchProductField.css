@@ -1,0 +1,22 @@
+.productNameText{
+    white-space: initial;
+    Font-size: 1.2rem;
+    Font-weight: 600;
+    color: #0172CE;
+    /* display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; */
+}
+.normalHeight{
+    line-height: normal;
+}
+
+@media screen and (max-width: 480px) {
+    .normalHeight.productNameText{
+        font-size: 1.2rem;
+    }
+    .normalHeight{
+        font-size: 1.05rem;
+    }
+}

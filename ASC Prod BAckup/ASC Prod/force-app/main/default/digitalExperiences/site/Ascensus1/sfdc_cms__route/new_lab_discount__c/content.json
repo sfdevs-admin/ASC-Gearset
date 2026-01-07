@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "New Lab Discount",
+  "contentBody" : {
+    "activeViewId" : "New_Lab_Discount",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-new-lab-discount",
+    "urlPrefix" : "new-lab-discount"
+  },
+  "urlName" : "new-lab-discount"
+}

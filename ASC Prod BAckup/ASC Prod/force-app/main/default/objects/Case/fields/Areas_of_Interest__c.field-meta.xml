@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Areas_of_Interest__c</fullName>
+    <label>Areas of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Catalysis</fullName>
+                <default>false</default>
+                <label>Catalysis</label>
+            </value>
+            <value>
+                <fullName>Inorganic</fullName>
+                <default>false</default>
+                <label>Inorganic</label>
+            </value>
+            <value>
+                <fullName>Life Science</fullName>
+                <default>false</default>
+                <label>Life Science</label>
+            </value>
+            <value>
+                <fullName>Material Science</fullName>
+                <default>false</default>
+                <label>Materials Science</label>
+            </value>
+            <value>
+                <fullName>Nanomaterials</fullName>
+                <default>false</default>
+                <label>Nanomaterials</label>
+            </value>
+            <value>
+                <fullName>Organic</fullName>
+                <default>false</default>
+                <label>Organic</label>
+            </value>
+            <value>
+                <fullName>Petrochemicals</fullName>
+                <default>false</default>
+                <label>Petrochemicals</label>
+            </value>
+            <value>
+                <fullName>Thin Film Deposition</fullName>
+                <default>false</default>
+                <label>Thin Film Deposition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

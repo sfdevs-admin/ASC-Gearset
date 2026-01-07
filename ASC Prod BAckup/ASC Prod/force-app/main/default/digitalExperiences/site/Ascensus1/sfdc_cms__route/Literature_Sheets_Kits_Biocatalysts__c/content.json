@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets - Kits Biocatalysts",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_Kits_Biocatalysts",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-kits-biocatalysts",
+    "urlPrefix" : "literature-sheets-kits-biocatalysts"
+  },
+  "urlName" : "literature-sheets---kits-biocatalysts"
+}

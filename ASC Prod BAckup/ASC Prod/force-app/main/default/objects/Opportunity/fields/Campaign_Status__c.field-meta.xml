@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Status__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <label>Campaign Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lab Trials</fullName>
+                <default>false</default>
+                <label>Lab Trials</label>
+            </value>
+            <value>
+                <fullName>Plant Trials</fullName>
+                <default>false</default>
+                <label>Plant Trials</label>
+            </value>
+            <value>
+                <fullName>Commercial Scale</fullName>
+                <default>false</default>
+                <label>Commercial Scale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,44 @@
+<template>
+    <div class="product-main-color">
+        <div class="slds-grid product-list-header">
+            <div class="slds-col slds-size_1-of-4 catalog-number-header">
+                Catalog Number
+            </div>
+            <div class="slds-col slds-size_1-of-4 catalog-structure">
+                <!-- Image -->
+            </div>
+            <div class="slds-col slds-size_1-of-4 catalog-description">
+                Description
+            </div>
+            <div class="slds-col slds-size_1-of-4 cas-header">
+                CAS Number
+            </div>
+        </div>
+        <template for:each={productResult} for:item="it">
+            <div class="slds-grid product-row" key={it.id} data-id={it.id} >
+                <div class="slds-col slds-size_1-of-4 catalog-number">
+                    {it.catalogNumber}
+                </div>
+
+                <div class="image-container">
+                    <div class="slds-col slds-size_1-of-4 catalog-structure">
+                        <a href='#' class="preview" title="" data-id={it.id} onmouseover={handleShowImage} onmouseout={handleHideImage}>
+                            <img src="/sfsites/c/resource/strem_css/images/assets/structure_thumbnail.gif" alt="Product Alternative Text" class="thumbnail">
+                        </a>
+                        <div class="additional-image" >
+                            <!-- <img if:true={it.isImageVisible} src={it.image} alt="Product Alternative Text"> -->
+                            <img src={it.image} alt="Product Alternative Text"> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_1-of-4 catalog-description">
+                    {it.description}
+                </div>
+                <div class="slds-col slds-size_1-of-4 catalog-cas">
+                    {it.casNumber}
+                </div>
+            </div>
+        </template>
+    </div>
+</template>

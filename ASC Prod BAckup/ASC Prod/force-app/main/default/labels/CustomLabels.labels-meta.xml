@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Ascensus_Managed_Content</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ascensus Managed Content text for ImageFetchAndUploadJob Class</shortDescription>
+        <value>Ascensus Managed Content Space HfRRFaRA</value>
+    </labels>
+    <labels>
+        <fullName>AvailabilityInquiry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AvailabilityInquiry</shortDescription>
+        <value>Please inquire.</value>
+    </labels>
+    <labels>
+        <fullName>AvailabilityInquiryKit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AvailabilityInquiryKit</shortDescription>
+        <value>Please inquire, made to order.</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_Consent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__Consent</shortDescription>
+        <value>I consent to you storing &amp; using my personal information to get in contact with me regarding my enquiry.</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__Email</shortDescription>
+        <value>Email*</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_EmailRecipient</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__EmailRecipient</shortDescription>
+        <value>arpan.mazumder@stackintelligence.com</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_FirstName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__FirstName</shortDescription>
+        <value>First Name*</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_LastName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__LastName</shortDescription>
+        <value>Last Name*</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__Message</shortDescription>
+        <value>Compose Your Message*</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_PhoneNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__PhoneNumber</shortDescription>
+        <value>Phone Number*</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_Submit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_ToastError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__ToastError</shortDescription>
+        <value>Please fill out all fields before submitting.</value>
+    </labels>
+    <labels>
+        <fullName>B2BGetInTouch_ToastSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BGetInTouch__ToastSuccess</shortDescription>
+        <value>Your request was submitted</value>
+    </labels>
+    <labels>
+        <fullName>B2BSiteBaseURL</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site Base URL</shortDescription>
+        <value>https://www.strem.com/</value>
+    </labels>
+    <labels>
+        <fullName>B2B_AcceptedCategoryNames</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_AcceptedCategoryNames</shortDescription>
+        <value>New Products,Other Reagents,Catalysts,Thin Film Deposition,Ligands,Bubblers
+            &amp; Other Equipment,Materials Science</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Batch_Size</fullName>
+        <categories>Apex class B2B_AddPBEsToAdjustmentSchedule</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Batch Size</shortDescription>
+        <value>200</value>
+    </labels>
+    <labels>
+        <fullName>B2B_COA_SITE_URL</fullName>
+        <categories>PDP, Store,B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_COA_SITE_URL</shortDescription>
+        <value>https://ascensusspecialties.my.salesforce-sites.com/certificate</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Cart_Bulk_Quote_Quantity</fullName>
+        <categories>cart</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Cart Bulk Quote Quantity</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Guest_Buyer_Profile_Id</fullName>
+        <categories>B2B,Site,Search,Guest</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Guest Buyer Profile Id</shortDescription>
+        <value>3K0VN000000004r0AA</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Header_Logo</fullName>
+        <categories>PDP, Store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Header Logo</shortDescription>
+        <value>https://lh3.googleusercontent.com/d/1GA4l_Bt6UHEIkLBeRWwrm91N1qPrtIEi</value>
+    </labels>
+    <labels>
+        <fullName>B2B_IP_Address_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B IP Address URL</shortDescription>
+        <value>https://api.ipify.org?format=jsonp=</value>
+    </labels>
+    <labels>
+        <fullName>B2B_IP_Info_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B IP Info URL</shortDescription>
+        <value>https://ipinfo.io/</value>
+    </labels>
+    <labels>
+        <fullName>B2B_NoReply_SenderEmail</fullName>
+        <categories>B2B,Site,Email,notification</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_NoReply_SenderEmail</shortDescription>
+        <value>0D2VN00000003sL0AQ</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_Exact_Match</fullName>
+        <categories>B2B,Site,Store,Search</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B No Exact Match</shortDescription>
+        <value>No exact matches were found.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Org_Base_URL</fullName>
+        <categories>PDP, Store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Org Base URL</shortDescription>
+        <value>https://ascensusspecialties.lightning.force.com</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Other_Shipping_Checkout_Error_Msg</fullName>
+        <categories>B2B,Site,Checkout,Delivery</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Other Shipping Checkout Error Msg</shortDescription>
+        <value>Since you selected &apos;Other&apos; as your delivery option please provide some more details.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ParentCategoryId</fullName>
+        <categories>PDP, Store,B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_ParentCategoryId</shortDescription>
+        <value>0ZGVN00000000rF4AQ</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PriceBook_Names</fullName>
+        <categories>Apex class B2B_AddPBEsToAdjustmentSchedule</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PriceBook Names</shortDescription>
+        <value>Ascensus Price Book</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Product_Kit_Missing_Error_Msg</fullName>
+        <categories>B2B,Site,PDP,Kits</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Product Kit Missing Error Msg</shortDescription>
+        <value>Please see product note and technical note for details.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_RequestQuoteUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_RequestQuoteUrl</shortDescription>
+        <value>https://www.strem.com/request-quote</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Request_a_Quote_Default_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Request a Quote Default Product</shortDescription>
+        <value>01tVN000003wP9BYAU</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Request_a_Quote_Default_Product_Pricebook_Entry</fullName>
+        <categories>commerce,store,B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Request_a_Quote_Default_Product Pricebook Entry</shortDescription>
+        <value>01uVN000000lz85YAA</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Request_a_Quote_Default_Product_Pricebook_Entry_EUR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Request a Quote Default Product Pricebook Entry EUR</shortDescription>
+        <value>01uVN000000lz86YAA</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Request_a_Quote_Email_Recipient</fullName>
+        <categories>commerce,store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Request_a_Quote_Email_Recipient</shortDescription>
+        <value>info@ascensusspecialties.com</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Request_a_Quote_Email_Recipient_EUR</fullName>
+        <categories>B2B,Site,RFQ</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Request_a_Quote_Email_Recipient_EUR</shortDescription>
+        <value>info.europe@ascensusspecialties.com</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SCRN_Default_Owner_Queue</fullName>
+        <categories>B2B,Store,Case,Site,Lead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_SCRN_Default_Owner_Queue</shortDescription>
+        <value>00GVN00000124q92AA</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SDS_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SDS Msg</shortDescription>
+        <value>The Safety Data Sheet for this product is currently unavailable. Please contact info@ascensusspecialties.com.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SITE_URL</fullName>
+        <categories>B2B,Site,Store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_SITE_URL</shortDescription>
+        <value>https://www.strem.com</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SdsPageUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_SdsPageUrl</shortDescription>
+        <value>https://www.strem.com/safety-data-sheets</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SdsTab</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_SdsTab</shortDescription>
+        <value>Safety Data Sheet</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Search_recommended_title</fullName>
+        <categories>B2B,Site,Store,Search</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Search recommended title</shortDescription>
+        <value>You may also be interested in:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Searchable_Fields</fullName>
+        <categories>B2B,Site,search,fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Searchable Fields</shortDescription>
+        <value>CAS__c,Name,StockKeepingUnit,Description,Elements__c,Formula__c,Formula_Text__c,Index_Formula__c,Index_Formula_Text__c,MDL_Number__c,Other_Search_Terms__c,Parent_Sku__c,Reaction__c,UnSeen_Product_Family__c,Index_Formula_Site__c</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Show_Site_Notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Show Site Notification</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Simple_Product_ID_Label</fullName>
+        <categories>B2B,Site,PDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Simple Product ID Label</shortDescription>
+        <value>Product ID</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_Base_URL</fullName>
+        <categories>B2B,Site,PLP,search</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site Base URL</shortDescription>
+        <value>https://www.strem.com/webruntime/api/services/data/v61.0/commerce/webstores/</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_Notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site Notification</shortDescription>
+        <value>This is just for Testing purpose. Not the Original Message.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_TechPageUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_TechPageUrl</shortDescription>
+        <value>https://www.strem.com/technical-notes</value>
+    </labels>
+    <labels>
+        <fullName>B2B_TechnicalNoteTab</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_TechnicalNoteTab</shortDescription>
+        <value>Technical Note</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Technical_Note_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Technical Note Msg</shortDescription>
+        <value>Technical notes for this product are currently unavailable. Please contact info@ascensusspecialties.com.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_User_Default_Country</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B User Default Country</shortDescription>
+        <value>United States of America</value>
+    </labels>
+    <labels>
+        <fullName>B2B_User_Default_CurrencyIsoCode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B User Default CurrencyIsoCode</shortDescription>
+        <value>USD</value>
+    </labels>
+    <labels>
+        <fullName>Batch_Error_Emails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Batch Error Emails</shortDescription>
+        <value>mradul.maheshwari@stackintelligence.com</value>
+    </labels>
+    <labels>
+        <fullName>Commerce_Search_Facets_modalLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commerce_Search_Facets_modalLabel</shortDescription>
+        <value>Filter Search Results</value>
+    </labels>
+    <labels>
+        <fullName>Common_NumberInput_decrementAltText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common_NumberInput_decrementAltText</shortDescription>
+        <value>Decrement quantity</value>
+    </labels>
+    <labels>
+        <fullName>Common_NumberInput_incrementAltText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common_NumberInput_incrementAltText</shortDescription>
+        <value>Increase quantity</value>
+    </labels>
+    <labels>
+        <fullName>Common_NumberInput_inputAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common_NumberInput_inputAriaLabel</shortDescription>
+        <value>Enter a value to change your quantity</value>
+    </labels>
+    <labels>
+        <fullName>New_Product_Category_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Product Category Id</shortDescription>
+        <value>0ZGVN00000000w54AA</value>
+    </labels>
+    <labels>
+        <fullName>New_Product_Last_N_Days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Product Last N Days</shortDescription>
+        <value>365</value>
+    </labels>
+    <labels>
+        <fullName>Product_ModalAddToCart_actionContinueShopping</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_ModalAddToCart_actionContinueShopping</shortDescription>
+        <value>Continue Shopping</value>
+    </labels>
+    <labels>
+        <fullName>Product_ModalAddToCart_actionViewCart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_ModalAddToCart_actionViewCart</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_ModalAddToCart_messageSuccessfullyAddedToCart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_ModalAddToCart_messageSuccessfullyAddedToCart</shortDescription>
+        <value>Item was added to cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_Pricing_strikethroughAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_Pricing_strikethroughAssistiveText</shortDescription>
+        <value>Crossed Out</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorAccessInsufficient</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorAccessInsufficient</shortDescription>
+        <value>You don’t have permission to complete this action.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorDefault</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorDefault</shortDescription>
+        <value>An unexpected error occurred. Try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitExceeded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitExceeded</shortDescription>
+        <value>Your cart is full.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitIncrement</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitIncrement</shortDescription>
+        <value>Always purchase this product in set increments. Check product increments.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitMaximum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitMaximum</shortDescription>
+        <value>This product has a maximum purchase limit. Check quantity limits.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitMinimum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitMinimum</shortDescription>
+        <value>This product has a minimum purchase limit. Check quantity limits.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_modalCartActionContinue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_modalCartActionContinue</shortDescription>
+        <value>Continue Shopping</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_modalCartActionView</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_modalCartActionView</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_modalCartTitleSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_modalCartTitleSuccess</shortDescription>
+        <value>Item was added to cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_toastWishlistError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_toastWishlistError</shortDescription>
+        <value>We couldn’t add this item to the list. Try again.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_toastWishlistSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_toastWishlistSuccess</shortDescription>
+        <value>Item was added to list.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelectorPopover_quantityHelp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelectorPopover_quantityHelp</shortDescription>
+        <value>Quantity help</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_outOfStock</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_outOfStock</shortDescription>
+        <value>Out of stock</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_patternMismatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_patternMismatch</shortDescription>
+        <value>Enter a valid number.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_rangeOverflow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_rangeOverflow</shortDescription>
+        <value>Enter a value between {min} and {max} in increments of {step}.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_rangeUnderflow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_rangeUnderflow</shortDescription>
+        <value>Enter a value between {min} and {max} in increments of {step}.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_stepMismatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_stepMismatch</shortDescription>
+        <value>Enter a value between {min} and {max} in increments of {step}.</value>
+    </labels>
+    <labels>
+        <fullName>Product_Variant_Selector_productVariantSelectorPlaceholderText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_Variant_Selector_productVariantSelectorPlaceholderText</shortDescription>
+        <value>Select...</value>
+    </labels>
+    <labels>
+        <fullName>RDPortfolioOppListView</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RDPortfolioOppListView</shortDescription>
+        <value>RD_Portfolio</value>
+    </labels>
+    <labels>
+        <fullName>RD_Pricebook</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RD_Pricebook</shortDescription>
+        <value>R&amp;D Pricebook</value>
+    </labels>
+    <labels>
+        <fullName>RD_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RD_Product</shortDescription>
+        <value>R&amp;D Product</value>
+    </labels>
+    <labels>
+        <fullName>Sdf_Strem_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sdf Strem Url</shortDescription>
+        <value>https://sdf.strem.com/{0}.png</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_backActionAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_backActionAssistiveText</shortDescription>
+        <value>Back to {categoryName}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_cancelButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_cancelButton</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_categoryHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_categoryHeader</shortDescription>
+        <value>Category</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_clearButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_clearButton</shortDescription>
+        <value>Clear All</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_filtersHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_filtersHeader</shortDescription>
+        <value>Filters</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showLess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_showLess</shortDescription>
+        <value>Show Less</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showLessAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_backActionAssistiveText</shortDescription>
+        <value>Show Less {name}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showMore</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_showMore</shortDescription>
+        <value>Show More</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showMoreAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_backActionAssistiveText</shortDescription>
+        <value>Show More {name}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_toggleFilterCollapsedAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_toggleFilterCollapsedAssistiveText</shortDescription>
+        <value>Toggle filter, collapsed</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_toggleFilterExpandedAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_toggleFilterExpandedAssistiveText</shortDescription>
+        <value>Toggle filter, expanded</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_addToCartAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_addToCartAriaLabel</shortDescription>
+        <value>Add to cart: {productTitle}</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_subscriptionOptions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_subscriptionOptions</shortDescription>
+        <value>Subscription Options Available</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_variationAttribute</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_variationAttribute</shortDescription>
+        <value>{name}: {value}</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_viewOptionsAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_viewOptionsAriaLabel</shortDescription>
+        <value>View Options: {productTitle}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_allCategoriesName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_allCategoriesName</shortDescription>
+        <value>All Categories</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_multipleCategoryHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_multipleCategoryHeader</shortDescription>
+        <value>{count} Items</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_multipleResultSearchHeaderShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_multipleResultSearchHeaderShort</shortDescription>
+        <value>{count} Results</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_oneCategoryHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_oneCategoryHeader</shortDescription>
+        <value>{count} Item</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_oneResultSearchHeaderShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_oneResultSearchHeaderShort</shortDescription>
+        <value>{count} Result</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_previous</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_resultsLimitHitText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_resultsLimitHitText</shortDescription>
+        <value>Results are limited to 5,000 after the first page. Use sort options or filters to adjust your results.</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_searchResults</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_searchResults</shortDescription>
+        <value>Search Results</value>
+    </labels>
+    <labels>
+        <fullName>Shared_closeButtonAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_closeButtonAssistiveText</shortDescription>
+        <value>Close dialog</value>
+    </labels>
+    <labels>
+        <fullName>Shared_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>Shared_required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_required</shortDescription>
+        <value>Required</value>
+    </labels>
+    <labels>
+        <fullName>Shared_success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>b2bSiteCategoryUrl</fullName>
+        <categories>B2B,Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2bSiteCategoryUrl</shortDescription>
+        <value>/catalog/products/</value>
+    </labels>
+    <labels>
+        <fullName>b2b_Copyright_Footer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>b2b Copyright Footer</shortDescription>
+        <value>Ascensus. All Rights Reserved. Trademarks of Ascensus Specialties LLC in the United States and elsewhere.</value>
+    </labels>
+    <labels>
+        <fullName>defaultAccForRdPortfolioOpportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>defaultAccForRdPortfolioOpportunity</shortDescription>
+        <value>RD PROJECT</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>maxLoadingTime</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>maxLoadingTime</shortDescription>
+        <value>20000</value>
+    </labels>
+    <labels>
+        <fullName>oldPortfolioRedirectMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oldPortfolioRedirectMessage</shortDescription>
+        <value>Please visit the new R&amp;D Portfolio page:</value>
+    </labels>
+    <labels>
+        <fullName>oldPortfolioWarningLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oldPortfolioWarningLabel</shortDescription>
+        <value>NOTE: This is a &lt;b&gt;legacy&lt;/b&gt; R&amp;D Portfolio record, which is no longer in use.</value>
+    </labels>
+</CustomLabels>

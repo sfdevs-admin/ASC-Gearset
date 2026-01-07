@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Type__c</fullName>
+    <description>This represent the Schedule Type selected during Establishing schedules on the Opportunity Line Item</description>
+    <label>Schedule Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Divide Amount into multiple installments</fullName>
+                <default>false</default>
+                <label>Divide Amount into multiple installments</label>
+            </value>
+            <value>
+                <fullName>Repeat Amount for Each Installment</fullName>
+                <default>false</default>
+                <label>Repeat Amount for Each Installment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

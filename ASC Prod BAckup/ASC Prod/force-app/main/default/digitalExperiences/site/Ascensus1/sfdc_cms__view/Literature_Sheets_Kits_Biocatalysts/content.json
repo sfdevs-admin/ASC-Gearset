@@ -1,0 +1,288 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Literature Sheets - Kits Biocatalysts",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5a952dfc-f799-4720-ba57-0261b8e3887c\",\"columns\":[{\"UUID\":\"8bfbf8b6-f40e-4b0f-a51b-df1da2316830\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">    Literature Sheets - Kits Biocatalysts</strong></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f76fe736-07f0-4d80-8269-bc54868f98f1",
+              "type" : "component"
+            } ],
+            "id" : "8bfbf8b6-f40e-4b0f-a51b-df1da2316830",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5a952dfc-f799-4720-ba57-0261b8e3887c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6fbb0728-c520-4a5a-ae6c-c731bb68aa32\",\"columns\":[{\"UUID\":\"7121bcec-6970-4cee-8d06-6b76705b3cf3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "autoScrollToMostRecent" : false,
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "dxpStyle" : { },
+                "horizontalAlignment" : "center",
+                "itemSpacing" : "small",
+                "numberOfColumns" : 1,
+                "showPagination" : false,
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "borderColor" : "rgb(0, 0, 0)",
+                    "borderRadius" : 0,
+                    "borderWidth" : 1,
+                    "buttonDirection" : "horizontal",
+                    "buttonGroupAlignment" : "center",
+                    "buttonGroupHeight" : 50,
+                    "buttonGroupSpacingHorizontal" : "space-evenly",
+                    "buttonGroupSpacingVertical" : "space-evenly",
+                    "buttonGroupWidth" : 50,
+                    "contentPadding" : "none",
+                    "contentPosition" : "center",
+                    "contentWidth" : 100,
+                    "dxpStyle" : { },
+                    "height" : 100,
+                    "imageAlignment" : "left",
+                    "imageFit" : "contain",
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Item.body.contentBody.image.url}\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "imagePortion" : "33.33%",
+                    "imagePosition" : "center center",
+                    "isLink" : true,
+                    "linkAssistiveText" : "",
+                    "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}",
+                    "showButtons" : true,
+                    "showSecondaryButton" : false,
+                    "singleButtonAlignment" : "center",
+                    "width" : 100
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.Title}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h1\", \"textStyle\": \"heading-large\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "c0234a23-2b86-497d-800b-c7136095d50a",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.description}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "87be5573-897b-4986-afe0-07b776a78b06",
+                      "type" : "component"
+                    } ],
+                    "id" : "c526b80c-9eb2-4359-96f2-676162f717b6",
+                    "name" : "contentRegion",
+                    "title" : "contentRegion",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Read More",
+                        "type" : "primary",
+                        "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "39677765-628d-45e0-b176-5cc73eddaea6",
+                      "type" : "component"
+                    } ],
+                    "id" : "77d8473b-bd7f-4359-a4f2-b4bae0bfd1af",
+                    "name" : "primaryButton",
+                    "title" : "primaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Contact Us",
+                        "type" : "secondary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "204acfdd-4897-420a-9921-5f5181f9a0f3",
+                      "type" : "component"
+                    } ],
+                    "id" : "de6ed80e-28aa-4cf8-9505-a529c6072f82",
+                    "name" : "secondaryButton",
+                    "title" : "secondaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "2332f398-6cbc-43cd-b3d5-4ace7d4e92cb",
+                      "type" : "component"
+                    } ],
+                    "id" : "83f9ba53-624f-42da-86f4-8af1a2544e52",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:card",
+                  "id" : "62bf169b-ecdb-47d7-b413-00630eceef30",
+                  "type" : "component"
+                } ],
+                "id" : "a097f93c-d916-4383-ac7b-c25a2043ca50",
+                "name" : "sfdcRepeaterItem",
+                "title" : "sfdcRepeaterItem",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorShowMore\",\"attributes\":{\"label\":\"Show More\",\"textDecoration\":\"{}\",\"buttonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\"}}}",
+                    "variant" : "showmore"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "82828056-2575-40c7-afcf-f199a2363161",
+                      "type" : "component"
+                    } ],
+                    "id" : "77018fa0-5a18-4e4a-8527-f1b3aef28f27",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:paginator2",
+                  "id" : "4ece48af-1304-4fc8-b4a7-cae86febe9ab",
+                  "type" : "component"
+                } ],
+                "id" : "5c046e2d-e4b1-46a6-92cd-fe1278b62427",
+                "name" : "pagination",
+                "title" : "pagination",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:grid",
+              "id" : "71fca9e7-3b07-47e9-af7b-9a975061dd7e",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__cmsCollectionDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "contentKey" : "MCLBOFJSOZAZERFOTCYGDKYDRGOA",
+                  "pageSize" : 2
+                }
+              } ]
+            } ],
+            "id" : "7121bcec-6970-4cee-8d06-6b76705b3cf3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6fbb0728-c520-4a5a-ae6c-c731bb68aa32",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e44bcb72-f5ae-4847-8857-e41e332e65ec\",\"columns\":[{\"UUID\":\"11d6c7e8-f382-494c-bb0b-1f5f9548d6c7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "11d6c7e8-f382-494c-bb0b-1f5f9548d6c7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e44bcb72-f5ae-4847-8857-e41e332e65ec",
+          "type" : "component"
+        } ],
+        "id" : "b6efe0b2-5757-4286-88e5-f19c8198b6ce",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Literature Sheets - Kits Biocatalysts",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "74b598fb-d3e8-4f56-add1-4a1c65fe0970",
+          "type" : "component"
+        } ],
+        "id" : "2f4e19c0-a59a-45d4-a6e7-5ab6af8d7668",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "e1fbabf3-835b-4f83-8b3f-f59bbea8ccb5",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-literature-sheets-kits-biocatalysts"
+  },
+  "urlName" : "literature-sheets---kits-biocatalysts"
+}

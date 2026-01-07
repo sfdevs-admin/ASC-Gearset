@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Custom Synthesis and cGMP Page",
+  "contentBody" : {
+    "activeViewId" : "Custom_Synthesis_and_cGMP_Page",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-custom-synthesis-and-cgmp-page",
+    "urlPrefix" : "custom-synthesis-and-cgmp-page"
+  },
+  "urlName" : "custom-synthesis-and-cgmp-page"
+}

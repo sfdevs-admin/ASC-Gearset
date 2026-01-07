@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "External Layout",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "definition" : "b2c_lite_commerce:externalLayout",
+      "id" : "66ab41a1-5d1b-4093-b1c8-6c49509fae4e",
+      "type" : "component"
+    }
+  },
+  "urlName" : "external-layout"
+}

@@ -1,0 +1,46 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Intermediates",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "sectionMinHeight" : "100px"
+        },
+        "id" : "89065548-c826-4cd5-aa6b-64e2958bf8b5"
+      }, {
+        "id" : "94188db3-ccd1-4821-8282-3905a52f1d3b",
+        "attributes" : {
+          "sectionVerticalAlign" : "flex-start",
+          "sectionMinHeight" : "",
+          "maxContentWidth" : "320px"
+        }
+      }, {
+        "id" : "b3f798de-932f-4720-a6d5-182b8802299f",
+        "attributes" : {
+          "sectionVerticalAlign" : "flex-start"
+        }
+      }, {
+        "id" : "c86de2ad-e797-49f3-8965-c55e12526b59",
+        "attributes" : {
+          "sectionVerticalAlign" : "center"
+        }
+      }, {
+        "id" : "2509609e-bf14-422b-af09-9bc2a8d20b8a",
+        "attributes" : {
+          "maxContentWidth" : "none",
+          "sectionMinHeight" : "50px",
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : ""
+            }
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "intermediates"
+}

@@ -1,0 +1,39 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-21-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <!-- <div class="glider-coloumn-prodImg slds-p-top_medium">
+        <img src={prodImageUrl} alt={prodName} width="220px">
+    </div>
+    <div class="glider-coloumn-prodName slds-p-top_medium">
+        <a><p onclick={handleNavigateToProductPage}>{prodName}</p></a>
+    </div> -->
+    <div class="slds-grid slds-p-top_medium">
+        <div class="slds-col">
+            <span style="float: right;">Catalog # </span>
+        </div>
+        <div class="slds-col slds-p-left_xx-small">
+            <a style="color: #0072CE; float: left;"><p onclick={handleNavigateToProductPage} style="font-size: large;">{prodCatlogNumber}</p></a>
+        </div>
+    </div>
+    <div class="slds-p-top_medium">
+        <img src={prodImageUrl} alt={prodName} style="width: 220px; height: 200px; object-fit: scale-down;">
+    </div>
+    <div class="slds-p-top_medium">
+        <p if:true={prodCas} style="font-size: large;">
+            <span>CAS #</span> {prodCas}
+        </p>
+        <p if:false={prodCas} style="font-size: large;">
+            <span>&nbsp;</span> 
+        </p>
+    </div>
+    <div class="slds-p-top_medium slds-p-bottom_medium">
+        <span class="slds-p-around_medium" style="float: right;">
+            <lightning-button variant="brand" label="View Details" title="View Details" onclick={handleNavigateToProductPage}></lightning-button>
+        </span>
+    </div>
+</template>

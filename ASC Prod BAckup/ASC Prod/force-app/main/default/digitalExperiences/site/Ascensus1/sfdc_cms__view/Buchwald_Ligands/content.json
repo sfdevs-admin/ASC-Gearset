@@ -1,0 +1,1794 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Buchwald Ligands",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/cms/delivery/media/MC56KYFYMNBJC23EO5GTP7GCVFDQ\",\"contentKey\":\"MC56KYFYMNBJC23EO5GTP7GCVFDQ\",\"altText\":\"\",\"contentType\":\"\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"d2c939c4-16ba-414b-bc93-eb2930f75403\",\"columns\":[{\"UUID\":\"2a360c55-2afe-46ad-9332-3c27f824111c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "500px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "2a360c55-2afe-46ad-9332-3c27f824111c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d2c939c4-16ba-414b-bc93-eb2930f75403",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/cms/delivery/media/MCBQ2ROOVVYRH5XPZ3PAEHHVMNVU\",\"contentKey\":\"MCBQ2ROOVVYRH5XPZ3PAEHHVMNVU\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/contain no-repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"d5c78642-1a4c-4fc1-8c3a-aa2826ec00b3\",\"columns\":[{\"UUID\":\"7ed24443-f36d-45c7-ba10-712c9cecdaa9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "500px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "7ed24443-f36d-45c7-ba10-712c9cecdaa9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d5c78642-1a4c-4fc1-8c3a-aa2826ec00b3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"eb547bd8-d41e-431e-bf32-e0f70e8b762e\",\"columns\":[{\"UUID\":\"f6900511-72e5-4122-a356-eda65476b100\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "10px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "f6900511-72e5-4122-a356-eda65476b100",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "eb547bd8-d41e-431e-bf32-e0f70e8b762e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bfdf0315-4c2a-4c6f-8d6f-e1beab9c0418\",\"columns\":[{\"UUID\":\"ed9d753c-3ec6-4748-ba97-82a95039d742\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p><span style=\"font-size: 20px;\">We have provided a wide range of Buchwald ligands and precatalysts for nearly 20 years. Our license allows us to provide this technology for R&amp;D and commercial applications. We have continued to add to this product line in order to better serve our customers and allow them to achieve their research and commercial objectives. (See the article New Palladium Precatalysts For Cross-Coupling Reactions By Nicholas C. Bruno and Stephen L. Buchwald, reproduced from: The Strem Chemiker Vol. XXVII No.1}</span></p><p><br></p><p><a href=\"https://www.strem.com/catalog/detail/0ZGVN000000017b4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 20px;\">Click here for a complete list of Buchwald ligands and precatalysts.</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4b14d228-6c43-4db1-90b2-b38054539b83",
+              "type" : "component"
+            } ],
+            "id" : "ed9d753c-3ec6-4748-ba97-82a95039d742",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bfdf0315-4c2a-4c6f-8d6f-e1beab9c0418",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "1.5rem",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e28fc7d1-8b6e-4981-a2ea-63a51df2f581\",\"columns\":[{\"UUID\":\"b60d9f71-04ae-4604-a77f-959865c9d03d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "3px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "b60d9f71-04ae-4604-a77f-959865c9d03d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e28fc7d1-8b6e-4981-a2ea-63a51df2f581",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f426fad2-f91f-4fd9-9264-366b7c09b302\",\"columns\":[{\"UUID\":\"b2a6f1ed-b6e3-44e3-8a3f-b59163dfee0f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "Buchwald Precatalysts",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "064692b9-a4cd-4698-b996-64fddf399789",
+              "type" : "component"
+            } ],
+            "id" : "b2a6f1ed-b6e3-44e3-8a3f-b59163dfee0f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f426fad2-f91f-4fd9-9264-366b7c09b302",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0.5rem",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"76425c04-ed81-4d50-9f57-ecd6b06d5b08\",\"columns\":[{\"UUID\":\"8b0b0352-99ee-4b9c-9a35-90bb7bbdfea6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<ul><li><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%201?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(136, 136, 136); font-size: 22px;\">Generation 1</a></li><li><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%202?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(136, 136, 136); font-size: 22px;\">Generation 2</a></li><li><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%203?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(136, 136, 136); font-size: 22px;\">Generation 3</a></li><li><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%204?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(136, 136, 136); font-size: 22px;\">Generation 4</a></li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "532c5eb1-3ec8-49ce-a273-eda9987f9499",
+              "type" : "component"
+            } ],
+            "id" : "8b0b0352-99ee-4b9c-9a35-90bb7bbdfea6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "76425c04-ed81-4d50-9f57-ecd6b06d5b08",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8b73a6a6-011f-4d39-843e-aa9ca56a8337\",\"columns\":[{\"UUID\":\"6ffedda6-e44e-43b2-99fc-574a6f0ee919\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "Buchwald Ligands",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/buchwald?category=0ZGVN000000010v4AA&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "85d65fd4-993f-4aca-ba4a-8af0ee5eff59",
+              "type" : "component"
+            } ],
+            "id" : "6ffedda6-e44e-43b2-99fc-574a6f0ee919",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8b73a6a6-011f-4d39-843e-aa9ca56a8337",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"29e5ba64-b132-4d8a-9c80-0b9bcedd450d\",\"columns\":[{\"UUID\":\"77c3b342-4c19-4a65-b594-827df21af91d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Screening Kits",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Screening%20Kit?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "7145b8d0-ed46-40d8-8997-d83cb7c1f2e3",
+              "type" : "component"
+            } ],
+            "id" : "77c3b342-4c19-4a65-b594-827df21af91d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "29e5ba64-b132-4d8a-9c80-0b9bcedd450d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"705d77ea-ff4a-44d0-aa13-f3bfe0f8ca81\",\"columns\":[{\"UUID\":\"d4706b95-90c1-47a5-921a-ed2894029e30\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "The Strem Chemiker XXVII, No. 1 (Our Technical Publication)",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"italic\":false,\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fx5B/jtrW2QqMIiCZxOKOR0K9dNPDFUH5ENlEL3WemV3.x_k\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e126556d-c717-4e7f-a9b4-8deb188bb6cc",
+              "type" : "component"
+            } ],
+            "id" : "d4706b95-90c1-47a5-921a-ed2894029e30",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "705d77ea-ff4a-44d0-aa13-f3bfe0f8ca81",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3f212a3c-3f16-4b1e-ae10-94744cc1ce02\",\"columns\":[{\"UUID\":\"2529dabd-5644-4a39-917f-c19bbb522739\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Ligands & Precatalysts Booklet",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fw97/R_FvrYdyNNsE4eVgK6TMe6uPpOfhNfG42Zi.ziA0A8Y\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "ff96bed4-e1df-4d24-a3a3-672cc72cfd9f",
+              "type" : "component"
+            } ],
+            "id" : "2529dabd-5644-4a39-917f-c19bbb522739",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3f212a3c-3f16-4b1e-ae10-94744cc1ce02",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8821720d-ae6a-43e2-943c-95c219fa5ac8\",\"columns\":[{\"UUID\":\"e92508bf-f158-4271-8597-086d5498ee24\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "e92508bf-f158-4271-8597-086d5498ee24",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8821720d-ae6a-43e2-943c-95c219fa5ac8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "3rem",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f357f40c-0fa4-444b-a989-209d24f9c6b1\",\"columns\":[{\"UUID\":\"2c57ef21-c974-4d7c-96e8-fc86f8c1b7a9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Palladacycles: General Structures",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "abd58b53-7b76-4bba-9d9d-d6aaa3583884",
+              "type" : "component"
+            } ],
+            "id" : "2c57ef21-c974-4d7c-96e8-fc86f8c1b7a9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f357f40c-0fa4-444b-a989-209d24f9c6b1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"15023749-7673-4ab1-a7ac-842671417e33\",\"columns\":[{\"UUID\":\"091e2751-0e68-4bb6-bd18-fd5e029ba45e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"17bc69c7-e971-4a19-8eb3-1870a572f3a5\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"f2f965ac-ed08-4f09-8768-4890845be8c7\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"8db5fbf8-89f4-4168-a668-85fb3ec5d02f\",\"columnName\":\"Column 4\",\"columnKey\":\"11e45\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%201?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCXOFZ2VKRHVHXHGI3AO56G5PLFI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "aa9892eb-a0b2-4714-9c10-6af8c61864e6",
+              "type" : "component"
+            } ],
+            "id" : "091e2751-0e68-4bb6-bd18-fd5e029ba45e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%202?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCKTLWILXWLFAUDFFIMJKMJIKEQU}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9f13a730-194d-4bb8-85fe-9fa5c8dd64ac",
+              "type" : "component"
+            } ],
+            "id" : "17bc69c7-e971-4a19-8eb3-1870a572f3a5",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%203?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCYMJXGEZJOFHQBNAE4UBKW33IMY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "04fa87ff-b9c2-4557-b37e-e3cd94d81477",
+              "type" : "component"
+            } ],
+            "id" : "f2f965ac-ed08-4f09-8768-4890845be8c7",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Palladacycle%20Gen.%204?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCGB6Q2QQWENFWLD7X3DOGTBMT4E}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b22656d9-3538-4710-b390-10615c1ee36d",
+              "type" : "component"
+            } ],
+            "id" : "8db5fbf8-89f4-4168-a668-85fb3ec5d02f",
+            "name" : "11e45",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "NoBorder",
+          "definition" : "community_layout:section",
+          "id" : "15023749-7673-4ab1-a7ac-842671417e33",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8ac33741-16fa-4309-b282-bdba92843277\",\"columns\":[{\"UUID\":\"99385a28-4c2b-4df5-98e4-251e06dfee86\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "99385a28-4c2b-4df5-98e4-251e06dfee86",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8ac33741-16fa-4309-b282-bdba92843277",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4d8573b3-b15e-491a-a1a7-ef69f4bdb2f6\",\"columns\":[{\"UUID\":\"9e688c1a-f2ba-4786-869d-6cd2ad404a6d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Palladacycle - Gen 1",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Palladacycle%20Gen.%201?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e1c3cfa8-0fbb-4107-b0ad-3dbda193f78e",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><span style=\"font-size: 22px;\">Selected examples below</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "073af0a8-3f1c-4aaa-b39e-dcd3d7b10bbc",
+              "type" : "component"
+            } ],
+            "id" : "9e688c1a-f2ba-4786-869d-6cd2ad404a6d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4d8573b3-b15e-491a-a1a7-ef69f4bdb2f6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4c7659aa-c3f0-47fb-a5f9-b158446c4a4a\",\"columns\":[{\"UUID\":\"489fc4a4-509d-40e0-9f10-bc87d6c7080c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d1dd7264-23b4-4e1c-916d-6b81e06baf9c\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"89140e91-047f-4778-bac1-cc69b1d23d1c\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0267\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCJUNP77SACZF67J6UPAJH7BUX74}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ad0ee68d-56fd-4fda-966c-9116b135aa5f",
+              "type" : "component"
+            } ],
+            "id" : "489fc4a4-509d-40e0-9f10-bc87d6c7080c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0264\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCDIZT5A3LIVGDRP7UZO56Z7M7OY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "25787b52-2447-4cb8-ac68-150443096765",
+              "type" : "component"
+            } ],
+            "id" : "d1dd7264-23b4-4e1c-916d-6b81e06baf9c",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0266\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC6BZSRKB6IFG7VNDOKZZL5KGODI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4b81c2ec-131a-418b-936f-97a118334a78",
+              "type" : "component"
+            } ],
+            "id" : "89140e91-047f-4778-bac1-cc69b1d23d1c",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "imageBox",
+          "definition" : "community_layout:section",
+          "id" : "4c7659aa-c3f0-47fb-a5f9-b158446c4a4a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"65993c5a-2a4d-45a3-8230-6453e41eb6d9\",\"columns\":[{\"UUID\":\"4f4090db-3e1f-4561-abb2-c4aeef3ef534\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "4f4090db-3e1f-4561-abb2-c4aeef3ef534",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "65993c5a-2a4d-45a3-8230-6453e41eb6d9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e9901933-55a8-4d7f-9543-4ddb8b862d95\",\"columns\":[{\"UUID\":\"ab4492a0-c354-45d1-b5c7-9129141d7947\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Palladacycles - Gen 2",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Palladacycle%20Gen.%202?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "db8b9c74-4d7e-4ac7-ac8c-63444febe62f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><span style=\"font-size: 22px;\">Selected examples below</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5c27d7b0-e712-40fa-ae17-d51a5c859664",
+              "type" : "component"
+            } ],
+            "id" : "ab4492a0-c354-45d1-b5c7-9129141d7947",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e9901933-55a8-4d7f-9543-4ddb8b862d95",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f413602c-e59b-45d1-a66a-73161ed01266\",\"columns\":[{\"UUID\":\"cd3b3da7-75ab-4450-bf64-64bb5cb034f9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"0de2f356-8a26-496c-8b40-7f69b0399c9f\",\"columnName\":\"Column 2\",\"columnKey\":\"31493\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"0e5afbf3-864f-4e0b-a6e3-e400b44cccd3\",\"columnName\":\"Column 3\",\"columnKey\":\"4c4be\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0281\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCWOXY3LINRFHZDCAWUQFJ5M3HXQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e204973e-2a23-418c-91df-f2b9d79b556a",
+              "type" : "component"
+            } ],
+            "id" : "cd3b3da7-75ab-4450-bf64-64bb5cb034f9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0286\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOGU76ASZEREUFLMERSYKYKC2OI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6ffdeba8-6567-470d-ab22-22baef8b745d",
+              "type" : "component"
+            } ],
+            "id" : "0de2f356-8a26-496c-8b40-7f69b0399c9f",
+            "name" : "31493",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0283\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCFT62P4AKWNCAHMNM5RC6XMCTNY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "109ddf56-008c-41c6-82c5-5371a46ceb34",
+              "type" : "component"
+            } ],
+            "id" : "0e5afbf3-864f-4e0b-a6e3-e400b44cccd3",
+            "name" : "4c4be",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "f413602c-e59b-45d1-a66a-73161ed01266",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1633ce20-8296-4f83-8b6d-eb8155743a2b\",\"columns\":[{\"UUID\":\"71e91803-1cf2-446c-b971-dcba4b989e5e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "71e91803-1cf2-446c-b971-dcba4b989e5e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1633ce20-8296-4f83-8b6d-eb8155743a2b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6845d9ee-7bde-4944-bf99-da5bec4e0eda\",\"columns\":[{\"UUID\":\"89d13501-5957-4189-b2c5-90b713a6bb5f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "Buchwald Palladacycles - Gen 3",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Palladacycle%20Gen.%203?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f80412b5-e1ed-42d4-939a-a43c29253dbf",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"font-size: 22px;\">Selected examples below</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "0c771d60-da7e-40ce-9830-ae03af01e0e7",
+              "type" : "component"
+            } ],
+            "id" : "89d13501-5957-4189-b2c5-90b713a6bb5f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6845d9ee-7bde-4944-bf99-da5bec4e0eda",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6e073c84-1706-4a29-a219-196eea6a33b9\",\"columns\":[{\"UUID\":\"c18c21b8-12a9-42f0-adbe-258233e88a08\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7dea27ce-9f25-431b-8725-be6af250f8d6\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7eb16a28-a7db-4f82-8c29-af6bda2c1510\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0323\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCFAZ4GRZFF5DYDGR2KLMUXRIMKA}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a5281cb4-b420-443a-bdb8-7b11fe13e311",
+              "type" : "component"
+            } ],
+            "id" : "c18c21b8-12a9-42f0-adbe-258233e88a08",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0320\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCZ3GYDDWI7FGRDIJJIYNTUWIYKI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7b270357-af6f-44df-8441-c56bc333df99",
+              "type" : "component"
+            } ],
+            "id" : "7dea27ce-9f25-431b-8725-be6af250f8d6",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0314\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCI5KHGHLGY5GFXBGTMVEM2XJXDQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7393f12f-58a7-4c6b-b120-820db1b4673e",
+              "type" : "component"
+            } ],
+            "id" : "7eb16a28-a7db-4f82-8c29-af6bda2c1510",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "NoBorder",
+          "definition" : "community_layout:section",
+          "id" : "6e073c84-1706-4a29-a219-196eea6a33b9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"473d9d10-68a2-4a50-9787-f03e07a8b8c2\",\"columns\":[{\"UUID\":\"40e663e9-a8e8-4773-b2bd-751b60a101b0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "40e663e9-a8e8-4773-b2bd-751b60a101b0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "473d9d10-68a2-4a50-9787-f03e07a8b8c2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6eff638d-f12b-4c99-834a-679ffb9d4bee\",\"columns\":[{\"UUID\":\"424ec206-264d-413f-b704-700024159392\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Palladacycle - Gen 4",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Palladacycle%20Gen.%204?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "32740fb9-3325-4309-aec0-77e7906ec1d8",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><span style=\"font-size: 22px;\">Selected examples below</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "70813ec3-11e0-4c94-aca3-8d4b76ca4d75",
+              "type" : "component"
+            } ],
+            "id" : "424ec206-264d-413f-b704-700024159392",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6eff638d-f12b-4c99-834a-679ffb9d4bee",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"66e137fe-bab3-4f0e-b110-00bfb1e018b5\",\"columns\":[{\"UUID\":\"3e41c12a-e697-456d-af75-5da7cbd79d84\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a15aab44-014c-4e7f-b7e7-4dd9bc8c6bbd\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6d475055-60a7-4888-8741-84d1a91e103b\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0327\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCBASGSSBRKRDX7IENJKC5VMZLKA}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "92884309-15d9-4bbd-822a-9f71fbc6e1f9",
+              "type" : "component"
+            } ],
+            "id" : "3e41c12a-e697-456d-af75-5da7cbd79d84",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0395\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCZXGAVUMI4FFB5ORYKPLRX6MIUU}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "82718a06-5855-480d-b269-8a118ba01aff",
+              "type" : "component"
+            } ],
+            "id" : "a15aab44-014c-4e7f-b7e7-4dd9bc8c6bbd",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/46-0333\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCFZNTYLILXNF6VKTRIPNBJ4VLNQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e6983e05-4ec9-4df4-affe-685469e3169d",
+              "type" : "component"
+            } ],
+            "id" : "6d475055-60a7-4888-8741-84d1a91e103b",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "NoBorder",
+          "definition" : "community_layout:section",
+          "id" : "66e137fe-bab3-4f0e-b110-00bfb1e018b5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"67f47504-7cdb-48a4-87d7-dc4d9f4f707e\",\"columns\":[{\"UUID\":\"7206c45a-9792-4ead-ba55-8fc9ca0ae493\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "7206c45a-9792-4ead-ba55-8fc9ca0ae493",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "67f47504-7cdb-48a4-87d7-dc4d9f4f707e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"448be03d-eee8-49c5-be36-b7cc56c6d813\",\"columns\":[{\"UUID\":\"0ce877a3-6a00-442f-a090-feb7d04a7624\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "Buchwald Ligands",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/buchwald?category=0ZGVN000000010v4AA&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "7853c7eb-afd7-4925-bae8-08f069691dda",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><span style=\"font-size: 22px;\">Selected examples below</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "662b0435-9e5f-4e5b-a614-8106e2334bf6",
+              "type" : "component"
+            } ],
+            "id" : "0ce877a3-6a00-442f-a090-feb7d04a7624",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "448be03d-eee8-49c5-be36-b7cc56c6d813",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "2px",
+                "left" : "2px",
+                "right" : "2px",
+                "top" : "2px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "1rem",
+            "sectionConfig" : "{\"UUID\":\"c3334b1c-a647-407e-b8db-5ac7318a4c23\",\"columns\":[{\"UUID\":\"0f6741c1-6e1e-4b87-bfcb-27e700f16843\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"06be4fb9-720d-4a51-8304-58b8ab1cb6b2\",\"columnName\":\"Column 2\",\"columnKey\":\"ca3d2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e8f1f65c-34a2-42a6-aa80-324e5a9c91cb\",\"columnName\":\"Column 3\",\"columnKey\":\"13b2a\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/15-1149\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC5EISW5PCSJBPBG3L7YXVME74AI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "810426e3-1123-4518-ad40-3e438079e155",
+              "type" : "component"
+            } ],
+            "id" : "0f6741c1-6e1e-4b87-bfcb-27e700f16843",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/15-1152\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOERDUYJHZBDDVGIL622UHDWMPQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "29e97a11-6d9f-4227-9e6d-9d5f037cf2d9",
+              "type" : "component"
+            } ],
+            "id" : "06be4fb9-720d-4a51-8304-58b8ab1cb6b2",
+            "name" : "ca3d2",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/15-1143\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCITEU4UXCAJHLJP26DPR37534TU}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "814ee3b4-6baf-4cde-90eb-c87ecab0b068",
+              "type" : "component"
+            } ],
+            "id" : "e8f1f65c-34a2-42a6-aa80-324e5a9c91cb",
+            "name" : "13b2a",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "c3334b1c-a647-407e-b8db-5ac7318a4c23",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"aca3fe19-74be-40f3-8e96-f175e31f771c\",\"columns\":[{\"UUID\":\"58874dc9-81e5-452c-84ff-08ea4b41eb19\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "58874dc9-81e5-452c-84ff-08ea4b41eb19",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "aca3fe19-74be-40f3-8e96-f175e31f771c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d754f344-7ea2-4ab4-b45e-f3d3bc65df39\",\"columns\":[{\"UUID\":\"b2a93f7e-dd4d-4c5f-880e-bccae0f1ecaa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Gold Products",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/catalog/detail/0ZGVN00000001Ae4AI\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "7c3fec69-694f-4b7c-85c3-0fdd3e016aa9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><span style=\"font-size: 22px;\">Selected examples below</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "33748a20-0557-46f7-ba91-e8f157eda377",
+              "type" : "component"
+            } ],
+            "id" : "b2a93f7e-dd4d-4c5f-880e-bccae0f1ecaa",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d754f344-7ea2-4ab4-b45e-f3d3bc65df39",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fc949334-a67e-49d7-9d7b-fbedc3f83697\",\"columns\":[{\"UUID\":\"3195980b-138e-4284-816f-6e476fa6f99d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"0cd84009-5895-457b-b627-996b02b01018\",\"columnName\":\"Column 2\",\"columnKey\":\"369da\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"8ab075fe-f8e0-4159-b749-c1f0bce2eb38\",\"columnName\":\"Column 3\",\"columnKey\":\"cf90e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/79-0352\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCGMTFLXQQWNERNBVKHDWPCN6C6I}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "cebd1e6b-92b4-4452-841b-4d663e0ec36e",
+              "type" : "component"
+            } ],
+            "id" : "3195980b-138e-4284-816f-6e476fa6f99d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/79-0230\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC3LGA7IDEKJBE7FW25M43Z7NYJA}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5652db5a-3751-4a74-bb99-c14b1490edb1",
+              "type" : "component"
+            } ],
+            "id" : "0cd84009-5895-457b-b627-996b02b01018",
+            "name" : "369da",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/79-0343\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCZFFDCR3WSBDW3JPALJ47TZ5TCY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ce6e01ad-a87f-4209-a965-2b6110bfd4da",
+              "type" : "component"
+            } ],
+            "id" : "8ab075fe-f8e0-4159-b749-c1f0bce2eb38",
+            "name" : "cf90e",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "NoBorder",
+          "definition" : "community_layout:section",
+          "id" : "fc949334-a67e-49d7-9d7b-fbedc3f83697",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b9f6534c-77c4-43b4-95b4-7a4db8f2ca65\",\"columns\":[{\"UUID\":\"751aeb9b-12e1-43ef-9a9a-59bf177d6165\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "751aeb9b-12e1-43ef-9a9a-59bf177d6165",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b9f6534c-77c4-43b4-95b4-7a4db8f2ca65",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"86821027-bce2-4b0a-b48e-61a4e6b5ebea\",\"columns\":[{\"UUID\":\"77b76520-a930-4340-bf97-74e60489be2e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Admixtures",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/chloro%20admixture?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "8bfc8678-8b91-4338-9849-469df6309d0a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><br></p><p><a href=\"https://www.strem.com/product/46-0367\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 102, 204);\"><u>46-0367</u></a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/46-0367\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Chloro{[BrettPhos][2-(2-aminoethylphenyl]palladium(II)]}/[BrettPhos] admixture (molar PdP/P = 1:1)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/46-0364\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 102, 204);\"><u>46-0364</u></a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/46-0364\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Chloro{[t-BuXPhos][2-(2-aminoethylphenyl]palladium(II)}/[t-BuXPhos] admixture (molar PdP/P = 1:1)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/46-0366\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 102, 204);\"><u>46-0366</u></a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/46-0366\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Chloro{[RuPhos][2-(2-aminoethylphenyl]palladium(II)}/[RuPhos] admixture (molar PdP/P = 1:1)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/46-0369\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 102, 204);\"><u>46-0369</u></a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/46-0369\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Chloro{[S-Phos][2-(2-aminoethylphenyl]palladium(II)}/[S-Phos] admixture (molar PdP/P = 1:1)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/46-0368\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 102, 204);\"><u>46-0368</u></a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/46-0368\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Chloro{[X-Phos][2-(2-aminoethylphenyl]palladium(II)}/[X-Phos] admixture (molar PdP/P = 1:1)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/46-2033\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(0, 102, 204);\"><u>46-2033</u></a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/46-2033\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">Palladium(II) acetate/2-dicyclohexylphosphino-2,6-dimethoxy-1,1'-biphenyl (SPhos)/potassium phosphate admixture</a> <a href=\"https://www.strem.com/product/46-2033\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68); font-size: 18px;\">[CatKit single-use vials - 1.96 wt% Pd(OAc)₂]</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7c08c7fa-9cf3-4ca6-bce6-d05f3fce03ab",
+              "type" : "component"
+            } ],
+            "id" : "77b76520-a930-4340-bf97-74e60489be2e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "NoBorder",
+          "definition" : "community_layout:section",
+          "id" : "86821027-bce2-4b0a-b48e-61a4e6b5ebea",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"23c58902-f5cc-403d-8d5c-fdec10d7c46a\",\"columns\":[{\"UUID\":\"fe5d1f66-d414-4725-8fee-20c613976c34\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "fe5d1f66-d414-4725-8fee-20c613976c34",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "23c58902-f5cc-403d-8d5c-fdec10d7c46a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"55a0e6cd-9748-4a1a-a5f0-e16e2c002560\",\"columns\":[{\"UUID\":\"767ed180-6660-49be-8e93-020e7c1622ed\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Biaryl Phosphine Ligand Kits",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Buchwald%20Biaryl%20Phosphine%20Ligand?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "6dd56654-42a1-4070-9929-1db56584b48a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><br></p><p><a href=\"https://www.strem.com/product/96-5500\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5500</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5500\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 18px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">Buchwald Biaryl Phosphine Ligand Master Kit for Aromatic Carbon-Heteroatom Bond Formation, Suzuki Coupling and Negishi </a><a href=\"https://www.strem.com/product/96-5500\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">Cross-coupling</a></p><p><br></p><p><a href=\"https://www.strem.com/product/96-5485\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px;\">96-5485</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5485\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Buchwald Biaryl Phosphine Ligand Mini Kit 1 for Aromatic Carbon-Heteroatom Bond Formation, Suzuki Coupling and Negishi </a><a href=\"https://www.strem.com/product/96-5485\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Cross-</a><a href=\"https://www.strem.com/product/96-5485\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">coupling</a></p><p><br></p><p><a href=\"https://www.strem.com/product/96-5490\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5490</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5490\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Buchwald Biaryl Phosphine Ligand Mini Kit 2 for Aromatic Carbon-Heteroatom Bond Formation, Suzuki Coupling and Negishi </a><a href=\"https://www.strem.com/product/96-5490\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Cross-coupling</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e397214b-5cdc-4781-a063-1c5d7c4de3e9",
+              "type" : "component"
+            } ],
+            "id" : "767ed180-6660-49be-8e93-020e7c1622ed",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "55a0e6cd-9748-4a1a-a5f0-e16e2c002560",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c3301fa8-6b5c-4bac-9475-0b6980251005\",\"columns\":[{\"UUID\":\"9b6ba747-2f54-4c6a-a39d-534d1a14cd69\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "9b6ba747-2f54-4c6a-a39d-534d1a14cd69",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c3301fa8-6b5c-4bac-9475-0b6980251005",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"2f3d5b28-edf0-42eb-9e57-e8f4481e9b27\",\"columns\":[{\"UUID\":\"b0995d52-56b1-42cc-93fa-95037f5b0ad4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Buchwald Palladacycle Precatalyst Kits",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/global-search/Buchwald%20Palladacycle%20Precatalyst%20Kit?category=0ZGVN00000000rF4AQ&page=1\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f7f3ea62-852f-4f83-b49c-58bf25ae5234",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><br></p><p><a href=\"https://www.strem.com/product/96-5503\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5503</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5503\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Buchwald Palladacycle Precatalyst Kit 1 (Chloro-2-aminoethylphenyl- Palladacycles Gen. 1)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/96-5508\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5508</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5508\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">Buchwald Palladacycle Precatalyst Kit 3 (Chloro- 2'-amino-1,1'-biphenyl-2-yl - Palladacycles Gen. 2)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/96-5505\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5505</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5505\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Buchwald Palladacycle Precatalyst Kit 2a (Methanesulfonato-2'-amino-1,1'-biphenyl-2-yl- Palladacycles Gen. 3)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/96-5506\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5506</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5506\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">Buchwald Palladacycle Precatalyst Kit 2b (Methanesulfonato-2'-amino-1,1'-biphenyl-2-yl- Palladacycles Gen. 3)</a></p><p><br></p><p><a href=\"https://www.strem.com/product/96-5512\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 18px;\">96-5512</a><span style=\"font-size: 18px;\"> </span><a href=\"https://www.strem.com/product/96-5512\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Buchwald Palladacycle Precatalyst Kit 4 (Methanesulfonato-2'-methylamino-1,1'-biphenyl-2-yl- Palladacycles Gen. 4)</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "8bb84ed5-9449-4ae3-ac86-dfbe2fde4502",
+              "type" : "component"
+            } ],
+            "id" : "b0995d52-56b1-42cc-93fa-95037f5b0ad4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2f3d5b28-edf0-42eb-9e57-e8f4481e9b27",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8523cd99-4fca-4007-ad80-5f039612c9f6\",\"columns\":[{\"UUID\":\"b5b2a0ac-3877-4c93-87a7-688ca4ef42ce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "b5b2a0ac-3877-4c93-87a7-688ca4ef42ce",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8523cd99-4fca-4007-ad80-5f039612c9f6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a57acc37-ea38-4e4f-9d95-4c033ad2c3d9\",\"columns\":[{\"UUID\":\"2bddf5ed-c1a4-414b-8abf-412666b9e75e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Additional Resources",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 114, 206)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/product-resources\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a8c18122-47f7-4a71-9142-9c547177deb7",
+              "type" : "component"
+            } ],
+            "id" : "2bddf5ed-c1a4-414b-8abf-412666b9e75e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a57acc37-ea38-4e4f-9d95-4c033ad2c3d9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"441d7fdd-4878-4b84-ae7c-130ba07383cf\",\"columns\":[{\"UUID\":\"6cb3688e-c923-4eab-a6b8-c5e0368c3d42\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6cb7015a-116e-47c2-88bb-7360ba76d136\",\"columnName\":\"Column 2\",\"columnKey\":\"7efe8\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"85b9e73b-cc04-4765-9649-218ade348469\",\"columnName\":\"Column 3\",\"columnKey\":\"bb0bb\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><a href=\"https://resources.strem.com/chemiker_xxvii_vol1.pdf\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCUYNB7D4WTRDRHIRJ5KBKSOFT4Y}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "971f0566-0989-4f14-a4b7-0386cc36ae9d",
+              "type" : "component"
+            } ],
+            "id" : "6cb3688e-c923-4eab-a6b8-c5e0368c3d42",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "39e0c49b-14e9-497e-8fd1-0f517db06c6e",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><a href=\"https://resources.strem.com/buchwaldligprecat.pdf\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCJ5HBDLLC4BD45PAPOSN5DLQVS4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e816d07e-409c-4669-acad-32a874a30d99",
+              "type" : "component"
+            } ],
+            "id" : "6cb7015a-116e-47c2-88bb-7360ba76d136",
+            "name" : "7efe8",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "85b9e73b-cc04-4765-9649-218ade348469",
+            "name" : "bb0bb",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "441d7fdd-4878-4b84-ae7c-130ba07383cf",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f0fcba45-f0d6-4ae7-9f92-1923008ca50c\",\"columns\":[{\"UUID\":\"b7930e7d-7a1f-4649-8e70-14f3c17e44c9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "b7930e7d-7a1f-4649-8e70-14f3c17e44c9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f0fcba45-f0d6-4ae7-9f92-1923008ca50c",
+          "type" : "component"
+        } ],
+        "id" : "7dc0cb7c-7e8c-4bc6-808f-8a59db433a13",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "CVD/ALD Precursor Landing Page",
+            "dxpStyle" : { },
+            "pageTitle" : "Buchwald Ligands",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "21e97c70-3b70-49d6-a2fa-817ff07dc3d5",
+          "type" : "component"
+        } ],
+        "id" : "e8dea16f-d193-47b7-adcb-b13d91a32630",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "65539454-14d6-490f-a8b5-0919b6cf7779",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "tdDoSzmGcBZil7G5v65AUMv2iWf9R6",
+    "viewType" : "custom-buchwald-ligands"
+  },
+  "urlName" : "buchwald-ligands"
+}

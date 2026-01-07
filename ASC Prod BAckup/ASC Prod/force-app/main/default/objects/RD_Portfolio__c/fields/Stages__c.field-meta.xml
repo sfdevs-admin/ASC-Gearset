@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stages__c</fullName>
+    <label>Stages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stage 0 - Idea</fullName>
+                <default>true</default>
+                <label>Stage 0 - Idea</label>
+            </value>
+            <value>
+                <fullName>Stage 1 - Feasibility</fullName>
+                <default>false</default>
+                <label>Stage 1 - Feasibility</label>
+            </value>
+            <value>
+                <fullName>Stage 2 - Business Case</fullName>
+                <default>false</default>
+                <label>Stage 2 - Business Case</label>
+            </value>
+            <value>
+                <fullName>Stage 3 - Development</fullName>
+                <default>false</default>
+                <label>Stage 3 - Development</label>
+            </value>
+            <value>
+                <fullName>Stage 4 - Scale Up</fullName>
+                <default>false</default>
+                <label>Stage 4 - Scale Up</label>
+            </value>
+            <value>
+                <fullName>Stage 5 - Launch</fullName>
+                <default>false</default>
+                <label>Stage 5 - Launch</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

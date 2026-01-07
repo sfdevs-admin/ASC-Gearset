@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Size__c</fullName>
+    <label>Unit Size</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>.025mole</fullName>
+                <default>false</default>
+                <label>.025mole</label>
+            </value>
+            <value>
+                <fullName>.05mole</fullName>
+                <default>false</default>
+                <label>.05mole</label>
+            </value>
+            <value>
+                <fullName>.25mole</fullName>
+                <default>false</default>
+                <label>.25mole</label>
+            </value>
+            <value>
+                <fullName>.500mg</fullName>
+                <default>false</default>
+                <label>.500mg</label>
+            </value>
+            <value>
+                <fullName>0.001mole</fullName>
+                <default>false</default>
+                <label>0.001mole</label>
+            </value>
+            <value>
+                <fullName>0.01mole</fullName>
+                <default>false</default>
+                <label>0.01mole</label>
+            </value>
+            <value>
+                <fullName>0.05mole</fullName>
+                <default>false</default>
+                <label>0.05mole</label>
+            </value>
+            <value>
+                <fullName>0.1mole</fullName>
+                <default>false</default>
+                <label>0.1mole</label>
+            </value>
+            <value>
+                <fullName>0.25mole</fullName>
+                <default>false</default>
+                <label>0.25mole</label>
+            </value>
+            <value>
+                <fullName>0.2mole</fullName>
+                <default>false</default>
+                <label>0.2mole</label>
+            </value>
+            <value>
+                <fullName>0.5mg</fullName>
+                <default>false</default>
+                <label>0.5mg</label>
+            </value>
+            <value>
+                <fullName>0.5ml</fullName>
+                <default>false</default>
+                <label>0.5ml</label>
+            </value>
+            <value>
+                <fullName>0.5mole</fullName>
+                <default>false</default>
+                <label>0.5mole</label>
+            </value>
+            <value>
+                <fullName>1000g</fullName>
+                <default>false</default>
+                <label>1000g</label>
+            </value>
+            <value>
+                <fullName>1000m</fullName>
+                <default>false</default>
+                <label>1000m</label>
+            </value>
+            <value>
+                <fullName>1000 x 200mm</fullName>
+                <default>false</default>
+                <label>1000 x 200mm</label>
+            </value>
+            <value>
+                <fullName>100cm</fullName>
+                <default>false</default>
+                <label>100cm</label>
+            </value>
+            <value>
+                <fullName>100g</fullName>
+                <default>false</default>
+                <label>100g</label>
+            </value>
+            <value>
+                <fullName>100g soln.</fullName>
+                <default>false</default>
+                <label>100g soln.</label>
+            </value>
+            <value>
+                <fullName>100m</fullName>
+                <default>false</default>
+                <label>100m</label>
+            </value>
+            <value>
+                <fullName>100mg</fullName>
+                <default>false</default>
+                <label>100mg</label>
+            </value>
+            <value>
+                <fullName>100ml</fullName>
+                <default>false</default>
+                <label>100ml</label>
+            </value>
+            <value>
+                <fullName>100mm</fullName>
+                <default>false</default>
+                <label>100mm</label>
+            </value>
+            <value>
+                <fullName>100mml</fullName>
+                <default>false</default>
+                <label>100mml</label>
+            </value>
+            <value>
+                <fullName>100 x 100mm</fullName>
+                <default>false</default>
+                <label>100 x 100mm</label>
+            </value>
+            <value>
+                <fullName>100 x 125mm</fullName>
+                <default>false</default>
+                <label>100 x 125mm</label>
+            </value>
+            <value>
+                <fullName>100 x 200mm</fullName>
+                <default>false</default>
+                <label>100 x 200mm</label>
+            </value>
+            <value>
+                <fullName>100 x 25mm</fullName>
+                <default>false</default>
+                <label>100 x 25mm</label>
+            </value>
+            <value>
+                <fullName>100 x 300mm</fullName>
+                <default>false</default>
+                <label>100 x 300mm</label>
+            </value>
+            <value>
+                <fullName>100 x 30cm</fullName>
+                <default>false</default>
+                <label>100 x 30cm</label>
+            </value>
+            <value>
+                <fullName>100 x 425mm</fullName>
+                <default>false</default>
+                <label>100 x 425mm</label>
+            </value>
+            <value>
+                <fullName>100 x 50mm</fullName>
+                <default>false</default>
+                <label>100 x 50mm</label>
+            </value>
+            <value>
+                <fullName>100 x 900mm</fullName>
+                <default>false</default>
+                <label>100 x 900mm</label>
+            </value>
+            <value>
+                <fullName>10cm</fullName>
+                <default>false</default>
+                <label>10cm</label>
+            </value>
+            <value>
+                <fullName>10g</fullName>
+                <default>false</default>
+                <label>10g</label>
+            </value>
+            <value>
+                <fullName>10m</fullName>
+                <default>false</default>
+                <label>10m</label>
+            </value>
+            <value>
+                <fullName>10mg</fullName>
+                <default>false</default>
+                <label>10mg</label>
+            </value>
+            <value>
+                <fullName>10ml</fullName>
+                <default>false</default>
+                <label>10ml</label>
+            </value>
+            <value>
+                <fullName>10nmole</fullName>
+                <default>false</default>
+                <label>10nmole</label>
+            </value>
+            <value>
+                <fullName>10pcs</fullName>
+                <default>false</default>
+                <label>10pcs</label>
+            </value>
+            <value>
+                <fullName>10 x 10cm</fullName>
+                <default>false</default>
+                <label>10 x 10cm</label>
+            </value>
+            <value>
+                <fullName>10 x 15cm</fullName>
+                <default>false</default>
+                <label>10 x 15cm</label>
+            </value>
+            <value>
+                <fullName>10 x 30cm</fullName>
+                <default>false</default>
+                <label>10 x 30cm</label>
+            </value>
+            <value>
+                <fullName>150 x 15cm</fullName>
+                <default>false</default>
+                <label>150 x 15cm</label>
+            </value>
+            <value>
+                <fullName>150 x 150mm</fullName>
+                <default>false</default>
+                <label>150 x 150mm</label>
+            </value>
+            <value>
+                <fullName>1200 x 600mm</fullName>
+                <default>false</default>
+                <label>1200 x 600mm</label>
+            </value>
+            <value>
+                <fullName>125g</fullName>
+                <default>false</default>
+                <label>125g</label>
+            </value>
+            <value>
+                <fullName>1500 x 150mm</fullName>
+                <default>false</default>
+                <label>1500 x 150mm</label>
+            </value>
+            <value>
+                <fullName>150 x 300mm</fullName>
+                <default>false</default>
+                <label>150 x 300mm</label>
+            </value>
+            <value>
+                <fullName>15g</fullName>
+                <default>false</default>
+                <label>15g</label>
+            </value>
+            <value>
+                <fullName>170 x 170mm</fullName>
+                <default>false</default>
+                <label>170 x 170mm</label>
+            </value>
+            <value>
+                <fullName>1cm</fullName>
+                <default>false</default>
+                <label>1cm</label>
+            </value>
+            <value>
+                <fullName>120cm</fullName>
+                <default>false</default>
+                <label>120cm</label>
+            </value>
+            <value>
+                <fullName>1cyl</fullName>
+                <default>false</default>
+                <label>1cyl</label>
+            </value>
+            <value>
+                <fullName>1ea</fullName>
+                <default>false</default>
+                <label>1ea</label>
+            </value>
+            <value>
+                <fullName>1 ea</fullName>
+                <default>false</default>
+                <label>1 ea</label>
+            </value>
+            <value>
+                <fullName>1g</fullName>
+                <default>false</default>
+                <label>1g</label>
+            </value>
+            <value>
+                <fullName>1kg</fullName>
+                <default>false</default>
+                <label>1kg</label>
+            </value>
+            <value>
+                <fullName>1kit</fullName>
+                <default>false</default>
+                <label>1kit</label>
+            </value>
+            <value>
+                <fullName>1 kit</fullName>
+                <default>false</default>
+                <label>1 kit</label>
+            </value>
+            <value>
+                <fullName>1m</fullName>
+                <default>false</default>
+                <label>1m</label>
+            </value>
+            <value>
+                <fullName>1ml</fullName>
+                <default>false</default>
+                <label>1ml</label>
+            </value>
+            <value>
+                <fullName>1mole</fullName>
+                <default>false</default>
+                <label>1mole</label>
+            </value>
+            <value>
+                <fullName>1pc</fullName>
+                <default>false</default>
+                <label>1pc</label>
+            </value>
+            <value>
+                <fullName>1rod</fullName>
+                <default>false</default>
+                <label>1rod</label>
+            </value>
+            <value>
+                <fullName>1x1cm</fullName>
+                <default>false</default>
+                <label>1x1cm</label>
+            </value>
+            <value>
+                <fullName>2.25kg</fullName>
+                <default>false</default>
+                <label>2.25kg</label>
+            </value>
+            <value>
+                <fullName>2.5g</fullName>
+                <default>false</default>
+                <label>2.5g</label>
+            </value>
+            <value>
+                <fullName>2.5kg</fullName>
+                <default>false</default>
+                <label>2.5kg</label>
+            </value>
+            <value>
+                <fullName>2.5m</fullName>
+                <default>false</default>
+                <label>2.5m</label>
+            </value>
+            <value>
+                <fullName>2000 x 125mm</fullName>
+                <default>false</default>
+                <label>2000 x 125mm</label>
+            </value>
+            <value>
+                <fullName>200g</fullName>
+                <default>false</default>
+                <label>200g</label>
+            </value>
+            <value>
+                <fullName>200 x 200mm</fullName>
+                <default>false</default>
+                <label>200 x 200mm</label>
+            </value>
+            <value>
+                <fullName>20cm</fullName>
+                <default>false</default>
+                <label>20cm</label>
+            </value>
+            <value>
+                <fullName>20g</fullName>
+                <default>false</default>
+                <label>20g</label>
+            </value>
+            <value>
+                <fullName>20g soln.</fullName>
+                <default>false</default>
+                <label>20g soln.</label>
+            </value>
+            <value>
+                <fullName>20m</fullName>
+                <default>false</default>
+                <label>20m</label>
+            </value>
+            <value>
+                <fullName>20ml</fullName>
+                <default>false</default>
+                <label>20ml</label>
+            </value>
+            <value>
+                <fullName>20mm</fullName>
+                <default>false</default>
+                <label>20mm</label>
+            </value>
+            <value>
+                <fullName>20nmole</fullName>
+                <default>false</default>
+                <label>20nmole</label>
+            </value>
+            <value>
+                <fullName>20 x 30cm</fullName>
+                <default>false</default>
+                <label>20 x 30cm</label>
+            </value>
+            <value>
+                <fullName>225g</fullName>
+                <default>false</default>
+                <label>225g</label>
+            </value>
+            <value>
+                <fullName>2500g</fullName>
+                <default>false</default>
+                <label>2500g</label>
+            </value>
+            <value>
+                <fullName>250cm</fullName>
+                <default>false</default>
+                <label>250cm</label>
+            </value>
+            <value>
+                <fullName>250g</fullName>
+                <default>false</default>
+                <label>250g</label>
+            </value>
+            <value>
+                <fullName>250m</fullName>
+                <default>false</default>
+                <label>250m</label>
+            </value>
+            <value>
+                <fullName>250mg</fullName>
+                <default>false</default>
+                <label>250mg</label>
+            </value>
+            <value>
+                <fullName>250ml</fullName>
+                <default>false</default>
+                <label>250ml</label>
+            </value>
+            <value>
+                <fullName>250mm</fullName>
+                <default>false</default>
+                <label>250mm</label>
+            </value>
+            <value>
+                <fullName>250 x 100mm</fullName>
+                <default>false</default>
+                <label>250 x 100mm</label>
+            </value>
+            <value>
+                <fullName>250 x 150mm</fullName>
+                <default>false</default>
+                <label>250 x 150mm</label>
+            </value>
+            <value>
+                <fullName>250 x 15cm</fullName>
+                <default>false</default>
+                <label>250 x 15cm</label>
+            </value>
+            <value>
+                <fullName>250 x 300mm</fullName>
+                <default>false</default>
+                <label>250 x 300mm</label>
+            </value>
+            <value>
+                <fullName>250 x 30cm</fullName>
+                <default>false</default>
+                <label>250 x 30cm</label>
+            </value>
+            <value>
+                <fullName>25cm</fullName>
+                <default>false</default>
+                <label>25cm</label>
+            </value>
+            <value>
+                <fullName>25f</fullName>
+                <default>false</default>
+                <label>25f</label>
+            </value>
+            <value>
+                <fullName>25g</fullName>
+                <default>false</default>
+                <label>25g</label>
+            </value>
+            <value>
+                <fullName>25m</fullName>
+                <default>false</default>
+                <label>25m</label>
+            </value>
+            <value>
+                <fullName>25mg</fullName>
+                <default>false</default>
+                <label>25mg</label>
+            </value>
+            <value>
+                <fullName>25ml</fullName>
+                <default>false</default>
+                <label>25ml</label>
+            </value>
+            <value>
+                <fullName>25pcs</fullName>
+                <default>false</default>
+                <label>25pcs</label>
+            </value>
+            <value>
+                <fullName>25 x 1vial</fullName>
+                <default>false</default>
+                <label>25 x 1vial</label>
+            </value>
+            <value>
+                <fullName>25 x 25mm</fullName>
+                <default>false</default>
+                <label>25 x 25mm</label>
+            </value>
+            <value>
+                <fullName>2cm</fullName>
+                <default>false</default>
+                <label>2cm</label>
+            </value>
+            <value>
+                <fullName>2g</fullName>
+                <default>false</default>
+                <label>2g</label>
+            </value>
+            <value>
+                <fullName>2kg</fullName>
+                <default>false</default>
+                <label>2kg</label>
+            </value>
+            <value>
+                <fullName>2m</fullName>
+                <default>false</default>
+                <label>2m</label>
+            </value>
+            <value>
+                <fullName>2ml</fullName>
+                <default>false</default>
+                <label>2ml</label>
+            </value>
+            <value>
+                <fullName>2nmole</fullName>
+                <default>false</default>
+                <label>2nmole</label>
+            </value>
+            <value>
+                <fullName>2pcs</fullName>
+                <default>false</default>
+                <label>2pcs</label>
+            </value>
+            <value>
+                <fullName>2 x 1kg</fullName>
+                <default>false</default>
+                <label>2 x 1kg</label>
+            </value>
+            <value>
+                <fullName>2 x 25g</fullName>
+                <default>false</default>
+                <label>2 x 25g</label>
+            </value>
+            <value>
+                <fullName>2 x 30cm</fullName>
+                <default>false</default>
+                <label>2 x 30cm</label>
+            </value>
+            <value>
+                <fullName>2x5ml</fullName>
+                <default>false</default>
+                <label>2x5ml</label>
+            </value>
+            <value>
+                <fullName>300g</fullName>
+                <default>false</default>
+                <label>300g</label>
+            </value>
+            <value>
+                <fullName>300 x 150mm</fullName>
+                <default>false</default>
+                <label>300 x 150mm</label>
+            </value>
+            <value>
+                <fullName>300 x 300mm</fullName>
+                <default>false</default>
+                <label>300 x 300mm</label>
+            </value>
+            <value>
+                <fullName>300 x 600mm</fullName>
+                <default>false</default>
+                <label>300 x 600mm</label>
+            </value>
+            <value>
+                <fullName>30cm</fullName>
+                <default>false</default>
+                <label>30cm</label>
+            </value>
+            <value>
+                <fullName>30 x 15cm</fullName>
+                <default>false</default>
+                <label>30 x 15cm</label>
+            </value>
+            <value>
+                <fullName>400 x 300mm</fullName>
+                <default>false</default>
+                <label>400 x 300mm</label>
+            </value>
+            <value>
+                <fullName>450g</fullName>
+                <default>false</default>
+                <label>450g</label>
+            </value>
+            <value>
+                <fullName>4g</fullName>
+                <default>false</default>
+                <label>4g</label>
+            </value>
+            <value>
+                <fullName>4kg</fullName>
+                <default>false</default>
+                <label>4kg</label>
+            </value>
+            <value>
+                <fullName>4nmole</fullName>
+                <default>false</default>
+                <label>4nmole</label>
+            </value>
+            <value>
+                <fullName>4pcs</fullName>
+                <default>false</default>
+                <label>4pcs</label>
+            </value>
+            <value>
+                <fullName>4 x 25g</fullName>
+                <default>false</default>
+                <label>4 x 25g</label>
+            </value>
+            <value>
+                <fullName>4x25ml</fullName>
+                <default>false</default>
+                <label>4x25ml</label>
+            </value>
+            <value>
+                <fullName>4 x 500g</fullName>
+                <default>false</default>
+                <label>4 x 500g</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5</label>
+            </value>
+            <value>
+                <fullName>500cm</fullName>
+                <default>false</default>
+                <label>500cm</label>
+            </value>
+            <value>
+                <fullName>500g</fullName>
+                <default>false</default>
+                <label>500g</label>
+            </value>
+            <value>
+                <fullName>500m</fullName>
+                <default>false</default>
+                <label>500m</label>
+            </value>
+            <value>
+                <fullName>500mg</fullName>
+                <default>false</default>
+                <label>500mg</label>
+            </value>
+            <value>
+                <fullName>500ml</fullName>
+                <default>false</default>
+                <label>500ml</label>
+            </value>
+            <value>
+                <fullName>500 x 100mm</fullName>
+                <default>false</default>
+                <label>500 x 100mm</label>
+            </value>
+            <value>
+                <fullName>500 x 125mm</fullName>
+                <default>false</default>
+                <label>500 x 125mm</label>
+            </value>
+            <value>
+                <fullName>500 x 170mm</fullName>
+                <default>false</default>
+                <label>500 x 170mm</label>
+            </value>
+            <value>
+                <fullName>500 x 200mm</fullName>
+                <default>false</default>
+                <label>500 x 200mm</label>
+            </value>
+            <value>
+                <fullName>500 x 25mm</fullName>
+                <default>false</default>
+                <label>500 x 25mm</label>
+            </value>
+            <value>
+                <fullName>500 x 30cm</fullName>
+                <default>false</default>
+                <label>500 x 30cm</label>
+            </value>
+            <value>
+                <fullName>500 x 50mm</fullName>
+                <default>false</default>
+                <label>500 x 50mm</label>
+            </value>
+            <value>
+                <fullName>500 x 900mm</fullName>
+                <default>false</default>
+                <label>500 x 900mm</label>
+            </value>
+            <value>
+                <fullName>50cm</fullName>
+                <default>false</default>
+                <label>50cm</label>
+            </value>
+            <value>
+                <fullName>50g</fullName>
+                <default>false</default>
+                <label>50g</label>
+            </value>
+            <value>
+                <fullName>50kg</fullName>
+                <default>false</default>
+                <label>50kg</label>
+            </value>
+            <value>
+                <fullName>50m</fullName>
+                <default>false</default>
+                <label>50m</label>
+            </value>
+            <value>
+                <fullName>50mg</fullName>
+                <default>false</default>
+                <label>50mg</label>
+            </value>
+            <value>
+                <fullName>50ml</fullName>
+                <default>false</default>
+                <label>50ml</label>
+            </value>
+            <value>
+                <fullName>50mm</fullName>
+                <default>false</default>
+                <label>50mm</label>
+            </value>
+            <value>
+                <fullName>50pcs</fullName>
+                <default>false</default>
+                <label>50pcs</label>
+            </value>
+            <value>
+                <fullName>50 x 100mm</fullName>
+                <default>false</default>
+                <label>50 x 100mm</label>
+            </value>
+            <value>
+                <fullName>50 x 150mm</fullName>
+                <default>false</default>
+                <label>50 x 150mm</label>
+            </value>
+            <value>
+                <fullName>50 x 15cm</fullName>
+                <default>false</default>
+                <label>50 x 15cm</label>
+            </value>
+            <value>
+                <fullName>50 x 300mm</fullName>
+                <default>false</default>
+                <label>50 x 300mm</label>
+            </value>
+            <value>
+                <fullName>50 x 30cm</fullName>
+                <default>false</default>
+                <label>50 x 30cm</label>
+            </value>
+            <value>
+                <fullName>50 x 50mm</fullName>
+                <default>false</default>
+                <label>50 x 50mm</label>
+            </value>
+            <value>
+                <fullName>5cm</fullName>
+                <default>false</default>
+                <label>5cm</label>
+            </value>
+            <value>
+                <fullName>5ea</fullName>
+                <default>false</default>
+                <label>5ea</label>
+            </value>
+            <value>
+                <fullName>5g</fullName>
+                <default>false</default>
+                <label>5g</label>
+            </value>
+            <value>
+                <fullName>5g soln.</fullName>
+                <default>false</default>
+                <label>5g soln.</label>
+            </value>
+            <value>
+                <fullName>5kg</fullName>
+                <default>false</default>
+                <label>5kg</label>
+            </value>
+            <value>
+                <fullName>5m</fullName>
+                <default>false</default>
+                <label>5m</label>
+            </value>
+            <value>
+                <fullName>5mg</fullName>
+                <default>false</default>
+                <label>5mg</label>
+            </value>
+            <value>
+                <fullName>5ml</fullName>
+                <default>false</default>
+                <label>5ml</label>
+            </value>
+            <value>
+                <fullName>5pc</fullName>
+                <default>false</default>
+                <label>5pc</label>
+            </value>
+            <value>
+                <fullName>5pcs</fullName>
+                <default>false</default>
+                <label>5pcs</label>
+            </value>
+            <value>
+                <fullName>5rods</fullName>
+                <default>false</default>
+                <label>5rods</label>
+            </value>
+            <value>
+                <fullName>5 x 100cm</fullName>
+                <default>false</default>
+                <label>5 x 100cm</label>
+            </value>
+            <value>
+                <fullName>5 x 100g</fullName>
+                <default>false</default>
+                <label>5 x 100g</label>
+            </value>
+            <value>
+                <fullName>5 x 10ml</fullName>
+                <default>false</default>
+                <label>5 x 10ml</label>
+            </value>
+            <value>
+                <fullName>5x1g</fullName>
+                <default>false</default>
+                <label>5x1g</label>
+            </value>
+            <value>
+                <fullName>5 x 1g</fullName>
+                <default>false</default>
+                <label>5 x 1g</label>
+            </value>
+            <value>
+                <fullName>5 x 1kg</fullName>
+                <default>false</default>
+                <label>5 x 1kg</label>
+            </value>
+            <value>
+                <fullName>5 x 1vial</fullName>
+                <default>false</default>
+                <label>5 x 1vial</label>
+            </value>
+            <value>
+                <fullName>5 x 500g</fullName>
+                <default>false</default>
+                <label>5 x 500g</label>
+            </value>
+            <value>
+                <fullName>5x50g</fullName>
+                <default>false</default>
+                <label>5x50g</label>
+            </value>
+            <value>
+                <fullName>5 x 50g</fullName>
+                <default>false</default>
+                <label>5 x 50g</label>
+            </value>
+            <value>
+                <fullName>5 x 5cm</fullName>
+                <default>false</default>
+                <label>5 x 5cm</label>
+            </value>
+            <value>
+                <fullName>25 x  25mm</fullName>
+                <default>false</default>
+                <label>25 x  25mm</label>
+            </value>
+            <value>
+                <fullName>50 x  50mm</fullName>
+                <default>false</default>
+                <label>50 x  50mm</label>
+            </value>
+            <value>
+                <fullName>5 x  5cm</fullName>
+                <default>false</default>
+                <label>5 x  5cm</label>
+            </value>
+            <value>
+                <fullName>1mg</fullName>
+                <default>false</default>
+                <label>1mg</label>
+            </value>
+            <value>
+                <fullName>200mg</fullName>
+                <default>false</default>
+                <label>200mg</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

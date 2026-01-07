@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Card_Details__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Payment_Method__c)),
+    Payment_Method__r.BillingFullName__c &amp; &quot; - &quot; &amp; Payment_Method__r.Last4__c,
+    &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Payment Card Details</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

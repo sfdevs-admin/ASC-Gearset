@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 06-06-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <lightning-combobox
+        id="sort-menu"
+        name="sortOptions"
+        label="Sort Options"
+        class="slds-m-left_medium slds-m-right_medium slds-m-bottom_medium"
+        value={activeOption.value}
+        placeholder={activeOption.label}
+        options={_options}
+        onchange={handleChange}
+        dropdown-alignment="right"></lightning-combobox>
+</template>

@@ -1,0 +1,23 @@
+.dummy{
+	color : black;
+}
+
+.kit-item-section{
+    border: 1px solid #b2b1b147 !important;
+	border-radius: 10px;
+}
+
+.product-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 1px;
+}
+
+.word-fix{
+	word-wrap: break-word;
+    word-break: break-all;
+}
+
+.text-font{
+	font-size: 14px !important;
+}

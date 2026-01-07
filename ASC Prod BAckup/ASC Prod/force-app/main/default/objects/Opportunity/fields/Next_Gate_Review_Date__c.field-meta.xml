@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Gate_Review_Date__c</fullName>
+    <formula>CASE( TEXT( StageName ) , 
+&apos;Stage 0 - Idea&apos;, GATE_1_Date__c , 
+&apos;Stage 1 - Feasibility&apos;, GATE_2_Date__c,
+&apos;Stage 2 - Business Case&apos;, GATE_3_Date__c,
+&apos;Stage 3 - Development&apos;, GATE_4_Date__c,
+&apos;Stage 4 - Scale Up&apos;, GATE_5_Date__c,
+Target_Launch__c)</formula>
+    <label>Next Gate Review Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

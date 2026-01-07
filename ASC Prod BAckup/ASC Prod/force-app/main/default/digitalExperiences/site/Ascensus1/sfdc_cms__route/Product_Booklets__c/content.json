@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Product Booklets",
+  "contentBody" : {
+    "activeViewId" : "Product_Booklets",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-product-booklets",
+    "urlPrefix" : "product-booklets"
+  },
+  "urlName" : "product-booklets"
+}

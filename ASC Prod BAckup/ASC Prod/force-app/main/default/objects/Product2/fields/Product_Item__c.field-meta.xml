@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Item__c</fullName>
+    <label>Product Item</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(-)DPC IN HEPTANES, 60-65 WT%</fullName>
+                <default>false</default>
+                <label>(-)DPC IN HEPTANES, 60-65 WT%</label>
+            </value>
+            <value>
+                <fullName>(+)DPC in Hexanes, 60-65 wt%</fullName>
+                <default>false</default>
+                <label>(+)DPC in Hexanes, 60-65 wt%</label>
+            </value>
+            <value>
+                <fullName>9-BBN, 0.5M IN THF</fullName>
+                <default>false</default>
+                <label>9-BBN, 0.5M IN THF</label>
+            </value>
+            <value>
+                <fullName>AB Amine Complex Proprietary</fullName>
+                <default>false</default>
+                <label>AB Amine Complex Proprietary</label>
+            </value>
+            <value>
+                <fullName>ACUBRIGHT SOLUTION</fullName>
+                <default>false</default>
+                <label>ACUBRIGHT SOLUTION</label>
+            </value>
+            <value>
+                <fullName>Alane (AlH3)</fullName>
+                <default>false</default>
+                <label>Alane (AlH3)</label>
+            </value>
+            <value>
+                <fullName>BOROL SOLUTION</fullName>
+                <default>false</default>
+                <label>BOROL SOLUTION</label>
+            </value>
+            <value>
+                <fullName>BTHF, 1M in THF, Developmental</fullName>
+                <default>false</default>
+                <label>BTHF, 1M in THF, Developmental</label>
+            </value>
+            <value>
+                <fullName>BTHF, 1 Molar in THF</fullName>
+                <default>false</default>
+                <label>BTHF, 1 Molar in THF</label>
+            </value>
+            <value>
+                <fullName>CALLERY MBA POWDER</fullName>
+                <default>false</default>
+                <label>CALLERY MBA POWDER</label>
+            </value>
+            <value>
+                <fullName>CALLERY SNB 919 SOLUTION</fullName>
+                <default>false</default>
+                <label>CALLERY SNB 919 SOLUTION</label>
+            </value>
+            <value>
+                <fullName>CALLERY STB 130 SOLUTION</fullName>
+                <default>false</default>
+                <label>CALLERY STB 130 SOLUTION</label>
+            </value>
+            <value>
+                <fullName>CalSelect® Li, 1M in THF</fullName>
+                <default>false</default>
+                <label>CalSelect® Li, 1M in THF</label>
+            </value>
+            <value>
+                <fullName>CALSELECT® LI, 1 MOLAR IN M4M</fullName>
+                <default>false</default>
+                <label>CALSELECT® LI, 1 MOLAR IN M4M</label>
+            </value>
+            <value>
+                <fullName>CALSELECT® LT, 1 MOLAR IN THF</fullName>
+                <default>false</default>
+                <label>CALSELECT® LT, 1 MOLAR IN THF</label>
+            </value>
+            <value>
+                <fullName>CALSELECT® NA, 1 MOLAR IN THF</fullName>
+                <default>false</default>
+                <label>CALSELECT® NA, 1 MOLAR IN THF</label>
+            </value>
+            <value>
+                <fullName>CALSELECT® STAB</fullName>
+                <default>false</default>
+                <label>CALSELECT® STAB</label>
+            </value>
+            <value>
+                <fullName>CalSelect® STAB Developmental</fullName>
+                <default>false</default>
+                <label>CalSelect® STAB Developmental</label>
+            </value>
+            <value>
+                <fullName>CAUSTIC SOLUTION</fullName>
+                <default>false</default>
+                <label>CAUSTIC SOLUTION</label>
+            </value>
+            <value>
+                <fullName>CHROMACLEAR SOL</fullName>
+                <default>false</default>
+                <label>CHROMACLEAR SOL</label>
+            </value>
+            <value>
+                <fullName>COLORCLEAR SOL</fullName>
+                <default>false</default>
+                <label>COLORCLEAR SOL</label>
+            </value>
+            <value>
+                <fullName>DEANB</fullName>
+                <default>false</default>
+                <label>DEANB</label>
+            </value>
+            <value>
+                <fullName>DMSB</fullName>
+                <default>false</default>
+                <label>DMSB</label>
+            </value>
+            <value>
+                <fullName>DMSB, 2M in THF</fullName>
+                <default>false</default>
+                <label>DMSB, 2M in THF</label>
+            </value>
+            <value>
+                <fullName>HOUSE ALCOHOLATES</fullName>
+                <default>false</default>
+                <label>HOUSE ALCOHOLATES</label>
+            </value>
+            <value>
+                <fullName>HOUSE ALKALI METAL</fullName>
+                <default>false</default>
+                <label>HOUSE ALKALI METAL</label>
+            </value>
+            <value>
+                <fullName>HOUSE BORANES</fullName>
+                <default>false</default>
+                <label>HOUSE BORANES</label>
+            </value>
+            <value>
+                <fullName>KDMO, 50 WT% IN N-HEPTANE</fullName>
+                <default>false</default>
+                <label>KDMO, 50 WT% IN N-HEPTANE</label>
+            </value>
+            <value>
+                <fullName>KE 24% in Ethanol(DN W 5% Tol)</fullName>
+                <default>false</default>
+                <label>KE 24% in Ethanol(DN W 5% Tol)</label>
+            </value>
+            <value>
+                <fullName>KEMBORINO* SOL</fullName>
+                <default>false</default>
+                <label>KEMBORINO* SOL</label>
+            </value>
+            <value>
+                <fullName>KEMBORINO* SOLUTION</fullName>
+                <default>false</default>
+                <label>KEMBORINO* SOLUTION</label>
+            </value>
+            <value>
+                <fullName>KHMDS, 15 WT% IN TOLUENE</fullName>
+                <default>false</default>
+                <label>KHMDS, 15 WT% IN TOLUENE</label>
+            </value>
+            <value>
+                <fullName>KHMDS, 20 WT% IN THF</fullName>
+                <default>false</default>
+                <label>KHMDS, 20 WT% IN THF</label>
+            </value>
+            <value>
+                <fullName>KIP IN IPA, 19 WT%</fullName>
+                <default>false</default>
+                <label>KIP IN IPA, 19 WT%</label>
+            </value>
+            <value>
+                <fullName>K METAL</fullName>
+                <default>false</default>
+                <label>K METAL</label>
+            </value>
+            <value>
+                <fullName>KO2 UNCAT FLUFF</fullName>
+                <default>false</default>
+                <label>KO2 UNCAT FLUFF</label>
+            </value>
+            <value>
+                <fullName>KOMe 25 wt% in Methanol</fullName>
+                <default>false</default>
+                <label>KOMe 25 wt% in Methanol</label>
+            </value>
+            <value>
+                <fullName>KTA, 15 WT% IN CYCLOHEXANE</fullName>
+                <default>false</default>
+                <label>KTA, 15 WT% IN CYCLOHEXANE</label>
+            </value>
+            <value>
+                <fullName>KTA, 15 WT% IN HEXANES</fullName>
+                <default>false</default>
+                <label>KTA, 15 WT% IN HEXANES</label>
+            </value>
+            <value>
+                <fullName>KTA, 25 WT% IN TOLUENE</fullName>
+                <default>false</default>
+                <label>KTA, 25 WT% IN TOLUENE</label>
+            </value>
+            <value>
+                <fullName>KTA, 45 wt% in THF</fullName>
+                <default>false</default>
+                <label>KTA, 45 wt% in THF</label>
+            </value>
+            <value>
+                <fullName>KTA, 5 WT% IN CYCLOHEXANE</fullName>
+                <default>false</default>
+                <label>KTA, 5 WT% IN CYCLOHEXANE</label>
+            </value>
+            <value>
+                <fullName>KTA, 7.5 wt% in Hexanes</fullName>
+                <default>false</default>
+                <label>KTA, 7.5 wt% in Hexanes</label>
+            </value>
+            <value>
+                <fullName>KTA Powder</fullName>
+                <default>false</default>
+                <label>KTA Powder</label>
+            </value>
+            <value>
+                <fullName>KTB, 20 WT% IN THF</fullName>
+                <default>false</default>
+                <label>KTB, 20 WT% IN THF</label>
+            </value>
+            <value>
+                <fullName>KTB POWDER</fullName>
+                <default>false</default>
+                <label>KTB POWDER</label>
+            </value>
+            <value>
+                <fullName>Li2B12H12 x H20</fullName>
+                <default>false</default>
+                <label>Li2B12H12 x H20</label>
+            </value>
+            <value>
+                <fullName>Li2B12H12 x H2O (Crude)</fullName>
+                <default>false</default>
+                <label>Li2B12H12 x H2O (Crude)</label>
+            </value>
+            <value>
+                <fullName>LIHMDS, 24 WT% IN THF</fullName>
+                <default>false</default>
+                <label>LIHMDS, 24 WT% IN THF</label>
+            </value>
+            <value>
+                <fullName>MAEDEB</fullName>
+                <default>false</default>
+                <label>MAEDEB</label>
+            </value>
+            <value>
+                <fullName>MBX, 50 wt% in THF</fullName>
+                <default>false</default>
+                <label>MBX, 50 wt% in THF</label>
+            </value>
+            <value>
+                <fullName>MDEB, 50 wt% in THF</fullName>
+                <default>false</default>
+                <label>MDEB, 50 wt% in THF</label>
+            </value>
+            <value>
+                <fullName>MDEB Neat</fullName>
+                <default>false</default>
+                <label>MDEB Neat</label>
+            </value>
+            <value>
+                <fullName>Methylboronic Acid</fullName>
+                <default>false</default>
+                <label>Methylboronic Acid</label>
+            </value>
+            <value>
+                <fullName>NaHMDS, 1 Molar in THF</fullName>
+                <default>false</default>
+                <label>NaHMDS, 1 Molar in THF</label>
+            </value>
+            <value>
+                <fullName>NAHMDS, 40 WT% IN THF</fullName>
+                <default>false</default>
+                <label>NAHMDS, 40 WT% IN THF</label>
+            </value>
+            <value>
+                <fullName>NAK ALLOY</fullName>
+                <default>false</default>
+                <label>NAK ALLOY</label>
+            </value>
+            <value>
+                <fullName>NAM, 50WT% IN HEXANES</fullName>
+                <default>false</default>
+                <label>NAM, 50WT% IN HEXANES</label>
+            </value>
+            <value>
+                <fullName>NaMeCP, 0.8M in THF</fullName>
+                <default>false</default>
+                <label>NaMeCP, 0.8M in THF</label>
+            </value>
+            <value>
+                <fullName>NA TERT-Butylate Lu</fullName>
+                <default>false</default>
+                <label>NA TERT-Butylate Lu</label>
+            </value>
+            <value>
+                <fullName>Nemol 1385</fullName>
+                <default>false</default>
+                <label>Nemol 1385</label>
+            </value>
+            <value>
+                <fullName>Nemol 583</fullName>
+                <default>false</default>
+                <label>Nemol 583</label>
+            </value>
+            <value>
+                <fullName>PEMB</fullName>
+                <default>false</default>
+                <label>PEMB</label>
+            </value>
+            <value>
+                <fullName>Pin2B2</fullName>
+                <default>false</default>
+                <label>Pin2B2</label>
+            </value>
+            <value>
+                <fullName>PINBOP</fullName>
+                <default>false</default>
+                <label>PINBOP</label>
+            </value>
+            <value>
+                <fullName>PINB WITH 1 WT% TEA</fullName>
+                <default>false</default>
+                <label>PINB WITH 1 WT% TEA</label>
+            </value>
+            <value>
+                <fullName>R-MeCBS, 1 Molar in Toluene</fullName>
+                <default>false</default>
+                <label>R-MeCBS, 1 Molar in Toluene</label>
+            </value>
+            <value>
+                <fullName>SB200 GRANULE</fullName>
+                <default>false</default>
+                <label>SB200 GRANULE</label>
+            </value>
+            <value>
+                <fullName>SB200 POWDER</fullName>
+                <default>false</default>
+                <label>SB200 POWDER</label>
+            </value>
+            <value>
+                <fullName>S-MECBS, 1 MOLAR IN TOLUENE</fullName>
+                <default>false</default>
+                <label>S-MECBS, 1 MOLAR IN TOLUENE</label>
+            </value>
+            <value>
+                <fullName>STA, 35 wt% in THF</fullName>
+                <default>false</default>
+                <label>STA, 35 wt% in THF</label>
+            </value>
+            <value>
+                <fullName>STA POWDER</fullName>
+                <default>false</default>
+                <label>STA POWDER</label>
+            </value>
+            <value>
+                <fullName>STB, 20 WT% IN THF</fullName>
+                <default>false</default>
+                <label>STB, 20 WT% IN THF</label>
+            </value>
+            <value>
+                <fullName>STB POWDER</fullName>
+                <default>false</default>
+                <label>STB POWDER</label>
+            </value>
+            <value>
+                <fullName>TDMAT</fullName>
+                <default>false</default>
+                <label>TDMAT</label>
+            </value>
+            <value>
+                <fullName>TEAB</fullName>
+                <default>false</default>
+                <label>TEAB</label>
+            </value>
+            <value>
+                <fullName>TEB/THF 14%</fullName>
+                <default>false</default>
+                <label>TEB/THF 14%</label>
+            </value>
+            <value>
+                <fullName>TEBA</fullName>
+                <default>false</default>
+                <label>TEBA</label>
+            </value>
+            <value>
+                <fullName>TEBAL 85</fullName>
+                <default>false</default>
+                <label>TEBAL 85</label>
+            </value>
+            <value>
+                <fullName>TEB-DAP</fullName>
+                <default>false</default>
+                <label>TEB-DAP</label>
+            </value>
+            <value>
+                <fullName>TEB-DETA</fullName>
+                <default>false</default>
+                <label>TEB-DETA</label>
+            </value>
+            <value>
+                <fullName>TEB NEAT</fullName>
+                <default>false</default>
+                <label>TEB NEAT</label>
+            </value>
+            <value>
+                <fullName>TEB-TETA</fullName>
+                <default>false</default>
+                <label>TEB-TETA</label>
+            </value>
+            <value>
+                <fullName>TETRAKIS DMA4B2</fullName>
+                <default>false</default>
+                <label>TETRAKIS DMA4B2</label>
+            </value>
+            <value>
+                <fullName>TMB AZEO</fullName>
+                <default>false</default>
+                <label>TMB AZEO</label>
+            </value>
+            <value>
+                <fullName>TMBX</fullName>
+                <default>false</default>
+                <label>TMBX</label>
+            </value>
+            <value>
+                <fullName>TNBB</fullName>
+                <default>false</default>
+                <label>TNBB</label>
+            </value>
+            <value>
+                <fullName>TNBB-MOPA</fullName>
+                <default>false</default>
+                <label>TNBB-MOPA</label>
+            </value>
+            <value>
+                <fullName>TNBB-MOPA DF</fullName>
+                <default>false</default>
+                <label>TNBB-MOPA DF</label>
+            </value>
+            <value>
+                <fullName>TnBB-MOPA EABM</fullName>
+                <default>false</default>
+                <label>TnBB-MOPA EABM</label>
+            </value>
+            <value>
+                <fullName>TnBB-Morpholine</fullName>
+                <default>false</default>
+                <label>TnBB-Morpholine</label>
+            </value>
+            <value>
+                <fullName>TnBB-TETA</fullName>
+                <default>false</default>
+                <label>TnBB-TETA</label>
+            </value>
+            <value>
+                <fullName>TnBB-TTDC</fullName>
+                <default>false</default>
+                <label>TnBB-TTDC</label>
+            </value>
+            <value>
+                <fullName>TRIMETHYL BORATE</fullName>
+                <default>false</default>
+                <label>TRIMETHYL BORATE</label>
+            </value>
+            <value>
+                <fullName>TRIMETHYL BORATE AZ</fullName>
+                <default>false</default>
+                <label>TRIMETHYL BORATE AZ</label>
+            </value>
+            <value>
+                <fullName>TRIMETHYL BORATE HP</fullName>
+                <default>false</default>
+                <label>TRIMETHYL BORATE HP</label>
+            </value>
+            <value>
+                <fullName>TsBB-DAP</fullName>
+                <default>false</default>
+                <label>TsBB-DAP</label>
+            </value>
+            <value>
+                <fullName>VENMET SOLUTION</fullName>
+                <default>false</default>
+                <label>VENMET SOLUTION</label>
+            </value>
+            <value>
+                <fullName>VENPURE* LBH100 SOLUTION</fullName>
+                <default>false</default>
+                <label>VENPURE* LBH100 SOLUTION</label>
+            </value>
+            <value>
+                <fullName>VENPURE* LBH200 SOLUTION</fullName>
+                <default>false</default>
+                <label>VENPURE* LBH200 SOLUTION</label>
+            </value>
+            <value>
+                <fullName>VENPURE AC SOL</fullName>
+                <default>false</default>
+                <label>VENPURE AC SOL</label>
+            </value>
+            <value>
+                <fullName>VENPURE AF CAPLET</fullName>
+                <default>false</default>
+                <label>VENPURE AF CAPLET</label>
+            </value>
+            <value>
+                <fullName>VENPURE AF GRANULE</fullName>
+                <default>false</default>
+                <label>VENPURE AF GRANULE</label>
+            </value>
+            <value>
+                <fullName>VENPURE LIQUID</fullName>
+                <default>false</default>
+                <label>VENPURE LIQUID</label>
+            </value>
+            <value>
+                <fullName>VENPURE POWDER</fullName>
+                <default>false</default>
+                <label>VENPURE POWDER</label>
+            </value>
+            <value>
+                <fullName>VENPURE SF GRANULE</fullName>
+                <default>false</default>
+                <label>VENPURE SF GRANULE</label>
+            </value>
+            <value>
+                <fullName>VENPURE SF POWDER</fullName>
+                <default>false</default>
+                <label>VENPURE SF POWDER</label>
+            </value>
+            <value>
+                <fullName>VENPURE SOL PQ</fullName>
+                <default>false</default>
+                <label>VENPURE SOL PQ</label>
+            </value>
+            <value>
+                <fullName>VENPURE SOLUTION</fullName>
+                <default>false</default>
+                <label>VENPURE SOLUTION</label>
+            </value>
+            <value>
+                <fullName>XTRA-YIELD 66712</fullName>
+                <default>false</default>
+                <label>XTRA-YIELD 66712</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

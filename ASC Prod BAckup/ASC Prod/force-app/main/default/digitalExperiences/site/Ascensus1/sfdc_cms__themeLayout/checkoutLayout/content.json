@@ -1,0 +1,72 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Checkout Layout",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { }
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "imageInfo" : "",
+                "logoWidth" : 250
+              },
+              "definition" : "dxp_content_layout:siteLogo",
+              "id" : "c0bad937-fffc-4851-8354-7454ca6eb958",
+              "type" : "component"
+            } ],
+            "id" : "75eed328-dc19-49c5-8b61-e8fac291cd48",
+            "name" : "storeLogo",
+            "title" : "Store Logo",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "countType" : "TotalProductCount",
+                "dxpStyle" : { },
+                "showCount" : false
+              },
+              "definition" : "commerce_builder:cartBadge",
+              "id" : "a120337d-7122-46ce-a6cc-86d7bb603ab5",
+              "type" : "component"
+            } ],
+            "id" : "d21a5494-6c1e-4e45-a61e-5060829bf5d2",
+            "name" : "cart",
+            "title" : "Cart",
+            "type" : "region"
+          } ],
+          "definition" : "commerce_unified_checkout:layoutHeader",
+          "id" : "8c22f2c1-f011-4811-8d03-1eab70388cc0",
+          "type" : "component"
+        } ],
+        "id" : "00295ed6-ed98-4343-ba05-10f1383bf6a9",
+        "name" : "header",
+        "title" : "Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { }
+          },
+          "definition" : "c:b2bGoogleTagManager",
+          "id" : "d841ab3d-3f50-45bf-8694-d34e82963024",
+          "type" : "component"
+        } ],
+        "id" : "5a6ee795-fcec-4a46-acff-c2bc21d21bff",
+        "name" : "footer",
+        "title" : "Footer",
+        "type" : "region"
+      } ],
+      "definition" : "commerce:layoutSite",
+      "id" : "eecfa563-df6b-48b2-8578-b095937fc60b",
+      "type" : "component"
+    }
+  },
+  "urlName" : "checkout-layout"
+}

@@ -1,0 +1,403 @@
+* {
+  box-sizing: border-box;
+}
+
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 2px;
+  padding-left: 0;
+}
+
+.periodic-table > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+}
+sre .element {
+  width: 3.25vw;
+}
+
+.periodic-table > li .child-name {
+  /* font-size: 2.5vw; */
+}
+
+.helium {
+  grid-column-start: 18;
+}
+
+.boron,
+.aluminium {
+  grid-column-start: 13;
+}
+
+.cerium,
+.thorium {
+  grid-column-start: 4;
+}
+
+.lanthanides {
+  grid-row-start: 8;
+  margin-top: 1rem;
+}
+
+.actinides {
+  grid-row-start: 9;
+}
+
+.periodic-table:before {
+  display: block;
+  content: "";
+  grid-row: 8 / 10;
+  grid-column: 1 / 4;
+}
+
+@media all and (max-width: 1024px) {
+  .helium,
+  .boron,
+  .aluminium,
+  .cerium,
+  .thorium {
+    grid-column-start: auto;
+  }
+
+  .periodic-table {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+  }
+
+  .periodic-table > li attr {
+    font-size: 0;
+  }
+
+  .element {
+    width: 100%;
+  }
+
+  /* .periodic-table > li {
+		padding: 1rem;
+	} */
+
+  .periodic-table > li abbr:after {
+    content: attr(title);
+    font-size: 2rem;
+  }
+
+  .periodic-table > li:nth-child(n + 58):nth-last-child(n + 48) {
+    grid-row-start: auto !important;
+  }
+
+  .periodic-table > li:nth-child(n + 90):nth-last-child(n + 16) {
+    grid-row-start: auto !important;
+  }
+
+  .periodic-table:before {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  body {
+    margin: 2vw;
+  }
+
+  .periodic-table {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+  }
+
+  .periodic-table > li {
+    height: auto;
+    font-size: 3vw;
+  }
+
+  .element {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .periodic-table {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .element {
+    width: 100%;
+  }
+}
+
+.loader-dots {
+  border-radius: 0.3em;
+  color: #ffff;
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  letter-spacing: 1px;
+  z-index: 9999;
+}
+
+.loader-dots:after {
+  content: "....";
+  width: 0;
+  position: absolute;
+  overflow: hidden;
+  animation: loader-dots-animation 1s infinite;
+}
+
+@keyframes loader-dots-animation {
+  0% {
+    width: 0em;
+  }
+  50% {
+    width: 1.2em;
+  }
+  100% {
+    width: 0em;
+  }
+}
+
+.back-drop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  opacity: 0.8;
+  background: #acacac;
+}
+
+.color-stencil {
+  text-align-last: center;
+  width: 80%;
+  margin: 0 auto 2rem auto;
+  grid-column: 3/13;
+  grid-row: 1/4;
+}
+
+.square {
+  width: 5%;
+}
+
+.color-square-solid:hover {
+  transform: scale(1.15);
+}
+
+.color-square-solid {
+  /* width: 70px; */
+  padding-top: 90%;
+  background: #0057b7;
+  transition: transform 1s;
+  border: 1px solid #0172ce;
+  /* height: 8vh; */
+}
+
+.color-square-liquid:hover {
+  transform: scale(1.15);
+}
+
+.color-square-liquid {
+  /* width: 70px; */
+  padding-top: 90%;
+  background: #009ca6;
+  transition: transform 1s;
+  border: 1px solid rgb(19, 112, 101);
+  /* height: 8vh; */
+}
+
+.color-square-gas:hover {
+  transform: scale(1.15);
+}
+
+.color-square-gas {
+  /* width: 70px; */
+  padding-top: 90%;
+  background: #ff5c39;
+  transition: transform 1s;
+  border: 1px solid rgb(156, 11, 11);
+  /* height: 8vh; */
+}
+
+.color-square-artificial:hover {
+  transform: scale(1.15);
+}
+
+.color-square-artificial {
+  /* width: 70px; */
+  padding-top: 90%;
+  background: #ffad00;
+  transition: transform 1s;
+  border: 1px solid rgb(153, 109, 0);
+  /* height: 8vh; */
+}
+
+.color-td-center {
+  text-align: -webkit-center;
+}
+
+.color-stencil-border {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+.periodicTableHeading {
+  font-size: 30px;
+  color: black;
+  font-weight: 400;
+}
+
+.periodicTableDescription {
+  font-weight: 200;
+  font-size: 20px;
+  color: black;
+}
+
+.others-conatiner {
+  width: 100%;
+  background: #d9d9d9;
+  color: black;
+  text-align: center;
+}
+
+.others-heading {
+  font-size: 30px;
+  color: black;
+  font-weight: 400;
+}
+
+.product_groups {
+  color: #959394;
+}
+
+.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.horizontal-list li {
+  display: inline;
+  color: black;
+}
+
+.horizontal-list li:not(:last-child)::after {
+  content: " | ";
+  margin: 0 5px;
+}
+
+ul.horizontal-list > li > a {
+  color: black;
+}
+
+.hydrogen-parent:hover,
+.carbon-parent:hover,
+.scandium-parent:hover,
+.liquid-parent:hover,
+.hydrogen-parent-disable:hover,
+.carbon-parent-disable:hover,
+.scandium-parent-disable:hover,
+.liquid-parent-disable:hover {
+  transform: scale(1.15);
+}
+
+.hydrogen-parent,
+.carbon-parent,
+.scandium-parent,
+.liquid-parent {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.hydrogen-parent-disable,
+.carbon-parent-disable,
+.scandium-parent-disable,
+.liquid-parent-disable {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  opacity: 50%;
+  transition: transform 1s;
+}
+
+.hydrogen-child-1,
+.carbon-child-1,
+.scandium-child-1,
+.liquid-child-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  padding: 0.1vw;
+}
+
+.hydrogen-child-2,
+.carbon-child-2,
+.scandium-child-2,
+.liquid-child-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  padding: 0.2rem;
+}
+
+.hydrogen-parent {
+  border: 1px solid rgb(156, 11, 11);
+}
+
+.hydrogen-child-1 {
+  background-color: rgb(156, 11, 11);
+}
+
+.hydrogen-child-2 {
+  background-color: #ff5c39;
+}
+
+.carbon-parent {
+  border: 1px solid rgb(153, 109, 0);
+}
+
+.carbon-child-1 {
+  background-color: rgb(153, 109, 0);
+}
+
+.carbon-child-2 {
+  background-color: #ffad00;
+}
+
+.scandium-parent {
+  border: 1px solid #1327c1;
+}
+
+.scandium-child-1 {
+  background-color: #1327c1;
+}
+
+.scandium-child-2 {
+  background-color: #0172ce;
+}
+
+.liquid-parent {
+  border: 1px solid rgb(19, 112, 101);
+}
+
+.liquid-child-1 {
+  background-color: rgb(19, 112, 101);
+}
+
+.liquid-child-2 {
+  background-color: #009ca6;
+}

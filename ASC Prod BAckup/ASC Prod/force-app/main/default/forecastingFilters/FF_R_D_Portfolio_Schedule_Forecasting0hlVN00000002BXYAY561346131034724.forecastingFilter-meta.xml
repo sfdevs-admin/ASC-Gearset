@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterLogic>1</filterLogic>
+    <forecastingType>R_D_Portfolio_Schedule_Forecasting</forecastingType>
+    <forecastingTypeSource>FTS_R_D_Portfolio_Schedule_Forecasting7syVN000000004sYAA997745299312936</forecastingTypeSource>
+    <isProtected>false</isProtected>
+    <masterLabel>FF_R_D_Portfolio_Schedule_Forecasting0hlVN00000002BXYAY561346131034724</masterLabel>
+</ForecastingFilter>

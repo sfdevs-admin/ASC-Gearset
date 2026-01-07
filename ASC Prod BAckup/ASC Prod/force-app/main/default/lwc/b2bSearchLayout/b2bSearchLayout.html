@@ -1,0 +1,26 @@
+<template>
+    <div class="slds-is-relative">
+        <lightning-spinner alternative-text="Loading products..." size="medium" variant="brand" if:true={isLoading}></lightning-spinner>
+        <ul role="listbox">
+            <template for:each={displayProducts} for:item="it">
+                <div class="category-selected" key={it.id} data-selected={it.showProductList} data-id={it.id}>
+                    <div class="product-list-header">
+                        <a href="#" onclick={toggleProductList} data-id={it.id} class="toggle-button">
+                            <img src={it.toggleImage} alt={it.toggleAltText}>
+                        </a>
+                        <span class="category">
+                            <a href="#" onclick={toggleProductList} data-id={it.id}>{it.name}</a>
+                        </span>
+                        <span class="name"> › Compounds</span>
+                    </div>
+                    <div if:true={it.showProducts}>
+                        <c-b2b-search-product
+                            product-result={it.products}
+                        >
+                        </c-b2b-search-product>
+                    </div>
+                </div>
+            </template>
+        </ul>
+    </div>
+</template>

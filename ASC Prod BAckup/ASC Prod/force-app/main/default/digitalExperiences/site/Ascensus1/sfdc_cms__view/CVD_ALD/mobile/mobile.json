@@ -1,0 +1,25 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "CVD-ALD",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : true,
+            "margin" : {
+              "bottom" : "0px",
+              "left" : "10px",
+              "right" : "10px",
+              "top" : "0px"
+            }
+          },
+          "sectionMinHeight" : "100px",
+          "maxContentWidth" : "550px"
+        },
+        "id" : "6876fe1e-c0ec-44c8-a76f-ac67795e0acf"
+      } ]
+    }
+  },
+  "urlName" : "cvd-ald"
+}

@@ -1,0 +1,73 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e6090703-604f-4f7a-9ea1-9e2d36b9165b\",\"columns\":[{\"UUID\":\"1dc51c45-13e2-442c-9599-7a4b98b63277\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<div style=\"display: flex; align-items: center; flex-direction: column; margin: 60px 25px 30px 25px;\">\n\t<div style=\"background-image: url(assets/images/tooManyRequests.svg); background-size: contain; height: 350px; width: 100%; background-repeat: no-repeat; background-position: center;\"></div>\n</div>\n<div style=\"margin: 0 25px; text-align: center;\">\n\t<h1 class=\"slds-text-heading_large\" style=\"color: dimgrey;\">Oops! the requested page was not found.</h1>\n    <p class=\"slds-text-heading_small\" style=\"color: dimgrey;\">Click <a href=\"/\" style=\"color: rgb(0, 114, 206);\">here</a> to go home.</p>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "e5d8cee6-d092-4b88-8474-ca3134df0aad",
+              "type" : "component"
+            } ],
+            "id" : "1dc51c45-13e2-442c-9599-7a4b98b63277",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e6090703-604f-4f7a-9ea1-9e2d36b9165b",
+          "scopedBrandingSetId" : "BackGround_Header",
+          "type" : "component"
+        } ],
+        "id" : "406317e8-43ff-40d7-9301-183db49e8af3",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e24f9b9d-5d4d-469d-ad5e-e75db0b4b946",
+          "type" : "component"
+        } ],
+        "id" : "10a7d485-c271-47c7-9407-91e43906b89c",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "073d9ed2-37f4-4be9-951f-abee2e7fb8cc",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  },
+  "urlName" : "error"
+}

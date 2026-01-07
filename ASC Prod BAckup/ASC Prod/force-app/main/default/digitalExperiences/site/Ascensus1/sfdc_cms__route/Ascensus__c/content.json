@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Ascensus",
+  "contentBody" : {
+    "activeViewId" : "Ascensus",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-ascensus",
+    "urlPrefix" : "ascensus"
+  },
+  "urlName" : "ascensus"
+}

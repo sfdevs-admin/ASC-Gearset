@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Campaign --></label>
+    <name>Campaign__c</name>
+    <picklistValues>
+        <masterLabel>Intermediates G2M</masterLabel>
+        <translation><!-- Intermediates G2M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NBPT GMP</masterLabel>
+        <translation><!-- NBPT GMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phoenix</masterLabel>
+        <translation><!-- Phoenix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Artemis - Dex</masterLabel>
+        <translation><!-- Project Artemis - Dex --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

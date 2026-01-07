@@ -1,0 +1,24 @@
+.product-list-header {
+	border-top:1px solid #D7DFE2;
+	/* background:url(/images/backgrounds/product_list_header.gif) repeat-x #E4E4E4; */
+	padding:6px 12px;
+	position: relative;
+}
+
+.product-list-header span.category {
+	/* font-size:1.3em; */
+	font-weight:bold;
+	line-height:31px;
+	color:#75809E;
+}
+
+.product-list-header .name {
+    font-size: 1.1em;
+    color: #818181;
+}
+
+.toggle-button {
+    float: right;
+    margin: 2px;
+    margin-top: 4px;
+}

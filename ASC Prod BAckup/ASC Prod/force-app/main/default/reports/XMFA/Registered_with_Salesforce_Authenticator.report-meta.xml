@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERNAME</field>
+    </columns>
+    <columns>
+        <field>HasTotp</field>
+    </columns>
+    <columns>
+        <field>IsPhoneVerified</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>CORE.USERS.ACTIVE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>HasAuthenticator</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Users with Salesforce Authenticator</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>TwoFactorMethodsInfo</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>USERNAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+</Report>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Request Quote Thank You",
+  "contentBody" : {
+    "activeViewId" : "Request_Quote_Thank_You",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-request-quote-thank-you",
+    "urlPrefix" : "request-quote-thank-you"
+  },
+  "urlName" : "request-quote-thank-you"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_of_Measure__c</fullName>
+    <label>Unit of Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>gram</fullName>
+                <default>false</default>
+                <label>gram</label>
+            </value>
+            <value>
+                <fullName>kilogram</fullName>
+                <default>false</default>
+                <label>kilogram</label>
+            </value>
+            <value>
+                <fullName>active Kg</fullName>
+                <default>false</default>
+                <label>active Kg</label>
+            </value>
+            <value>
+                <fullName>metric ton</fullName>
+                <default>false</default>
+                <label>metric ton</label>
+            </value>
+            <value>
+                <fullName>pound</fullName>
+                <default>false</default>
+                <label>pound</label>
+            </value>
+            <value>
+                <fullName>liter</fullName>
+                <default>false</default>
+                <label>liter</label>
+            </value>
+            <value>
+                <fullName>gallon</fullName>
+                <default>false</default>
+                <label>gallon</label>
+            </value>
+            <value>
+                <fullName>meter</fullName>
+                <default>false</default>
+                <label>meter</label>
+            </value>
+            <value>
+                <fullName>foot</fullName>
+                <default>false</default>
+                <label>foot</label>
+            </value>
+            <value>
+                <fullName>square centimeter</fullName>
+                <default>false</default>
+                <label>square centimeter</label>
+            </value>
+            <value>
+                <fullName>kit</fullName>
+                <default>false</default>
+                <label>kit</label>
+            </value>
+            <value>
+                <fullName>mole</fullName>
+                <default>false</default>
+                <label>mole</label>
+            </value>
+            <value>
+                <fullName>piece</fullName>
+                <default>false</default>
+                <label>piece</label>
+            </value>
+            <value>
+                <fullName>rod</fullName>
+                <default>false</default>
+                <label>rod</label>
+            </value>
+            <value>
+                <fullName>other</fullName>
+                <default>false</default>
+                <label>other</label>
+            </value>
+            <value>
+                <fullName>EA</fullName>
+                <default>false</default>
+                <label>EA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

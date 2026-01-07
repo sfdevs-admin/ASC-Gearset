@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Status__c</fullName>
+    <inlineHelpText>What is the status of the opportunity from a FCST standpoint. Is it in the current FCST? Is it in the committed Gap Closure plan? s it upside to FCST and Gap Closure?</inlineHelpText>
+    <label>Plan Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Upside</fullName>
+                <default>false</default>
+                <label>Upside</label>
+            </value>
+            <value>
+                <fullName>In FCST</fullName>
+                <default>false</default>
+                <label>In FCST</label>
+            </value>
+            <value>
+                <fullName>Gap Closure</fullName>
+                <default>false</default>
+                <label>Gap Closure</label>
+            </value>
+            <value>
+                <fullName>In AOP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>In AOP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

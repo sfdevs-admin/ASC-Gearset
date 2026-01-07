@@ -1,0 +1,16 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "New Lab Discount",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "sectionMinHeight" : "100px",
+          "maxContentWidth" : "none"
+        },
+        "id" : "a94a39cd-6ac1-47f0-b392-75f505cda5e5"
+      } ]
+    }
+  },
+  "urlName" : "new-lab-discount"
+}

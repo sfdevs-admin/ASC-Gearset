@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Brand --></label>
+    <name>Product_Brand__c</name>
+    <picklistValues>
+        <masterLabel>BOROL Solution</masterLabel>
+        <translation><!-- BOROL Solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHROMACLEAR Solution</masterLabel>
+        <translation><!-- CHROMACLEAR Solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLORCLEAR Solution</masterLabel>
+        <translation><!-- COLORCLEAR Solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caustic Solution</masterLabel>
+        <translation><!-- Caustic Solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Determined</masterLabel>
+        <translation><!-- Not Determined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SB200 Granules</masterLabel>
+        <translation><!-- SB200 Granules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SB200 Powder</masterLabel>
+        <translation><!-- SB200 Powder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMB</masterLabel>
+        <translation><!-- TMB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMBa</masterLabel>
+        <translation><!-- TMBa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENMET Solution</masterLabel>
+        <translation><!-- VENMET Solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENPURE AF Granules</masterLabel>
+        <translation><!-- VENPURE AF Granules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENPURE Caplets</masterLabel>
+        <translation><!-- VENPURE Caplets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENPURE Powder</masterLabel>
+        <translation><!-- VENPURE Powder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENPURE SF Granules</masterLabel>
+        <translation><!-- VENPURE SF Granules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENPURE SF Powder</masterLabel>
+        <translation><!-- VENPURE SF Powder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENURE Solution</masterLabel>
+        <translation><!-- VENURE Solution --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

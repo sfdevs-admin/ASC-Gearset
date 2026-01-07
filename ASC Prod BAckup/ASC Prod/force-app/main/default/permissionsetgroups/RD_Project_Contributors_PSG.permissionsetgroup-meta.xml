@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>RD Project Contributors PSG</label>
+    <permissionSets>Event_and_Task_Edit</permissionSets>
+    <permissionSets>RD_Project_Contributor_Permissions</permissionSets>
+    <permissionSets>RD_Project_Edit_Key_Dates</permissionSets>
+    <permissionSets>RD_Project_User_Permissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

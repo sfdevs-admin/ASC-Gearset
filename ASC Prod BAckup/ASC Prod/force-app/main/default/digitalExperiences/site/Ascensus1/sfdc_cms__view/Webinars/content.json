@@ -1,0 +1,810 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Webinars",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a1546153-e4f9-41f2-9cb3-1b2900cfd926\",\"columns\":[{\"UUID\":\"651b8c60-8ec2-4320-8ee7-390a84193355\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">    Webinars</strong></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "75a42a1c-ec95-47bd-9780-e9b75d9dc39a",
+              "type" : "component"
+            } ],
+            "id" : "651b8c60-8ec2-4320-8ee7-390a84193355",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a1546153-e4f9-41f2-9cb3-1b2900cfd926",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"811e6b51-ef95-4385-8939-20c04a54b71b\",\"columns\":[{\"UUID\":\"cca1fb11-f70d-4c25-9f1e-ed90a84ee337\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "November 18, 2021 Webinar - PowerPoint Presentation",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/reliable_methods_for_borohydride_reductions.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "554b5751-9163-4157-8345-ce525ab8e8b3",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar Reliable Borohydride Reductions for Pharmaceutical Production\nHosted by Ascensus",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f1b910cc-1375-4067-bae4-bae7390f7b02",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/reliable_methods_for_borohydride_reductions.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "2cbae36f-1ab9-4cd7-a975-c54e56937734",
+              "type" : "component"
+            } ],
+            "id" : "cca1fb11-f70d-4c25-9f1e-ed90a84ee337",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "811e6b51-ef95-4385-8939-20c04a54b71b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0b0e1e2b-74c5-4900-8f32-3c20f6d344e0\",\"columns\":[{\"UUID\":\"bf9c6774-9043-4018-a62e-6a94f5e71a13\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "November 18, 2021 Webinar - Video",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.youtube.com/watch?v=vs-95CoBF3Q\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "cc845c16-3915-4cae-b109-fe6155eac9a7",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar Reliable Borohydride Reductions for Pharmaceutical Production\nHosted by Ascensus",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "8fc34380-7d5a-4f3d-8301-373cb79be38d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.youtube.com/watch?v=vs-95CoBF3Q\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "156ad1c9-8bdf-43f2-b5b6-675ef8c4456a",
+              "type" : "component"
+            } ],
+            "id" : "bf9c6774-9043-4018-a62e-6a94f5e71a13",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0b0e1e2b-74c5-4900-8f32-3c20f6d344e0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c26b7964-7eb7-462e-9248-82050861a68e\",\"columns\":[{\"UUID\":\"f7e1386e-8a4d-4413-bc01-1d434a35fac6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "October 20, 2021 Webinar - PowerPoint Presentation",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/the_secret_to_tailoring_phosphorus_molecules.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "236c1645-d241-4fb1-a45e-c7e5d279c4a7",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on the The Secret to Tailoring Phosphorus Molecules\nHosted by Strem in collaboration Solvay",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3e448244-9623-4b5d-a15a-db5b5bbacf0f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/the_secret_to_tailoring_phosphorus_molecules.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "fe2c0bfc-e014-4ede-9396-6495e966cdfd",
+              "type" : "component"
+            } ],
+            "id" : "f7e1386e-8a4d-4413-bc01-1d434a35fac6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c26b7964-7eb7-462e-9248-82050861a68e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"481fe6ec-3730-4e1c-8a5e-843806cf6d14\",\"columns\":[{\"UUID\":\"594849c8-2811-44bf-b9b7-9b52472a841f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "October 20, 2021 Webinar - Video",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://photos.onedrive.com/share/BCF83A831B640371!637?cid=BCF83A831B640371&resId=BCF83A831B640371!637&authkey=!AIgf05u2QcFWh0U&ithint=video&e=jdLW2G\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "c87895ce-47a9-43e6-a5fd-3c7c220fbbd1",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on the The Secret to Tailoring Phosphorus Molecules\nHosted by Strem in collaboration Solvay",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3c4e1615-2db9-4064-9e80-f438390135f2",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://photos.onedrive.com/share/BCF83A831B640371!637?cid=BCF83A831B640371&resId=BCF83A831B640371!637&authkey=!AIgf05u2QcFWh0U&ithint=video&e=jdLW2G\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "3ad37806-bec0-4b6d-a7f2-4c795d84f059",
+              "type" : "component"
+            } ],
+            "id" : "594849c8-2811-44bf-b9b7-9b52472a841f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "481fe6ec-3730-4e1c-8a5e-843806cf6d14",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"cdb9bd44-3ef0-42e3-8f20-022e370df9db\",\"columns\":[{\"UUID\":\"64ad6a4a-63f2-4380-be44-0a8b9efe3c74\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "March 2, 2021 Webinar - PowerPoint Presentation",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/solvay_strem_petrochemicals_draft_28.01.2021.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "477201e3-886e-4a81-9691-b63e2a72beb1",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on Exploring the Impact of Ligand and Catalyst Selection on Petrochemical Applications\nHosted by Strem in collaboration SolvayYour text",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "72dd087a-af27-46d4-8382-9eee4744d307",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/solvay_strem_petrochemicals_draft_28.01.2021.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "3006dcf8-0167-4043-9443-13b9777fd34d",
+              "type" : "component"
+            } ],
+            "id" : "64ad6a4a-63f2-4380-be44-0a8b9efe3c74",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cdb9bd44-3ef0-42e3-8f20-022e370df9db",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"73134fc4-ea65-4474-8a2f-031150409e9f\",\"columns\":[{\"UUID\":\"f320b909-20d2-4f7f-b4a4-6772a36d566e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "March 2, 2021 Webinar - Video",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://photos.onedrive.com/share/BCF83A831B640371!632?cid=BCF83A831B640371&resId=BCF83A831B640371!632&authkey=!AI_qAfxAzgDQ1MI&ithint=video&e=oxIcF9\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "48d911cd-702e-432e-847c-544b6614b76a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on Exploring the Impact of Ligand and Catalyst Selection on Petrochemical Applications\nHosted by Strem in collaboration Solvay",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f97f5a55-966e-4aed-92a1-5d4a44373edb",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://photos.onedrive.com/share/BCF83A831B640371!632?cid=BCF83A831B640371&resId=BCF83A831B640371!632&authkey=!AI_qAfxAzgDQ1MI&ithint=video&e=oxIcF9\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "cc54e3c8-6368-45ad-8cb8-ef7429f71176",
+              "type" : "component"
+            } ],
+            "id" : "f320b909-20d2-4f7f-b4a4-6772a36d566e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "73134fc4-ea65-4474-8a2f-031150409e9f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f9c5c1df-e8fc-4f30-b796-87ef2bfe0a55\",\"columns\":[{\"UUID\":\"4c8971d2-2f92-4939-96a7-79a377bd4a97\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "October 1, 2020 Webinar - PowerPoint Presentation ",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/emolecules_final_presentation_-_september_2020_v12.31.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "5656c21b-2952-4d33-a817-c6ef2217e598",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on Phosphorus Specialties : The Cornerstone of Synthesis for Pharmaceutical Applications. Hosted by eMolecules in collaboration with Strem Chemicals & Solvay",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "53d041e5-bdfe-4565-be0c-f80bec35fe24",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/emolecules_final_presentation_-_september_2020_v12.31.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "b1fd6020-fcd5-4ca7-ba65-54bf3926a0ef",
+              "type" : "component"
+            } ],
+            "id" : "4c8971d2-2f92-4939-96a7-79a377bd4a97",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f9c5c1df-e8fc-4f30-b796-87ef2bfe0a55",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c0093547-4a32-4ed4-aeb4-d3b8412fdb91\",\"columns\":[{\"UUID\":\"19a314ba-c1da-4517-b94b-b65f8ce0b4d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "October 1, 2020 Webinar - Video",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://onedrive.live.com/?authkey=%21AK0UliOP3CogPj8&id=BCF83A831B640371%21602&cid=BCF83A831B640371&parId=root&parQt=sharedby&o=OneUp\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a8d98cb4-2d10-4edf-8625-1a9a8484abdd",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on Phosphorus Specialties : The Cornerstone of Synthesis for Pharmaceutical Applications. Hosted by eMolecules in collaboration with Strem Chemicals & Solvay",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "482688c1-3672-43cc-a7ca-2e49ad48224d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://onedrive.live.com/?authkey=%21AK0UliOP3CogPj8&id=BCF83A831B640371%21602&cid=BCF83A831B640371&parId=root&parQt=sharedby&o=OneUp\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "97195394-b315-4267-9784-ee1922d0ae3e",
+              "type" : "component"
+            } ],
+            "id" : "19a314ba-c1da-4517-b94b-b65f8ce0b4d8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c0093547-4a32-4ed4-aeb4-d3b8412fdb91",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3f4bbc5e-9789-4909-a2e0-6f321a6d7e16\",\"columns\":[{\"UUID\":\"12a2e0f6-f0ce-4db7-b2b0-4f7a2196929d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "May 29, 2020 Webinar - PowerPoint Presentation",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/p-chiral_phosphines_webinar_final_igp_5-29-2020_.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "fdd75295-afdd-4a1b-a174-dc199b4419cd",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on P-Chiral Ligands for Applications in Asymmetric Catalysis. Presented by Dr. Ian Powers, Strem Chemicals, Inc.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "c0f5ef16-c6fc-4acc-9223-eb55be352ce8",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/p-chiral_phosphines_webinar_final_igp_5-29-2020_.pdf\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "aa592d84-160d-4dc4-b8db-5c999a8a5a74",
+              "type" : "component"
+            } ],
+            "id" : "12a2e0f6-f0ce-4db7-b2b0-4f7a2196929d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3f4bbc5e-9789-4909-a2e0-6f321a6d7e16",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"55b85b51-95e2-4f2d-9608-493d32ee2005\",\"columns\":[{\"UUID\":\"a9bd3188-11ac-4206-9f11-6727741cb316\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "May 29, 2020 Webinar - Video",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/emolecules_presents_p-chiral_ligands_for_applications_in_asymmetric_catalysis_dr_ian_powers_strem_chemicals_1_.mp4\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "4c470de2-8956-4d02-8727-9dc45929c4c4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Webinar on P-Chiral Ligands for Applications in Asymmetric Catalysis. Presented by Dr. Ian Powers, Strem Chemicals, Inc.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "4c67a965-19bd-4e17-8465-c75c941e0678",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Read More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/uploads/resources/documents/emolecules_presents_p-chiral_ligands_for_applications_in_asymmetric_catalysis_dr_ian_powers_strem_chemicals_1_.mp4\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "0616b720-5027-431b-a7d0-808a1b960275",
+              "type" : "component"
+            } ],
+            "id" : "a9bd3188-11ac-4206-9f11-6727741cb316",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "55b85b51-95e2-4f2d-9608-493d32ee2005",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"38290e31-b4df-43cb-8b53-8d7facb61d9d\",\"columns\":[{\"UUID\":\"9ff3b193-1445-4e1a-a863-faa547a6092f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "9ff3b193-1445-4e1a-a863-faa547a6092f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "38290e31-b4df-43cb-8b53-8d7facb61d9d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3ee0599b-d73f-4c2a-abe5-df026c0ab0c7\",\"columns\":[{\"UUID\":\"ea84b1bb-eb29-4e47-b883-8f7a87217017\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "ea84b1bb-eb29-4e47-b883-8f7a87217017",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3ee0599b-d73f-4c2a-abe5-df026c0ab0c7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fa1ac518-fb0e-4349-8fba-6fedb1efd647\",\"columns\":[{\"UUID\":\"e236cddd-57ff-4045-a91d-93c2c0ce1dd5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "e236cddd-57ff-4045-a91d-93c2c0ce1dd5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fa1ac518-fb0e-4349-8fba-6fedb1efd647",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c8c966bb-35a0-446e-a82f-38d5fee8902b\",\"columns\":[{\"UUID\":\"62e13e2f-4dda-4069-ae38-149311892940\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "62e13e2f-4dda-4069-ae38-149311892940",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c8c966bb-35a0-446e-a82f-38d5fee8902b",
+          "type" : "component"
+        } ],
+        "id" : "ce63f230-32b3-4e65-9205-e8c297ba1158",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Webinars",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "58427157-7346-4945-b7d4-9f9ac4d23ff4",
+          "type" : "component"
+        } ],
+        "id" : "8f13bd0e-8c59-406f-9108-c9ce9e1de1ab",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "98316310-46c5-4017-b63b-cd9a6b81150b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-webinars"
+  },
+  "urlName" : "webinars"
+}

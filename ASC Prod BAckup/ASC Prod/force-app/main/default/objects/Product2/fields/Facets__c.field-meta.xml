@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facets__c</fullName>
+    <label>Facets</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Catalyst</fullName>
+                <default>false</default>
+                <label>Catalyst</label>
+            </value>
+            <value>
+                <fullName>Ligand</fullName>
+                <default>false</default>
+                <label>Ligand</label>
+            </value>
+            <value>
+                <fullName>Bubblers &amp; Oth Equip</fullName>
+                <default>false</default>
+                <label>Bubblers &amp; Oth Equip</label>
+            </value>
+            <value>
+                <fullName>Donor Atom</fullName>
+                <default>false</default>
+                <label>Donor Atom</label>
+            </value>
+            <value>
+                <fullName>Heterogeneous</fullName>
+                <default>false</default>
+                <label>Heterogeneous</label>
+            </value>
+            <value>
+                <fullName>Homogeneous</fullName>
+                <default>false</default>
+                <label>Homogeneous</label>
+            </value>
+            <value>
+                <fullName>PURATREM</fullName>
+                <default>false</default>
+                <label>PURATREM</label>
+            </value>
+            <value>
+                <fullName>AChiral</fullName>
+                <default>false</default>
+                <label>AChiral</label>
+            </value>
+            <value>
+                <fullName>Chiral</fullName>
+                <default>false</default>
+                <label>Chiral</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

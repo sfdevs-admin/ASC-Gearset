@@ -1,0 +1,5 @@
+{
+  "apiName" : "CVD_ALD",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

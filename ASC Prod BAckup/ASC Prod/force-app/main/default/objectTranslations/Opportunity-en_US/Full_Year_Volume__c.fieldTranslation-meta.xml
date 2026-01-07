@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter values in KG --></help>
+    <label><!-- Full Year Volume --></label>
+    <name>Full_Year_Volume__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Priority --></label>
+    <name>Priority__c</name>
+    <picklistValues>
+        <masterLabel>A - High Priority</masterLabel>
+        <translation><!-- A - High Priority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B - Low Priority</masterLabel>
+        <translation><!-- B - Low Priority --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

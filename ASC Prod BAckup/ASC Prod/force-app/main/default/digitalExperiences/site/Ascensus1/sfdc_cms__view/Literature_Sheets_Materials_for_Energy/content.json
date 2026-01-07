@@ -1,0 +1,288 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Literature Sheets - Materials for Energy",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"dae95894-82e6-4534-ae22-4e0ead8a899f\",\"columns\":[{\"UUID\":\"56e7d678-339a-4812-a243-be19881aa74a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">    Literature Sheets - Materials for Energy Applications</strong></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d0081364-da1c-41a7-bb0c-5f3efce88c5a",
+              "type" : "component"
+            } ],
+            "id" : "56e7d678-339a-4812-a243-be19881aa74a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dae95894-82e6-4534-ae22-4e0ead8a899f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"cca588a5-1b3e-48fb-ad22-7823c400b3a0\",\"columns\":[{\"UUID\":\"6e04231b-23fc-4e55-bce7-d8b5eda5d41d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "autoScrollToMostRecent" : false,
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "dxpStyle" : { },
+                "horizontalAlignment" : "center",
+                "itemSpacing" : "small",
+                "numberOfColumns" : 1,
+                "showPagination" : false,
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "borderColor" : "rgb(0, 0, 0)",
+                    "borderRadius" : 0,
+                    "borderWidth" : 1,
+                    "buttonDirection" : "horizontal",
+                    "buttonGroupAlignment" : "center",
+                    "buttonGroupHeight" : 50,
+                    "buttonGroupSpacingHorizontal" : "space-evenly",
+                    "buttonGroupSpacingVertical" : "space-evenly",
+                    "buttonGroupWidth" : 50,
+                    "contentPadding" : "none",
+                    "contentPosition" : "center",
+                    "contentWidth" : 100,
+                    "dxpStyle" : { },
+                    "height" : 100,
+                    "imageAlignment" : "left",
+                    "imageFit" : "contain",
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Item.body.contentBody.image.url}\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "imagePortion" : "33.33%",
+                    "imagePosition" : "center center",
+                    "isLink" : true,
+                    "linkAssistiveText" : "",
+                    "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}",
+                    "showButtons" : true,
+                    "showSecondaryButton" : false,
+                    "singleButtonAlignment" : "center",
+                    "width" : 100
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.Title}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h1\", \"textStyle\": \"heading-large\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "1f305f34-1752-41ff-afc0-ca1382eff446",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "{!Item.body.contentBody.description}",
+                        "textAlign" : "center",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "b4a541db-c411-46e6-bc75-f13ed6aaec7d",
+                      "type" : "component"
+                    } ],
+                    "id" : "a634b4c3-5969-48c1-ba2b-6570a48f6ca2",
+                    "name" : "contentRegion",
+                    "title" : "contentRegion",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Read More",
+                        "type" : "primary",
+                        "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"{!Item.body.contentBody.url}\"}}}}"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "6e5f9426-05cf-4b1a-8ace-6c64724e2e47",
+                      "type" : "component"
+                    } ],
+                    "id" : "dd5df8af-5cd3-4207-ba01-428f203b670f",
+                    "name" : "primaryButton",
+                    "title" : "primaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Contact Us",
+                        "type" : "secondary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "cdc9f305-8343-4f2e-99d3-fa54c4ab1ba8",
+                      "type" : "component"
+                    } ],
+                    "id" : "a4173d62-c9fe-411d-af95-ebfa51e043b5",
+                    "name" : "secondaryButton",
+                    "title" : "secondaryButton",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "19bc0254-027a-439e-9ce1-8fda06b55d82",
+                      "type" : "component"
+                    } ],
+                    "id" : "49410acc-bcd4-4b14-a540-2761db3a254b",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:card",
+                  "id" : "e2e641d8-42fa-4c03-8382-bb1b90b56394",
+                  "type" : "component"
+                } ],
+                "id" : "40d3852c-eb61-4775-9f46-b6196e1ec38b",
+                "name" : "sfdcRepeaterItem",
+                "title" : "sfdcRepeaterItem",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorShowMore\",\"attributes\":{\"label\":\"Show More\",\"textDecoration\":\"{}\",\"buttonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\"}}}",
+                    "variant" : "showmore"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "01652ac0-964c-40d4-84c7-8b1d28244a15",
+                      "type" : "component"
+                    } ],
+                    "id" : "b6534ed2-7105-47a8-b8e8-45b9caa0323c",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:paginator2",
+                  "id" : "a45fbaa0-b76b-4bcb-8398-f0af3cbcc50a",
+                  "type" : "component"
+                } ],
+                "id" : "59aee580-4fd1-4ec9-a1da-73162dbcc43b",
+                "name" : "pagination",
+                "title" : "pagination",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:grid",
+              "id" : "58700be1-ab80-4778-b784-5cdb39ee28a8",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__cmsCollectionDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "contentKey" : "MCSZLAFMU245DOLMDWTPVQBIRYN4",
+                  "pageSize" : 14
+                }
+              } ]
+            } ],
+            "id" : "6e04231b-23fc-4e55-bce7-d8b5eda5d41d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cca588a5-1b3e-48fb-ad22-7823c400b3a0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c9634084-f43e-418d-9694-ec389dd10d71\",\"columns\":[{\"UUID\":\"49d84251-ede9-47a2-95d1-5fd8942c1aed\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "49d84251-ede9-47a2-95d1-5fd8942c1aed",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c9634084-f43e-418d-9694-ec389dd10d71",
+          "type" : "component"
+        } ],
+        "id" : "585930ac-42af-4b28-8385-b759948ba5bf",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Literature Sheets - Materials for Energy",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "459df50e-97bd-4373-86d6-bcf7dc5adb2e",
+          "type" : "component"
+        } ],
+        "id" : "6ca26ad5-838e-4008-bda2-36a6a2575bbf",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "fc5bf118-b0c7-4805-ba93-a25a62b78180",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-literature-sheets-materials-for-energy"
+  },
+  "urlName" : "literature-sheets---materials-for-energy"
+}

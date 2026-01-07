@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Repack Code --></label>
+    <name>Repack_Code__c</name>
+    <picklistValues>
+        <masterLabel>BKO</masterLabel>
+        <translation><!-- BKO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CNR</masterLabel>
+        <translation><!-- CNR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KIT</masterLabel>
+        <translation><!-- KIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTA</masterLabel>
+        <translation><!-- MTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NYC</masterLabel>
+        <translation><!-- NYC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RPN</masterLabel>
+        <translation><!-- RPN --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

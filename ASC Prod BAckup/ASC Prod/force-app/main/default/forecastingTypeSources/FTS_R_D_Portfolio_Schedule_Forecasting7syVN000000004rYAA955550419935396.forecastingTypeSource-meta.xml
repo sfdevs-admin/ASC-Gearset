@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <forecastingSourceDefinition>FSD_OpportunityLineItem595672913767952</forecastingSourceDefinition>
+    <forecastingType>R_D_Portfolio_Schedule_Forecasting</forecastingType>
+    <isProtected>false</isProtected>
+    <masterLabel>FTS_R_D_Portfolio_Schedule_Forecasting7syVN000000004rYAA955550419935396</masterLabel>
+    <parentSourceDefinition>FSD_OpportunityLineItemSchedule763121906849642</parentSourceDefinition>
+    <relationField>OpportunityLineItemSchedule.OpportunityLineItemId</relationField>
+    <sourceGroup>1</sourceGroup>
+</ForecastingTypeSource>

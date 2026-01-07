@@ -1,0 +1,44 @@
+<template lwc:render-mode="light">
+
+    <div if:true={showSpinner}>
+        <div class="loader-dots">{messageState}</div>
+        <div class="back-drop"></div>
+    </div>
+    
+    <div if:true={isSampleProduct} class="getInTouchForm-container">
+        <div class="slds-grid slds-wrap slds-gutters">
+            <!-- First Name and Last Name row -->
+            <div class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+                <lightning-input type="text" class="custom-input" placeholder={label.firstName} value={firstName} onchange={handleInputChange}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+                <lightning-input type="text" class="custom-input" placeholder={label.lastName} value={lastName} onchange={handleInputChange}></lightning-input>
+            </div>
+
+            <!-- Email and Phone Number row (Reduced padding) -->
+            <div class="slds-col slds-size_1-of-2 slds-p-around_x-small custom-shift-up">
+                <lightning-input type="email" class="custom-input" placeholder={label.email} value={email} onchange={handleInputChange}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2 slds-p-around_x-small custom-shift-up">
+                <lightning-input type="tel" class="custom-input" placeholder={label.phoneNumber} value={phoneNumber} onchange={handleInputChange}></lightning-input>
+            </div>
+
+            <!-- Textarea -->
+            <div class="slds-col slds-size_1-of-1 slds-p-around_small shift-up">
+                <lightning-textarea name="Description" class="custom-input"  placeholder={label.message} value={message} onchange={handleInputChange}></lightning-textarea>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="slds-col slds-size_1-of-1">
+                <lightning-input type="checkbox" class="consent-checkbox"  label={label.consent} checked={consent} required onchange={handleCheckboxChange}></lightning-input>
+            </div>
+        </div>
+
+        <!-- Submit Button Row -->
+        <div class="slds-col slds-size_1-of-1">
+            <div class="slds-grid slds-grid_align-end submit-button">
+                <lightning-button label={label.submit}  variant="brand" onclick={handleSubmit}></lightning-button>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : Mradul Maheshwari
+  @group             : 
+  @last modified on  : 14-07-2025
+  @last modified by  : Mradul Maheshwari
+-->
+<template>
+  <div class="slds-grid slds-wrap slds-gutters_large slds-p-around_large slds-align_absolute-center ">
+    <template for:each={tiles} for:item="tile">
+      <div key={tile.label} class="slds-col slds-p-bottom_small">
+        <div
+          class="hex-tile"
+          style={tile.style}
+          onclick={handleTileClick}
+          data-url={tile.url}
+        >
+          <div class="hex-content">{tile.label}</div>
+        </div>
+      </div>
+    </template>
+  </div>
+</template>

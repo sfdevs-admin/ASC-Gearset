@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Admin_Allowed_To_Update_RD_Stage</fullName>
+    <active>true</active>
+    <description>Only Project Admin is permitted to update Stage on an Opportunity of recordType &apos;R &amp; D Portfolio&apos;</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = &quot;R_D_Portfolio&quot;,
+NOT($Permission.RD_Project_Manager_Permissions),
+ISCHANGED(StageName)
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>You do not have permission to update the Stage on R &amp; D Portfolio Opportunities.</errorMessage>
+</ValidationRule>

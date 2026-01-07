@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <label>Campaign</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>NBPT GMP</fullName>
+                <default>false</default>
+                <label>NBPT GMP</label>
+            </value>
+            <value>
+                <fullName>Project Artemis - Dex</fullName>
+                <default>false</default>
+                <label>Project Artemis - Dex</label>
+            </value>
+            <value>
+                <fullName>Intermediates G2M</fullName>
+                <default>false</default>
+                <label>Intermediates G2M</label>
+            </value>
+            <value>
+                <fullName>Phoenix</fullName>
+                <default>false</default>
+                <label>Phoenix</label>
+            </value>
+            <value>
+                <fullName>2022 Upside Plan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2022 Upside Plan</label>
+            </value>
+            <value>
+                <fullName>2023 Top Deals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2023 Top Deals</label>
+            </value>
+            <value>
+                <fullName>Ethanol</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ethanol</label>
+            </value>
+            <value>
+                <fullName>Phoenix - Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Phoenix - Other</label>
+            </value>
+            <value>
+                <fullName>Phoenix - Textile</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Phoenix - Textile</label>
+            </value>
+            <value>
+                <fullName>Project Avengers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Project Avengers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

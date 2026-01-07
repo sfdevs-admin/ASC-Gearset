@@ -1,0 +1,35 @@
+<!--
+  @description       : 
+  @author            : Mradul Maheshwari
+  @group             : 
+  @last modified on  : 10-10-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <div class="slds-is-relative carousel-container">
+      <div class="carousel-slides">
+        <template for:each={images} for:item="image">
+          <div key={image.Id} class={image.cardClasses}>
+            <a href={image.Link_URL__c} target={image.URL_Target__c}>
+              <img fetchpriority="high" src={image.Image_URL__c} alt={image.Image_URL__c}/>
+            </a>
+          </div>
+        </template>
+      </div>
+
+      <a class="prev" onclick={backSlide}>&#10094;</a>
+      <a class="next" onclick={nextSlide}>&#10095;</a>
+
+      <div class="slds-text-align_center dot-container">
+        <template for:each={images} for:item="image">
+          <span
+            key={image.Id}
+            data-key={image.slideIndex}
+            class={image.dotClasses}
+            onclick={currentSlide}
+          ></span>
+        </template>
+      </div>
+
+    </div>
+</template>

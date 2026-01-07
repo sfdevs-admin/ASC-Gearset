@@ -1,0 +1,481 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 12-16-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+  <template if:true={showSpinner}>
+    <div class="spinner-overlay">
+      <lightning-spinner alternative-text="Loading" size="large" variant="brand"></lightning-spinner>
+    </div>
+  </template>
+  <div>
+    <h1 style="position: relative; bottom: 20px; font-size: xx-large">
+      Request a Quote
+    </h1>
+  </div>
+  <p style="position: relative; top: 4px">
+    Enter a catalog number, if known, or a description.
+  </p>
+  <br />
+  <br />
+  <template for:each={items} for:item="item">
+    <div key={item.id} class="slds-p-around_medium">
+      <lightning-card class="custom-card">
+        <h1 slot="title" class="custom-card">Item {item.id}</h1>
+      </lightning-card>
+      <lightning-card>
+        <!-- <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                    <lightning-input label="Catalog Number" data-index={item.id} data-field="catalogNumber" value={item.catalogNumber} onchange={handleonBlurCatalogNumberChange} style="width: 132px; left:35px"></lightning-input>
+                </div>
+                <div class="slds-col">
+                    <lightning-input label="CAS Number" data-index={item.id} data-field="casNumber" data-id={item.LineItemId} value={item.casNumber} onchange={handleCASNumberChange} style="width: 145px; left:71px"></lightning-input>
+                </div>
+                <div class="slds-col">
+                    <lightning-input label="Product or Custom Synthesis Description" data-index={item.id} data-field="productDescription" value={item.productDescription} onchange={handleProductDescriptionChange} required style="width: 438px; left:85px;"></lightning-input>
+                </div>
+            </div> -->
+        <template if:true={item.isLoading}>
+          <div class="slds-is-relative slds-spinner_container">
+            <lightning-spinner alternative-text="Loading" size="large" variant="brand"></lightning-spinner>
+          </div>
+        </template>
+
+
+        <div class="slds-grid slds-gutters slds-p-horizontal_x-large">
+
+          <!-- First Column -->
+          <div class="slds-col slds-size_1-of-4">
+            <div class="slds-grid slds-grid_vertical">
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-input label="Catalog Number" placeholder="Enter text here..." data-index={item.id}
+                  data-field="catalogNumber" value={item.catalogNumber}
+                  onchange={handleonBlurCatalogNumberChange}></lightning-input>
+              </div>
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-input label="Molecular Formula" placeholder="Enter text here..." data-index={item.id}
+                  data-field="molecularFormula" value={item.molecularFormula} onchange={handleInputChange}
+                  maxlength="255"></lightning-input>
+              </div>
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-input type="number" label="Total Quantity"
+                  placeholder="Enter number here up to 2 decimals..." data-index={item.id} data-field="totalQuantity"
+                  value={item.totalQuantity} message-when-bad-input="Please correct number format"
+                  message-when-step-mismatch="Please update number format" onchange={handleInputChange} step="0.01"
+                  required></lightning-input>
+              </div>
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-combobox name="Grade" label="Grade" data-index={item.id} data-field="selectedGrade"
+                  placeholder="Select Grade" options={staticGradeOptions} value={item.selectedGrade} onchange={handleGradeChange}
+                  >
+                </lightning-combobox>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Second Column -->
+          <div class="slds-col slds-size_1-of-4">
+            <div class="slds-grid slds-grid_vertical">
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-input label="CAS Number" placeholder="Enter text here..." data-index={item.id}
+                  data-field="casNumber" data-id={item.LineItemId} value={item.casNumber}
+                  onchange={handleCASNumberChange}></lightning-input>
+              </div>
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-input type= "number" label="Molecular Weight" placeholder="Enter text here..." data-index={item.id}
+                  data-field="molecularWeight" value={item.molecularWeight} onchange={handleInputChange}
+                  step="0.01" ></lightning-input>
+              </div>
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-combobox name="unityOfMeasure" label="Unit of Measure" data-index={item.id}
+                  data-field="selectedUnityOfMeasure" placeholder="Select Unit of Measure"
+                  options={unityOfMeasureOptions} value={item.selectedUnityOfMeasure}
+                  onchange={handleUnityOfMeasureChange} required disabled={isUnitOfMeasureDisabled}>
+                </lightning-combobox>
+              </div>
+              <div class="slds-col slds-size_1-of-1">
+                <lightning-combobox name="DemandType" label="Demand Type" data-index={item.id}
+                  data-field="selectedDemandType" placeholder="Select Demand Type" options={staticDemandTypeOptions}
+                  value={item.selectedDemandType} onchange={handleDemandTypeChange} >
+                </lightning-combobox>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Column (Textarea) -->
+          <div class="slds-col slds-size_2-of-4">
+            <div class="slds-col slds-size_1-of-1">
+              <lightning-textarea name="input1" label="Product or Custom Synthesis Description"
+                placeholder="Enter text here..." data-index={item.id} data-field="productDescription"
+                value={item.productDescription} onchange={handleProductDescriptionChange} required></lightning-textarea>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+              <lightning-textarea name="input1" label="Chemical Structure (SMILES Code)"
+                placeholder="Enter text here..." data-index={item.id} data-field="chemicalStructure"
+                value={item.chemicalStructure} onchange={handleInputChange} ></lightning-textarea>
+              <!-- <lightning-input label="Product or Custom Synthesis Description" data-index={item.id} data-field="productDescription" value={item.productDescription} onchange={handleProductDescriptionChange} required></lightning-input> -->
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+              <lightning-textarea name="input1" label="Comment-purity/other requirement"
+                placeholder="Enter text here..." data-index={item.id} data-field="commentPurity" maxlength="255"
+                message-when-too-long="Only 255 characters are allowed." value={item.commentPurity}
+                onchange={handleInputChange}></lightning-textarea>
+            </div>
+          </div>
+
+        </div>
+        <div class="slds-grid slds-gutters slds-p-horizontal_x-large">
+
+          <div class="slds-col slds-size_1-of-2 ">
+            <div class="slds-p-horizontal_small">
+            <lightning-input label="Special Instructions (requested package size, etc.)"
+              placeholder="Enter text here..." data-index={item.id} data-field="specialInstructions"
+              value={item.specialInstructions} onchange={handleInputChange} maxlength="255"></lightning-input>
+            </div>
+          </div>
+
+          
+          <div class="slds-col slds-size_1-of-2 ">
+            <div class="slds-p-horizontal_small">
+              <div if:false={cartIdFromState}>
+                <lightning-textarea label="Technical Publication Reference" placeholder="Enter text here..."
+                  data-index={item.id} data-field="technicalPublicationReference" value={item.technicalPublicationReference}
+                  onchange={handleInputChange} maxlength="32768"></lightning-textarea>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                    <lightning-input label="Total Quantity" data-index={item.id} data-field="totalQuantity" value={item.totalQuantity} onchange={handleInputChange} required style="width: 133px; left:35px"></lightning-input>
+                </div>
+                <div class="slds-col">
+                    <lightning-combobox
+                        name="unityOfMeasure"
+                        label="Unit of Measure"
+                        data-index={item.id}
+                        data-field="selectedUnityOfMeasure"
+                        placeholder="Select Unit of Measure"
+                        options={unityOfMeasureOptions}
+                        value={item.selectedUnityOfMeasure}
+                        onchange={handleUnityOfMeasureChange}
+                        style="width: 145px; left:49px;"
+                        required>
+                    </lightning-combobox>
+                </div>
+                <div class="slds-col">
+                    <lightning-input label="Comment-purity/other requirement" data-index={item.id} data-field="commentPurity" value={item.commentPurity} onchange={handleInputChange} style="width:375px;left:43px"></lightning-input>
+                </div>
+            </div> -->
+
+
+
+        <!-- fix for SCC-78 start -->
+
+
+
+
+
+        <!-- fix for SCC-78 ends -->
+
+
+
+
+      </lightning-card>
+    </div>
+  </template>
+  <br /><br />
+
+  <!-- Button to add additional items (moved after Item 2) -->
+  <lightning-button-group>
+    <div>
+      <lightning-button class="submititems" label="Add Items" onclick={handleAddItem}
+        style="margin-top: 20px"></lightning-button>
+    </div>
+    <div lwc:if={showRemoveBtn} class="slds-m-left_medium">
+      <lightning-button class="submititems" label="Remove Items" onclick={handleRemoveItem}
+        style="margin-top: 20px"></lightning-button>
+    </div>
+  </lightning-button-group>
+  <br /><br />
+
+  <lightning-card class="custom-card">
+    <h1 slot="title" style="color: white">Contact information</h1>
+  </lightning-card>
+
+  <lightning-card>
+    <!-- <div class="slds-grid slds-wrap slds-gutters slds-p-horizontal_x-large">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Company Name" name="CompanyName" placeholder="Enter text here..." data-index="4"
+                    value={CompanyName4} onchange={handleDataChange} required></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Address" name="Address" placeholder="Enter text here..." data-index="5"
+                    value={Address5} onchange={handleDataChange} required></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="First Name" name="FirstName" placeholder="Enter text here..." value={FirstName6}
+                    onchange={handleDataChange} data-index="6" required></lightning-input>
+                <lightning-input label="Last Name" name="LastName" placeholder="Enter text here..." value={LastName9}
+                    onchange={handleDataChange} data-index="9" required></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input data-index="55" value={Address55} onchange={handleDataChange}></lightning-input>
+                <lightning-input data-index="56" value={Address56} onchange={handleDataChange}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Phone" name="Phone" placeholder="Enter phone number here..." value={Phone12}
+                    onchange={handleDataChange} data-index="12" required></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-combobox name="Country" label="Country" options={unityOfCountry} onchange={handleCountry}
+                    value={selectedCountry} required>
+                </lightning-combobox>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Email" name="Email" placeholder="Enter email here..." value={Email11}
+                    onchange={handleDataChange} data-index="11" required></lightning-input>
+            </div>
+
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input if:false={isUSASelected} label="Province" name="Province"
+                    placeholder="Enter text here..." value={Province10} onchange={handleDataChange}
+                    data-index="10"></lightning-input>
+                <template if:true={isUSASelected}>
+                    <lightning-combobox name="State" label="State" options={unityOfState} onchange={handleState}
+                        value={selectedState} required>
+                    </lightning-combobox>
+                </template>
+            </div>
+
+            <div class="slds-col slds-size_1-of-2">
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="City" name="City" placeholder="Enter text here..." value={City7}
+                    onchange={handleDataChange} data-index="7" required></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2 slds-p-top_large">
+                <div class="slds-grid slds-grid_vertical">
+                    <div class="slds-size_1-of-1">
+                        <input type="checkbox" name="I have read and accept the Terms of Use  Privacy Policy."
+                            id="checkbox-unique-id-822" value="checkbox-unique-id-81" />
+                        <span class="slds-form-element__label" style="padding: 0px 0px 0px 5px;">
+                            I have read and accept the
+                            &nbsp; <a href="/store/privacy-statement" target="_blank"
+                                style="color: blue; text-decoration: underline;">Terms of Use & Privacy Policy</a>.
+                        </span>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Postal Code" name="PostalCode" placeholder="Enter text here..."
+                    value={PostalCode13} onchange={handleDataChange} data-index="13" required></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-button class="submititems" onclick={handleSubmit} label="Submit"></lightning-button>
+            </div>
+        </div> -->
+
+    <div class="slds-grid slds-wrap slds-gutters slds-p-horizontal_x-large">
+      <!-- company name -->
+      <div class="slds-col slds-size_1-of-2 leftCol">
+        <div>
+          <lightning-input label="Company / Institution" name="CompanyName" placeholder="Enter text here..."
+            data-index="4" value={CompanyName4} onchange={handleDataChange} required></lightning-input>
+        </div>
+      </div>
+
+      <!-- <div class="slds-col slds-size_1-of-2 rightCol">
+        empty -->
+      <!--</div>  -->
+      <div class="slds-col slds-size_1-of-2 rightCol">
+        <lightning-input label="Customer Account Number" name="AccountNumber" placeholder="Enter Account Number here..."
+          value={AccountNumber14} onchange={handleDataChange} data-index="14"></lightning-input>
+      </div>
+
+      <!-- first name -->
+      <div class="slds-col slds-size_1-of-2 leftCol">
+        <lightning-input label="First Name" name="FirstName" placeholder="Enter text here..." value={FirstName6}
+          onchange={handleDataChange} data-index="6" required></lightning-input>
+      </div>
+
+      <!-- last name -->
+      <div class="slds-col slds-size_1-of-2 rightCol">
+        <lightning-input label="Last Name" name="LastName" placeholder="Enter text here..." value={LastName9}
+          onchange={handleDataChange} data-index="9" required></lightning-input>
+      </div>
+
+      <!-- Phone -->
+      <div class="slds-col slds-size_1-of-2 leftCol">
+        <lightning-input label="Phone" name="Phone" placeholder="Enter phone number here..." value={Phone12}
+          onchange={handleDataChange} data-index="12" required></lightning-input>
+      </div>
+
+      <!-- email -->
+      <div class="slds-col slds-size_1-of-2 rightCol">
+        <lightning-input label="Email" name="Email" placeholder="Enter email here..." value={Email11}
+          onchange={handleDataChange} data-index="11" required></lightning-input>
+      </div>
+
+
+
+
+
+    </div>
+  </lightning-card>
+  <!-- SHIPPING ADDRESS SECTION -->
+  <lightning-card class="custom-card">
+    <h1 slot="title" style="color: white">Shipping Address</h1>
+  </lightning-card>
+
+  <lightning-card>
+    <div class="slds-grid slds-wrap slds-gutters slds-p-horizontal_x-large">
+
+
+      <!-- Address 3 lines vertical -->
+      <div class="slds-col slds-size_1-of-2 leftCol">
+        <div class="slds-grid slds-grid_vertical">
+          <div class="">
+            <!-- address 1 -->
+            <lightning-input label="Attention To" name="Address" placeholder="Enter text here..." data-index="5"
+              value={Address5} onchange={handleDataChange} ></lightning-input>
+          </div>
+          <div class="">
+            <!-- address 2 -->
+            <lightning-input data-index="55" label="Street Address 1" value={Address55}
+              onchange={handleDataChange} required></lightning-input>
+          </div>
+          <div class="">
+            <!-- address 3 -->
+            <lightning-input data-index="56" label="Street Address 2" value={Address56}
+              onchange={handleDataChange}></lightning-input>
+          </div>
+        </div>
+        <!-- Checkbox: Billing = Shipping -->
+        <div class="slds-col slds-size_1-of-1 slds-m-top_medium">
+          <lightning-input type="checkbox" label="Billing address is same as shipping address" checked={isBillingSame}
+            onchange={handleBillingCheckboxChange}></lightning-input>
+        </div>
+      </div>
+      <!-- other address right -->
+      <div class="slds-col slds-size_1-of-2 rightCol">
+        <div class="slds-grid slds-grid_vertical">
+          <!-- city -->
+          <div class="">
+            <lightning-input label="City" name="City" placeholder="Enter text here..." value={City7}
+              onchange={handleDataChange} data-index="7" required></lightning-input>
+          </div>
+
+          <!-- country -->
+          <div class="">
+            <lightning-combobox name="Country" label="Country" options={unityOfCountry} onchange={handleCountry}
+              value={selectedCountry} required>
+            </lightning-combobox>
+          </div>
+
+          <!-- province/state -->
+          <div class="">
+            <lightning-input if:false={isUSASelected} label="State / Province" name="Province"
+              placeholder="Enter text here..." value={Province10} onchange={handleDataChange}
+              data-index="10"></lightning-input>
+            <template if:true={isUSASelected}>
+              <lightning-combobox name="State" label="State / Province" options={unityOfState} onchange={handleState}
+                value={selectedState} required>
+              </lightning-combobox>
+            </template>
+          </div>
+
+          <!-- Postal Code -->
+          <div class="">
+            <lightning-input label="Postal Code" name="PostalCode" placeholder="Enter text here..." value={PostalCode13}
+              onchange={handleDataChange} data-index="13" required></lightning-input>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </lightning-card>
+
+
+  <!-- BILLING ADDRESS SECTION (Shown only if checkbox is UNCHECKED) -->
+  <template if:false={isBillingSame}>
+    <lightning-card class="custom-card">
+      <h1 slot="title" style="color: white">Billing Address</h1>
+    </lightning-card>
+    <lightning-card>
+      <div class="slds-grid slds-wrap slds-gutters slds-p-horizontal_x-large">
+        <div class="slds-col slds-size_1-of-2">
+          <lightning-input label="Attention To" name="billingAddress" data-index="15" placeholder="Enter text here..."  value={billingAddress15}
+            onchange={handleDataChange} ></lightning-input>
+          <lightning-input label="Street Address 1" data-index="16" value={billingAddress16}
+            onchange={handleDataChange} required></lightning-input>
+          <lightning-input label="Street Address 2" data-index="17" value={billingAddress17}
+            onchange={handleDataChange}></lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-2">
+          <lightning-input label="City" name="billingCity" value={billingCity18} data-index="18"
+            onchange={handleDataChange} placeholder="Enter text here..."  required></lightning-input>
+
+          <lightning-combobox name="BillingCountry" label="Country" options={unityOfCountry} value={billingCountry}
+            onchange={handleBillingCountry} required></lightning-combobox>
+
+          <template if:true={isUSASelectedForBilling}>
+            <lightning-combobox name="BillingState" label="State / Province" options={unityOfState} value={billingState}
+              onchange={handleBillingState} data-index="19" required></lightning-combobox>
+          </template>
+          <template if:false={isUSASelectedForBilling}>
+            <lightning-input label="State / Province" name="billingProvince" value={billingProvince21} data-index="21" placeholder="Enter text here..." 
+              onchange={handleDataChange} ></lightning-input>
+          </template>
+
+          <lightning-input label="Postal Code" name="billingPostalCode" value={billingPostalCode20}
+            onchange={handleDataChange} placeholder="Enter text here..." data-index="20" required></lightning-input>
+        </div>
+      </div>
+    </lightning-card>
+  </template>
+
+  <lightning-card>
+    <div class="slds-grid slds-wrap slds-p-horizontal_x-large">
+      <div class="slds-col slds-size_1-of-2">
+        <!-- Left section (empty or optional content) -->
+      </div>
+      <div class="slds-col slds-size_1-of-2">
+        <div class="slds-grid slds-grid_vertical slds-p-around_medium">
+          <div class="slds-grid slds-grid_vertical">
+            <div class="slds-size_1-of-1 slds-p-vertical_small">
+              <input type="checkbox" name="I have read and accept the Terms of Use  Privacy Policy."
+                id="checkbox-unique-id-82" value="checkbox-unique-id-81" />
+              <span class="slds-form-element__label" style="padding: 0px 0px 0px 5px">
+                I have read and accept the &nbsp;
+                <a href="javascript:void(0)" onclick={handlePrivacyStatement} style="color: blue; text-decoration: underline">Terms
+                  of Use & Privacy Policy</a>.
+              </span>
+            </div>
+          </div>
+          <div class="slds-col slds-size_1-of-2">
+            <lightning-input label="Desired Shipment Date" type="date" name="DesiredShipmentDate"
+              value={desiredShipmentDate} onchange={handleDateChange}>
+            </lightning-input>
+          </div>
+
+
+          <lightning-button class="submititems" onclick={handleSubmit} label="SUBMIT QUOTE REQUEST"></lightning-button>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+
+
+</template>

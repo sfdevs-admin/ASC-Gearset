@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "EvoluChem™ PhotoRedOx",
+  "contentBody" : {
+    "activeViewId" : "custom_evoluchem_photoredox",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-evoluchem-photoredox",
+    "urlPrefix" : "evoluchem-photoredox"
+  },
+  "urlName" : "evoluchem-photoredox"
+}

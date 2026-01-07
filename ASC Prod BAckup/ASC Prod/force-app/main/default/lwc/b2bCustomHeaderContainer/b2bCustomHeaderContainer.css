@@ -1,0 +1,22 @@
+.dummy{
+	color : black;
+}
+
+@media screen and  (max-width:1440px){
+
+	.background{
+	max-width: 100%;
+	min-width: 360px;
+	}
+
+	.container{
+	max-width:1440px;
+	min-width:360px;
+	background-color:white;
+
+	}
+
+	.body{
+	width: 100%;
+	}
+}

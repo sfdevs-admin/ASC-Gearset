@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Technical Notes",
+  "contentBody" : {
+    "activeViewId" : "Technical_Notes",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-technical-notes",
+    "urlPrefix" : "technical-notes"
+  },
+  "urlName" : "technical-notes"
+}

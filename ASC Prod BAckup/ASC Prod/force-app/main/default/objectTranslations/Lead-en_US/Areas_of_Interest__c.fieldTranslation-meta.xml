@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Areas of Interest --></label>
+    <name>Areas_of_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Catalysis</masterLabel>
+        <translation><!-- Catalysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronics</masterLabel>
+        <translation><!-- Electronics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inorganic</masterLabel>
+        <translation><!-- Inorganic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Science</masterLabel>
+        <translation><!-- Life Science --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Materials Science</masterLabel>
+        <translation><!-- Materials Science --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nanomaterials</masterLabel>
+        <translation><!-- Nanomaterials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organic</masterLabel>
+        <translation><!-- Organic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Petrochemicals</masterLabel>
+        <translation><!-- Petrochemicals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty Chemicals</masterLabel>
+        <translation><!-- Specialty Chemicals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thin Film Deposition</masterLabel>
+        <translation><!-- Thin Film Deposition --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

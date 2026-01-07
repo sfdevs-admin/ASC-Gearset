@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Buchwald Ligands",
+  "contentBody" : {
+    "activeViewId" : "Buchwald_Ligands",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-buchwald-ligands",
+    "urlPrefix" : "buchwald"
+  },
+  "urlName" : "buchwald-ligands"
+}

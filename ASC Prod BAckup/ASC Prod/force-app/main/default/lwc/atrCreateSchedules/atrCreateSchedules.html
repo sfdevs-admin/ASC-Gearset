@@ -1,0 +1,124 @@
+<template>
+    <template if:false={showEstablishSchedulesModal}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+            aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_medium">
+            <div class="slds-modal__container">
+
+                <header class="slds-modal__header">
+                    <h2 id="modal-heading-03" class="slds-text-heading_medium slds-hyphenate">Establish Schedules</h2>
+                </header>
+
+
+                <div class="slds-modal__content slds-p-around_medium" style="text-align: center;"
+                    id="modal-content-id-3">
+                    <lightning-card>
+                        <template if:true={showSpinner}>
+                            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                        </template>
+
+                        <div class="slds-box slds-box_xx-small slds-m-around--xx-small slds-var-p-vertical_medium"
+                            style="height:200px;">
+                            <lightning-datatable key-field="Id" data={lineItemsRecords} columns={lineItemColumns}
+                                max-row-selection="1" onrowaction={handleRowAction} onrowselection={handleRowSelection}>
+                            </lightning-datatable>
+                        </div>
+                    </lightning-card>
+                </div>
+
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" name="closeModal" onclick={handleClick}
+                        style="float:left;">Close</button>
+                    <button class="slds-button slds-button_brand" name="addLineItem" onclick={handleClick}>New
+                        Opportunity Product</button>
+                    <button class="slds-button slds-button_brand" name="createSchedules"
+                        disabled={disableCreateschedules} onclick={handleClick}>{labelToCreateSchedule}
+                    </button>
+                </footer>
+
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+
+    <template if:true={showEstablishSchedulesModal}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+            aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_small">
+            <div class="slds-modal__container" style="width: auto; max-width: 40%;">
+
+                <header class="slds-modal__header">
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{labelToCreateSchedule}</h2>
+                </header>
+
+
+                <div class="slds-modal__content slds-p-around_medium" style="text-align: center;"
+                    id="modal-content-id-1">
+                    <lightning-card>
+
+                        <template if:true={showScheduleSpinner}>
+                            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                        </template>
+
+                        <div class="slds-m-around--xx-small slds-var-p-vertical_medium">
+
+                            <lightning-layout>
+                                <lightning-layout-item size="6" padding="around-small">
+                                    <lightning-input type="date" label="Start Date" name="startDate"
+                                        style="text-align: left;" value={startDate} onchange={handleScheduleModalInputs}
+                                        required class="input-element"></lightning-input>
+                                </lightning-layout-item>
+
+                                <lightning-layout-item size="6" padding="around-small">
+                                    <lightning-input type="checkbox" label="Month's Last Day?" name="monthsLastDate"
+                                        style="text-align: left;" checked={monthsLastDate} onchange={handleScheduleModalInputs}
+                                        class="input-element slds-m-top--large" disabled={disableMonthsLastDate}
+                                        field-level-help="Sets the date to last date of the month." ></lightning-input>
+                                </lightning-layout-item>
+                            </lightning-layout>
+
+                            <lightning-layout>
+                                <lightning-layout-item size="6" padding="around-small">
+                                    <lightning-combobox label="Installment Period" name="installmentPeriod"
+                                        style="text-align: left;" value={installmentPeriod}
+                                        options={installmentPeriodOptions} onchange={handleScheduleModalInputs} required
+                                        class="input-element"></lightning-combobox>
+                                </lightning-layout-item>
+
+                                <lightning-layout-item size="6" padding="around-small">
+                                    <lightning-input type="number" label="Revenue" name="revenue"
+                                        style="text-align: left;" value={revenue} onchange={handleScheduleModalInputs}
+                                        required class="input-element"></lightning-input>
+                                </lightning-layout-item>
+                            </lightning-layout>
+
+                            <lightning-layout>
+                                <lightning-layout-item size="6" padding="around-small">
+                                    <lightning-input type="number" label="Number of Installments"
+                                        name="numberOfInstallments" style="text-align: left;"
+                                        value={numberOfInstallments} onchange={handleScheduleModalInputs} required
+                                        class="input-element"></lightning-input>
+                                </lightning-layout-item>
+
+                                <lightning-layout-item size="6" padding="around-small">
+                                    <lightning-combobox label="Schedule Type" name="scheduleType"
+                                        style="text-align: left;" value={scheduleType} options={scheduleTypeOptions}
+                                        onchange={handleScheduleModalInputs} required
+                                        class="input-element"></lightning-combobox>
+                                </lightning-layout-item>
+                            </lightning-layout>
+
+                        </div>
+                    </lightning-card>
+                </div>
+
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" name="closeScheduleCreationModal"
+                        onclick={handleClick}>Cancel</button>
+                    <button class="slds-button slds-button_brand" name="saveNewSchedules"
+                        onclick={handleClick}>Save</button>
+                </footer>
+
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

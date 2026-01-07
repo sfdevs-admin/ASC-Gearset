@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- UOM --></label>
+    <name>UOM__c</name>
+    <picklistValues>
+        <masterLabel>CM</masterLabel>
+        <translation><!-- CM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CYL</masterLabel>
+        <translation><!-- CYL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EA</masterLabel>
+        <translation><!-- EA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G</masterLabel>
+        <translation><!-- G --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JOB</masterLabel>
+        <translation><!-- JOB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KG</masterLabel>
+        <translation><!-- KG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KIT</masterLabel>
+        <translation><!-- KIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L</masterLabel>
+        <translation><!-- L --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LB</masterLabel>
+        <translation><!-- LB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MG</masterLabel>
+        <translation><!-- MG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML</masterLabel>
+        <translation><!-- ML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MM</masterLabel>
+        <translation><!-- MM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOL</masterLabel>
+        <translation><!-- MOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MT</masterLabel>
+        <translation><!-- MT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NM</masterLabel>
+        <translation><!-- NM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OZ</masterLabel>
+        <translation><!-- OZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC</masterLabel>
+        <translation><!-- PC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROD</masterLabel>
+        <translation><!-- ROD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC</masterLabel>
+        <translation><!-- SC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VL</masterLabel>
+        <translation><!-- VL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

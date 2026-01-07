@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Require any user with this permission to authenticate via SSO (deny login.salesforce.com or other password access to the UI)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SSO Required</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsSsoEnabled</name>
+    </userPermissions>
+</PermissionSet>

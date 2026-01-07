@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <forecastingSourceDefinition>FSD_Product2109009214834652</forecastingSourceDefinition>
+    <forecastingType>Test</forecastingType>
+    <isProtected>false</isProtected>
+    <masterLabel>FTS_Test7syVN000000004tYAA724707863964162</masterLabel>
+    <parentSourceDefinition>FSD_OpportunityLineItem595672913767952</parentSourceDefinition>
+    <relationField>OpportunityLineItem.Product2Id</relationField>
+    <sourceGroup>1</sourceGroup>
+</ForecastingTypeSource>

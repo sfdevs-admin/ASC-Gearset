@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Technical Notes",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d59052b9-d54f-483e-a5cd-d7d8dd52c567\",\"columns\":[{\"UUID\":\"27f86611-d987-4e19-8678-d13079c8ed0e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "tabName" : "{!Label.c.B2B_TechPageUrl}"
+              },
+              "definition" : "c:b2bProductRelatedDocument",
+              "id" : "daf61906-c935-4ee9-a530-1dc5c37de84f",
+              "type" : "component"
+            } ],
+            "id" : "27f86611-d987-4e19-8678-d13079c8ed0e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d59052b9-d54f-483e-a5cd-d7d8dd52c567",
+          "type" : "component"
+        } ],
+        "id" : "068cfb99-b901-46fb-83de-95d79934c021",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Technical Notes",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "153ed2ec-73a4-4e04-b282-91cfb08b00ec",
+          "type" : "component"
+        } ],
+        "id" : "7ffd7396-a838-4644-b8cf-6b191eaffc9f",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "5bcf589c-8c21-4af5-bb6f-f1d16ec4cb09",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-technical-notes"
+  },
+  "urlName" : "technical-notes"
+}

@@ -1,0 +1,121 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 06-17-2024
+  @last modified by  : surya.thakur
+-->
+<template>
+    <template if:true={showSearchResult}>
+        <div class="slds-p-bottom_x-small" if:false={isPDPView}>
+            <span class="prodSku-label">{prodSku}</span>
+        </div>
+        <div class="slds-p-bottom_medium" if:false={isPDPView}>
+            {prodName}
+        </div>
+        <div class="SearchResult slds-p-bottom_medium">
+            <template if:true={showNoDataError}>
+                <div class="showNoDataError">
+                    <h2>No data was found for this product with this lot number</h2>
+                </div>
+            </template>
+            <template if:false={showNoDataError}>
+                <div class="showPrintBtn" >
+                    <div class="PrintBtn" onclick={printCertificate}>
+                        <p>Print this Certificate</p>
+                    </div>
+                </div>
+                <div class="showLotNumberDiv">
+                    <div class="showLotNumberText">
+                        Lot Number: 
+                    </div>
+                    <div class="showLotNumberValue">
+                        {enteredLotNumber}
+                    </div>
+                </div>
+                <div class={showDataTableCss}>
+                    <table>
+                        <tr>
+                            <th>Characteristic</th>
+                            <th>Specifications</th>
+                            <th>Result</th>
+                        </tr>
+                        <template for:each={coaDataList} for:item="itr">
+                            <tr key={itr.Id}>
+                                <td class="showDataTable-row">{itr.Characteristics__c}</td>
+                                <td class="showDataTable-row">{itr.Specification__c}</td>
+                                <td class="showDataTable-row">{itr.Result__c}</td>
+                            </tr>
+                        </template>
+                    </table>
+                </div>
+                <div class="SearchResultDisclaimerText slds-p-top_medium">
+                    <p>This document has been electronically generated and does not require a signature.</p>
+                </div>
+            </template>
+        </div>
+        <!-- <div class="SearchResultDisclaimerText slds-p-bottom_medium">
+            <p>This document has been electronically generated and does not require a signature.</p>
+        </div> -->
+    </template>
+    <div class="lotNumberInput" if:true={isPDPView}>
+        <div class="displayDateVal" if:true={showSearchResult}>
+            {displayDate}
+        </div>
+        <div class="slds-grid slds-wrap slds-p-bottom_medium slds-p-top_x-small">
+            <div class="slds-col slds-size_1-of-1">
+                <span>Enter a Lot Number</span>
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap slds-p-bottom_medium">
+            <div class="slds-col slds-size_2-of-3 lotNumberInput-div">
+                <input class="lotNumberInput-text" type="text" id="lotNumberInput" placeholder="Enter Lot Number" value={enteredLotNumber} onkeyup={handleInputBlur}>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <lightning-button 
+                  variant="brand"
+                  label="Submit" 
+                  onclick={handleSubmitClick} 
+                ></lightning-button>
+            </div>
+        </div>
+    </div>
+    <div class="lotNumberInput" style="max-width: 90%;" if:false={isPDPView}>
+        <div class="displayDateVal" if:true={showSearchResult}>
+            {displayDate}
+        </div>
+        <div class="slds-grid slds-wrap slds-p-top_medium slds-p-bottom_medium slds-p-top_x-small slds-border_bottom">
+            <div class="slds-col slds-size_1-of-1">
+                <div class="titleHeader slds-p-bottom_medium">
+                    <span>Certificate of Analysis</span>
+                </div>
+                <div class="titleContent">
+                    <span>Certificate of Analysis if available can be found on the "product detail" page as a tab. They may also be found by entering a catalog number (eg 27-0400) and a lot number in the search field below.</span>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap slds-p-bottom_medium slds-p-top_x-small">
+            <div class="slds-col slds-size_1-of-1">
+                <span>Enter a Catalog Number and Lot Number to search for a Certificate of Analysis</span>
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap slds-p-bottom_medium">
+            <div class="slds-col slds-size_1-of-1 lotNumberInput-div-notPDP">
+                <label for="cNumber">Catalog Number</label>
+                <input class="lotNumberInput-text-NotPDP" type="text" id="cNumber" name="cNumber" onkeyup={handleCatNumInputBlur}><br><br>
+                <label for="lNumber">Lot Number</label>
+                <input class="lotNumberInput-text-NotPDP" type="text" id="lNumber" name="lNumber" onkeyup={handleInputBlur}>
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap slds-p-bottom_medium slds-p-top_x-small">
+            <div class="slds-col slds-size_1-of-1 submitBtn-div-notPDP">
+                <lightning-button 
+                    variant="brand"
+                    label="Submit" 
+                    onclick={handleSubmitClick}
+                    style="float: right;"
+                ></lightning-button>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,381 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "UbiQD",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : true
+            },
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "3rem",
+            "sectionConfig" : "{\"UUID\":\"cb68ea1d-b0cc-4963-bd89-9c24143a6536\",\"columns\":[{\"UUID\":\"2e4e100c-9718-42b4-b278-42ec749ef114\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"3c4d6eb8-1f7e-48e7-b59e-5e7e20f49739\",\"columnName\":\"Column 2\",\"columnKey\":\"4531c\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"eb07b974-b972-4bc7-ae32-825490dc0cb2\",\"columnName\":\"Column 3\",\"columnKey\":\"bddf5\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "320px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "3rem",
+                "columnMinHeight" : "320px",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"6a82edc3-6b41-4b85-8c87-ec61bd32ef65\",\"columns\":[{\"UUID\":\"dc92b142-c31c-4659-92d0-6f279f1b1a4e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"5f2f57e9-1aa0-4bcf-9e39-a192cf17c101\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"3227693b-e55e-4b67-b9b0-cb5fc2c6943d\",\"columnName\":\"Column 3\",\"columnKey\":\"3442e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "rgb(9, 118, 180)",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Copper Indium DiSulfide/Zinc Sulfide Quantum Dots",
+                    "textAlign" : "center",
+                    "textColor" : "rgb(255, 255, 255)",
+                    "textDecoration" : "{\"bold\":true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+                  },
+                  "customCssClasses" : "",
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6b4c2187-21ad-4fc6-a961-5ad9087351cc",
+                  "type" : "component"
+                } ],
+                "id" : "dc92b142-c31c-4659-92d0-6f279f1b1a4e",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "0px",
+                        "right" : "0px",
+                        "top" : "0px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p><span style=\"font-size: 22px;\">Strem is happy to offer Copper Indium DiSulfide/Zinc Sulfide Quantum Dots with a variety of peak emission levels and a &gt;75% quantum yield (QY). These products are sold under a distribution agreement with UbiQD, Inc. for research purposes only. US Patent No. US9748422.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "5f15059d-1a20-4557-89e9-373d933c24ba",
+                  "type" : "component"
+                } ],
+                "id" : "5f2f57e9-1aa0-4bcf-9e39-a192cf17c101",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "0px",
+                        "right" : "0px",
+                        "top" : "0px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCI33CYSRDURDBJJUS3DLOS5T4BM?lastModifiedDate=Thu Jun 05 09:40:41 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCI33CYSRDURDBJJUS3DLOS5T4BM\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "ccdac753-873b-437e-9d8c-6ce295de3cb6",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "0px",
+                        "right" : "0px",
+                        "top" : "0px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p><span style=\"font-size: 20px;\">﻿</span></p><p><span style=\"font-size: 22px;\">Some advantages of these products over other traditional quantum dots include:</span></p><p><br></p><ul><li><span style=\"font-size: 22px;\">Free of toxic heavy metals (e.g. Cd, Pb) or phosphines</span></li><li><span style=\"font-size: 22px;\">Made via safe and scalable non-injection synthesis</span></li><li><span style=\"font-size: 22px;\">Bright PL (up to &gt;75% QY) tunable from 550 to 950nm</span></li><li><span style=\"font-size: 22px;\">Low self-absorption due to a large Stokes shift &gt;300 meV</span></li><li><span style=\"font-size: 22px;\">Stable PL at elevated temperature in air, water, and various composites</span></li></ul><p><br></p><p><br></p><p><span style=\"font-size: 22px;\"><span class=\"ql-cursor\">﻿</span></span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "df960274-5fe5-465d-b613-e1e6bdb1d6e7",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "0px",
+                        "right" : "0px",
+                        "top" : "0px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p><span style=\"font-size: 22px;\">Use and handling recommendations:</span></p><p><strong style=\"font-size: 22px;\">﻿</strong></p><p><span style=\"font-size: 20px;\">Products are shipped in powder form, and are soluble in non-polar solvents (e.g., toluene, chloroform). Typical concentrations are ~5-200 mg/mL for most applications. The dots have been cleaned by dissolution/precipitation three times to form a dried powder. Suggested use within 12 months of receipt.</span></p><p><br></p><p><span style=\"font-size: 22px;\">For more information view/download our full literature sheet:</span></p><p><strong style=\"font-size: 22px;\">﻿</strong></p><p><a href=\"https://www.strem.com/global-search/Copper%20Indium%20Disulfide%2FZinc%20Sulfide?category=0ZGVN00000000rF4AQ&amp;page=1\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 22px;\"><strong>Copper Indium Disulfide/Zinc Sulfide Quantum Dots</strong></a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "df6f9912-1cb8-4e0a-a3df-122bd479e1ae",
+                  "type" : "component"
+                } ],
+                "id" : "3227693b-e55e-4b67-b9b0-cb5fc2c6943d",
+                "name" : "3442e",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "6a82edc3-6b41-4b85-8c87-ec61bd32ef65",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "0px"
+                  },
+                  "padding" : {
+                    "bottom" : "0px",
+                    "left" : "0px",
+                    "right" : "0px",
+                    "top" : "0px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"e6bef975-12bc-4624-9455-f06027b26724\",\"columns\":[{\"UUID\":\"8d417061-f5ee-4486-bef2-bf0607405784\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"c9ea0d55-0de8-46dd-9ab9-c10b1aa40dd9\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"56b7137d-ea66-4047-a5d3-f52bcc92fc95\",\"columnName\":\"Column 3\",\"columnKey\":\"d8871\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8500\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-family: arial;\"><img src=\"{!cmsMedia.MCWPHAJ27ZNBBF7KUJUXHZKM4DIA}\" alt=\"\"></a><a href=\"https://www.strem.com/product/29-8500\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>29-8500</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8500\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>Peak Emission: 550 ± 10nm</strong></a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "0f4297fe-16c9-4a26-a3c0-ca9369ede8a9",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8530\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 73, 137); background-color: rgb(255, 255, 255);\"><em><img src=\"{!cmsMedia.MC52AX5L6QMFBVPJHPWAZMH7DGA4}\" alt=\"\"></em></a><a href=\"https://www.strem.com/product/29-8530\" rel=\"noopener noreferrer\" target=\"_blank\"> </a><a href=\"https://www.strem.com/product/29-8530\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>29-8530</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8530\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>Peak Emission: 680 ± 10nm</strong></a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "6b1e6388-5615-4dc8-8572-2e715dc3a916",
+                  "type" : "component"
+                } ],
+                "id" : "8d417061-f5ee-4486-bef2-bf0607405784",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8510\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-family: arial;\"><img src=\"{!cmsMedia.MCMOYJKZHNJBDINPLPFLQPVBLBKM}\" alt=\"\"></a><a href=\"https://www.strem.com/product/29-8510\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>29-8510</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8510\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>Peak Emission: 590 ± 10nm</strong></a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "a0f3e036-fdde-442b-95a0-ff88fdc938fe",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8540\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCXUI7UVUEZNBHBCG2V3JUCSJJC4}\" alt=\"\"></a><a href=\"https://www.strem.com/product/29-8540\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>29-8540</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8540\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong><em>Peak Emission: 800 ± 10nm</em></strong></a><a href=\"https://www.strem.com/product/29-8540\" rel=\"noopener noreferrer\" target=\"_blank\">﻿</a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "bdf3d7f6-639b-40b1-84f1-d92526d5565d",
+                  "type" : "component"
+                } ],
+                "id" : "c9ea0d55-0de8-46dd-9ab9-c10b1aa40dd9",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8520\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC7NQ2LUC5O5D5HGDD5FJRDJPEEI}\" alt=\"\"></a><a href=\"https://www.strem.com/product/29-8520\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>29-8520</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8520\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong><em>Peak Emission: 630 ± 10nm</em></strong></a><a href=\"https://www.strem.com/product/29-8520\" rel=\"noopener noreferrer\" target=\"_blank\">﻿</a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "48897ba1-db69-44fd-a351-925173b3651c",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "10px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8550\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC7X3YKFVX3FCVTNXBY7F6RAGEVM}\" alt=\"\"></a><a href=\"https://www.strem.com/product/29-8550\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong>29-8550</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.strem.com/product/29-8550\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\"><strong><em>Peak Emission: 950 ± 10nm</em></strong></a><a href=\"https://www.strem.com/product/29-8550\" rel=\"noopener noreferrer\" target=\"_blank\">﻿</a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "de185d00-2e6f-49c8-ae9e-4fb089ccbaca",
+                  "type" : "component"
+                } ],
+                "id" : "56b7137d-ea66-4047-a5d3-f52bcc92fc95",
+                "name" : "d8871",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "e6bef975-12bc-4624-9455-f06027b26724",
+              "type" : "component"
+            } ],
+            "id" : "2e4e100c-9718-42b4-b278-42ec749ef114",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "3c4d6eb8-1f7e-48e7-b59e-5e7e20f49739",
+            "name" : "4531c",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "eb07b974-b972-4bc7-ae32-825490dc0cb2",
+            "name" : "bddf5",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cb68ea1d-b0cc-4963-bd89-9c24143a6536",
+          "type" : "component"
+        } ],
+        "id" : "61e44259-f176-4abc-adc4-2754feb285a4",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "UbiQD",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e17d4441-bcf8-4f95-83fa-a87238aeabda",
+          "type" : "component"
+        } ],
+        "id" : "66337cff-3b43-42a2-ae61-d9392ed58e61",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "097d3acd-236f-4f56-92e6-5c77f293ec69",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-ubiqd"
+  },
+  "urlName" : "ubiqd"
+}

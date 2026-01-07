@@ -1,0 +1,5 @@
+{
+  "apiName" : "cvd_ald__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

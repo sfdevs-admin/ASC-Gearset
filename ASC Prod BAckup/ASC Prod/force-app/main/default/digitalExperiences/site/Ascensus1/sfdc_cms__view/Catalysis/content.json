@@ -1,0 +1,659 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Catalysis",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCWJHER5HV5FA25IGLZH7W4ETBGE?lastModifiedDate=Tue Aug 20 18:57:46 GMT 2024&height=144&width=192\",\"contentKey\":\"MCWJHER5HV5FA25IGLZH7W4ETBGE\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/contain no-repeat\"}",
+            "backgroundImageOverlay" : "rgba(200, 63, 63, 0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "0px",
+                "left" : "10px",
+                "right" : "10px",
+                "top" : "0px"
+              },
+              "padding" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "0px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "row",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"4ddeeb68-eb47-4375-8ad4-91739302d47a\",\"columns\":[{\"UUID\":\"6168bfe4-db87-442f-a7c9-d49ef7eb454a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "320px",
+            "sectionVerticalAlign" : "center"
+          },
+          "children" : [ {
+            "id" : "6168bfe4-db87-442f-a7c9-d49ef7eb454a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4ddeeb68-eb47-4375-8ad4-91739302d47a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5527532f-f284-481c-9a6d-f36253df8cb7\",\"columns\":[{\"UUID\":\"01179e6e-82eb-4505-9537-fff601c7ada9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Expertise and Experience in Manufacturing High Purity, High Quality Chemicals",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3b5b305d-aa4d-4a34-ba99-13257fd1f07e",
+              "type" : "component"
+            } ],
+            "id" : "01179e6e-82eb-4505-9537-fff601c7ada9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5527532f-f284-481c-9a6d-f36253df8cb7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"349a3241-d490-4bb2-ba81-cc569465ecf2\",\"columns\":[{\"UUID\":\"295410db-cf65-4021-a098-e707751cc88c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Strem Catalog, established in 1964, is a manufacturer and marketer of specialty chemicals of high purity. Strem's key products include catalysts, ligands, organometallics, carbonyls, CVD/ALD precursors, and nanomaterials. Strem Catalog also provides custom synthesis, process development, and cGMP manufacturing services. Strem is an ISO 9001 certified company.</span></p><p><br></p><p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Below is a list of our catalysis related product families. Please click on a link below or visit our home page for additional information and resources.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "3835e74f-210a-47d8-8e5b-372537e874ac",
+              "type" : "component"
+            } ],
+            "id" : "295410db-cf65-4021-a098-e707751cc88c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "349a3241-d490-4bb2-ba81-cc569465ecf2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7321bc3a-7422-4c73-a1b4-92de04ebbf0d\",\"columns\":[{\"UUID\":\"eb6fee07-9389-4fc1-90ff-f7672814ca66\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Catalysis Product Families",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "5a08b5c0-7ec2-42dc-80f9-c944c93fb98f",
+              "type" : "component"
+            } ],
+            "id" : "eb6fee07-9389-4fc1-90ff-f7672814ca66",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7321bc3a-7422-4c73-a1b4-92de04ebbf0d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"82e357f9-62db-46bb-8e98-1684a77f1ac2\",\"columns\":[{\"UUID\":\"6038b961-527e-404e-9302-62fad43a5d52\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Biocatalysts</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017b4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Buchwald Precatalysts &amp; Ligands</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?refinements=%255B%257B%2522nameOrId%2522%253A%2522Others__c%2522%252C%2522type%2522%253A%2522DistinctValue%2522%252C%2522attributeType%2522%253A%2522Custom%2522%252C%2522values%2522%253A%255B%2522Chiral%2522%255D%257D%255D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Catalysts &amp; Chiral Catalysts</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/catalog/products/other-reagents/0ZGVN000000015l4AA?category=0ZGVN00000001964AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Chiral Phosphoric Acids</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/catalog/products/ligands/0ZGVN000000010v4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Ligands &amp; Chiral Ligands</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017m4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Metathesis Catalysts</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017i4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Photocatalysts</a></p><p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">&nbsp;</a></p><p><a href=\"https://www.strem.com/global-search/screen%20kit?category=0ZGVN00000000rF4AQ\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 22px;\">Screening Kits</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ed74f4f0-3879-4459-9ef7-6acdf82a426c",
+              "type" : "component"
+            } ],
+            "id" : "6038b961-527e-404e-9302-62fad43a5d52",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "82e357f9-62db-46bb-8e98-1684a77f1ac2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"235b58a8-a84f-463f-b2df-ce8dea49d0c8\",\"columns\":[{\"UUID\":\"9f2a9bd6-9c1f-4a4d-a549-a692d1ff9d67\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"7aac66e8-d3d7-42a2-ba0e-74686f8ba57c\",\"columnName\":\"Column 2\",\"columnKey\":\"8b7f8\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"517d32b9-d3db-4cfa-9e6a-41f8220ba729\",\"columnName\":\"Column 3\",\"columnKey\":\"df2bb\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"e457b160-253f-4f15-a698-d2c4824d8806\",\"columnName\":\"Column 4\",\"columnKey\":\"6fc5a\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017j4AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCUU7BDLY2X5HZNMFQATUKK5ZAHQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "27a9e9ed-1434-4300-b5f8-7bc98f617049",
+              "type" : "component"
+            } ],
+            "id" : "9f2a9bd6-9c1f-4a4d-a549-a692d1ff9d67",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017b4AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOKLGLE2BWVD25DGWSNVAPHOCM4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f1ed4ef6-cb4d-425c-9a5b-d8661aab0d1c",
+              "type" : "component"
+            } ],
+            "id" : "7aac66e8-d3d7-42a2-ba0e-74686f8ba57c",
+            "name" : "8b7f8",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?refinements=%255B%257B%2522nameOrId%2522%253A%2522Others__c%2522%252C%2522type%2522%253A%2522DistinctValue%2522%252C%2522attributeType%2522%253A%2522Custom%2522%252C%2522values%2522%253A%255B%2522Chiral%2522%255D%257D%255D\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCHENL6W3OZBD2NPQ5SDMD46WY7I}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "666eda31-5725-45af-a71d-6ffbeaa924fe",
+              "type" : "component"
+            } ],
+            "id" : "517d32b9-d3db-4cfa-9e6a-41f8220ba729",
+            "name" : "df2bb",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/other-reagents/0ZGVN000000015l4AA?category=0ZGVN00000001964AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCGYLCV3C7LRBEFAX6JJYGISVG3A}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6ab9a10b-6eca-4dcc-8de3-ddf5af4a8e73",
+              "type" : "component"
+            } ],
+            "id" : "e457b160-253f-4f15-a698-d2c4824d8806",
+            "name" : "6fc5a",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "imageBox",
+          "definition" : "community_layout:section",
+          "id" : "235b58a8-a84f-463f-b2df-ce8dea49d0c8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f5156916-84eb-4a15-859f-4abb1342bdda\",\"columns\":[{\"UUID\":\"b592fc2e-7c60-4384-a302-0a2d244a65b0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"373c489c-927e-4e1b-ba36-9d2f92d64300\",\"columnName\":\"Column 2\",\"columnKey\":\"8b7f8\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"41fee581-b2b4-4949-816a-7b987439eab8\",\"columnName\":\"Column 3\",\"columnKey\":\"df2bb\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"ef3dd101-f872-4de5-9233-feda92d7cb45\",\"columnName\":\"Column 4\",\"columnKey\":\"38d79\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/ligands/0ZGVN000000010v4AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC3CUG7JHOZFCEPILLVZGPOLYN7M}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b37e2635-a129-448a-aa6e-36695e4c8215",
+              "type" : "component"
+            } ],
+            "id" : "b592fc2e-7c60-4384-a302-0a2d244a65b0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017m4AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCPSHNWWH4J5BCPCQS3N77DBLISQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "2dbb8b24-3419-4b3a-875b-d3919934ccf5",
+              "type" : "component"
+            } ],
+            "id" : "373c489c-927e-4e1b-ba36-9d2f92d64300",
+            "name" : "8b7f8",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/catalysts/0ZGVN000000012X4AQ?category=0ZGVN000000017i4AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCIXR3BZTCXJGR5ILEZHXRCBVBT4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4a903fd9-7328-4bc5-859a-0e192a69dceb",
+              "type" : "component"
+            } ],
+            "id" : "41fee581-b2b4-4949-816a-7b987439eab8",
+            "name" : "df2bb",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/screen%20kit?category=0ZGVN00000000rF4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCVLJ66ED3XBBRLAPZSAIR3TDVOE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "94b1e514-3343-4440-aab5-a68959e05225",
+              "type" : "component"
+            } ],
+            "id" : "ef3dd101-f872-4de5-9233-feda92d7cb45",
+            "name" : "38d79",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "imageBox",
+          "definition" : "community_layout:section",
+          "id" : "f5156916-84eb-4a15-859f-4abb1342bdda",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"08c08919-8154-4cc3-bb7e-7522e384809a\",\"columns\":[{\"UUID\":\"d407522c-034f-4272-8c17-a1b1b8307d11\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Related Booklets",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "d3ed984c-b7d2-4b4f-9c16-707c0e4b194f",
+              "type" : "component"
+            } ],
+            "id" : "d407522c-034f-4272-8c17-a1b1b8307d11",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "08c08919-8154-4cc3-bb7e-7522e384809a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"499bbc0d-7583-4926-aa39-ec02cd8ab94f\",\"columns\":[{\"UUID\":\"8cb9ab04-dc4e-47bc-ac0c-4c74969c7af4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4cc55cef-d8d1-4bd9-b2be-9203e84aa9fc\",\"columnName\":\"Column 2\",\"columnKey\":\"380ff\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"1893be79-ff74-4f8a-b304-b68558af490f\",\"columnName\":\"Column 3\",\"columnKey\":\"9bd2d\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://strem.com/sfc/p/#2E000000pAb6/a/VN000001fvuc/_g_81bM8C6cHxPstiHr82sSlrNbcTkWweXrB3Z1eyqE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCY6YJT7F7FFAF7GRT4KGIKSJRJE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "941e66a4-7398-44d3-a1a5-7d9f03f1d2f9",
+              "type" : "component"
+            } ],
+            "id" : "8cb9ab04-dc4e-47bc-ac0c-4c74969c7af4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fw97/R_FvrYdyNNsE4eVgK6TMe6uPpOfhNfG42Zi.ziA0A8Y\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOWH4WVZKHBBOBB4BBLCBLR4BUM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5d051812-81fc-481f-b0dc-701e26028430",
+              "type" : "component"
+            } ],
+            "id" : "4cc55cef-d8d1-4bd9-b2be-9203e84aa9fc",
+            "name" : "380ff",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fx3Z/zYwLa8xOlUrmynDiMVEpcCcyW5yx7uq7FBgSKlDoPJI\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCZRYTBT2VI5BI3KO7NZDVTP3BXQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "fde0d7f2-dfd7-4e93-9e44-5ab93c48e8b7",
+              "type" : "component"
+            } ],
+            "id" : "1893be79-ff74-4f8a-b304-b68558af490f",
+            "name" : "9bd2d",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "499bbc0d-7583-4926-aa39-ec02cd8ab94f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"32741661-711e-4574-86e0-4c48702aab90\",\"columns\":[{\"UUID\":\"971f4d63-d1fe-4c82-886f-a8502d667c02\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"1ab57d3e-d162-4fa8-866c-125d49572b0d\",\"columnName\":\"Column 2\",\"columnKey\":\"380ff\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a57f09da-0116-4223-a39a-1760f1ab2fd0\",\"columnName\":\"Column 3\",\"columnKey\":\"9bd2d\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fwCL/TjQpmniRPwsw9As1JMzhS.wsktur9c5hxDUHp.9ve7c\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC2WIBARG57NCJTPHRL3576T6QKE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ab6ed74f-ea9f-441c-82d3-da09137e6087",
+              "type" : "component"
+            } ],
+            "id" : "971f4d63-d1fe-4c82-886f-a8502d667c02",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fvPy/VsM1Su9HlVWl5PI6S1j745JSp70.XiS_lSD91Awwb2M\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCQ66HDBR3EFCOJOMKJDUCPSSA64}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d454707d-eca3-4afe-aa23-6a930a1d6373",
+              "type" : "component"
+            } ],
+            "id" : "1ab57d3e-d162-4fa8-866c-125d49572b0d",
+            "name" : "380ff",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fvud/npJkXAH1mZB_o48Ma4LB_31G2.ZoeONpR8108wm_dRc\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCV3QBJOZ74JE5PFKRIE4RSLOL5Y}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "3fc6acb4-53e1-4f61-ba64-3a6eb5da90db",
+              "type" : "component"
+            } ],
+            "id" : "a57f09da-0116-4223-a39a-1760f1ab2fd0",
+            "name" : "9bd2d",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "32741661-711e-4574-86e0-4c48702aab90",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0cbb5d05-f300-4cb7-9cd4-5273ccd03faf\",\"columns\":[{\"UUID\":\"e4fef97c-85a0-4c54-b781-fb290f428ed9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6e0a0320-8dc6-46bc-95e6-fd9f7c632644\",\"columnName\":\"Column 2\",\"columnKey\":\"380ff\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4dca35db-cf60-4e5e-abe2-2009a5407759\",\"columnName\":\"Column 3\",\"columnKey\":\"9bd2d\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fw13/Zu7K8Hhi5LpeQ7cI1ZYeKO9bt2QMx3lPYfXCx0AoFDc\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC4ZGTUZ46AFGL3MIDUKR2VT6O7Y}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "650b1790-8dde-4964-b870-601566b5c1ad",
+              "type" : "component"
+            } ],
+            "id" : "e4fef97c-85a0-4c54-b781-fb290f428ed9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fw5u/5VTOCJ_nMx5QL6KAbacPxcM4hKlAu6cHyyhHgM0tqx0\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCLCF6XPL2NNEFXACIDCKEMW3I5M}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "dde4ca17-4311-416e-9dc0-00b361c4f030",
+              "type" : "component"
+            } ],
+            "id" : "6e0a0320-8dc6-46bc-95e6-fd9f7c632644",
+            "name" : "380ff",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fvxp/IUREdl62.3BqVL.9IxzQacypjX7lHrcPgBIEivcR8bE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCVDQGGTFVWRHFBA56C43RJBTQH4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6cdb5635-4c31-43ac-b965-a92499f24437",
+              "type" : "component"
+            } ],
+            "id" : "4dca35db-cf60-4e5e-abe2-2009a5407759",
+            "name" : "9bd2d",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "0cbb5d05-f300-4cb7-9cd4-5273ccd03faf",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"66594551-c14b-4078-a613-8e4985584a8a\",\"columns\":[{\"UUID\":\"b0360f43-e71b-4abb-937c-b973ee625bc3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4eafc416-87f6-4be1-a4bd-482a6a9ed14b\",\"columnName\":\"Column 2\",\"columnKey\":\"380ff\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"9c37003d-a001-4404-a4c4-6728d6280024\",\"columnName\":\"Column 3\",\"columnKey\":\"9bd2d\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fwAj/Ny7wHRc8WdW0utiNii9ZIzoQ7EdfQ1dHRe78JwfM5yY\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCAL2YDD2PTBFQNACATTDC2B3XJQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "59abb28a-d601-45bf-9cb7-d1622aa5e5a3",
+              "type" : "component"
+            } ],
+            "id" : "b0360f43-e71b-4abb-937c-b973ee625bc3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fwFZ/Di02Hq0WRGoyZcjAYJLNTS59slVTnRYJAvQu1R2TsLg\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCY7BRMB4QF5H2DHSAJDZSWV5WC4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "430816ad-1e80-4c8a-81a9-d519093822bb",
+              "type" : "component"
+            } ],
+            "id" : "4eafc416-87f6-4be1-a4bd-482a6a9ed14b",
+            "name" : "380ff",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "9c37003d-a001-4404-a4c4-6728d6280024",
+            "name" : "9bd2d",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "66594551-c14b-4078-a613-8e4985584a8a",
+          "type" : "component"
+        } ],
+        "id" : "2dd39243-dde7-446f-9d65-2b854cceea70",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "Catalysis Landing Page",
+            "dxpStyle" : { },
+            "pageTitle" : "Catalysis",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "295708b6-b718-443f-b03a-2dd1697b40a5",
+          "type" : "component"
+        } ],
+        "id" : "c7d295a3-0dca-4719-8e73-197221d14f55",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "67d3ff9b-8b09-43ba-829b-87310660c0a3",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "tdDoSzmGcBZil7G5v65AUMv2iWf9R6",
+    "viewType" : "custom-catalysis"
+  },
+  "urlName" : "catalysis"
+}

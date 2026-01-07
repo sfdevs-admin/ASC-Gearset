@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Project Type --></label>
+    <name>Project_Type__c</name>
+    <picklistValues>
+        <masterLabel>Application Development</masterLabel>
+        <translation><!-- Application Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capability</masterLabel>
+        <translation><!-- Capability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catalog</masterLabel>
+        <translation><!-- Catalog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Application</masterLabel>
+        <translation><!-- New Application --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Product</masterLabel>
+        <translation><!-- New Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Improvement</masterLabel>
+        <translation><!-- Product Improvement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reintroduction</masterLabel>
+        <translation><!-- Reintroduction --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

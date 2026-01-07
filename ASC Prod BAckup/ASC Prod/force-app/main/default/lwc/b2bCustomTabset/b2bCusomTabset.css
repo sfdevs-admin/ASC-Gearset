@@ -1,0 +1,45 @@
+/* Custom styling for the tabs */
+/* .custom-tab .slds-tabs__item .slds-text-heading_medium {
+    --slds-c-tabs-scoped-color-text-active: red;
+    font-size: 50px;  
+    color: black;    
+    font-weight: bold; 
+}
+.custom-tab::part(label) {
+    color: black;
+    font-size: 40px;
+}
+
+
+.custom-tab .slds-tabs__item:hover .slds-text-heading_medium {
+    text-decoration: underline;
+    text-decoration-color: yellow; 
+}
+
+.custom-tab .slds-tabs__item.slds-is-active .slds-text-heading_medium {
+    color: black;  
+    text-decoration: underline;
+    text-decoration-color: yellow; 
+}
+
+.custom-tab .slds-tabs__item:hover {
+    cursor: pointer; 
+}
+
+@media (max-width: 767px) {
+    .custom-tab .slds-tabs__item .slds-text-heading_medium {
+        font-size: 16px;  
+    }
+
+    .custom-tab .slds-tabs__item {
+        padding: 10px; 
+    }
+
+    .custom-tab .slds-tabs__list {
+        display: block; 
+    }
+
+    .slds-tabs__content {
+        width: 100%;
+    } 
+}*/

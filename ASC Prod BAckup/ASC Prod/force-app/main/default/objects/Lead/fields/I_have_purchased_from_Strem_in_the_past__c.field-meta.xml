@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>I_have_purchased_from_Strem_in_the_past__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>I have purchased from Strem in the past</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

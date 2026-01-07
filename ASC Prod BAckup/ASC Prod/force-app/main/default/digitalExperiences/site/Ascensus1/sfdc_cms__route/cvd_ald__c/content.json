@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "CVD-ALD",
+  "contentBody" : {
+    "activeViewId" : "CVD_ALD",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-cvd-ald",
+    "urlPrefix" : "cvd-ald"
+  },
+  "urlName" : "cvd-ald"
+}

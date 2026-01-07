@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets - Nanomaterials",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_Nanomaterials",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-nanomaterials",
+    "urlPrefix" : "literature-sheets-nanomaterials"
+  },
+  "urlName" : "literature-sheets---nanomaterials"
+}

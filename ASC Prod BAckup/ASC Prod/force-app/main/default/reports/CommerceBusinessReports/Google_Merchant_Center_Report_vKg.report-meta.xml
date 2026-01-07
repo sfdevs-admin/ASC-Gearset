@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>B2B_Google_Merchant_Center__c$Name</field>
+    </columns>
+    <columns>
+        <field>B2B_Google_Merchant_Center__c$B2B_Contact__c</field>
+    </columns>
+    <columns>
+        <field>B2B_Google_Merchant_Center__c$B2B_Product__c</field>
+    </columns>
+    <columns>
+        <field>B2B_Google_Merchant_Center__c$B2B_Key__c</field>
+    </columns>
+    <columns>
+        <field>B2B_Google_Merchant_Center__c$CreatedDate</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>Google Merchant Center Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>B2B_Google_Merchant_Centers__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>B2B_Google_Merchant_Center__c$CreatedDate</dateColumn>
+        <endDate>2025-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2025-07-01</startDate>
+    </timeFrameFilter>
+</Report>

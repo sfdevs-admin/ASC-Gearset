@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Subscriptions",
+  "contentBody" : {
+    "activeViewId" : "subscriptions",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "subscriptions",
+    "urlPrefix" : "subscriptions"
+  },
+  "urlName" : "subscriptions"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ambition_Development_Review_v1</fullName>
+    <columns>RD_Project_Number__c</columns>
+    <columns>NAME</columns>
+    <columns>Platform__c</columns>
+    <columns>Program__c</columns>
+    <columns>Customers__c</columns>
+    <columns>Commercial_Lead__c</columns>
+    <columns>Lead_Chemist__c</columns>
+    <columns>Project_Type__c</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Stages__c</columns>
+    <columns>Plan_Status_RD__c</columns>
+    <columns>Next_Gate_Review__c</columns>
+    <columns>X2025_Revenue_K__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Active,On-Hold</value>
+    </filters>
+    <filters>
+        <field>Plan_Status_RD__c</field>
+        <operation>equals</operation>
+        <value>Upside</value>
+    </filters>
+    <filters>
+        <field>X2025_Revenue_K__c</field>
+        <operation>greaterThan</operation>
+        <value>USD 0</value>
+    </filters>
+    <label>Ambition Development Review</label>
+</ListView>

@@ -1,0 +1,9 @@
+section .primary-column {
+    width: 50%;
+    float: left;
+}
+
+section .primary-content {
+    background-color: #fff;
+    min-height: 400px;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Current Technology --></label>
+    <name>Current_Technology__c</name>
+    <picklistValues>
+        <masterLabel>Caustic Solution</masterLabel>
+        <translation><!-- Caustic Solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAS</masterLabel>
+        <translation><!-- FAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KBH</masterLabel>
+        <translation><!-- KBH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peroxide</masterLabel>
+        <translation><!-- Peroxide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBH</masterLabel>
+        <translation><!-- SBH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHS Liquid</masterLabel>
+        <translation><!-- SHS Liquid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHS Powder</masterLabel>
+        <translation><!-- SHS Powder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMB</masterLabel>
+        <translation><!-- TMB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMB Azeo</masterLabel>
+        <translation><!-- TMB Azeo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

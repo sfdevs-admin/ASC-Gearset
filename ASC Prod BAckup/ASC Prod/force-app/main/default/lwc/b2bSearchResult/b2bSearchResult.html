@@ -1,0 +1,33 @@
+<template>
+    <article class="slds-m-top_large layout-container">
+        <aside class="aside-section">
+            <!-- here can be added the filter-->
+        </aside>
+
+        <section class="main-section">
+            <div class="primary-column primary">
+                <div if:true={isLoading}>
+                    <lightning-spinner alternative-text="Loading" size="large" class="slds-p-top_large"></lightning-spinner>
+                </div>
+                <div if:true={showCategoyBannerImage}>
+                    <div if:true={categoryTitle}>
+                        <c-b2b-category-banner
+                            search-result-text={searchResultText}
+                            category-title={categoryTitle} >
+                        </c-b2b-category-banner>
+                    </div>
+                </div>
+                <!-- Here could be the total component -->
+                
+                <!-- Here the search layout-->
+                <div if:true={hasCategories}>
+                    <c-b2b-search-layout
+                        display-products={getCategoryProducts}
+                    >
+                    </c-b2b-search-layout>
+                </div>
+    
+            </div>
+        </section>
+    </article>
+</template>

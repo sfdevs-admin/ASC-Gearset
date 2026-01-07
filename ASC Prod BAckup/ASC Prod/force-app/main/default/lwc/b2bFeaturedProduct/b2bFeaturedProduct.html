@@ -1,0 +1,29 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-16-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <!-- <div class="featuredProductContainer" if:true={displayView}> -->
+        <div class="relatedProdParentDiv" if:true={displayView}>
+        <div class="slds-p-bottom_x-small" style="text-align: center; font-size: x-large; color: #F0AF0D;">
+            <span class="borderLine-featuredProductheading"></span><span style="color: #0072CE;"> Featured </span><span style="font-weight: 700;color: #0072CE;">Products </span><span class="borderLine-featuredProductheading"></span>
+        </div>
+    
+        <div class="glider-contain slds-p-top_x-small">
+            <div class="glider">
+                <template for:each={featuredProdIdList} for:item="item">
+                    <div class="glider-coloumn" key={item.ProductId}>
+                        <c-b2b-featured-product-child product-id={item.ProductId} onloadcomplete={handleLoadComplete}></c-b2b-featured-product-child>
+                    </div>
+                </template>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
+    </div>
+</template>

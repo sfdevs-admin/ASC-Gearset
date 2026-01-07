@@ -1,0 +1,16 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Newsletter Promotions",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "sectionMinHeight" : "150px",
+          "maxContentWidth" : "none"
+        },
+        "id" : "c599048d-9ca3-4848-8701-b2c167fe4865"
+      } ]
+    }
+  },
+  "urlName" : "newsletter-promotions"
+}

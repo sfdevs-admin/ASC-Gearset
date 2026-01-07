@@ -1,0 +1,27 @@
+<template>
+    <div if:true={isKitProduct}>
+        <div class="slds-p-bottom_x-small" style="">
+            <span> This kit contains the following products: </span>
+        </div>
+        <div class="slds-p-top_x-small" if:true={isListHasData}>
+            <template for:each={mapData} for:item="item">
+                <tr key={item}>
+                    <th scope="col">
+                        {item.key}
+                    </th>
+                </tr>
+                <template for:each={item.value} for:item="childitem">
+                    <div key={childitem.Id}>
+                        <c-b2b-kit-product-items-child product-id={childitem.Child_Product__c} unit-value={childitem.Unit__c}></c-b2b-kit-product-items-child>
+                    </div>
+                </template>
+            </template>
+        </div>
+        <div if:false={isListHasData}>
+            <!-- bug fix SCC-70 Product Kits PDP broken details start -->
+            <!-- <p class="slds-text-color_error">Looks like info about contents of the kit is not available . Please contact support.</p> -->
+            <p class="slds-text-color_error">{label.B2B_Product_Kit_Missing_Error_Msg}</p>
+            <!-- bug fix SCC-70 Product Kits PDP broken details ends -->
+        </div>
+    </div>
+</template>

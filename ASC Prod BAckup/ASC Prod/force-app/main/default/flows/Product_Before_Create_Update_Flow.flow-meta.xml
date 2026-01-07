@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_value_to_Description_Search_Text_field</name>
+        <label>Assign value to Description Search Text field</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Description_Search_Text__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>formulaSubstituteParenthesesDescription</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Description_Search_Text_2__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>formulaSubstituteHyphen</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Has_Structure_Is_Changed</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Eval_Description</name>
+        <label>Eval Description</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Has_Structure_Is_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Description_not_blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_value_to_Description_Search_Text_field</targetReference>
+            </connector>
+            <label>Description not blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_fields_under_Meta_Description_Changed</name>
+        <label>Has fields under Meta Description Changed</label>
+        <locationX>182</locationX>
+        <locationY>887</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Outcome_1_of_Has_fields_under_Meta_Description_Changed</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CAS__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.MDL_Number__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Formula_weight__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Index_Formula_Site__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Formula_Site__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Purity__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Meta_Description</targetReference>
+            </connector>
+            <label>Outcome 1 of Has fields under Meta Description Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Structure_Is_Changed</name>
+        <label>Has Structure Is Changed?</label>
+        <locationX>182</locationX>
+        <locationY>587</locationY>
+        <defaultConnector>
+            <targetReference>Has_fields_under_Meta_Description_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_True</name>
+            <conditionLogic>(1 OR 3 ) AND 2</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Has_Structure__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Has_Structure__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Name</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Has_Structure_Updated</targetReference>
+            </connector>
+            <label>If True</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>formulaSubstituteHyphen</name>
+        <dataType>String</dataType>
+        <expression>SUBSTITUTE( SUBSTITUTE({!$Record.Description}, &quot;-&quot;, &quot;&quot;), &quot;–&quot;, &quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>Formula to replace all Parentheses in Description</description>
+        <name>formulaSubstituteParenthesesDescription</name>
+        <dataType>String</dataType>
+        <expression>SUBSTITUTE( SUBSTITUTE({!$Record.Description}, &quot;(&quot;, &quot;&quot;), &quot;)&quot;, &quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>Meta_Description</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  NOT(ISBLANK({!$Record.CAS__c})),
+  &quot;CAS Number &quot; &amp; {!$Record.CAS__c},
+  &quot;&quot;
+) &amp;
+IF(
+  AND(NOT(ISBLANK({!$Record.CAS__c})), NOT(ISBLANK({!$Record.MDL_Number__c}))),
+  &quot; | &quot;,
+  &quot;&quot;
+) &amp;
+IF(
+  NOT(ISBLANK({!$Record.MDL_Number__c})),
+  &quot;MDL Number &quot; &amp; {!$Record.MDL_Number__c},
+  &quot;&quot;
+) &amp;
+IF(
+  AND(
+    OR(NOT(ISBLANK({!$Record.CAS__c})), NOT(ISBLANK({!$Record.MDL_Number__c}))),
+    NOT(ISBLANK({!$Record.Formula_Site__c}))
+  ),
+  &quot; | &quot;,
+  &quot;&quot;
+) &amp;
+IF(
+  NOT(ISBLANK({!$Record.Formula_Site__c})),
+  &quot;Molecular Formula &quot; &amp; {!$Record.Formula_Site__c},
+  &quot;&quot;
+) &amp;
+IF(
+  AND(
+    OR(
+      NOT(ISBLANK({!$Record.CAS__c})),
+      NOT(ISBLANK({!$Record.MDL_Number__c})),
+      NOT(ISBLANK({!$Record.Formula_Site__c}))
+    ),
+    NOT(ISBLANK({!$Record.Index_Formula_Site__c}))
+  ),
+  &quot; | &quot;,
+  &quot;&quot;
+) &amp;
+IF(
+  NOT(ISBLANK({!$Record.Index_Formula_Site__c})),
+  &quot;Chemical Formula &quot; &amp; {!$Record.Index_Formula_Site__c},
+  &quot;&quot;
+) &amp;
+IF(
+  AND(
+    OR(
+      NOT(ISBLANK({!$Record.CAS__c})),
+      NOT(ISBLANK({!$Record.MDL_Number__c})),
+      NOT(ISBLANK({!$Record.Formula_Site__c})),
+      NOT(ISBLANK({!$Record.Index_Formula_Site__c}))
+    ),
+    NOT(ISBLANK({!$Record.Purity__c}))
+  ),
+  &quot; | &quot;,
+  &quot;&quot;
+) &amp;
+IF(
+  NOT(ISBLANK({!$Record.Purity__c})),
+  &quot;Chemical Purity &quot; &amp; {!$Record.Purity__c},
+  &quot;&quot;
+) &amp;
+IF(
+  AND(
+    OR(
+      NOT(ISBLANK({!$Record.CAS__c})),
+      NOT(ISBLANK({!$Record.MDL_Number__c})),
+      NOT(ISBLANK({!$Record.Formula_Site__c})),
+      NOT(ISBLANK({!$Record.Index_Formula_Site__c})),
+      NOT(ISBLANK({!$Record.Purity__c}))
+    ),
+    NOT(ISBLANK({!$Record.Formula_Weight__c}))
+  ),
+  &quot; | &quot;,
+  &quot;&quot;
+) &amp;
+IF(
+  NOT(ISBLANK({!$Record.Formula_Weight__c})),
+  &quot;Formula Weight &quot; &amp; {!$Record.Formula_Weight__c},
+  &quot;&quot;
+)</expression>
+    </formulas>
+    <interviewLabel>Product BEFORE {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Product Before Create/Update Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Has_Structure_Updated</name>
+        <label>Update Has Structure Updated</label>
+        <locationX>50</locationX>
+        <locationY>695</locationY>
+        <connector>
+            <targetReference>Has_fields_under_Meta_Description_Changed</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Has_Structure_Updated__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Meta_Description</name>
+        <label>Update Meta Description</label>
+        <locationX>50</locationX>
+        <locationY>995</locationY>
+        <inputAssignments>
+            <field>meta_description__c</field>
+            <value>
+                <elementReference>Meta_Description</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Eval_Description</targetReference>
+        </connector>
+        <object>Product2</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

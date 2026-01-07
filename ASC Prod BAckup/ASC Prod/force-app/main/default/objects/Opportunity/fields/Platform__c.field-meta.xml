@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform__c</fullName>
+    <label>Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Electronics &amp; Energy Transition</fullName>
+                <default>false</default>
+                <label>Electronics &amp; Energy Transition</label>
+            </value>
+            <value>
+                <fullName>Life Science</fullName>
+                <default>false</default>
+                <label>Life Science</label>
+            </value>
+            <value>
+                <fullName>Core</fullName>
+                <default>false</default>
+                <label>Core</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>Electronics &amp; energy transfer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Electronics &amp; energy transfer</label>
+            </value>
+            <value>
+                <fullName>GMP API &amp; Reagents</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GMP API &amp; Reagents</label>
+            </value>
+            <value>
+                <fullName>Intermediates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Intermediates</label>
+            </value>
+            <value>
+                <fullName>Life Science: Non-GMP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Life Science: Non-GMP</label>
+            </value>
+            <value>
+                <fullName>Lifescience, gmp, inter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lifescience, gmp, inter</label>
+            </value>
+            <value>
+                <fullName>Specialty Reagents &amp; Application Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specialty Reagents &amp; Application Development</label>
+            </value>
+            <value>
+                <fullName>Specialty reagents, development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specialty reagents, development</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

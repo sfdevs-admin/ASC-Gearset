@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+    Status,
+    &quot;Processing&quot;, &quot;Processing&quot;,
+    &quot;Created&quot;, &quot;Processing&quot;,
+    &quot;Shipped&quot;, &quot;Shipped&quot;,
+    &quot;Unknown Status&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Store Status</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

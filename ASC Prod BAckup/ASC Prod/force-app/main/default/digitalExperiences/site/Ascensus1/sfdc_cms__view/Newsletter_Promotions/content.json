@@ -1,0 +1,133 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Newsletter Promotions",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC6B6QX7R4B5EKDGZD6TCZQLX7FM?lastModifiedDate=Tue Jun 04 01:25:57 GMT 2024&height=144&width=192\",\"contentKey\":\"MC6B6QX7R4B5EKDGZD6TCZQLX7FM\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "10px",
+                "right" : "10px",
+                "top" : "5px"
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "0px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c599048d-9ca3-4848-8701-b2c167fe4865\",\"columns\":[{\"UUID\":\"78459007-f025-44eb-8e66-1c778b804aec\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "320px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "5%",
+                    "left" : "15%",
+                    "right" : "",
+                    "top" : "10%"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Newsletter & Promotions",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "774e868d-642d-4e95-b320-cdff44169d03",
+              "type" : "component"
+            } ],
+            "id" : "78459007-f025-44eb-8e66-1c778b804aec",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c599048d-9ca3-4848-8701-b2c167fe4865",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"db23bb8b-63e8-4d22-b517-b3c7f86e0914\",\"columns\":[{\"UUID\":\"134f5d17-e244-4290-b93d-e37592df39c8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "flowName" : "{\"flowName\":\"SCRN_Lead_Form\",\"flowLabel\":\"SCRN_Lead_Form\"}"
+              },
+              "definition" : "dxp_flow:flow",
+              "id" : "5bdb6cf3-640a-4e14-968f-97fa54ba6195",
+              "type" : "component"
+            } ],
+            "id" : "134f5d17-e244-4290-b93d-e37592df39c8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "db23bb8b-63e8-4d22-b517-b3c7f86e0914",
+          "type" : "component"
+        } ],
+        "id" : "6732b901-cb12-4212-8682-90bd5fb4c11e",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Newsletter Promotions",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "379cf9bd-8b93-4712-9a5f-a440e631e7a4",
+          "type" : "component"
+        } ],
+        "id" : "376a9907-39cc-4e98-a460-7d2e77f07881",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "f119dd3b-eb89-4a87-aaa5-568e980354ea",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-newsletter-promotions"
+  },
+  "urlName" : "newsletter-promotions"
+}

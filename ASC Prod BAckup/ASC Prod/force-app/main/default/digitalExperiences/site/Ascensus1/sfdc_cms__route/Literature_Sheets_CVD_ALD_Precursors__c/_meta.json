@@ -1,0 +1,5 @@
+{
+  "apiName" : "Literature_Sheets_CVD_ALD_Precursors__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

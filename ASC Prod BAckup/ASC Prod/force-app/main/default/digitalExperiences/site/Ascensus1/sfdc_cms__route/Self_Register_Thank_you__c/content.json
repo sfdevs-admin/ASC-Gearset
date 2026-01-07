@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Self Register Thank you",
+  "contentBody" : {
+    "activeViewId" : "Self_Register_Thank_you",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-self-register-thank-you",
+    "urlPrefix" : "SelfRegister-thank-you"
+  },
+  "urlName" : "self-register-thank-you"
+}

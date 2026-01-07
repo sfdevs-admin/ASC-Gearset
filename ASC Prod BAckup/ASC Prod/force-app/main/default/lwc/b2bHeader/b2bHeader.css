@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.country-box {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(252, 186, 3, 1);
+    border-radius: 105px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; */
+}
+
+.country-box:hover {
+    background-color: rgb(188, 140, 6);
+}
+
+.selected-country {
+    margin-left: 4px;
+    font-size: 13px;
+    width: 90px;
+}
+
+/* .overlay {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 50%;
+    width: 0; */
+    /*overflow-x: hidden; /* it will show overlay*/
+    /* transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.7);
+} */
+ 
+.overlay{
+    position: fixed;
+    right: 10px;
+    top: 0;
+    height: 50%;
+    width: 300px;
+    overflow-x: hidden;
+    transition: right 0.5s ease;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+/* .overlay-content {
+    position: absolute; */
+    /* top: 0%; */
+    /* right: 20px;
+    width: 209px;
+    padding: 20px;
+    background: #fcfbfb;
+    border-radius: 12px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* transition: transform 0.3s ease; */
+    /* border-color: black;
+} */
+
+.overlay-content{
+    position: relative;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    border-color: black;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+/* :host([showCountryList]) .overlay {
+    width: 300px;
+} */
+:host([showCountryList]) .overlay {
+    right: 0; /* slide-in to be fully visible */
+}

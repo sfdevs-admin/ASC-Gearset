@@ -1,0 +1,73 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Thank you",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"153347da-eada-4fdc-a81d-2e37e809031a\",\"columns\":[{\"UUID\":\"15955446-ae16-4837-bffe-e8be66566383\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p><br></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MC3F4JODFH35FBFLRBGTI75ZLT6Y}\" alt=\"\" width=\"99\"></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\"> </strong><strong style=\"font-size: 24px; font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; color: rgb(41, 42, 46);\">Thank you for registering!</strong></p>\n<p style=\"text-align: center;\">Thank you for creating an account on our website. Your registration has been received and is under review.</p>\n<p style=\"text-align: center;\">Please note that an approved account is required to make purchases, and additional information may be requested during this process.</p>\n<p style=\"text-align: center;\">If your company has not previously ordered from us, a new customer application may be required.</p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\">If you have any questions, please contact us at <a href=\"mailto:info@ascensusspecialties.com\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(24, 104, 219);\"><strong>info@ascensusspecialties.com</strong></a>.</p>\n<p style=\"text-align: center;\"><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "483d2b35-62a7-4338-9457-39f57976939d",
+              "type" : "component"
+            } ],
+            "id" : "15955446-ae16-4837-bffe-e8be66566383",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "153347da-eada-4fdc-a81d-2e37e809031a",
+          "type" : "component"
+        } ],
+        "id" : "79b6b396-5de0-4ec1-a1f0-cd3ef8e2c3a5",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Thank you",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "658ac3a4-3528-4198-b5bb-81aa8db65252",
+          "type" : "component"
+        } ],
+        "id" : "7f1c79ff-e9c7-4f8f-a272-f52366345358",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "4fb04697-c275-4a38-940e-d5e314c9ae57",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-self-register-thank-you"
+  },
+  "urlName" : "thank-you"
+}

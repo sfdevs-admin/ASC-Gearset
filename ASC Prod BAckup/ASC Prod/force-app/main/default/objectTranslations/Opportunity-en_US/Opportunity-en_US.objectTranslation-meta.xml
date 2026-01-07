@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Project Financials --></label>
+            <section>Project Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Project Postmortem --></label>
+            <section>Project Postmortem</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>RD Portfolio Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description, Application, Customers --></label>
+            <section>Description, Application, Customers</section>
+        </sections>
+        <sections>
+            <label><!-- Key Dates --></label>
+            <section>Key Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Required Fields --></label>
+            <section>Opportunity Required Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Project Financial --></label>
+            <section>Project Financial</section>
+        </sections>
+        <sections>
+            <label><!-- Team Section --></label>
+            <section>Team Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- R &amp; D Portfolio --></label>
+        <name>R_D_Portfolio</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales --></label>
+        <name>Sales</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to update the Stage on R &amp; D Portfolio Opportunities. --></errorMessage>
+        <name>Only_Admin_Allowed_To_Update_RD_Stage</name>
+    </validationRules>
+</CustomObjectTranslation>

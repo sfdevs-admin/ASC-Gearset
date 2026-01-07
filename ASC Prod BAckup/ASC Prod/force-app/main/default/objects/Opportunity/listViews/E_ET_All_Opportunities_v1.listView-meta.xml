@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E_ET_All_Opportunities_v1</fullName>
+    <columns>Opportunity_ID__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Proj_Full_Year_Revenue__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>Full_Year_Volume__c</columns>
+    <columns>Campaign__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Region__c</columns>
+    <columns>Product_Family__c</columns>
+    <columns>Current_Year_Volume__c</columns>
+    <columns>New_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Universe,Qualified,Development,Best Few</value>
+    </filters>
+    <filters>
+        <field>Industry_Segment__c</field>
+        <operation>equals</operation>
+        <value>Electronics</value>
+    </filters>
+    <label>E&amp;ET Opportunities</label>
+</ListView>

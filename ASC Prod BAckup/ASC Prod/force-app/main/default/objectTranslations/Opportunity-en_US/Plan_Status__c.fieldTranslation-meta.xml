@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the status of the opportunity from a FCST standpoint. Is it in the current FCST? Is it in the committed Gap Closure plan? s it upside to FCST and Gap Closure? --></help>
+    <label><!-- Plan Status --></label>
+    <name>Plan_Status__c</name>
+    <picklistValues>
+        <masterLabel>Gap Closure</masterLabel>
+        <translation><!-- Gap Closure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In FCST</masterLabel>
+        <translation><!-- In FCST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upside</masterLabel>
+        <translation><!-- Upside --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$RD_Project_Number__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Customers__c</field>
+    </columns>
+    <columns>
+        <field>CDF1</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Project_Health_Flag__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CL__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$PM__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$RD__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$OP__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Formatted_Customer_Requested_Date__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$X2025_Revenue_K__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Plan_Status__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$RD_Next_Action__c</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF(
+    TEXT(Opportunity.Project_Type__c) == &apos;New Product&apos;,
+    &apos;NP&apos;,
+    IF(
+        TEXT(Opportunity.Project_Type__c) == &apos;New Application&apos;,
+        &apos;NA&apos;,
+        IF(
+            TEXT(Opportunity.Project_Type__c) == &apos;Reintroduction&apos;,
+            &apos;RI&apos;,
+            TEXT(Opportunity.Project_Type__c)
+        )
+    )
+)</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Type</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Opportunity.R_D_Portfolio</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>RD (Opportunities) Dashboard</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_to_Tasks__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

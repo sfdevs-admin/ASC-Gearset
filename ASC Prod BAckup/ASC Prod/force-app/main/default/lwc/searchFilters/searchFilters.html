@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-29-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <div if:true={isDesktop}>
+        <!-- Filters Panel - shows the category tree and facets for a search result -->
+        <c-search-filters-panel display-data={normalizedSearchFilters} page-ref={currentPageRef} is-active={isChildActive}></c-search-filters-panel>
+        <!-- <c-search-filters-modal-panel display-data={normalizedSearchFilters} page-ref={currentPageRef}></c-search-filters-modal-panel> -->
+    </div>
+    <div if:false={isDesktop}>
+        <button class="slds-button slds-button_neutral slds-button_stretch" title={filterHeaderLabel}
+            onclick={handleOpenSearchFiltersModal}>
+            {filterHeaderLabel}
+        </button>
+        <c-search-filters-panel display-data={normalizedSearchFilters} page-ref={currentPageRef} is-active={isChildActive}></c-search-filters-panel>
+    </div>
+</template>

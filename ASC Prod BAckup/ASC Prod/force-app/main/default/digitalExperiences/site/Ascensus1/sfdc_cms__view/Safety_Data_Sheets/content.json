@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Safety Data Sheets",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3f18f15e-c5a1-45d8-a44b-55827750eeb3\",\"columns\":[{\"UUID\":\"5fb42b44-d965-4713-aaf0-e28b1dc7f33e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "tabName" : "{!Label.c.B2B_SdsPageUrl}"
+              },
+              "definition" : "c:b2bProductRelatedDocument",
+              "id" : "1edc0211-9966-4aa2-9be5-f5a696f6147c",
+              "type" : "component"
+            } ],
+            "id" : "5fb42b44-d965-4713-aaf0-e28b1dc7f33e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3f18f15e-c5a1-45d8-a44b-55827750eeb3",
+          "type" : "component"
+        } ],
+        "id" : "c06eefc2-741f-447c-ae19-0d40529db7a7",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Safety Data Sheets",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8cdb80fb-79f6-4392-8665-9ff9c4fb76c3",
+          "type" : "component"
+        } ],
+        "id" : "d8bf3ee4-e2ec-4ba7-bc8a-aedbb36ace31",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "820f47ac-8cbb-4a0c-8506-6846d8958cd5",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-safety-data-sheets"
+  },
+  "urlName" : "safety-data-sheets"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_of_Measure__c</fullName>
+    <description>What unit of measure are we using for the project?</description>
+    <label>Unit of Measure</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>G - Grams</fullName>
+                <default>false</default>
+                <label>G - Grams</label>
+            </value>
+            <value>
+                <fullName>KG - Kilograms</fullName>
+                <default>false</default>
+                <label>KG - Kilograms</label>
+            </value>
+            <value>
+                <fullName>MT - Metric Tons</fullName>
+                <default>false</default>
+                <label>MT - Metric Tons</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

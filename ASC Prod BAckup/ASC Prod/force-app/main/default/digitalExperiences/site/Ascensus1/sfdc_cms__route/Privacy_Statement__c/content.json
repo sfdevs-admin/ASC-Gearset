@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Privacy Statement",
+  "contentBody" : {
+    "activeViewId" : "Privacy_Statement",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-privacy-statement",
+    "urlPrefix" : "privacy-statement"
+  },
+  "urlName" : "privacy-statement"
+}

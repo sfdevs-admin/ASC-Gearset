@@ -1,0 +1,5 @@
+{
+  "apiName" : "Newsletter_Promotions",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

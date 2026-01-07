@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <description>Cookie Consent</description>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Cookie Consent</masterLabel>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="displayType" type="String" default="footer" datasource="footer,modal,page" label="Cookie Display Type"/>
+            <property name="useRelaxedCSP" type="Boolean" label="Used Relaxed CSP" description="If selected, your component can only be used in a community that has Locker Service turned off" default="false"/>
+            <property name="headingLabel" type="String" default="Manage Cookies" label="Heading Label"/>
+            <property name="instructions" type="String" default="Cookie Instructions" label="User Instructions"/>
+            <property name="informationButtonLabel" type="String" default="View Privacy Policy" label="Information Button Label"/>
+            <property name="informationButtonLink" type="String" default="/privacy-statement" label="User Information Button Link"/>
+            <property name="confirmButtonLabel" type="String" default="Confirm Preferences" label="Confirm Button Label"/>
+            <property name="rejectButtonLabel" type="String" default="Leave Site" label="Reject Button Label"/>
+            <property name="rejectButtonLink" type="String" default="https://www.ascensusspecialties.com" label="Reject Button Link"/>
+            <property name="viewCookiesLabel" type="String" default="View Cookies" label="View Cookies Link Label"/>
+            <property name="viewCookiesLink" type="String" default="https://www.salesforce.com" label="View Cookies Link"/>
+            <property name="cookieFooterRelative" type="Boolean" default="false" label="Used Relative Footer Positioning" description="If selected, the footer will be no longer be fixed to the window"/>
+            <property name="cookieFooterPadding" type="String" default="small" datasource="xx-small, x-small, small, medium, large, none" label="Footer Padding"/>
+            <property name="cookieFooterButtonAlignment" type="String" default="left" datasource="left, center, right" label="Footer Button Alignment"/>
+            <property name="cookieFooterBackgroundColor" type="Color" default="rgb(255, 255, 255)" label="Footer Background Color"/>
+            <property name="cookieFooterTextColor" type="Color" default="rgb(0, 0, 0)" label="Footer Text Color"/>
+            <property name="cookieFooterLinkColor" type="Color" default="rgb(0, 95, 178)" label="Footer Link Color"/>
+            <property name="previewInBuilder" type="Boolean" label="Preview in Builder" description="Preview the component while you're working in the experience builder" default="false"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

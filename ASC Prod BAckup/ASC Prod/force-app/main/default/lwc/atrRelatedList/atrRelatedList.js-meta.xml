@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+	<isExposed>true</isExposed>
+	<targets>
+		<target>lightning__RecordPage</target>
+	</targets>
+
+	<targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="title" type="String" label="Title" description="Title of Related List"/>
+            <property name="icon" type="String" label="Title Icon" description="Icon for Related List"/>
+            <property name="columnJsonString" type="String" label="Column String (JSON)" description="Columns to display in related list in JSON format"/>
+            <property name="objectApi" type="String" label="Object API Name" description="Object API Name"/>
+            <property name="whereClause" type="String" label="WHERE Clause" description="Query conditions to get related records"/>
+            <property name="actionList" type="String" label="List of Actions" description="Format: {label: 'Button Label', value: 'Button Value'}"/>
+            <property name="addRowAction" type="Boolean" label="Add Row Action" description="Add Row Action"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

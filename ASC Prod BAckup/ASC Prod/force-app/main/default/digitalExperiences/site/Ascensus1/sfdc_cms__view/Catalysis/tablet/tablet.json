@@ -1,0 +1,31 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Catalysis",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : true,
+            "margin" : {
+              "bottom" : "10px",
+              "left" : "",
+              "right" : "10px",
+              "top" : ""
+            },
+            "padding" : {
+              "bottom" : "0px",
+              "left" : "0px",
+              "right" : "0px",
+              "top" : "0px"
+            }
+          },
+          "sectionMinHeight" : "150px",
+          "maxContentWidth" : "none"
+        },
+        "id" : "4ddeeb68-eb47-4375-8ad4-91739302d47a"
+      } ]
+    }
+  },
+  "urlName" : "catalysis"
+}

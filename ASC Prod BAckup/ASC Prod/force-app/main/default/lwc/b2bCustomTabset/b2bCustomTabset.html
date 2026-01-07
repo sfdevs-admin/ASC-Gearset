@@ -1,0 +1,47 @@
+<template lwc:render-mode="light">
+    <lightning-tabset class="slds-tabs_default slds-tabs_medium" style="--dxp-c-link-text-color: black; --slds-c-tabs-item-sizing-height: 3rem; --slds-c-tabs-item-color-border-active: rgb(252, 186, 3);">
+        <!-- Render 2 tabs if isSampleProduct is true -->
+        <template if:true={isSampleProduct}>
+            <lightning-tab class="custom-tab"  label="Product Details" value="Tab Simple 1" onactive={handleActive} data-tab="Tab Simple 1">
+                <!-- Content for Tab 1 -->
+                <div if:true={tabSimple1Selected}>
+                    <slot name="productDetailsSimple"></slot>
+                </div>
+            </lightning-tab>
+            <lightning-tab class="custom-tab"  label="Technical Note" value="Tab Simple 2" onactive={handleActive} data-tab="Tab Simple 2">
+                <!-- Content for Tab 2 -->
+                <div if:true={tabSimple2Selected}>
+                    <slot name="technicalNoteSimple"></slot>
+                </div>
+            </lightning-tab>
+        </template>
+
+        <!-- Render all 4 tabs if isSampleProduct is false -->
+        <template if:false={isSampleProduct}>
+            <lightning-tab class="custom-tab"  label="Product Details" value="Tab 1" onactive={handleActive} data-tab="Tab 1">
+                <!-- Content for Tab 1 -->
+                <div if:true={tab1Selected}>
+                    <slot name="productDetails"></slot>
+                </div>
+            </lightning-tab>
+            <lightning-tab class="custom-tab"  label="Technical Note" value="Tab 2" onactive={handleActive} data-tab="Tab 2">
+                <!-- Content for Tab 2 -->
+                <div if:true={tab2Selected}>
+                    <slot name="technicalNote"></slot>
+                </div>
+            </lightning-tab>
+            <lightning-tab class="custom-tab"  label="Safety Data Sheets" value="Tab 3" onactive={handleActive} data-tab="Tab 3">
+                <!-- Content for Tab 3 -->
+                <div if:true={tab3Selected}>
+                    <slot name="safetyDataSheets"></slot>
+                </div>
+            </lightning-tab>
+            <lightning-tab class="custom-tab"  label="Certificate Of Analysis" value="Tab 4" onactive={handleActive} data-tab="Tab 4">
+                <!-- Content for Tab 4 --> 
+                <div if:true={tab4Selected}>
+                    <slot name="certificateOfAnalysis"></slot>
+                </div>
+            </lightning-tab>
+        </template>
+    </lightning-tabset>
+</template>

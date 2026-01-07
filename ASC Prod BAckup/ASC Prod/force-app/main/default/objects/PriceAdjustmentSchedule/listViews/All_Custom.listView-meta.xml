@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Custom</fullName>
+    <columns>Name</columns>
+    <columns>CurrencyIsoCode</columns>
+    <columns>CreatedDate</columns>
+    <columns>Description</columns>
+    <columns>IsActive</columns>
+    <columns>AdjustmentMethod</columns>
+    <columns>ScheduleType</columns>
+    <filterScope>Everything</filterScope>
+    <label>All - Custom</label>
+</ListView>

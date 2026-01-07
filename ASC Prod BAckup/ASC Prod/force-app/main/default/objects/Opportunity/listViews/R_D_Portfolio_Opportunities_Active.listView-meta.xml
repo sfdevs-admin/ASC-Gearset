@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_D_Portfolio_Opportunities_Active</fullName>
+    <columns>RD_Project_Number__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Platform__c</columns>
+    <columns>Program__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Project_Type__c</columns>
+    <columns>Next_Gate_Review__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Commercial_Lead__c</columns>
+    <columns>First_Commercial_Sale__c</columns>
+    <columns>Lead_Chemist__c</columns>
+    <columns>X2025_Revenue_K__c</columns>
+    <columns>X2026_Revenue_K__c</columns>
+    <columns>X2027_Revenue_K__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.R_D_Portfolio</value>
+    </filters>
+    <filters>
+        <field>Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Active,On-Hold</value>
+    </filters>
+    <label>R&amp;D Portfolio Opportunities (Active)</label>
+</ListView>

@@ -1,0 +1,38 @@
+<!-- <template>
+    <lightning-card title="Select Country" icon-name="utility:world">
+        <div class="countryselection">
+            <lightning-combobox
+                name="country"
+                label="Country"
+                value={selectedCountry}
+                placeholder="Select a Country"
+                options={countryOptions}
+                onchange={handleChange}
+                style="width: 104px;
+                left: 32px;"
+            ></lightning-combobox>
+        </div>
+    </lightning-card>
+</template> -->
+
+<template>
+    <div class="container">
+        <div class="country-box" onclick={openCountryList}>
+            <lightning-icon icon-name="utility:world" size="small" alternative-text="Country Icon"></lightning-icon>
+            <span class="selected-country">{selectedCountryName}</span>
+        </div>
+    </div>
+
+    <div class="overlay" if:true={showCountryList}>
+        <div class="overlay-content">
+            <button class="close-button" onclick={closeCountryList}>x</button>
+            <h2>Select Country</h2>
+            <lightning-combobox
+                value={selectedCountry}
+                placeholder="Select a Country"
+                options={countryOptions}
+                onchange={handleChange}
+            ></lightning-combobox>
+        </div>
+    </div>
+</template>

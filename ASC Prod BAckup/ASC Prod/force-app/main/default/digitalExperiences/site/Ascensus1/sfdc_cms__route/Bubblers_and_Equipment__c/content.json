@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Bubblers and Equipment",
+  "contentBody" : {
+    "activeViewId" : "Bubblers_and_Equipment",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-bubblers-and-equipment",
+    "urlPrefix" : "bubblers-and-equipment"
+  },
+  "urlName" : "bubblers-and-equipment"
+}

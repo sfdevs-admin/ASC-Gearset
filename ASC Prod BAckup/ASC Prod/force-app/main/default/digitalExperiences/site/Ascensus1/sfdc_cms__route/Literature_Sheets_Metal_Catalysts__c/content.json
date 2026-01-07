@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets-Metal Catalysts",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_Metal_Catalysts",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-metal-catalysts",
+    "urlPrefix" : "literature-sheets-metal-catalysts"
+  },
+  "urlName" : "literature-sheets-metal-catalysts"
+}

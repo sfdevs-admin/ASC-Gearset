@@ -1,0 +1,113 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Profile",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fad9587a-e74b-4ade-a521-e5ca6e388bf2\",\"columns\":[{\"UUID\":\"a442d2a2-91b4-46a1-b1cc-a3a08bc8e798\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "a442d2a2-91b4-46a1-b1cc-a3a08bc8e798",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fad9587a-e74b-4ade-a521-e5ca6e388bf2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0bdd2df0-24b1-4e95-a91b-8e4cccd93d22\",\"columns\":[{\"UUID\":\"b1d5fb02-206d-423e-bb0c-19492b150f1b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"5a89be22-cecc-450c-a55c-5ee9394467fb\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "emailLabel" : "Email",
+                "firstNameLabel" : "First Name",
+                "lastNameLabel" : "Last Name",
+                "phoneNumberLabel" : "Phone Number",
+                "requiredPhoneNumber" : true,
+                "showPhoneNumber" : true
+              },
+              "definition" : "commerce_builder:myAccountProfile",
+              "id" : "a1d31424-a904-4421-afd9-0ee975333063",
+              "type" : "component"
+            } ],
+            "id" : "b1d5fb02-206d-423e-bb0c-19492b150f1b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "commerce_builder:myAccountPassword",
+              "id" : "43be2427-a833-4f1b-8a4d-17a4772769d1",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<div class=\"slds-p-top_x-large\" style=\"border-radius: 0.25rem; box-shadow: 0px 2px 2px 0px rgba(217,213,219,0.75); -webkit-box-shadow: 0px 2px 2px 0px rgba(217,213,219,0.75); -moz-box-shadow: 0px 2px 2px 0px rgba(217,213,219,0.75);\">\n    <div class=\"slds-p-around_x-large slds-card\">\n        <p style=\"font-family: 'Albert Sans'; font-size: 1.25rem; font-weight: 300;\">Additional Information</p>\n        <p class=\"slds-p-top_medium\" style=\"font-size : 0.875rem; font-weight: 400;\">Customer Number</p>\n        <p class=\"slds-p-top_xx-small\" style=\"font-size : 0.875rem; font-weight: 400;\">{!User.Record.Account.Customer_Number__c}</p>\n        <p class=\"slds-p-top_medium\" style=\"font-size : 0.875rem; font-weight: 400;\">Tax exempt number</p>\n        <p class=\"slds-p-top_xx-small\" style=\"font-size : 0.875rem; font-weight: 400;\">{!User.Record.Account.tax_exempt_number__c}</p>\n        <p class=\"slds-p-top_medium\" style=\"font-size : 0.875rem; font-weight: 400;\">VAT Number</p>\n        <p class=\"slds-p-top_xx-small\" style=\"font-size : 0.875rem; font-weight: 400;\">{!User.Record.Account.vat_number__c}</p>\n\t</div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "5c148617-e23d-475d-8b95-a46bb68c1e0d",
+              "type" : "component"
+            } ],
+            "id" : "5a89be22-cecc-450c-a55c-5ee9394467fb",
+            "name" : "col2",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0bdd2df0-24b1-4e95-a91b-8e4cccd93d22",
+          "type" : "component"
+        } ],
+        "id" : "5a76a4e4-5daa-4f70-89a6-c3e4e753354d",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d2f68a32-6054-45d5-96d3-ee6042624452",
+          "type" : "component"
+        } ],
+        "id" : "0e50b5b2-ebc6-4ee4-8a6e-05e9cde6286d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "806e4737-0e2e-4e46-adc5-ddd6a76a3e81",
+      "type" : "component"
+    },
+    "dataProviders" : [ {
+      "definition" : "sfdc_cms__commerceMyProfileDataProvider",
+      "sfdcExpressionKey" : "MyProfile",
+      "attributes" : { }
+    } ],
+    "themeLayoutType" : "MyAccount",
+    "viewType" : "my-profile"
+  },
+  "urlName" : "my-profile"
+}

@@ -1,0 +1,14 @@
+<template>
+    <template lwc:if={showWarningBanner}>
+        <lightning-card>
+            <div style="text-align: center;font-size: large;">
+                <div style="color: red;">
+                    <lightning-formatted-rich-text value={warningLabel}></lightning-formatted-rich-text>
+                </div>
+                <div class="slds-p-bottom_small slds-p-top_xx-small">
+                    {redirectMessage} <a href={opportunityLink}><b>{opportunityName}</b></a>
+                </div>
+            </div>
+        </lightning-card>
+    </template>
+</template>

@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Chemical Manufacturer | Specialty Chemicals | High Purity",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "sectionMinHeight" : "250px"
+        },
+        "id" : "927e3575-4d9f-44d0-9815-ee484380bd8e"
+      } ]
+    }
+  },
+  "urlName" : "home"
+}

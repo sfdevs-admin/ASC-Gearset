@@ -1,0 +1,1032 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-22-2024
+  @last modified by  : surya.thakur
+-->
+<template>
+    <div if:true={showSpinner}>
+        <div class="loader-dots">{messageState}</div>
+        <div class="back-drop"></div>
+    </div>
+    <div class="periodicTableHeading-container slds-m-top_medium">
+        <div class="periodicTableHeading">
+            <h1>Periodic Table</h1>
+        </div>
+        <div class="periodicTableDescription">
+            <p>Select an element to search for your product</p>
+        </div>
+    </div>
+    <div class="search-label" if:true={searchTerm}>
+        <strong>{searchTerm}</strong>
+    </div>
+    <table cellpadding="1" cellspacing="1" class="periodic_table"
+        summary="Product search links organized as a periodic table of the elements">
+        <tbody>
+            <tr>
+                <td class="blank">&nbsp;</td>
+                <td class="blank">&nbsp;</td>
+                <td rowspan="4" colspan="10" class="blank">
+                    <!-- <div class="product_groups">
+                        <h4>Other Product Groups:</h4>
+                        <ul class="col_one_of_two">
+                            <li><a href="/catalog/gl/41/metals_scavenging_agents">Metals Scavenging Agents</a></li>
+                            <li><a href="/catalog/gl/42/molecular_sieves">Molecular Sieves</a></li>
+                            <li><a href="/catalog/gl/44/nanomaterials">Nanomaterials</a></li>
+                            <li><a href="/catalog/gl/33/kits">Kits</a></li>
+                            <li><a href="/catalog/gl/90/suba_seals">Suba Seals</a></li>
+                        </ul>
+                        <ul class="col_two_of_two">
+                            <li><a href="/catalog/gl/30/ionic_liquids">Ionic Liquids</a></li>
+                            <li><a href="/catalog/gl/93/cylinders">Cylinders (CVD/ALD) &amp; Adapters</a></li>
+                            <li><a href="/catalog/gl/89/electropolished_stainless_steel_bubblers">Electroplished Stainless Steel Bubblers</a></li>
+                            <li><a href="/catalog/family/Biocatalyst/">Biocatalysts</a></li>
+                        </ul>
+                    </div> -->
+                </td>
+                <td colspan="6" class="blank">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="hydrogen-parent-disable">
+                        <div class="hydrogen-child-1">1</div>
+                        <div class="hydrogen-child-2">H</div>
+                    </div>
+                </td>
+                <td class="blank" colspan="1">&nbsp;</td>
+                <td colspan="5" class="blank">&nbsp;</td>
+                <td>
+                    <div class="hydrogen-parent-disable">
+                        <div class="hydrogen-child-1">2</div>
+                        <div class="hydrogen-child-2">He</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td data-element="Li" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">3</div>
+                            <div class="hydrogen-child-2">Li</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Be" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">4</div>
+                            <div class="hydrogen-child-2">Be</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="B" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">5</div>
+                            <div class="carbon-child-2">B</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="C" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">6</div>
+                            <div class="carbon-child-2">C</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="N" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">7</div>
+                            <div class="carbon-child-2">N</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="O" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">8</div>
+                            <div class="carbon-child-2">O</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="F" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">9</div>
+                            <div class="carbon-child-2">F</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ne" onclick={handleNavigation}>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">10</div>
+                        <div class="carbon-child-2">Ne</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td data-element="Na" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">11</div>
+                            <div class="hydrogen-child-2">Na</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Mg" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">12</div>
+                            <div class="hydrogen-child-2">Mg</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Al" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">13</div>
+                            <div class="carbon-child-2">Al</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Si" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">14</div>
+                            <div class="carbon-child-2">Si</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="P" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">15</div>
+                            <div class="carbon-child-2">P</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="S" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">16</div>
+                            <div class="carbon-child-2">S</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Cl" onclick={handleNavigation}>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">17</div>
+                        <div class="carbon-child-2">Cl</div>
+                    </div>
+                </td>
+                <td data-element="Ar" onclick={handleNavigation}>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">18</div>
+                        <div class="carbon-child-2">Ar</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td data-element="K" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">19</div>
+                            <div class="hydrogen-child-2">K</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ca" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">20</div>
+                            <div class="hydrogen-child-2">Ca</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Sc" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">21</div>
+                            <div class="scandium-child-2">Sc</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ti" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">22</div>
+                            <div class="scandium-child-2">Ti</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="V" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">23</div>
+                            <div class="scandium-child-2">V</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Cr" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">24</div>
+                            <div class="scandium-child-2">Cr</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Mn" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">25</div>
+                            <div class="scandium-child-2">Mn</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Fe" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">26</div>
+                            <div class="scandium-child-2">Fe</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Co" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">27</div>
+                            <div class="scandium-child-2">Co</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ni" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">28</div>
+                            <div class="scandium-child-2">Ni</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Cu" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">29</div>
+                            <div class="scandium-child-2">Cu</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Zn" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">30</div>
+                            <div class="scandium-child-2">Zn</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ga" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">31</div>
+                            <div class="carbon-child-2">Ga</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ge" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">32</div>
+                            <div class="carbon-child-2">Ge</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="As" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">33</div>
+                            <div class="carbon-child-2">As</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Se" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">34</div>
+                            <div class="carbon-child-2">Se</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Br" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">35</div>
+                            <div class="carbon-child-2">Br</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Kr" onclick={handleNavigation}>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">36</div>
+                        <div class="carbon-child-2">Kr</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td data-element="Rb" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">37</div>
+                            <div class="hydrogen-child-2">Rb</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Sr" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">38</div>
+                            <div class="hydrogen-child-2">Sr</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Y" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">39</div>
+                            <div class="scandium-child-2">Y</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Zr" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">40</div>
+                            <div class="scandium-child-2">Zr</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Nb" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">41</div>
+                            <div class="scandium-child-2">Nb</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Mo" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">42</div>
+                            <div class="scandium-child-2">Mo</div>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">43</div>
+                        <div class="scandium-child-2">Tc</div>
+                    </div>
+                </td>
+                <td data-element="Ru" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">44</div>
+                            <div class="scandium-child-2">Ru</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Rh" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">45</div>
+                            <div class="scandium-child-2">Rh</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Pd" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">46</div>
+                            <div class="scandium-child-2">Pd</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ag" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">47</div>
+                            <div class="scandium-child-2">Ag</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Cd" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">48</div>
+                            <div class="scandium-child-2">Cd</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="In" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">49</div>
+                            <div class="carbon-child-2">In</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Sn" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">50</div>
+                            <div class="carbon-child-2">Sn</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Sb" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">51</div>
+                            <div class="carbon-child-2">Sb</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Te" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">52</div>
+                            <div class="carbon-child-2">Te</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="I" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">53</div>
+                            <div class="carbon-child-2">I</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Xe" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">54</div>
+                            <div class="carbon-child-2">Xe</div>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td data-element="Cs" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">55</div>
+                            <div class="hydrogen-child-2">Cs</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ba" onclick={handleNavigation}>
+                    <a>
+                        <div class="hydrogen-parent">
+                            <div class="hydrogen-child-1">56</div>
+                            <div class="hydrogen-child-2">Ba</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="La" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">57-71</div>
+                            <div class="liquid-child-2">La</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Hf" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">72</div>
+                            <div class="scandium-child-2">Hf</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ta" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">73</div>
+                            <div class="scandium-child-2">Ta</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="W" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">74</div>
+                            <div class="scandium-child-2">W</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Re" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">75</div>
+                            <div class="scandium-child-2">Re</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Os" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">76</div>
+                            <div class="scandium-child-2">Os</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ir" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">77</div>
+                            <div class="scandium-child-2">Ir</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Pt" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">78</div>
+                            <div class="scandium-child-2">Pt</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Au" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">79</div>
+                            <div class="scandium-child-2">Au</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Hg" onclick={handleNavigation}>
+                    <a>
+                        <div class="scandium-parent">
+                            <div class="scandium-child-1">80</div>
+                            <div class="scandium-child-2">Hg</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Tl" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">81</div>
+                            <div class="carbon-child-2">Tl</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Pb" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">82</div>
+                            <div class="carbon-child-2">Pb</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Bi" onclick={handleNavigation}>
+                    <a>
+                        <div class="carbon-parent">
+                            <div class="carbon-child-1">83</div>
+                            <div class="carbon-child-2">Bi</div>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">84</div>
+                        <div class="carbon-child-2">Po</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">85</div>
+                        <div class="carbon-child-2">At</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">86</div>
+                        <div class="carbon-child-2">Rn</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="hydrogen-parent-disable">
+                        <div class="hydrogen-child-1">87</div>
+                        <div class="hydrogen-child-2">Fr</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="hydrogen-parent-disable">
+                        <div class="hydrogen-child-1">88</div>
+                        <div class="hydrogen-child-2">Ra</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">89-103</div>
+                        <div class="liquid-child-2">Ac</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">104</div>
+                        <div class="scandium-child-2">Rf</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">105</div>
+                        <div class="scandium-child-2">Db</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">106</div>
+                        <div class="scandium-child-2">Sg</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">107</div>
+                        <div class="scandium-child-2">Bh</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">108</div>
+                        <div class="scandium-child-2">Hs</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">109</div>
+                        <div class="scandium-child-2">Mt</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">110</div>
+                        <div class="scandium-child-2">Ds</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">111</div>
+                        <div class="scandium-child-2">Rg</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="scandium-parent-disable">
+                        <div class="scandium-child-1">112</div>
+                        <div class="scandium-child-2">Cn</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">113</div>
+                        <div class="carbon-child-2">Nh</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">114</div>
+                        <div class="carbon-child-2">Fi</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">115</div>
+                        <div class="carbon-child-2">Mc</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">116</div>
+                        <div class="carbon-child-2">Lv</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">117</div>
+                        <div class="carbon-child-2">Ts</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="carbon-parent-disable">
+                        <div class="carbon-child-1">118</div>
+                        <div class="carbon-child-2">Og</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="18" class="blank">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="2" class="blank">&nbsp;</td>
+                <td data-element="La" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">57</div>
+                            <div class="liquid-child-2">La</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ce" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">58</div>
+                            <div class="liquid-child-2">Ce</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Pr" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">59</div>
+                            <div class="liquid-child-2">Pr</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Nd" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">60</div>
+                            <div class="liquid-child-2">Nd</div>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">61</div>
+                        <div class="liquid-child-2">Pm</div>
+                    </div>
+                </td>
+                <td data-element="Sm" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">62</div>
+                            <div class="liquid-child-2">Sm</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Eu" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">63</div>
+                            <div class="liquid-child-2">Eu</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Gd" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">64</div>
+                            <div class="liquid-child-2">Gd</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Tb" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">65</div>
+                            <div class="liquid-child-2">Tb</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Dy" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">66</div>
+                            <div class="liquid-child-2">Dy</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Ho" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">67</div>
+                            <div class="liquid-child-2">Ho</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Er" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">68</div>
+                            <div class="liquid-child-2">Er</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Tm" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">69</div>
+                            <div class="liquid-child-2">Tm</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Yb" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">70</div>
+                            <div class="liquid-child-2">Yb</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Lu" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">71</div>
+                            <div class="liquid-child-2">Lu</div>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">89</div>
+                        <div class="liquid-child-2">Ac</div>
+                    </div>
+                </td>
+                <td data-element="Th" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent">
+                            <div class="liquid-child-1">90</div>
+                            <div class="liquid-child-2">Th</div>
+                        </div>
+                    </a>
+                </td>
+                <td data-element="Pa" onclick={handleNavigation}>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">91</div>
+                        <div class="liquid-child-2">Pa</div>
+                    </div>
+                </td>
+                <td data-element="U" onclick={handleNavigation}>
+                    <a>
+                        <div class="liquid-parent-disable">
+                            <div class="liquid-child-1">92</div>
+                            <div class="liquid-child-2">U</div>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">93</div>
+                        <div class="liquid-child-2">Np</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">94</div>
+                        <div class="liquid-child-2">Pu</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">95</div>
+                        <div class="liquid-child-2">Am</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">96</div>
+                        <div class="liquid-child-2">Cm</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">97</div>
+                        <div class="liquid-child-2">Bk</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">98</div>
+                        <div class="liquid-child-2">Cf</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">99</div>
+                        <div class="liquid-child-2">Es</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">100</div>
+                        <div class="liquid-child-2">Fm</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">101</div>
+                        <div class="liquid-child-2">Md</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">102</div>
+                        <div class="liquid-child-2">No</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="liquid-parent-disable">
+                        <div class="liquid-child-1">103</div>
+                        <div class="liquid-child-2">Lr</div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="color-stencil slds-m-around_xx-large">
+        <div class="color-stencil-border">
+            <table>
+                <tr>
+                    <td class="color-td-center">
+                        <div class="color-square-solid">
+
+                        </div>
+                        <div class="slds-m-top_medium">
+                            d-block
+                        </div>
+                    </td>
+                    <td class="color-td-center">
+                        <div class="color-square-liquid">
+
+                        </div>
+                        <div class="slds-m-top_medium">
+                            f-block
+                        </div>
+                    </td>
+                    <td class="color-td-center">
+                        <div class="color-square-gas">
+
+                        </div>
+                        <div class="slds-m-top_medium">
+                            s-block
+                        </div>
+                    </td>
+                    <td class="color-td-center">
+                        <div class="color-square-artificial">
+
+                        </div>
+                        <div class="slds-m-top_medium">
+                            p-block
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="others-conatiner slds-p-bottom_xx-large">
+        <div class="product_groups">
+            <h1 class="others-heading slds-p-vertical_x-large">Other Product Groups:</h1>
+            <div class="list-container slds-p-bottom_large">
+                <ul class="horizontal-list">
+                    <li data-element="Metal Scavenging Agents" onclick={handleNavigation}><a>Metals Scavenging
+                            Agents</a></li>
+                    <li data-element="Molecular Sieve" onclick={handleNavigation}><a>Molecular Sieves</a></li>
+                    <li data-element="Nanomaterials" onclick={handleNavigation}><a>Nanomaterials</a></li>
+                    <li data-element="Kits" onclick={handleNavigation}><a>Kits</a></li>
+                    <li data-element="Suba Seals" onclick={handleNavigation}><a>Suba Seals</a></li>
+                    <li data-element="Ionic Liquids" onclick={handleNavigation}><a>Ionic Liquids</a></li>
+                </ul>
+            </div>
+            <div class="list-container">
+                <ul class="horizontal-list">
+                    <li data-element="Cylinders (CVD/ALD) & Adapters" onclick={handleNavigation}><a>Cylinders (CVD/ALD)
+                            &amp; Adapters</a></li>
+                    <li data-element="Electropolished Stainless Steel Bubblers" onclick={handleNavigation}>
+                        <a>Electropolished Stainless Steel Bubblers</a>
+                    </li>
+                    <li data-element="Biocatalyst" onclick={handleNavigation}><a>Biocatalysts</a></li>
+                </ul>
+            </div>
+            <!-- <ul class="col_one_of_two">
+                <li><a href="/catalog/gl/41/metals_scavenging_agents">Metals Scavenging Agents</a></li>
+                <li><a href="/catalog/gl/42/molecular_sieves">Molecular Sieves</a></li>
+                <li><a href="/catalog/gl/44/nanomaterials">Nanomaterials</a></li>
+                <li><a href="/catalog/gl/33/kits">Kits</a></li>
+                <li><a href="/catalog/gl/90/suba_seals">Suba Seals</a></li>
+            </ul>
+            <ul class="col_two_of_two">
+                <li><a href="/catalog/gl/30/ionic_liquids">Ionic Liquids</a></li>
+                <li><a href="/catalog/gl/93/cylinders">Cylinders (CVD/ALD) &amp; Adapters</a></li>
+                <li><a href="/catalog/gl/89/electropolished_stainless_steel_bubblers">Electroplished Stainless Steel Bubblers</a></li>
+                <li><a href="/catalog/family/Biocatalyst/">Biocatalysts</a></li>
+            </ul> -->
+        </div>
+    </div>
+</template>

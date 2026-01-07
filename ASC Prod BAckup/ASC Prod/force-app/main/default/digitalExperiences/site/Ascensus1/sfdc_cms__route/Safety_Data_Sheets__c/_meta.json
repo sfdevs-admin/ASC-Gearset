@@ -1,0 +1,5 @@
+{
+  "apiName" : "Safety_Data_Sheets__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

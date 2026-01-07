@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>tbl_Repack</label>
+    <pluralLabel>tbl_Repack</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

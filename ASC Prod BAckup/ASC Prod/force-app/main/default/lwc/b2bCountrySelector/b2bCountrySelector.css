@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.country-box {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(252, 186, 3, 1);
+    border-radius: 105px;
+}
+
+.country-box:hover {
+    background-color: rgb(188, 140, 6);
+}
+
+.selected-country {
+    margin-left: 4px;
+    font-size: 13px;
+    width: 90px;
+}
+
+.overlay{
+    position: fixed;
+    right: 10px;
+    top: 0;
+    height: 50%;
+    width: 300px;
+    overflow-x: hidden;
+    transition: right 0.5s ease;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+:host([showCountryList]) .overlay {
+    right: 0; /* slide-in to be fully visible */
+}
+
+.overlay-content{
+    right: 0px;
+    height: 100%;
+    width: 50%;
+    overflow-x: unset !important;
+}
+
+.slds-panel {
+    overflow-y: unset !important;
+}
+
+.slds-scrollable--y, .slds-scrollable_y {
+    max-height: 91% !important;
+}
+
+.closeIcon-pointer {
+    cursor: pointer !important;
+}
+
+.spinnerStyle{
+    z-index: 10000 !important;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 48em) {
+    .overlay-content {
+        width: 100%;
+    }
+}

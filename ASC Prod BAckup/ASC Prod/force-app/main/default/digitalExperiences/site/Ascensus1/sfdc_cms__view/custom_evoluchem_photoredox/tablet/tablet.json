@@ -1,0 +1,16 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "EvoluChem™ PhotoRedOx",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "sectionMinHeight" : "200px",
+          "maxContentWidth" : "none"
+        },
+        "id" : "285d7163-f0ca-4a75-bd9e-ed5cfcaf39d1"
+      } ]
+    }
+  },
+  "urlName" : "evoluchem-photoredox"
+}

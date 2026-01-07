@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Payment Method (Credit Card) Customer has selected for an Order.</description>
+    <inlineHelpText>Payment Method (Credit Card) Customer has selected for an Order.</inlineHelpText>
+    <label>Payment Method</label>
+    <referenceTo>PaymentMethod__c</referenceTo>
+    <relationshipLabel>Order Summaries</relationshipLabel>
+    <relationshipName>Order_Summaries</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

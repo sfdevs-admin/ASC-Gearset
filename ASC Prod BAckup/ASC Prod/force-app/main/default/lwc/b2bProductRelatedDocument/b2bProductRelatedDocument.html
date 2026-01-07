@@ -1,0 +1,92 @@
+<template>
+
+    <template if:false={erroredOut}>
+        <template if:true={techNoteTab}>
+            <div class="slds-align_absolute-center">
+                <iframe src={technicalNotesURL} height="1000" width="75%"></iframe>
+            </div>
+        </template>
+
+        <template if:true={sdsTab}>
+            <div class="slds-text-align_right slds-text-heading_medium right-padding">
+                <span if:true={sdsUrlUS}><b><a href="javascript:void(0)" data-value={sdsUrlUS} onclick={previewHandler} class="slds-m-left_small asc-cursor">English [USA] </a></b></span>
+                <span if:true={sdsUrlGB}><b><a href="javascript:void(0)" data-value={sdsUrlGB} onclick={previewHandler} class="slds-m-left_small asc-cursor">English [UK] </a></b></span>
+                <span if:true={sdsUrlDE}><b><a href="javascript:void(0)" data-value={sdsUrlDE} onclick={previewHandler} class="slds-m-left_small asc-cursor">Deutsch</a></b></span>
+                <span if:true={sdsUrlFR}><b><a href="javascript:void(0)" data-value={sdsUrlFR} onclick={previewHandler} class="slds-m-left_small asc-cursor">Français </a></b></span>
+                <span if:true={sdsUrlKR}><b><a href="javascript:void(0)" data-value={sdsUrlKR} onclick={previewHandler} class="slds-m-left_small asc-cursor">한국어 </a></b></span>
+                <span if:true={sdsUrlCN}><b><a href="javascript:void(0)" data-value={sdsUrlCN} onclick={previewHandler} class="slds-m-left_small asc-cursor">中文</a></b></span>
+            </div>
+            <div class="slds-align_absolute-center">
+                <iframe src={sdsUrl} height="1000" width="75%"></iframe>
+            </div>  
+        </template>
+
+        <template if:true={techNoteTabError}>
+            <p><lightning-formatted-text class="message-font" value={label.B2B_Technical_Note_Msg} linkify></lightning-formatted-text></p>
+        </template>
+        <template if:true={sdsTabError}>
+            <p><lightning-formatted-text class="message-font" value={label.B2B_SDS_Msg} linkify></lightning-formatted-text></p>
+        </template>
+
+    </template>
+    <template if:true={erroredOut}>
+        <p class="message-font">{errorMsg}</p>
+    </template>
+    <template if:true={techPage}>
+        <div>
+            <h2 style="font-weight: bold; font-size: 25px;">Technical Notes</h2>
+        </div><br>
+        <p>Technical notes, if available, can be found on the "product detail" page as a tab. They may also be found by entering a <br>
+            catalog number (eg 27-0400) in the search field below.</p><br>
+        <div class="section">
+            <h2>Enter a Catalog Number to Search for a Technical Note</h2>
+            <div class="underline"></div>
+            <div class="input-container">
+                <lightning-input
+                    class="tech-note"
+                    style="width:300px; margin-right: 10px;"
+                    type="text"
+                    tabindex="0"
+                    max-length="90"
+                    value={txtTechNote}
+                ></lightning-input>
+                <lightning-button label="Search" style="margin-top: 8px;" onclick={handleTechSerach}></lightning-button>
+            </div>
+        </div>  
+            <iframe class="iframe" src={technicalNotesURL} height="600" width="100%"></iframe>          
+    </template> 
+    
+    <template if:true={sdsPage}>
+        <div>
+            <h2 style="font-weight: bold; font-size: 25px;">Safety Data Sheets (SDS)</h2>
+        </div><br>
+        <p>Safety Data Sheets, if available, can be found on the "product detail" page as a tab. They may also be found by entering a <br>
+            catalog number (eg 27-0400) in the search field below.</p><br>
+        <div class="section">
+            <h2>Enter a Catalog Number to Search for a SDS</h2>
+            <div class="underline"></div>
+            <div class="input-container">
+                <lightning-input
+                    class="sds-note"
+                    style="width:300px; margin-right: 10px;"
+                    type="text"
+                    tabindex="0"
+                    max-length="90"
+                    value={txtSdsNote}
+                ></lightning-input>
+                <lightning-button label="Search" style="margin-top: 8px;" onclick={handleSdsSerach}></lightning-button>
+            </div>
+        </div> 
+        <div class="slds-text-align_right slds-text-heading_medium">
+            <b><a href="javascript:void(0)" data-value={sdsUrlUS} onclick={previewHandler} class="slds-m-left_small asc-cursor">English [USA] </a></b>
+            <b><a href="javascript:void(0)" data-value={sdsUrlGB} onclick={previewHandler} class="slds-m-left_small asc-cursor">English [UK] </a></b>
+            <b><a href="javascript:void(0)" data-value={sdsUrlDE} onclick={previewHandler} class="slds-m-left_small asc-cursor">Deutsch</a></b>
+            <b><a href="javascript:void(0)" data-value={sdsUrlFR} onclick={previewHandler} class="slds-m-left_small asc-cursor">Français </a></b>
+            <b><a href="javascript:void(0)" data-value={sdsUrlKR} onclick={previewHandler} class="slds-m-left_small asc-cursor">한국어 </a></b>
+            <b><a href="javascript:void(0)" data-value={sdsUrlCN} onclick={previewHandler} class="slds-m-left_small asc-cursor">中文</a></b>
+        </div>
+        <div>
+            <iframe src={sdsUrlUS} height="600" width="100%"></iframe>
+        </div>
+    </template>  
+</template>

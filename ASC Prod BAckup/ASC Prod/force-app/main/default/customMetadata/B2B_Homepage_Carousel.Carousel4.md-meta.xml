@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Carousel4</label>
+    <protected>false</protected>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Description for image 4</value>
+    </values>
+    <values>
+        <field>Heading__c</field>
+        <value xsi:type="xsd:string">Heading 4</value>
+    </values>
+    <values>
+        <field>Image_URL__c</field>
+        <value xsi:type="xsd:string">/sfsites/c/cms/delivery/media/MCLV7CX2V4TJAHNLIGMDY5VUAVFY</value>
+    </values>
+    <values>
+        <field>Link_URL__c</field>
+        <value xsi:type="xsd:string">/new-lab-discount</value>
+    </values>
+    <values>
+        <field>Sort_Order__c</field>
+        <value xsi:type="xsd:double">4.0</value>
+    </values>
+    <values>
+        <field>URL_Target__c</field>
+        <value xsi:type="xsd:string">_blank</value>
+    </values>
+</CustomMetadata>

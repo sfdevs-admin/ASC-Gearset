@@ -1,0 +1,28 @@
+<template lwc:render-mode="light">
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-large-size_5-of-12 slds-medium-size_5-of-12 slds-size_12-of-12">
+            <section class="kit-item-section slds-p-around_xxx-small slds-m-bottom_xxx-small">
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                            <div class="">
+                                <img src={prodImageUrl} alt={prodName} class="product-img">
+                            </div>
+                        </div>
+                        <div class="slds-col slds-large-size_10-of-12 slds-medium-size_10-of-12 slds-size_12-of-12">
+                            <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-large-size_10-of-12 slds-medium-size_10-of-12 slds-size_12-of-12">
+                                    <div class="text-font"><a onclick={handleNavigateToProductPage} href="javascript:void(0)">{prodName}</a></div>
+                                    <div class="text-font">{prodCatlogNumber}</div>
+                                </div>
+                                <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_center">
+                                    <span class="slds-wrap word-fix">
+                                        {unitValue}
+                                    </span>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </div> 
+</template>

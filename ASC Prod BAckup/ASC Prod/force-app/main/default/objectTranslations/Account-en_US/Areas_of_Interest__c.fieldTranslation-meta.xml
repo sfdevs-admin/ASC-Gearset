@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Areas of Interest --></label>
+    <name>Areas_of_Interest__c</name>
+    <picklistValues>
+        <masterLabel>biocatalysts</masterLabel>
+        <translation><!-- biocatalysts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>catalysts</masterLabel>
+        <translation><!-- catalysts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>coating</masterLabel>
+        <translation><!-- coating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>flavor fragrances</masterLabel>
+        <translation><!-- flavor fragrances --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ionic liquids</masterLabel>
+        <translation><!-- ionic liquids --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>materials science</masterLabel>
+        <translation><!-- materials science --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mocvd</masterLabel>
+        <translation><!-- mocvd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mof</masterLabel>
+        <translation><!-- mof --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>nanomaterials</masterLabel>
+        <translation><!-- nanomaterials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>organic</masterLabel>
+        <translation><!-- organic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>organic inorganic</masterLabel>
+        <translation><!-- organic inorganic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>physical</masterLabel>
+        <translation><!-- physical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

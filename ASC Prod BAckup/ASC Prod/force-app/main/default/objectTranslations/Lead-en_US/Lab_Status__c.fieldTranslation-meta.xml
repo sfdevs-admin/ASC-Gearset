@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lab Status --></label>
+    <name>Lab_Status__c</name>
+    <picklistValues>
+        <masterLabel>Moving to a new institution</masterLabel>
+        <translation><!-- Moving to a new institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Receiving your first research grant</masterLabel>
+        <translation><!-- Receiving your first research grant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starting a new lab</masterLabel>
+        <translation><!-- Starting a new lab --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

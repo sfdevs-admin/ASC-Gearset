@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reaction__c</fullName>
+    <label>Reaction</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amination</fullName>
+                <default>false</default>
+                <label>Amination</label>
+            </value>
+            <value>
+                <fullName>Aziridination</fullName>
+                <default>false</default>
+                <label>Aziridination</label>
+            </value>
+            <value>
+                <fullName>Carbon-carbon bond formation-General</fullName>
+                <default>false</default>
+                <label>Carbon-carbon bond formation-General</label>
+            </value>
+            <value>
+                <fullName>Carbon-carbon bond formation-Cross coupling</fullName>
+                <default>false</default>
+                <label>Carbon-carbon bond formation-Cross coupling</label>
+            </value>
+            <value>
+                <fullName>Carbon-carbon bond formation-Heck Reaction</fullName>
+                <default>false</default>
+                <label>Carbon-carbon bond formation-Heck Reaction</label>
+            </value>
+            <value>
+                <fullName>Carbon-heteroatom bond formation</fullName>
+                <default>false</default>
+                <label>Carbon-heteroatom bond formation</label>
+            </value>
+            <value>
+                <fullName>Cyclization</fullName>
+                <default>false</default>
+                <label>Cyclization</label>
+            </value>
+            <value>
+                <fullName>Cyclopropanation</fullName>
+                <default>false</default>
+                <label>Cyclopropanation</label>
+            </value>
+            <value>
+                <fullName>Decarbonylation</fullName>
+                <default>false</default>
+                <label>Decarbonylation</label>
+            </value>
+            <value>
+                <fullName>Decarboxylation</fullName>
+                <default>false</default>
+                <label>Decarboxylation</label>
+            </value>
+            <value>
+                <fullName>Dehydrogenation</fullName>
+                <default>false</default>
+                <label>Dehydrogenation</label>
+            </value>
+            <value>
+                <fullName>Deoxyfluorination</fullName>
+                <default>false</default>
+                <label>Deoxyfluorination</label>
+            </value>
+            <value>
+                <fullName>Hydroboration</fullName>
+                <default>false</default>
+                <label>Hydroboration</label>
+            </value>
+            <value>
+                <fullName>Hydroformylation</fullName>
+                <default>false</default>
+                <label>Hydroformylation</label>
+            </value>
+            <value>
+                <fullName>Hydrogenation</fullName>
+                <default>false</default>
+                <label>Hydrogenation</label>
+            </value>
+            <value>
+                <fullName>Hydrolysis</fullName>
+                <default>false</default>
+                <label>Hydrolysis</label>
+            </value>
+            <value>
+                <fullName>Hydrosilyation</fullName>
+                <default>false</default>
+                <label>Hydrosilyation</label>
+            </value>
+            <value>
+                <fullName>Epoxidation</fullName>
+                <default>false</default>
+                <label>Epoxidation</label>
+            </value>
+            <value>
+                <fullName>Isomerization</fullName>
+                <default>false</default>
+                <label>Isomerization</label>
+            </value>
+            <value>
+                <fullName>Kinetic Resolution</fullName>
+                <default>false</default>
+                <label>Kinetic Resolution</label>
+            </value>
+            <value>
+                <fullName>Metathesis</fullName>
+                <default>false</default>
+                <label>Metathesis</label>
+            </value>
+            <value>
+                <fullName>Oxidation</fullName>
+                <default>false</default>
+                <label>Oxidation</label>
+            </value>
+            <value>
+                <fullName>Ring Opening</fullName>
+                <default>false</default>
+                <label>Ring Opening</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

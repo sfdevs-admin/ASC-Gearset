@@ -1,0 +1,25 @@
+<!--
+  @description       : 
+  @author            : Mradul Maheshwari
+  @group             : 
+  @last modified on  : 09-06-2025
+  @last modified by  : Mradul Maheshwari
+-->
+<template>
+  <nav aria-label="breadcrumb">
+    <p>
+      <a href="/">Home</a>
+      &nbsp;&gt;&nbsp;
+      <a href={defaultCategoryId}>Products</a>
+      <template if:true={myBreadcrumbs}>
+        &nbsp;&gt;&nbsp;
+        <template for:each={myBreadcrumbs} for:item="cat">
+          <span key={cat.name}>
+            <a href={cat.categoryUrl}>{cat.name}</a>
+            <template if:false={cat.isLast}> | </template>
+          </span>
+        </template>
+      </template>
+    </p>
+  </nav>
+</template>

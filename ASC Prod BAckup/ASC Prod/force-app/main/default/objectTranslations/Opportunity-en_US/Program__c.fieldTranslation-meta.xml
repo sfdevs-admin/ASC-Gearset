@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Program --></label>
+    <name>Program__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Electrolytes</masterLabel>
+        <translation><!-- Advanced Electrolytes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alcoholates Extensions</masterLabel>
+        <translation><!-- Alcoholates Extensions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alkyl Lithiums</masterLabel>
+        <translation><!-- Alkyl Lithiums --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Analytical Development</masterLabel>
+        <translation><!-- Analytical Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Applications Development</masterLabel>
+        <translation><!-- Applications Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boranes Extensions</masterLabel>
+        <translation><!-- Boranes Extensions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deuterium Reagents</masterLabel>
+        <translation><!-- Deuterium Reagents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronic Gases</masterLabel>
+        <translation><!-- Electronic Gases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emerging Pharma</masterLabel>
+        <translation><!-- Emerging Pharma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enabling Ligands</masterLabel>
+        <translation><!-- Enabling Ligands --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GMP INT &amp; Reagents</masterLabel>
+        <translation><!-- GMP INT &amp; Reagents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generic API</masterLabel>
+        <translation><!-- Generic API --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lucky Strikes</masterLabel>
+        <translation><!-- Lucky Strikes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organometallic Precursors</masterLabel>
+        <translation><!-- Organometallic Precursors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Improvement</masterLabel>
+        <translation><!-- Product Improvement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spec. Intermediates</masterLabel>
+        <translation><!-- Spec. Intermediates --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

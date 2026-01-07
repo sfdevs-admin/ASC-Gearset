@@ -1,0 +1,5 @@
+{
+  "apiName" : "Safety_Data_Sheets",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

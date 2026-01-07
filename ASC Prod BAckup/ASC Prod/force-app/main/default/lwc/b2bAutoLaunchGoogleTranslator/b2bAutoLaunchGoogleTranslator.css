@@ -1,0 +1,61 @@
+.tooltip-box {
+    position: fixed;
+    right: 16px;
+    top: 80px;
+
+    width: 320px;
+    max-width: calc(100vw - 32px);
+
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background: #ffffff;
+    border: 1px solid #d8dde6;
+    border-radius: 8px;
+    padding: 14px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    font-size: 0.85rem;
+    line-height: 1.45;
+
+    z-index: 1000;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.tooltip-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(5px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.translate-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.translate-icon lightning-primitive-icon svg {
+    width: 28px !important;
+    height: 28px !important;
+    color: #0176d3;
+    stroke: white;
+}
+.translate-icon:hover {
+    transform: scale(1.08);
+    transition: 0.2s ease-in-out;
+}
+.person-language-icon{
+    background-color: #0176d3;
+}

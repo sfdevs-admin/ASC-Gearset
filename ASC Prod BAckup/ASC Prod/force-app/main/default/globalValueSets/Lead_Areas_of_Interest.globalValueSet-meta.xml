@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Catalysis</fullName>
+        <default>false</default>
+        <label>Catalysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Inorganic</fullName>
+        <default>false</default>
+        <label>Inorganic</label>
+    </customValue>
+    <customValue>
+        <fullName>Life Science</fullName>
+        <default>false</default>
+        <label>Life Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Material Science</fullName>
+        <default>false</default>
+        <label>Material Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Nanomaterials</fullName>
+        <default>false</default>
+        <label>Nanomaterials</label>
+    </customValue>
+    <customValue>
+        <fullName>Organic</fullName>
+        <default>false</default>
+        <label>Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>Petrochemicals</fullName>
+        <default>false</default>
+        <label>Petrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>Thin Film Deposition</fullName>
+        <default>false</default>
+        <label>Thin Film Deposition</label>
+    </customValue>
+    <masterLabel>Lead Areas of Interest</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

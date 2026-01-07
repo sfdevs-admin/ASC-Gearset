@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>VerificationHistory$SourceIp</field>
+    </columns>
+    <columns>
+        <field>VerificationHistory$Activity</field>
+    </columns>
+    <columns>
+        <field>VerificationHistory$VerificationMethod</field>
+    </columns>
+    <columns>
+        <field>VerificationHistory$Status</field>
+    </columns>
+    <columns>
+        <field>VerificationHistory$LoginGeo.City</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>VerificationHistory$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>VerificationHistory$LoginGeo.Country</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Verification Challenges by Country</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Verification__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>VerificationHistory$VerificationTime</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

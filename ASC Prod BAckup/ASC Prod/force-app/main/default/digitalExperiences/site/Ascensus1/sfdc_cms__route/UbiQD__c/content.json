@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "UbiQD",
+  "contentBody" : {
+    "activeViewId" : "UbiQD",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-ubiqd",
+    "urlPrefix" : "ubiqd"
+  },
+  "urlName" : "ubiqd"
+}

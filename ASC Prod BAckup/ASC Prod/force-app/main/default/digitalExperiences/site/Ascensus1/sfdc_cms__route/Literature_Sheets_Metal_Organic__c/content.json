@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets - Metal Organic",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_Metal_Organic",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-metal-organic",
+    "urlPrefix" : "literature-sheets-metal-organic"
+  },
+  "urlName" : "literature-sheets---metal-organic"
+}

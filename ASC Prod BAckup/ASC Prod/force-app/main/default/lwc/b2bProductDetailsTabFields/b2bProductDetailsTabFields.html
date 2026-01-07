@@ -1,0 +1,101 @@
+<template>
+    <!-- <p class="slds-p-left_large font-size"><strong>Elements: </strong>{elementsVal}</p><br> -->
+    <!-- <p class="slds-p-left_large font-size"><strong>Reaction: </strong>{reactionVal}</p><br> -->
+    <!-- <p class="slds-p-left_large font-size"><strong>Other: </strong>{othersVal}</p><br> -->
+    <!-- <p class="slds-p-left_large font-size"><strong>Note: </strong><lightning-formatted-rich-text value={noteVal}></lightning-formatted-rich-text></p><br> -->
+    <div class="table-container">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" aria-label="">
+            <tbody class="font-size">
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>CAS # </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{casVal}</div>
+                    </td>
+                </tr>
+                <tr if:false={isSimpleProduct} class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>MDL # </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{mdlVal}</div>
+                    </td>
+                </tr>
+                <tr if:true={isSimpleProduct} class=""></tr>
+                    <td data-label="">
+                        <div class="" title=""><strong>Chemical Purity </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{chemicalPurity}</div>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Molecular Formula </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{formulaVal}</div>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Chemical Formula </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{indexFormulaVal}</div>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Formula Weight </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{formulaWtVal}</div>
+                    </td>
+                </tr>
+                <!-- <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Color and Form </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{colorAndFormVal}</div>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Melting Point </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{meltingPointVal}</div>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Boiling Point </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{boilingPointVal}</div>
+                    </td>
+                </tr> -->
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Reaction </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title="">{reactionVal}</div>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td data-label="">
+                        <div class="" title=""><strong>Note </strong></div>
+                    </td>
+                    <td class="slds-cell-wrap" data-label="">
+                        <div class="" title=""><lightning-formatted-rich-text value={noteVal}></lightning-formatted-rich-text></div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</template>

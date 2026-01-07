@@ -1,0 +1,32 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Buchwald Ligands",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "d2c939c4-16ba-414b-bc93-eb2930f75403"
+      }, {
+        "id" : "d5c78642-1a4c-4fc1-8c3a-aa2826ec00b3",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : true
+          },
+          "sectionMinHeight" : "350px"
+        }
+      }, {
+        "id" : "eb547bd8-d41e-431e-bf32-e0f70e8b762e",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "buchwald-ligands"
+}

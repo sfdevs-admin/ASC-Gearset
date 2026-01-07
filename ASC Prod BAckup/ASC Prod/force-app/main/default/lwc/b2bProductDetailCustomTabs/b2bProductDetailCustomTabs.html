@@ -1,0 +1,83 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 03-29-2024
+  @last modified by  : surya.thakur
+-->
+<template>
+    <!-- <div class="slds-tabs_default">
+        <ul class="slds-tabs_default__nav" role="tablist">
+            <li class="slds-tabs_default__item" role="presentation">
+                <a onclick={selectTab1} class={tab1Active} role="tab" tabindex="0" aria-selected={tab1Active}>
+                    <span class="slds-truncate" title="Tab 1">Product Details</span>
+                </a>
+            </li>
+            <li class="slds-tabs_default__item" role="presentation">
+                <a onclick={selectTab2} class={tab2Active} role="tab" tabindex="-1" aria-selected={tab2Active}>
+                    <span class="slds-truncate" title="Tab 2">Technical Note</span>
+                </a>
+            </li>
+            <li class="slds-tabs_default__item" role="presentation">
+                <a onclick={selectTab3} class={tab3Active} role="tab" tabindex="-1" aria-selected={tab3Active}>
+                    <span class="slds-truncate" title="Tab 3">Safety Data Sheet</span>
+                </a>
+            </li>
+            <li class="slds-tabs_default__item" role="presentation">
+                <a onclick={selectTab4} class={tab4Active} role="tab" tabindex="-1" aria-selected={tab4Active}>
+                    <span class="slds-truncate" title="Tab 3">Certificates of Analysis</span>
+                </a>
+            </li>
+        </ul>
+        <div class="slds-tabs_default__content" aria-hidden="false" id="tab-id-1" role="tabpanel" aria-labelledby="tab-id-1" if:true={tab1Active}>
+            <p>Product Details tabs</p>
+        </div>
+        <div class="slds-tabs_default__content" aria-hidden="false" id="tab-id-2" role="tabpanel" aria-labelledby="tab-id-2" if:true={tab2Active}>
+            <p>Technical Note</p>
+        </div>
+        <div class="slds-tabs_default__content" aria-hidden="false" id="tab-id-3" role="tabpanel" aria-labelledby="tab-id-3" if:true={tab3Active}>
+            <p>Safety Data Sheet</p>
+        </div>
+        <div class="slds-tabs_default__content" aria-hidden="false" id="tab-id-4" role="tabpanel" aria-labelledby="tab-id-4" if:true={tab4Active}>
+            <p>Safety Data Sheet</p>
+        </div>
+    </div> -->
+        <div class="tabs">
+            <div class="tab">
+                <a onclick={selectTab1} class={tab1Active}>
+                    <span>Product Details</span>
+                </a>
+            </div>
+            <div class="tab">
+                <a onclick={selectTab2} class={tab2Active}>
+                    <span>Technical Note</span>
+                </a>
+            </div>
+            <div class="tab">
+                <a onclick={selectTab3} class={tab3Active}>
+                    <span>Safety Data Sheet</span>
+                </a>
+            </div>
+            <div class="tab">
+                <a onclick={selectTab4} class={tab4Active}>
+                    <span>Certificates of Analysis</span>
+                </a>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-content-div">
+                <template if:true={tab1Active}>
+                    <p>Product Details</p>
+                </template>
+                <template if:true={tab2Active}>
+                    <p>Technical Note</p>
+                </template>
+                <template if:true={tab3Active}>
+                    <p>Safety Data Sheet</p>
+                </template>
+                <template if:true={tab4Active}>
+                    <c-b2b-product-detail-c-o-a product-id={productId}></c-b2b-product-detail-c-o-a>
+                </template>
+            </div>
+        </div>
+</template>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "New Distributor Application",
+  "contentBody" : {
+    "activeViewId" : "New_Distributor_Application",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-new-distributor-application",
+    "urlPrefix" : "new-distributor-application"
+  },
+  "urlName" : "new-distributor-application"
+}

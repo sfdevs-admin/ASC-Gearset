@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addtl_Recipient_Email_Address__c</fullName>
+    <description>Additional email address added as a recipient to order confirmation email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional email address added as a recipient to order confirmation email</inlineHelpText>
+    <label>Addtl Recipient Email Address</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

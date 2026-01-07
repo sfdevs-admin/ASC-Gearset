@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enabled_as_Buyer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set by b2b provision user flow</description>
+    <label>Enabled as Commerce User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

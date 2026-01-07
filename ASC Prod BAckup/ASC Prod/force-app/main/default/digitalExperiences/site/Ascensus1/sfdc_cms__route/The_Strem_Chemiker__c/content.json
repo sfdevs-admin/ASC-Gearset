@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "The Strem Chemiker",
+  "contentBody" : {
+    "activeViewId" : "The_Strem_Chemiker",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-the-strem-chemiker",
+    "urlPrefix" : "the-strem-chemiker"
+  },
+  "urlName" : "the-strem-chemiker"
+}

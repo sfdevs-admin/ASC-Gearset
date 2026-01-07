@@ -1,0 +1,5 @@
+{
+  "apiName" : "Self_Register_Thank_you",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

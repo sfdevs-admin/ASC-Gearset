@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Areas_of_Interest__c</fullName>
+    <label>Areas of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>organic inorganic</fullName>
+                <default>false</default>
+                <label>organic inorganic</label>
+            </value>
+            <value>
+                <fullName>organic</fullName>
+                <default>false</default>
+                <label>organic</label>
+            </value>
+            <value>
+                <fullName>catalysts</fullName>
+                <default>false</default>
+                <label>catalysts</label>
+            </value>
+            <value>
+                <fullName>coating</fullName>
+                <default>false</default>
+                <label>coating</label>
+            </value>
+            <value>
+                <fullName>ionic liquids</fullName>
+                <default>false</default>
+                <label>ionic liquids</label>
+            </value>
+            <value>
+                <fullName>flavor fragrances</fullName>
+                <default>false</default>
+                <label>flavor fragrances</label>
+            </value>
+            <value>
+                <fullName>materials science</fullName>
+                <default>false</default>
+                <label>materials science</label>
+            </value>
+            <value>
+                <fullName>physical</fullName>
+                <default>false</default>
+                <label>physical</label>
+            </value>
+            <value>
+                <fullName>nanomaterials</fullName>
+                <default>false</default>
+                <label>nanomaterials</label>
+            </value>
+            <value>
+                <fullName>biocatalysts</fullName>
+                <default>false</default>
+                <label>biocatalysts</label>
+            </value>
+            <value>
+                <fullName>mof</fullName>
+                <default>false</default>
+                <label>mof</label>
+            </value>
+            <value>
+                <fullName>mocvd</fullName>
+                <default>false</default>
+                <label>mocvd</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

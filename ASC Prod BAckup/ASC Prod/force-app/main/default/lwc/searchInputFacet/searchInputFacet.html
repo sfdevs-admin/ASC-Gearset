@@ -1,0 +1,27 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-23-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <template
+        for:each={displayedValues}
+        for:item="value">
+        <c-search-facet-item
+            key={value.id}
+            value={value}
+            type={type}
+            focus-on-init={value.focusOnInit}></c-search-facet-item>
+    </template>
+    <fieldset class="show-more slds-p-top_small">
+        <!-- <lightning-button
+            if:true={displayShowMore}
+            variant="base"
+            label={showMoreOrLessLabel}
+            aria-label={facetAriaLabel}
+            onclick={handleShowMoreOrLess}></lightning-button> -->
+            <button if:true={displayShowMore} class="slds-button customButtonCss" aria-label={facetAriaLabel} aria-disabled="false" type="button" part="button" onclick={handleShowMoreOrLess}>{showMoreOrLessLabel}</button>
+    </fieldset>
+</template>

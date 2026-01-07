@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Number of Researchers in the Lab --></label>
+    <name>Number_of_Researchers_in_the_Lab__c</name>
+</CustomFieldTranslation>

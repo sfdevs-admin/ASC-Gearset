@@ -1,0 +1,50 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 12-16-2025
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <div class="help-wrapper">
+        <!-- Help Button -->
+        <div class="translate-icon" onclick={toggleTooltip}>
+            <lightning-button-icon 
+                icon-name="utility:translate"
+                alternative-text="Translate"
+                variant="bare">
+            </lightning-button-icon>
+            <!-- <lightning-icon 
+                icon-name="standard:person_language" 
+                alternative-text="person_language" 
+                size="large" 
+                title="person_language"
+                class="person-language-icon">
+            </lightning-icon> -->
+        </div>
+
+        <!-- Tooltip -->
+        <template if:true={showTooltip}>
+            <div class="tooltip-box">
+                <div class="tooltip-header">
+                    <strong>Translate This Page</strong>
+                    <lightning-button-icon 
+                        icon-name="utility:close"
+                        size="x-small"
+                        alternative-text="Close"
+                        onclick={toggleTooltip}>
+                    </lightning-button-icon>
+                </div>
+
+                <p>You can use your browser’s built-in translation:</p><br>
+                <ul>
+                    <li><strong>Chrome/ Edge :</strong> Right-click on webpage -> <em>Translate to [Langugae] -> Widget open -> Select your prefer language</em></li><br>
+                    <li><strong>Safari:</strong> Click the translate icon from search bar -> Select your prefer language</li><br>
+                    <li><strong>Firefox:</strong> Open browser settings from the top-right profile menu -> <em>Translate Page -> Widget open -> Select your prefer lamguage</em></li><br>
+                </ul>
+                <p><em>If translation doesn’t appear, refresh and try again.</em></p>
+            </div>
+        </template>
+
+    </div>
+</template>

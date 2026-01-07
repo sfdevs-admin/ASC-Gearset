@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Family --></label>
+    <name>Product_Family__c</name>
+    <picklistValues>
+        <masterLabel>Alcoholates</masterLabel>
+        <translation><!-- Alcoholates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alkali Metals</masterLabel>
+        <translation><!-- Alkali Metals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boranes</masterLabel>
+        <translation><!-- Boranes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catalog</masterLabel>
+        <translation><!-- Catalog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caustic</masterLabel>
+        <translation><!-- Caustic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSBH</masterLabel>
+        <translation><!-- DSBH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GMP</masterLabel>
+        <translation><!-- GMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intermediates</masterLabel>
+        <translation><!-- Intermediates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LSBH</masterLabel>
+        <translation><!-- LSBH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TFD/CVD</masterLabel>
+        <translation><!-- TFD/CVD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMB</masterLabel>
+        <translation><!-- TMB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMBa</masterLabel>
+        <translation><!-- TMBa --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

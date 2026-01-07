@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Action to run screen flow w/ sublow to enable account as buyer and create a commerce user</description>
+    <flowDefinition>B2B_Enable_as_Buyer_Screen_Flow</flowDefinition>
+    <label>Create Commerce User</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="recordId" label="Record ID" type="String" role="inputOnly" />
+            <property name="objectApiName" label="Object API Name" type="String" role="inputOnly" />
+            <property name="showToast" label="Show Toast Message?" type="Boolean" role="inputOnly"
+                default="false" />
+            <property name="toastTitle" label="Toast Title" type="String" role="inputOnly" />
+            <property name="toastType" label="Toast Type (info, success, warning, error)"
+                type="String" role="inputOnly" />
+            <property name="toastMessage" label="Toast Message" type="String" role="inputOnly" />
+            <property name="webPageURL" label="Navigation URL" type="String" role="inputOnly" />
+            <property name="parameterName" type="String" />
+            <property name="parameterValue" type="String" />
+
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

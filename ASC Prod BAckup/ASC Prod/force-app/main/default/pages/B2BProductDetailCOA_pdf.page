@@ -1,0 +1,134 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 14-03-2025
+  @last modified by  : Mradul Maheshwari
+-->
+<apex:page id="B2BProductDetailCOA_pdf" controller="B2BProductDetailCOA_pdfController" renderAs="pdf" applyHtmlTag="false" showHeader="false" cache="true" readOnly="true">
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset =UTF-8" />
+            <!-- <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="x-apple-disable-message-reformatting" /> -->
+
+        </head>
+        <body>
+            <div class="parent-container" style="width: 100%;text-align: center;">
+                <div class="body-container" style="width: 100%">
+                <!-- actual header -->
+                <div class="header-logo" style="margin-bottom: 10px; min-width:100%; min-height:100px;">
+                    <div class="grid-item" style="background-color: #ffffff; margin: 20px 20px 20px 0px; float: left;">
+                        <apex:image url="{!$Resource.Strem_Chemicals_Logo}" width="auto" height="auto"/>
+
+                        <!-- <img src="https://www.cheminst.ca/wp-content/uploads/2023/03/Strem_Catalog_logo_web.gif" width="180" height="66"/> -->
+                    </div>
+                    <div class="grid-item" style="background-color: #ffffff; padding: 29px 20px 20px 20px; float: right; font-size: 24px; font-weight: bolder;">
+                        <span>CERTIFICATE OF ANALYSIS</span>
+                    </div>
+                </div>
+
+                <!-- body header -->
+                <div class="body-details" style="border: 1px solid black; padding: 5px; margin-bottom: 10px; text-align: left;">
+                    <div class="body-details-lotNumber">
+                        <div style="display: inline-block; width: 90%;">
+                            <span style="font-weight: bolder;">{!productCode} {!productName}</span>
+                            <!-- <span> {!productDescription}</span> -->
+                        </div>
+                        <!-- <div style="display: inline-block; width: 10%;">
+                            <span>{!lotNumber}</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- body header -->
+                <div class="body-details" style="border: 1px solid black; padding: 5px; margin-bottom: 10px; text-align: left;">
+                    <div class="body-details-lotNumber">
+                        <div style="display: inline-block; width: 15%;">
+                            <span style="font-weight: bolder;">Lot Number:</span>
+                        </div>
+                        <div style="display: inline-block; width: 10%;">
+                            <span>{!lotNumber}</span>
+                        </div>
+                    </div>
+                    <div class="body-details-casNumber">
+                        <div style="display: inline-block; width: 15%;">
+                            <span style="font-weight: bolder;">CAS Number:</span>
+                        </div>
+                        <div style="display: inline-block; width: 10%;">
+                            <span>{!casNumber}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- table to displat content -->
+                <div class="body-content" style="border: 1px solid black; padding: 5px; margin-bottom: 10px">
+                    <table style="width:100%; text-align: justify; margin-left: 15px">
+                        <tbody>
+                            <tr>
+                                <th>Characteristic</th>
+                                <th>Specification</th>
+                                <th>Result</th>
+                            </tr>
+                            <apex:repeat value="{!coaList}" var="obj">
+                                <tr>
+                                    <td>{!obj.Characteristics__c}</td>
+                                    <td>{!obj.Specification__c}</td>
+                                    <td>{!obj.Result__c}</td>
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- body footer -->
+                <div class="body-footer-container">
+                    <div class="body-footer" style="margin: 17px; display: inline-block; width: 100%;">
+                        <span>This document has been electronically generated and does not require a signature.</span><br/>
+                    </div>
+                    <div class="body-footer-date" style="margin: 0px 0px 0px 0px; display: inline-block; width: 100%;">
+                        <div class="body-footer-date-left" style="display: inline-block; width: 75%;">
+                            <span></span>
+                        </div>
+                        <div class="body-footer-date-left" style="margin: 0px 0px 5px 0px; display: inline-block; width: 22%;">
+                            <span>{!dateVal}</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+                <div class="footer" style="min-width:100%; min-height:100px; border-top: 1px solid black;">
+                    <!-- US Address -->
+                    <div class="grid-item" style="display: inline-block; width: 30%; padding: 10px; font-style: italic; font-size: small;">
+                        <span>US Location:</span><br/>
+                        <span>7 Mulliken Way</span><br/>
+                        <span>Newburyport, MA 01950-4098</span><br/>
+                        <span>U.S.A</span><br/>
+                        <span>Tel: (978) 499-1600</span><br/>
+                        <span>Fax: (978) 465-3104</span>
+                    </div>
+                    <!-- detail -->
+                    <div class="grid-item" style="display: inline-block; width: 30%; padding: 10px; font-size: 17px; font-weight: bolder;">
+                        <span></span><br/>
+                        <!-- <span>Strem Catalog</span><br/> -->
+                        <span>Strem Chemicals, Inc.</span><br/>
+                        <span>www.strem.com</span><br/>
+                        <span></span><br/>
+                        <span></span><br/>
+                        <span></span>
+                    </div>
+                    <!-- Euro address -->
+                    <div class="grid-item" style="display: inline-block; width: 30%; padding: 10px; font-style: italic; font-size: small;">
+                        <span>European Location:</span><br/>
+                        <span>15, rue de l'Atome</span><br/>
+                        <span>67800 BISCHHEIM (France)</span><br/>
+                        <span>Tel: (33) 03 88 62 52 60</span><br/>
+                        <span>Fax: (33) 03 88 62 26 81</span><br/>
+                        <span></span><br/>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

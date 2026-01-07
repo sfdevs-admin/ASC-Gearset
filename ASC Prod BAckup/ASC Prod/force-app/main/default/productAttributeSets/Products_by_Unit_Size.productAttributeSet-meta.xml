@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductAttributeSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Products_by_Unit_Size</developerName>
+    <masterLabel>Products by Unit Size</masterLabel>
+    <productAttributeSetItems>
+        <field>Unit_Size__c</field>
+        <isGroupedBy>false</isGroupedBy>
+        <sequence>0</sequence>
+    </productAttributeSetItems>
+</ProductAttributeSet>

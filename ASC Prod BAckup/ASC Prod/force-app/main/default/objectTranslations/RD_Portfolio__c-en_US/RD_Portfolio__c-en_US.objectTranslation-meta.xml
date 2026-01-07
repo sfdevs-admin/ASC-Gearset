@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RD Portfolio (OLD)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RD Portfolios (OLD)</value>
+    </caseValues>
+    <layouts>
+        <layout>RD Portfolio Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description, Application, Customers --></label>
+            <section>Description, Application, Customers</section>
+        </sections>
+        <sections>
+            <label><!-- Key Dates --></label>
+            <section>Key Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Project Financial --></label>
+            <section>Project Financial</section>
+        </sections>
+        <sections>
+            <label><!-- Team Section --></label>
+            <section>Team Section</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

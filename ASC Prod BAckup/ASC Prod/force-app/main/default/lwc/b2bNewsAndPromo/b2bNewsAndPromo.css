@@ -1,0 +1,9 @@
+.custom-button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.custom-button-image {
+    height: 30px;
+}

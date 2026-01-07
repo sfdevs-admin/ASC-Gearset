@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- interest_ionic_liquids --></label>
+    <name>interest_ionic_liquids__c</name>
+</CustomFieldTranslation>

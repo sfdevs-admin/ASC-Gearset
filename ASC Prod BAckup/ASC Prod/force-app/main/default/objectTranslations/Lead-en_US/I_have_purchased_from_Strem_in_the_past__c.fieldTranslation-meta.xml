@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- I have purchased from Strem in the past --></label>
+    <name>I_have_purchased_from_Strem_in_the_past__c</name>
+</CustomFieldTranslation>

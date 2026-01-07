@@ -1,0 +1,22 @@
+<template>
+    <template if:false={isLoading}>
+        <template if:true={imageUrl}>
+            <div class="categoryBannerContainer" style={getBackgroundImage}>
+                <div class="categoryBannerInner">
+                    <h3 class="categoryTitle">{categoryTitle}</h3>
+                    <label class="search-result-block">
+                        {searchResultText}
+                    </label>    
+                </div>
+            </div>
+        </template>
+        <template if:false={imageUrl}>
+            <div class="categoryBannerInnerText">
+                <h1 class="categoryTitle">{categoryTitle}</h1>
+            </div>
+            <div class="search-result-block">
+                {searchResultText}
+            </div>    
+        </template>
+    </template>
+</template>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Periodic Table",
+  "contentBody" : {
+    "activeViewId" : "Periodic_Table",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-periodic-table",
+    "urlPrefix" : "periodic-table"
+  },
+  "urlName" : "periodic-table"
+}

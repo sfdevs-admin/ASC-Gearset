@@ -1,0 +1,244 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js",
+      "sourceName" : "static.ctctcdn.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js",
+      "sourceName" : "cdnjs.cloudflare.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js",
+      "sourceName" : "cdnjs.cloudflare.com1"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google.com/recaptcha/api.js",
+      "sourceName" : "www.google.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.gstatic.com/",
+      "sourceName" : "www.gstatic.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://static.ctctcdn.com",
+      "sourceName" : "https://static.ctctcdn.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.css",
+      "sourceName" : "https://static.ctctcdn.com/js/signup-for"
+    }, {
+      "isActive" : true,
+      "source" : "https://listgrowth.ctctcdn.com/v1/09c6453998971a16c6f6615535d65c2d.json",
+      "sourceName" : "https://listgrowth.ctctcdn.com/v1/09c645"
+    }, {
+      "isActive" : true,
+      "source" : "https://listgrowth.ctctcdn.com",
+      "sourceName" : "https://listgrowth.ctctcdn.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google.com",
+      "sourceName" : "https://www.google.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://service.force.com/embeddedservice/",
+      "sourceName" : "https://service.force.com/embeddedservic"
+    }, {
+      "isActive" : true,
+      "source" : "https://service.force.com",
+      "sourceName" : "https://service.force.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://usa662s.sfdc-lywfpd.salesforce.com",
+      "sourceName" : "https://usa662s.sfdc-lywfpd.salesforce.c"
+    }, {
+      "isActive" : true,
+      "source" : "https://sfdc-link-preview-staging.sfdc.sh",
+      "sourceName" : "https://sfdc-link-preview-staging.sfdc.s"
+    }, {
+      "isActive" : true,
+      "source" : "https://ascensusspecialties--partial.sandbox.my.site.com/store/request-quote",
+      "sourceName" : "requestQuote"
+    }, {
+      "isActive" : true,
+      "source" : "https://lh3.googleusercontent.com/",
+      "sourceName" : "Product Images - Google"
+    }, {
+      "isActive" : true,
+      "source" : "https://ascensusspecialties--partial.sandbox.my.salesforce.com",
+      "sourceName" : "Ascensus"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.strem.com/about/privacy.php",
+      "sourceName" : "Terms& conditions"
+    }, {
+      "isActive" : true,
+      "source" : "https://api.ipify.org?format=jsonp&callback=getIP",
+      "sourceName" : "IPAdress"
+    }, {
+      "isActive" : true,
+      "source" : "https://api.ipify.org",
+      "sourceName" : "IPAddress2"
+    }, {
+      "isActive" : true,
+      "source" : "https://twin-iq.kickfire.com/twin.js?15933",
+      "sourceName" : "SCC-36 (https://twin-iq.kickfire.com/)"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.callrail.com/companies/537360065/0ed2db2af27ea7673fd1/12/swap.js",
+      "sourceName" : "SCC-36 (https://cdn.callrail.com/)"
+    }, {
+      "isActive" : true,
+      "source" : "https://13277483.fls.doubleclick.net",
+      "sourceName" : "SCC-36 https://13277483.fls.doubleclick"
+    }, {
+      "isActive" : true,
+      "source" : "https://td.doubleclick.net",
+      "sourceName" : "SCC-36 (https://td.doubleclick.net)"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.googletagmamanager.com",
+      "sourceName" : "test"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google-analytics.com",
+      "sourceName" : "https://www.google-analytics.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://googleads.g.doubleclick.net",
+      "sourceName" : "https://googleads.g.doubleclick.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://snap.licdn.com",
+      "sourceName" : "https://snap.licdn.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://bat.bing.com",
+      "sourceName" : "https://bat.bing.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.googleadservices.com",
+      "sourceName" : "https://www.googleadservices.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.googletagmanager.com",
+      "sourceName" : "https://www.googletagmanager.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://google.com",
+      "sourceName" : "https://google.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://adservice.google.com",
+      "sourceName" : "https://adservice.google.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://ad.doubleclick.net",
+      "sourceName" : "https://ad.doubleclick.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://px.ads.linkedin.com",
+      "sourceName" : "https://px.ads.linkedin.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.linkedin.com/px/",
+      "sourceName" : "https://www.linkedin.com/px/"
+    }, {
+      "isActive" : true,
+      "source" : "https://ade.googlesyndication.com",
+      "sourceName" : "https://ade.googlesyndication.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.g.doubleclick.net",
+      "sourceName" : "https://*.g.doubleclick.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.google.com",
+      "sourceName" : "https://*.google.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://adobedc.demdex.net",
+      "sourceName" : "https://adobedc.demdex.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://bid.g.doubleclick.net",
+      "sourceName" : "https://bid.g.doubleclick.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.fls.doubleclick.net",
+      "sourceName" : "https://*.fls.doubleclick.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://ib.adnxs.com",
+      "sourceName" : "https://ib.adnxs.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://acdn.adnxs.com",
+      "sourceName" : "https://acdn.adnxs.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.adroll.com",
+      "sourceName" : "https://*.adroll.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://ads.yahoo.com",
+      "sourceName" : "https://ads.yahoo.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://ups.analytics.yahoo.com",
+      "sourceName" : "https://ups.analytics.yahoo.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.ads.linkedin.com",
+      "sourceName" : "https://*.ads.linkedin.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://i.ytimg.com",
+      "sourceName" : "https://i.ytimg.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://px4.ads.linkedin.com",
+      "sourceName" : "https://px4.ads.linkedin.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://img.youtube.com",
+      "sourceName" : "https://img.youtube.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://i.vimeocdn.com",
+      "sourceName" : "https://i.vimeocdn.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://px.ads.linkedin.com/collect",
+      "sourceName" : "px ads linkedin"
+    }, {
+      "isActive" : true,
+      "source" : "https://px4.ads.linkedin.com/collect",
+      "sourceName" : "px4 ads linkedin"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.linkedin.com/px/li_sync",
+      "sourceName" : "https://www.linkedin.com/px/li_sync"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google-analytics.com/g/collect",
+      "sourceName" : "https://www.google-analytics.com/g/colle"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google.com/ccm/collect",
+      "sourceName" : "https://www.google.com/ccm/collect"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.strem.com",
+      "sourceName" : "https://*.strem.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.hotjar.com",
+      "sourceName" : "static hotjar"
+    } ]
+  },
+  "urlName" : "trustedsites"
+}

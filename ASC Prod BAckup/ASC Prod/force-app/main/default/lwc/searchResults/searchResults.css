@@ -1,0 +1,49 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+aside.aside-section {
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+}
+
+.pagination-control {
+    width: 100%;
+}
+
+.section-results {
+    width: 100%;
+}
+
+.search-label {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.searchEmptyDiv{
+    min-height: 7%;
+}
+
+@media screen and (min-width: 480px) {
+    .layout-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 1rem;
+    }
+
+    aside.aside-section {
+        width: 25%;
+        min-width: 13.75rem;
+        color: #000;
+        font-size: 0.875rem;
+    }
+
+    .section-results {
+        width: 75%;
+        margin-left: 1rem;
+    }
+  }

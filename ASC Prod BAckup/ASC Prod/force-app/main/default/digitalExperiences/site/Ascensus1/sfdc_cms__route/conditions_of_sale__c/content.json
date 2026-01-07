@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "conditions of sale",
+  "contentBody" : {
+    "activeViewId" : "conditions_of_sale",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-conditions-of-sale",
+    "urlPrefix" : "conditions-of-sale"
+  },
+  "urlName" : "conditions-of-sale"
+}

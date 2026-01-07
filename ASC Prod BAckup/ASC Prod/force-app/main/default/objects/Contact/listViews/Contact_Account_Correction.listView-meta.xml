@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Account_Correction</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Outlook_Company_Name__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Contact Account Correction</label>
+</ListView>

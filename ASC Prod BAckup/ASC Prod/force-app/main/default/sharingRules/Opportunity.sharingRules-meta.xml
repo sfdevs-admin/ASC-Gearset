@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Auto_generated_Opportunity</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Auto-generated Opportunity</label>
+        <sharedTo>
+            <role>Customer_Service</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Auto-generated Opportunity</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Commerce_Store_for_Customer_Service</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Opportunities created for quote requests with the customer service team</description>
+        <label>Commerce Store for Customer Service</label>
+        <sharedTo>
+            <role>Customer_Service</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>LeadSource</field>
+            <operation>equals</operation>
+            <value>Ascensus Store</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_Sales_Opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edit Sales Opportunities</label>
+        <sharedTo>
+            <group>Sales_Opportunity_Editor</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sales</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>RD_Opportunity_Editable_By_Contributors</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Opportunities of recordType &apos;RD Portfolio&apos; should be editable by &apos;RD Contributors&apos; even if they are not the owners of the Opportunity record.</description>
+        <label>RD Opportunity Editable By Contributors</label>
+        <sharedTo>
+            <group>R_D_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>R &amp; D Portfolio</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Role_Users_Auto_generated_Opportunity</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Role Users - Auto-generated Opportunity</label>
+        <sharedTo>
+            <group>Opportunity_Quote_Access_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Auto-generated Opportunity</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Brand__c</fullName>
+    <label>Product Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BOROL Solution</fullName>
+                <default>false</default>
+                <label>BOROL Solution</label>
+            </value>
+            <value>
+                <fullName>CHROMACLEAR Solution</fullName>
+                <default>false</default>
+                <label>CHROMACLEAR Solution</label>
+            </value>
+            <value>
+                <fullName>COLORCLEAR Solution</fullName>
+                <default>false</default>
+                <label>COLORCLEAR Solution</label>
+            </value>
+            <value>
+                <fullName>Not Determined</fullName>
+                <default>true</default>
+                <label>Not Determined</label>
+            </value>
+            <value>
+                <fullName>SB200 Granules</fullName>
+                <default>false</default>
+                <label>SB200 Granules</label>
+            </value>
+            <value>
+                <fullName>SB200 Powder</fullName>
+                <default>false</default>
+                <label>SB200 Powder</label>
+            </value>
+            <value>
+                <fullName>TMB</fullName>
+                <default>false</default>
+                <label>TMB</label>
+            </value>
+            <value>
+                <fullName>TMBa</fullName>
+                <default>false</default>
+                <label>TMBa</label>
+            </value>
+            <value>
+                <fullName>VENPURE AF Granules</fullName>
+                <default>false</default>
+                <label>VENPURE AF Granules</label>
+            </value>
+            <value>
+                <fullName>VENPURE Caplets</fullName>
+                <default>false</default>
+                <label>VENPURE Caplets</label>
+            </value>
+            <value>
+                <fullName>VENPURE SF Powder</fullName>
+                <default>false</default>
+                <label>VENPURE SF Powder</label>
+            </value>
+            <value>
+                <fullName>VENPURE Powder</fullName>
+                <default>false</default>
+                <label>VENPURE Powder</label>
+            </value>
+            <value>
+                <fullName>VENPURE SF Granules</fullName>
+                <default>false</default>
+                <label>VENPURE SF Granules</label>
+            </value>
+            <value>
+                <fullName>VENURE Solution</fullName>
+                <default>false</default>
+                <label>VENURE Solution</label>
+            </value>
+            <value>
+                <fullName>VENMET Solution</fullName>
+                <default>false</default>
+                <label>VENMET Solution</label>
+            </value>
+            <value>
+                <fullName>Caustic Solution</fullName>
+                <default>false</default>
+                <label>Caustic Solution</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stages --></label>
+    <name>Stages__c</name>
+    <picklistValues>
+        <masterLabel>Stage 0 - Idea</masterLabel>
+        <translation><!-- Stage 0 - Idea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage 1 - Feasibility</masterLabel>
+        <translation><!-- Stage 1 - Feasibility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage 2 - Business Case</masterLabel>
+        <translation><!-- Stage 2 - Business Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage 3 - Development</masterLabel>
+        <translation><!-- Stage 3 - Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage 4 - Scale Up</masterLabel>
+        <translation><!-- Stage 4 - Scale Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage 5 - Launch</masterLabel>
+        <translation><!-- Stage 5 - Launch --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

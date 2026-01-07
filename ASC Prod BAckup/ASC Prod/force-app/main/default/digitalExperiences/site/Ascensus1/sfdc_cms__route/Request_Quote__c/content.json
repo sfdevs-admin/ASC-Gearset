@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Request Quote",
+  "contentBody" : {
+    "activeViewId" : "Request_Quote",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-request-quote",
+    "urlPrefix" : "request-quote"
+  },
+  "urlName" : "request-quote"
+}

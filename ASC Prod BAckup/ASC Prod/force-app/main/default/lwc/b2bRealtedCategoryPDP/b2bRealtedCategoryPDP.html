@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-15-2024
+  @last modified by  : surya.thakur
+-->
+<template>
+    <div class="slds-p-around_medium" lwc:if={showRelatedCategories}>
+        <div class="relatedCat-heading">
+            <strong>Related Categories:</strong>
+        </div>
+        <div>
+            <ul class="slds-list_dotted">
+                <template for:each={catagoryList} for:item="item">
+                    <li key={item.Id}>
+                        <a data-item={item} data-key={item.ProductCategoryId} onclick={handleNavigateToCategory}>{item.ProductCategory.Name}</a>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+</template>

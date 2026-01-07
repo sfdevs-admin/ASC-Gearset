@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This public group contains the users that have been assigned the &apos;RD Project Contributor Permissions&apos; PS</description>
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <name>R&amp;D Contributors</name>
+</Group>

@@ -1,0 +1,10 @@
+.show-more {
+    text-decoration: underline;
+    text-decoration-color: var(--dxp-g-brand);
+}
+.customButtonCss{
+    color: #0172CE;
+}
+button.customButtonCss:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Webinars",
+  "contentBody" : {
+    "activeViewId" : "Webinars",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-webinars",
+    "urlPrefix" : "webinars"
+  },
+  "urlName" : "webinars"
+}

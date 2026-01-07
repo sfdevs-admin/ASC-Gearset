@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Product Resource Content Detail",
+  "contentBody" : {
+    "activeViewId" : "productResourceContentDetail",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "managed-content-Product_Resource_Content",
+    "urlPrefix" : "product-resource-content"
+  },
+  "urlName" : "product-resource-content-detail"
+}

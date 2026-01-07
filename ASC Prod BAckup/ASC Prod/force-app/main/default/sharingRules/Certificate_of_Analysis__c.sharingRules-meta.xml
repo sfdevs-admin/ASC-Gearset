@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Guest_sharing_rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Guest sharing rule</label>
+        <sharedTo>
+            <guestUser>Ascensus</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Guest_sharing_rule_2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Guest sharing rule 2</label>
+        <sharedTo>
+            <guestUser>CertificatesPdf</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Guest_sharing_rule_3</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Guest sharing rule 3</label>
+        <sharedTo>
+            <guestUser>AscensusTest</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

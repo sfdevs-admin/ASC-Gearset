@@ -1,0 +1,42 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Landing Page",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "54497d14-74fc-47ac-895d-716fbc457c8a"
+      }, {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false,
+            "margin" : {
+              "bottom" : "",
+              "left" : "",
+              "right" : "",
+              "top" : ""
+            }
+          }
+        },
+        "id" : "ec4c3415-0429-432d-84ee-4a9449866aac"
+      }, {
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "",
+              "left" : "12px",
+              "right" : "12px",
+              "top" : ""
+            }
+          }
+        },
+        "id" : "ea4a3248-e437-41e7-b7cb-9a17430816d3"
+      } ]
+    }
+  },
+  "urlName" : "landing-page"
+}

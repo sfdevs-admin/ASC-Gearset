@@ -1,0 +1,129 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Privacy Statement",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC7BLLZ764XBGJPJO7QYWF3ASOTA?lastModifiedDate=Wed May 01 17:25:25 GMT 2024&height=144&width=192\",\"contentKey\":\"MC7BLLZ764XBGJPJO7QYWF3ASOTA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center right\",\"bgSizeOrRepeat\":\"repeat-y\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"08851d1f-0e87-4ea5-b007-e61abd585b11\",\"columns\":[{\"UUID\":\"e881ad0e-58c6-4246-aff2-31970dd2fe7a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2%",
+                    "left" : "6%",
+                    "right" : "",
+                    "top" : "2%"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Privacy Statement",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "ae4646d6-b38a-4843-8924-15bd9ff464fa",
+              "type" : "component"
+            } ],
+            "id" : "e881ad0e-58c6-4246-aff2-31970dd2fe7a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "08851d1f-0e87-4ea5-b007-e61abd585b11",
+          "scopedBrandingSetId" : "Static_Page_Background",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d37ad5e7-4cb5-498c-8f98-ab55dcdf791a\",\"columns\":[{\"UUID\":\"411019b7-2770-42bf-9f62-e74d4f3868c4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "8%",
+                    "right" : "8%",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h2><span style=\"font-size: 24px;\">Our Commitment to Privacy</span></h2><p><br></p><p>As part of Strem’s commitment to providing quality products and services, we strive to put our customers’ needs first. Your privacy and the protection of your personal information are important to us. To better protect your privacy, we provide this notice explaining our online information practices.</p><p>As a visitor to our website, you will remain anonymous. The data stored on our servers contains the name of your internet service provider, IP address, URL used to access our site, which pages were visited within the strem.com domain, and the time and duration of your visit. This data we store and analyze for internal statistical purposes only, so we can ensure the continuous improvement of our services and a positive experience for all visitors to our site.</p><p><br></p><p><br></p><h3><span style=\"font-size: 24px;\">The Information We Collect:</span></h3><p><br></p><p>This notice applies to information submitted by you on the Strem Chemicals, Inc. website. On some pages, you can order products, make requests, and register to receive materials. The types of personal information we collect at these pages, if you choose to provide such information, are:</p><ul><li>Name</li><li>Address</li><li>Email address</li><li>Phone number</li><li>Credit/Debit Card Information (etc.)</li></ul><p>On some pages, you can submit information about other people. For example, if you order a product online and want it sent directly to the recipient, you will need to submit the recipient's address. In this circumstance, the types of personal information collected are:</p><ul><li>Name</li><li>Address</li><li>Phone Number (etc.)</li></ul><p><br></p><p><br></p><h3><span style=\"font-size: 24px;\">The Way We Use Information:</span></h3><p><br></p><p>We use the information you provide about yourself when placing an order only to complete that order. We do not share this information with outside parties (parties other than ourselves, our collaborators and partners) except to the extent necessary to complete that order.</p><p>We use the information you provide about someone else when placing an order only to ship the product and to confirm delivery. We do not share this information with outside parties (parties other than ourselves, our collaborators and partners) except to the extent necessary to complete that order.</p><p>You can register with our website if you would like to receive our catalog, as well as updates on our new products and services. Information you submit on our website will not be used for this purpose unless you fill out the registration form. By registering on our website, you consent that we will contact you with new information on our products and services. You can revoke your consent at any time with respect to the future by sending an email to&nbsp;<a href=\"mailto:privacy@ascensusspecialties.com\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(0, 107, 206);\">privacy@ascensusspecialties.com</a>.</p><p>Our website uses Google Analytics web analytics services. We use the data gathered to analyze website traffic and enhance user experience.</p><p>Finally, we never use, share or sell personal information provided to us online in ways unrelated to the ones described above without also providing you an opportunity to opt-out or otherwise prohibit such unrelated uses.</p><h3><br></h3><h3><br></h3><h3><span style=\"font-size: 24px;\">How Long We Retain Information:</span></h3><p><br></p><p>We store data as required by legal obligations or for the period of time that is required to fulfill the purpose for which we collected it.</p><p><br></p><p><br></p><h3><span style=\"font-size: 24px;\">Your Right to Review, Correct and Object:</span></h3><p><br></p><p>You are entitled to review and correct any of your personal data we have stored, and you may withdraw your consent to the use of your data at any time, affecting all future use. If you would like to review or revise your information or withdraw consent, please email us at privacy@ascensusspecialties.com.</p><p><br></p><p><br></p><h3><span style=\"font-size: 24px;\">Our Commitment To Data Security:</span></h3><p><br></p><p>To prevent unauthorized access, maintain data accuracy, and ensure the correct use of information, we have adopted appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect.</p><p><br></p><p><br></p><h3><span style=\"font-size: 24px;\">Limitations:</span></h3><p><br></p><p>Adherence by the Company to these privacy principles may be limited to the extent necessary to meet the Company’s regulatory, legal, governmental, or national security obligations.</p><h3><br></h3><h3><br></h3><h3><span style=\"font-size: 24px;\">Contact Us with Any Questions or Concerns About Our Privacy Policy:</span></h3><p><br></p><p>Strem Chemicals, Inc.</p><p>7 Mulliken Way</p><p>Newburyport, MA 01950</p><p>Attention: Privacy</p><p>Tel.: (978) 499-1600 - Fax: (978) 465-3104</p><p>Toll free phone# (800) 647-8736 - Toll free fax# (800) 517-8736</p><p>(toll free from US and Canada only)</p><p>Email:&nbsp;<a href=\"mailto:privacy@ascensusspecialties.com\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(0, 107, 206);\">privacy@ascensusspecialties.com</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "166c4f40-5c64-4208-88cc-8ec7ad72a329",
+              "type" : "component"
+            } ],
+            "id" : "411019b7-2770-42bf-9f62-e74d4f3868c4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d37ad5e7-4cb5-498c-8f98-ab55dcdf791a",
+          "type" : "component"
+        } ],
+        "id" : "b2c0cbcc-64a9-431a-95d6-75d6c8f5a78e",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Privacy Statement",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0192be5e-4604-46de-8ee7-90e531b27ecd",
+          "type" : "component"
+        } ],
+        "id" : "39706328-5d40-4606-a069-b96bc6da0e15",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0aac5524-cca0-4d9d-9941-23ad16b995a6",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-privacy-statement"
+  },
+  "urlName" : "privacy-statement"
+}

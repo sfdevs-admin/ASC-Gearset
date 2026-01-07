@@ -1,0 +1,528 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "New Distributor Application",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9751c0d5-2894-4ecd-86d7-1a62e49bf5bd\",\"columns\":[{\"UUID\":\"97af7c53-016f-45e5-96fb-416f8ef48901\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "100px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "large",
+                "paddingVertical" : "large",
+                "text" : "Partner With a Trusted Leader in Fine Chemicals\n",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 0, 0)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "4dff205a-8a7b-4232-9f78-cf1d8714246c",
+              "type" : "component"
+            } ],
+            "id" : "97af7c53-016f-45e5-96fb-416f8ef48901",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9751c0d5-2894-4ecd-86d7-1a62e49bf5bd",
+          "scopedBrandingSetId" : "New_Distributer_color_BG",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"391a72de-60ff-462f-a046-ff65f8549a39\",\"columns\":[{\"UUID\":\"fdbed73c-fed2-415c-aa3c-744dd44306f6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"d1dc8fd4-a9c4-46c6-8d43-d5da244a6c7d\",\"columns\":[{\"UUID\":\"3ca7cb88-3bf4-4b4f-89d1-61ab0bcf6e1f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "200px",
+                        "top" : "20px"
+                      },
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">Strem Chemicals, an Ascensus Specialties company, has been a trusted supplier of high-purity specialty chemicals since 1964. We serve a diverse range of clients, from academic and government R&amp;D laboratories to large-scale pharmaceutical, microelectronic, and petrochemical businesses. We are seeking new distribution partners to join our global network to expand our reach and deliver our premium products to the scientific community.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "8f89c4b8-e4f8-4f76-acc3-61d08bab6aa9",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "20px",
+                        "right" : "200px",
+                        "top" : "10px"
+                      },
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">If you're a scientific products distributor with experience in small-molecule research chemistry markets and are looking to expand your portfolio with reliable, in-demand products, we invite you to explore a partnership with us.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "5d56ccda-b499-403b-b2d2-d84175a313f3",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "color" : "rgb(211, 211, 211)",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "lineStyle" : "solid",
+                    "size" : 2,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "35e1dc6b-7ca7-4d9c-9224-780024bebb2d",
+                  "type" : "component"
+                } ],
+                "id" : "3ca7cb88-3bf4-4b4f-89d1-61ab0bcf6e1f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "d1dc8fd4-a9c4-46c6-8d43-d5da244a6c7d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"c1dd2793-e16c-4433-ac99-531b890fd878\",\"columns\":[{\"UUID\":\"69243aea-1af8-4373-859e-8fb1bfd5ca71\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "large",
+                    "paddingVertical" : "none",
+                    "text" : "The Strem Catalog: Your Gateway to Premium Products",
+                    "textAlign" : "left",
+                    "textColor" : "rgb(31, 72, 124)",
+                    "textDecoration" : "{\"bold\":true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "7ede4257-9e68-44aa-b4ad-67e6245eca46",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "200px",
+                        "top" : "20px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">Our catalog features over 6,000 premium-quality research chemicals, offering an extensive range of advanced products that meet rigorous purity and compliance standards. Our product offering includes:</span></p><p><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">● </span><strong style=\"font-size: 18px;\">Catalysts, Ligands, and Organometallics</strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Nanomaterials, Graphene, and Quantum Dots</strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● CVD/ALD Products and MOFs (Metal-Organic Frameworks)</strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Advanced Organic Intermediates &amp; Building Blocks</strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Solvents and Reagents for Organic Synthesis&nbsp;</strong><span style=\"font-size: 18px;\">&nbsp;</span></p><p class=\"ql-indent-1\"><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">This broad and specialized product range gives our distributors a significant market advantage in serving key sectors like Life Sciences, Materials Science, and Thin-film Deposition.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "e3121b47-5c72-410b-9161-7cc2450ec558",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "color" : "rgb(211, 211, 211)",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "lineStyle" : "solid",
+                    "size" : 2,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "671c931f-25fb-433a-ad9f-e1f67112bbb9",
+                  "type" : "component"
+                } ],
+                "id" : "69243aea-1af8-4373-859e-8fb1bfd5ca71",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "c1dd2793-e16c-4433-ac99-531b890fd878",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"436d8957-6c60-457f-831f-6f1397498212\",\"columns\":[{\"UUID\":\"8e47ebbe-fa57-4f71-ae33-e148daf3272e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "large",
+                    "paddingVertical" : "none",
+                    "text" : "Why Partner With Us?",
+                    "textAlign" : "left",
+                    "textColor" : "rgb(31, 72, 124)",
+                    "textDecoration" : "{\"bold\":true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "0b8a7871-7106-45a2-93df-fc4adad9794f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "200px",
+                        "top" : "20px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">Partnering with Strem Chemicals means more than just distributing products; it means building a long term relationship focused on mutual growth and success. We provide our partners with the tools and support needed to thrive in their local markets. </span></p><p><br></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Extensive Product Range: A comprehensive portfolio of over 6,000 specialty compounds designed to meet the needs of diverse scientific research and commercial applications. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Quality You Can Trust: Our products undergo strict quality control to ensure they meet the highest purity and compliance standards. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● World-Class Fulfillment: Our efficient logistics network, with hubs in the US and Europe ensures fast and secure fulfillment to your customers. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Dedicated Support: Gain access to product data sheets, Certificates of Analysis (COAs), expert guidance, and a dedicated account manager to help you grow your business. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● Exclusive Resources:</strong><span style=\"font-size: 18px;\"> </span><strong style=\"font-size: 18px;\">We provide our distributors with specialized training, marketing materials, and promotional tools to maximize sales and market reach.</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "41a4c4b4-f4c4-400f-919e-c8fc64be0647",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "color" : "rgb(211, 211, 211)",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "lineStyle" : "solid",
+                    "size" : 2,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "2b660753-1a8a-4079-a920-62bd687443a3",
+                  "type" : "component"
+                } ],
+                "id" : "8e47ebbe-fa57-4f71-ae33-e148daf3272e",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "436d8957-6c60-457f-831f-6f1397498212",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"950d7476-45a1-4bdc-8089-755012b89f04\",\"columns\":[{\"UUID\":\"b3299173-37ef-438e-add3-f9b1a639051a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "large",
+                    "paddingVertical" : "none",
+                    "text" : "Who We’re Looking For",
+                    "textAlign" : "left",
+                    "textColor" : "rgb(31, 72, 124)",
+                    "textDecoration" : "{\"bold\":true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "573f80a8-9b24-4bb1-98b7-10f0b464044e",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "200px",
+                        "top" : "20px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">We are seeking partners who share our commitment to excellence and customer service. Our ideal distributor profile includes organizations with: </span></p><p><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">● </span><strong style=\"font-size: 18px;\">Experience in fine chemical distribution and research laboratory supply. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● A dedicated technical support and sales team. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● A strong understanding of local regulations and compliance.</strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● An established customer base in sectors such as pharmaceutical, biotech, academic, electronics, and government research institutes. </strong></p><p class=\"ql-indent-1\"><strong style=\"font-size: 18px;\">● The ability to scale and grow with us.&nbsp;</strong><span style=\"font-size: 18px;\">&nbsp;</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "9e12e6bb-6463-4e32-a54a-91a1980eac9a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "color" : "rgb(211, 211, 211)",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "20px",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "lineStyle" : "solid",
+                    "size" : 2,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "9ba86a07-9b32-4f1a-a124-68f9fe541ed4",
+                  "type" : "component"
+                } ],
+                "id" : "b3299173-37ef-438e-add3-f9b1a639051a",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "950d7476-45a1-4bdc-8089-755012b89f04",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"13c4631d-cf46-43cc-8855-89129c033352\",\"columns\":[{\"UUID\":\"9b872281-2a55-4a53-a32d-6417fc24fd1f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "large",
+                    "paddingVertical" : "none",
+                    "text" : "Ready to Grow With Us?",
+                    "textAlign" : "left",
+                    "textColor" : "rgb(31, 72, 124)",
+                    "textDecoration" : "{\"bold\":true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "c80e69da-19f2-4c03-8934-4821c1a90890",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "20px",
+                        "right" : "200px",
+                        "top" : "20px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">We are committed to building long-term partnerships that deliver value and innovation to the scientific community. If your organization meets our criteria and you are ready to expand your portfolio, we encourage you to apply today.</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 18px;\"><span class=\"ql-cursor\">﻿</span></span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "a8cb05ef-839c-48c3-b1c7-a335e5b6c41a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "0px",
+                        "right" : "0px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"323cccee-7b41-4db0-ad61-6b4fd5dd704f\",\"columns\":[{\"UUID\":\"d35d95e3-aa51-44d9-8e32-c48d3fd41676\",\"columnName\":\"Column 1\",\"columnKey\":\"a95b5\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "size" : "large",
+                        "stretch" : "standard",
+                        "text" : "Apply Here: Distributor Application",
+                        "type" : "primary",
+                        "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://forms.office.com/pages/responsepage.aspx?id=wTHeU1rAxEy1s9QaXBzR8gJ9Ts0J90tAtwwMZcNYesVURU42SFBDR1ZRVEg4TjRKN005WVQ3SjBFUS4u&route=shorturl\"}}}}"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "6f1ff4bc-9a64-4a46-8150-d4aa4930c05b",
+                      "type" : "component"
+                    } ],
+                    "id" : "d35d95e3-aa51-44d9-8e32-c48d3fd41676",
+                    "name" : "a95b5",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "323cccee-7b41-4db0-ad61-6b4fd5dd704f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "20px",
+                        "right" : "",
+                        "top" : "20px"
+                      }
+                    },
+                    "imageInfos" : "",
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 18px;\">We look forward to receiving your application.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "48d40aec-f773-4369-8447-eff9680b5f0e",
+                  "type" : "component"
+                } ],
+                "id" : "9b872281-2a55-4a53-a32d-6417fc24fd1f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "13c4631d-cf46-43cc-8855-89129c033352",
+              "type" : "component"
+            } ],
+            "id" : "fdbed73c-fed2-415c-aa3c-744dd44306f6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "391a72de-60ff-462f-a046-ff65f8549a39",
+          "type" : "component"
+        } ],
+        "id" : "6080093e-bb82-4983-ac81-b336571aa448",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "New Distributor Application",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "20776e64-6a58-4cbd-854d-67ec028b306c",
+          "type" : "component"
+        } ],
+        "id" : "95e5dac2-b72e-4b9f-8540-290c6f3738c9",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "93f1c2bb-d294-4ce0-9e6c-676c66659e04",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-new-distributor-application"
+  },
+  "urlName" : "new-distributor-application"
+}

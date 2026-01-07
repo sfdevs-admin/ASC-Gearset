@@ -1,0 +1,55 @@
+<template>
+
+    <div class="CouponCodeContainer">
+
+        <!-- loading spinner start -->
+        <div if:true={showSpinner}>
+            <div class="loader-dots">{messageState}</div>
+            <div class="back-drop"></div>
+        </div>
+        <!-- loading spinner end -->
+        
+        <!-- Enter Coupond Code button start -->
+        <div if:true={showEnterCouponBtn}>
+            <lightning-button class="slds-m-left_x-small"
+                variant="base" 
+                label="Enter Coupon Code" 
+                title="Enter Coupon Code" 
+                onclick={handleEnterCouponCode}>
+            </lightning-button>
+        </div>
+        <!-- Enter Coupond Code button end -->
+    
+        <!-- input field for coupon code start -->
+        <template if:true={showCouponField}>
+            <div class="CouponCode-inputContainer">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_8-of-12 slds-large-size_8-of-12">
+                        <!-- input field -->
+                        <lightning-input 
+                            variant="label-hidden"
+                            type="text" 
+                            label="Coupon code" 
+                            placeholder="Coupon code..."
+                            value={couponCodeValue}
+                            onchange={handleCouponCodeInputChange}>
+                        </lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                        <!-- apply btn -->
+                        <lightning-button class="slds-m-left_x-small"
+                            variant="brand" 
+                            label={applyBtnLabel}
+                            title={applyBtnLabel}
+                            disabled={applyCopuonBtnDisabled}
+                            stretch
+                            onclick={handleApplyCouponCode}>
+                        </lightning-button>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <!-- input field for coupon code end -->
+    </div>
+    
+</template>

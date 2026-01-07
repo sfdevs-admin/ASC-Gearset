@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Contact Us Thank You",
+  "contentBody" : {
+    "activeViewId" : "Contact_Us_Thank_You",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-contact-us-thank-you",
+    "urlPrefix" : "contact-us-thank-you"
+  },
+  "urlName" : "contact-us-thank-you"
+}

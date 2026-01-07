@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Type__c</fullName>
+    <label>Project Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Product</fullName>
+                <default>false</default>
+                <label>New Product</label>
+            </value>
+            <value>
+                <fullName>Application Development</fullName>
+                <default>false</default>
+                <label>Application Development</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>Product Improvement</fullName>
+                <default>false</default>
+                <label>Product Improvement</label>
+            </value>
+            <value>
+                <fullName>New Application</fullName>
+                <default>false</default>
+                <label>New Application</label>
+            </value>
+            <value>
+                <fullName>Reintroduction</fullName>
+                <default>false</default>
+                <label>Reintroduction</label>
+            </value>
+            <value>
+                <fullName>Capability</fullName>
+                <default>false</default>
+                <label>Capability</label>
+            </value>
+            <value>
+                <fullName>Custom Synthesis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Custom Synthesis</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>New Technology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Technology</label>
+            </value>
+            <value>
+                <fullName>Process Improvement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Process Improvement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

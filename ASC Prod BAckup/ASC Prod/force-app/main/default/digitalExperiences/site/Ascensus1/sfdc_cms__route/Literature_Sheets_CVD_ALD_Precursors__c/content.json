@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets - CVD, ALD Precursors",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_CVD_ALD_Precursors",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-cvd-ald-precursors",
+    "urlPrefix" : "literature-sheets-cvd-ald-precursors"
+  },
+  "urlName" : "literature-sheets---cvd-ald-precursors"
+}

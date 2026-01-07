@@ -1,0 +1,635 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 30-06-2025
+  @last modified by  : Mradul Maheshwari
+-->
+<template lwc:render-mode="light">
+    <div>
+        <div if:true={showSpinner}>
+            <div class="loader-dots">{messageState}</div>
+            <div class="back-drop"></div>
+        </div>
+
+        <!-- SEARCH TERM -->
+        <div class="search-label" if:true={searchTerm}>
+            <strong>{searchTerm}</strong>
+        </div>
+
+        <!-- LEGEND MOBILE -->
+        <div class="color-stencil slds-hide_large">
+            <div class="color-stencil-border slds-grid slds-grid_vertical">
+                <div class="slds-col">
+                    <div class="slds-grid">
+                        <div class="square">
+                            <div class="color-square-solid"></div>
+                        </div>
+                        <div class="slds-p-left_small slds-truncate">
+                            Transition metals
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-col slds-m-top_x-small">
+                    <div class="slds-grid">
+                        <div class="square">
+                            <div class="color-square-liquid"></div>
+                        </div>
+                        <div class="slds-p-left_small slds-truncate">
+                            Lanthanides and actinides
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-col slds-m-top_x-small">
+                    <div class="slds-grid">
+                        <div class="square">
+                            <div class="color-square-gas"></div>
+                        </div>
+                        <div class="slds-p-left_small slds-truncate">
+                            Alkali and alkaline earth metals
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-col slds-m-top_x-small">
+                    <div class="slds-grid">
+                        <div class="square">
+                            <div class="color-square-artificial"></div>
+                        </div>
+                        <div class="slds-p-left_small slds-truncate">
+                            Other metals/non-metals, halogens, and noble gases
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERIODIC TABLE -->
+        <div class="slds-align_absolute-center">
+            <ol class="periodic-table">
+
+                <li class="element hydrogen-parent-disable">
+                    <div class="hydrogen-child-1">1</div>
+                    <div class="hydrogen-child-2 child-name">H</div>
+                </li>
+
+                <!-- LEGEND DESKTOP -->
+                <div class="color-stencil slds-show_large">
+                    <div class="color-stencil-border slds-grid slds-grid_vertical">
+                        <div class="slds-col">
+                            <div class="slds-grid">
+                                <div class="square">
+                                    <div class="color-square-solid"></div>
+                                </div>
+                                <div class="slds-p-left_small slds-truncate">
+                                    Transition metals
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-m-top_x-small">
+                            <div class="slds-grid">
+                                <div class="square">
+                                    <div class="color-square-liquid"></div>
+                                </div>
+                                <div class="slds-p-left_small slds-truncate">
+                                    Lanthanides and actinides
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-m-top_x-small">
+                            <div class="slds-grid">
+                                <div class="square">
+                                    <div class="color-square-gas"></div>
+                                </div>
+                                <div class="slds-p-left_small slds-truncate">
+                                    Alkali and alkaline earth metals
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-m-top_x-small">
+                            <div class="slds-grid">
+                                <div class="square">
+                                    <div class="color-square-artificial"></div>
+                                </div>
+                                <div class="slds-p-left_small slds-truncate">
+                                    Other metals/non-metals, halogens, and noble gases
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <li class="element carbon-parent-disable helium">
+                    <div class="carbon-child-1">2</div>
+                    <div class="carbon-child-2 child-name">He</div>
+                </li>
+
+                <li class="element hydrogen-parent" data-element="Li" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">3</div>
+                    <div class="hydrogen-child-2 child-name">Li</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Be" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">4</div>
+                    <div class="hydrogen-child-2 child-name">Be</div>
+                </li>
+                <li class="element carbon-parent boron" data-element="B" onclick={handleNavigation}>
+                    <div class="carbon-child-1">5</div>
+                    <div class="carbon-child-2 child-name">B</div>
+                </li>
+                <li class="element carbon-parent" data-element="C" onclick={handleNavigation}>
+                    <div class="carbon-child-1">6</div>
+                    <div class="carbon-child-2 child-name">C</div>
+                </li>
+                <li class="element carbon-parent" data-element="N" onclick={handleNavigation}>
+                    <div class="carbon-child-1">7</div>
+                    <div class="carbon-child-2 child-name">N</div>
+                </li>
+                <li class="element carbon-parent" data-element="O" onclick={handleNavigation}>
+                    <div class="carbon-child-1">8</div>
+                    <div class="carbon-child-2 child-name">O</div>
+                </li>
+                <li class="element carbon-parent" data-element="F" onclick={handleNavigation}>
+                    <div class="carbon-child-1">9</div>
+                    <div class="carbon-child-2 child-name">F</div>
+                </li>
+                <li class="element carbon-parent-disable" data-element="Ne" onclick={handleNavigation}>
+                    <div class="carbon-child-1">10</div>
+                    <div class="carbon-child-2 child-name">Ne</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Na" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">11</div>
+                    <div class="hydrogen-child-2 child-name">Na</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Mg" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">12</div>
+                    <div class="hydrogen-child-2 child-name">Mg</div>
+                </li>
+                <li class="element carbon-parent aluminium" data-element="Al" onclick={handleNavigation}>
+                    <div class="carbon-child-1">13</div>
+                    <div class="carbon-child-2 child-name">Al</div>
+                </li>
+                <li class="element carbon-parent" data-element="Si" onclick={handleNavigation}>
+                    <div class="carbon-child-1">14</div>
+                    <div class="carbon-child-2 child-name">Si</div>
+                </li>
+                <li class="element carbon-parent" data-element="P" onclick={handleNavigation}>
+                    <div class="carbon-child-1">15</div>
+                    <div class="carbon-child-2 child-name">P</div>
+                </li>
+                <li class="element carbon-parent" data-element="S" onclick={handleNavigation}>
+                    <div class="carbon-child-1">16</div>
+                    <div class="carbon-child-2 child-name">S</div>
+                </li>
+                <li class="element carbon-parent-disable" data-element="Cl" onclick={handleNavigation}>
+                    <div class="carbon-child-1">17</div>
+                    <div class="carbon-child-2 child-name">Cl</div>
+                </li>
+                <li class="element carbon-parent-disable" data-element="Ar" onclick={handleNavigation}>
+                    <div class="carbon-child-1">18</div>
+                    <div class="carbon-child-2 child-name">Ar</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="K" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">19</div>
+                    <div class="hydrogen-child-2 child-name">K</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Ca" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">20</div>
+                    <div class="hydrogen-child-2 child-name">Ca</div>
+                </li>
+                <li class="element scandium-parent" data-element="Sc" onclick={handleNavigation}>
+                    <div class="scandium-child-1">21</div>
+                    <div class="scandium-child-2 child-name">Sc</div>
+                </li>
+                <li class="element scandium-parent" data-element="Ti" onclick={handleNavigation}>
+                    <div class="scandium-child-1">22</div>
+                    <div class="scandium-child-2 child-name">Ti</div>
+                </li>
+                <li class="element scandium-parent" data-element="V" onclick={handleNavigation}>
+                    <div class="scandium-child-1">23</div>
+                    <div class="scandium-child-2 child-name">V</div>
+                </li>
+                <li class="element scandium-parent" data-element="Cr" onclick={handleNavigation}>
+                    <div class="scandium-child-1">24</div>
+                    <div class="scandium-child-2 child-name">Cr</div>
+                </li>
+                <li class="element scandium-parent" data-element="Mn" onclick={handleNavigation}>
+                    <div class="scandium-child-1">25</div>
+                    <div class="scandium-child-2 child-name">Mn</div>
+                </li>
+                <li class="element scandium-parent" data-element="Fe" onclick={handleNavigation}>
+                    <div class="scandium-child-1">26</div>
+                    <div class="scandium-child-2 child-name">Fe</div>
+                </li>
+                <li class="element scandium-parent" data-element="Co" onclick={handleNavigation}>
+                    <div class="scandium-child-1">27</div>
+                    <div class="scandium-child-2 child-name">Co</div>
+                </li>
+                <li class="element scandium-parent" data-element="Ni" onclick={handleNavigation}>
+                    <div class="scandium-child-1">28</div>
+                    <div class="scandium-child-2 child-name">Ni</div>
+                </li>
+                <li class="element scandium-parent" data-element="Cu" onclick={handleNavigation}>
+                    <div class="scandium-child-1">29</div>
+                    <div class="scandium-child-2 child-name">Cu</div>
+                </li>
+                <li class="element scandium-parent" data-element="Zn" onclick={handleNavigation}>
+                    <div class="scandium-child-1">30
+
+                    </div>
+                    <div class="scandium-child-2 child-name">Zn</div>
+                </li>
+                <li class="element carbon-parent" data-element="Ga" onclick={handleNavigation}>
+                    <div class="carbon-child-1">31</div>
+                    <div class="carbon-child-2 child-name">Ga</div>
+                </li>
+                <li class="element carbon-parent" data-element="Ge" onclick={handleNavigation}>
+                    <div class="carbon-child-1">32</div>
+                    <div class="carbon-child-2 child-name">Ge</div>
+                </li>
+                <li class="element carbon-parent" data-element="As" onclick={handleNavigation}>
+                    <div class="carbon-child-1">33</div>
+                    <div class="carbon-child-2 child-name">As</div>
+                </li>
+                <li class="element carbon-parent" data-element="Se" onclick={handleNavigation}>
+                    <div class="carbon-child-1">34</div>
+                    <div class="carbon-child-2 child-name">Se</div>
+                </li>
+                <li class="element carbon-parent" data-element="Br" onclick={handleNavigation}>
+                    <div class="carbon-child-1">35</div>
+                    <div class="carbon-child-2 child-name">Br</div>
+                </li>
+                <li class="element carbon-parent-disable" data-element="Kr" onclick={handleNavigation}>
+                    <div class="carbon-child-1">36</div>
+                    <div class="carbon-child-2 child-name">Kr</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Rb" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">37</div>
+                    <div class="hydrogen-child-2 child-name">Rb</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Sr" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">38</div>
+                    <div class="hydrogen-child-2 child-name">Sr</div>
+                </li>
+                <li class="element scandium-parent" data-element="Y" onclick={handleNavigation}>
+                    <div class="scandium-child-1">39</div>
+                    <div class="scandium-child-2 child-name">Y</div>
+                </li>
+                <li class="element scandium-parent" data-element="Zr" onclick={handleNavigation}>
+                    <div class="scandium-child-1">40</div>
+                    <div class="scandium-child-2 child-name">Zr</div>
+                </li>
+                <li class="element scandium-parent" data-element="Nb" onclick={handleNavigation}>
+                    <div class="scandium-child-1">41</div>
+                    <div class="scandium-child-2 child-name">Nb</div>
+                </li>
+                <li class="element scandium-parent" data-element="Mo" onclick={handleNavigation}>
+                    <div class="scandium-child-1">42</div>
+                    <div class="scandium-child-2 child-name">Mo</div>
+                </li>
+                <li class="element scandium-parent-disable" data-element="Tc" onclick={handleNavigation}>
+                    <div class="scandium-child-1">43</div>
+                    <div class="scandium-child-2 child-name">Tc</div>
+                </li>
+                <li class="element scandium-parent" data-element="Ru" onclick={handleNavigation}>
+                    <div class="scandium-child-1">44</div>
+                    <div class="scandium-child-2 child-name">Ru</div>
+                </li>
+                <li class="element scandium-parent" data-element="Rh" onclick={handleNavigation}>
+                    <div class="scandium-child-1">45</div>
+                    <div class="scandium-child-2 child-name">Rh</div>
+                </li>
+                <li class="element scandium-parent" data-element="Pd" onclick={handleNavigation}>
+                    <div class="scandium-child-1">46</div>
+                    <div class="scandium-child-2 child-name">Pd</div>
+                </li>
+                <li class="element scandium-parent" data-element="Ag" onclick={handleNavigation}>
+                    <div class="scandium-child-1">47</div>
+                    <div class="scandium-child-2 child-name">Ag</div>
+                </li>
+                <li class="element scandium-parent" data-element="Cd" onclick={handleNavigation}>
+                    <div class="scandium-child-1">48</div>
+                    <div class="scandium-child-2 child-name">Cd</div>
+                </li>
+                <li class="element carbon-parent" data-element="In" onclick={handleNavigation}>
+                    <div class="carbon-child-1">49</div>
+                    <div class="carbon-child-2 child-name">In</div>
+                </li>
+                <li class="element carbon-parent" data-element="Sn" onclick={handleNavigation}>
+                    <div class="carbon-child-1">50</div>
+                    <div class="carbon-child-2 child-name">Sn</div>
+                </li>
+                <li class="element carbon-parent" data-element="Sb" onclick={handleNavigation}>
+                    <div class="carbon-child-1">51</div>
+                    <div class="carbon-child-2 child-name">Sb</div>
+                </li>
+                <li class="element carbon-parent" data-element="Te" onclick={handleNavigation}>
+                    <div class="carbon-child-1">52</div>
+                    <div class="carbon-child-2 child-name">Te</div>
+                </li>
+                <li class="element carbon-parent" data-element="I" onclick={handleNavigation}>
+                    <div class="carbon-child-1">53</div>
+                    <div class="carbon-child-2 child-name">I</div>
+                </li>
+                <li class="element carbon-parent" data-element="Xe" onclick={handleNavigation}>
+                    <div class="carbon-child-1">54</div>
+                    <div class="carbon-child-2 child-name">Xe</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Cs" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">55</div>
+                    <div class="hydrogen-child-2 child-name">Cs</div>
+                </li>
+                <li class="element hydrogen-parent" data-element="Ba" onclick={handleNavigation}>
+                    <div class="hydrogen-child-1">56</div>
+                    <div class="hydrogen-child-2 child-name">Ba</div>
+                </li>
+                <li class="element liquid-parent" data-element="La" onclick={handleNavigation}>
+                    <div class="liquid-child-1">57-71</div>
+                    <div class="liquid-child-2 child-name">La</div>
+                </li>
+                <!-- inserting -->
+                <li class="element liquid-parent lanthanides" data-element="La" onclick={handleNavigation}>
+                    <div class="liquid-child-1">57</div>
+                    <div class="liquid-child-2 child-name">La</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Ce" onclick={handleNavigation}>
+                    <div class="liquid-child-1">58</div>
+                    <div class="liquid-child-2 child-name">Ce</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Pr" onclick={handleNavigation}>
+                    <div class="liquid-child-1">59</div>
+                    <div class="liquid-child-2 child-name">Pr</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Nd" onclick={handleNavigation}>
+                    <div class="liquid-child-1">60</div>
+                    <div class="liquid-child-2 child-name">Nd</div>
+                </li>
+                <li class="element liquid-parent-disable lanthanides">
+                    <div class="liquid-child-1">61</div>
+                    <div class="liquid-child-2 child-name">Pm</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Sm" onclick={handleNavigation}>
+                    <div class="liquid-child-1">62</div>
+                    <div class="liquid-child-2 child-name">Sm</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Eu" onclick={handleNavigation}>
+                    <div class="liquid-child-1">63</div>
+                    <div class="liquid-child-2 child-name">Eu</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Gd" onclick={handleNavigation}>
+                    <div class="liquid-child-1">64</div>
+                    <div class="liquid-child-2 child-name">Gd</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Tb" onclick={handleNavigation}>
+                    <div class="liquid-child-1">65</div>
+                    <div class="liquid-child-2 child-name">Tb</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Dy" onclick={handleNavigation}>
+                    <div class="liquid-child-1">66</div>
+                    <div class="liquid-child-2 child-name">Dy</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Ho" onclick={handleNavigation}>
+                    <div class="liquid-child-1">67</div>
+                    <div class="liquid-child-2 child-name">Ho</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Er" onclick={handleNavigation}>
+                    <div class="liquid-child-1">68</div>
+                    <div class="liquid-child-2 child-name">Er</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Tm" onclick={handleNavigation}>
+                    <div class="liquid-child-1">69</div>
+                    <div class="liquid-child-2 child-name">Tm</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Yb" onclick={handleNavigation}>
+                    <div class="liquid-child-1">70</div>
+                    <div class="liquid-child-2 child-name">Yb</div>
+                </li>
+                <li class="element liquid-parent lanthanides" data-element="Lu" onclick={handleNavigation}>
+                    <div class="liquid-child-1">71</div>
+                    <div class="liquid-child-2 child-name">Lu</div>
+                </li>
+                <li class="element scandium-parent" data-element="Hf" onclick={handleNavigation}>
+                    <div class="scandium-child-1">72</div>
+                    <div class="scandium-child-2 child-name">Hf</div>
+                </li>
+                <li class="element scandium-parent" data-element="Ta" onclick={handleNavigation}>
+                    <div class="scandium-child-1">73</div>
+                    <div class="scandium-child-2 child-name">Ta</div>
+                </li>
+                <li class="element scandium-parent" data-element="W" onclick={handleNavigation}>
+                    <div class="scandium-child-1">74</div>
+                    <div class="scandium-child-2 child-name">W</div>
+                </li>
+                <li class="element scandium-parent" data-element="Re" onclick={handleNavigation}>
+                    <div class="scandium-child-1">75</div>
+                    <div class="scandium-child-2 child-name">Re</div>
+                </li>
+                <li class="element scandium-parent" data-element="Os" onclick={handleNavigation}>
+                    <div class="scandium-child-1">76</div>
+                    <div class="scandium-child-2 child-name">Os</div>
+                </li>
+                <li class="element scandium-parent" data-element="Ir" onclick={handleNavigation}>
+                    <div class="scandium-child-1">77</div>
+                    <div class="scandium-child-2 child-name">Ir</div>
+                </li>
+                <li class="element scandium-parent" data-element="Pt" onclick={handleNavigation}>
+                    <div class="scandium-child-1">78</div>
+                    <div class="scandium-child-2 child-name">Pt</div>
+                </li>
+                <li class="element scandium-parent" data-element="Au" onclick={handleNavigation}>
+                    <div class="scandium-child-1">79</div>
+                    <div class="scandium-child-2 child-name">Au</div>
+                </li>
+                <li class="element scandium-parent" data-element="Hg" onclick={handleNavigation}>
+                    <div class="scandium-child-1">80</div>
+                    <div class="scandium-child-2 child-name">Hg</div>
+                </li>
+                <li class="element carbon-parent" data-element="Tl" onclick={handleNavigation}>
+                    <div class="carbon-child-1">81</div>
+                    <div class="carbon-child-2 child-name">Tl</div>
+                </li>
+                <li class="element carbon-parent" data-element="Pb" onclick={handleNavigation}>
+                    <div class="carbon-child-1">82</div>
+                    <div class="carbon-child-2 child-name">Pb</div>
+                </li>
+                <li class="element carbon-parent" data-element="Bi" onclick={handleNavigation}>
+                    <div class="carbon-child-1">83</div>
+                    <div class="carbon-child-2 child-name">Bi</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">84</div>
+                    <div class="carbon-child-2 child-name">Po</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">85</div>
+                    <div class="carbon-child-2 child-name">At</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">86</div>
+                    <div class="carbon-child-2 child-name">Rn</div>
+                </li>
+
+                <li class="element hydrogen-parent-disable">
+                    <div class="hydrogen-child-1">87</div>
+                    <div class="hydrogen-child-2 child-name">Fr</div>
+                </li>
+                <li class="element hydrogen-parent-disable">
+                    <div class="hydrogen-child-1">88</div>
+                    <div class="hydrogen-child-2 child-name">Ra</div>
+                </li>
+                <li class="element liquid-parent-disable">
+                    <div class="liquid-child-1">89-103</div>
+                    <div class="liquid-child-2 child-name">Ac</div>
+                </li>
+                <li class="element liquid-parent-disable thorium actinides">
+                    <div class="liquid-child-1">89</div>
+                    <div class="liquid-child-2 child-name">Ac</div>
+                </li>
+                <li class="element liquid-parent actinides" data-element="Th" onclick={handleNavigation}>
+                    <div class="liquid-child-1">90</div>
+                    <div class="liquid-child-2 child-name">Th</div>
+                </li>
+                <li class="element liquid-parent-disable actinides" data-element="Pa" onclick={handleNavigation}>
+                    <div class="liquid-child-1">91</div>
+                    <div class="liquid-child-2 child-name">Pa</div>
+                </li>
+                <li class="element liquid-parent-disable actinides" data-element="U" onclick={handleNavigation}>
+                    <div class="liquid-child-1">92</div>
+                    <div class="liquid-child-2 child-name">U</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">93</div>
+                    <div class="liquid-child-2 child-name">Np</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">94</div>
+                    <div class="liquid-child-2 child-name">Pu</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">95</div>
+                    <div class="liquid-child-2 child-name">Am</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">96</div>
+                    <div class="liquid-child-2 child-name">Cm</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">97</div>
+                    <div class="liquid-child-2 child-name">Bk</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">98</div>
+                    <div class="liquid-child-2 child-name">Cf</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">99</div>
+                    <div class="liquid-child-2 child-name">Es</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">100</div>
+                    <div class="liquid-child-2 child-name">Fm</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">101</div>
+                    <div class="liquid-child-2 child-name">Md</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">102</div>
+                    <div class="liquid-child-2 child-name">No</div>
+                </li>
+                <li class="element liquid-parent-disable actinides">
+                    <div class="liquid-child-1">103</div>
+                    <div class="liquid-child-2 child-name">Lr</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">104</div>
+                    <div class="scandium-child-2 child-name">Rf</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">105</div>
+                    <div class="scandium-child-2 child-name">Db</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">106</div>
+                    <div class="scandium-child-2 child-name">Sg</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">107</div>
+                    <div class="scandium-child-2 child-name">Bh</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">108</div>
+                    <div class="scandium-child-2 child-name">Hs</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">109</div>
+                    <div class="scandium-child-2 child-name">Mt</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">110</div>
+                    <div class="scandium-child-2 child-name">Ds</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">111</div>
+                    <div class="scandium-child-2 child-name">Rg</div>
+                </li>
+                <li class="element scandium-parent-disable">
+                    <div class="scandium-child-1">112</div>
+                    <div class="scandium-child-2 child-name">Cn</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">113</div>
+                    <div class="carbon-child-2 child-name">Nh</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">114</div>
+                    <div class="carbon-child-2 child-name">Fl</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">115</div>
+                    <div class="carbon-child-2 child-name">Mc</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">116</div>
+                    <div class="carbon-child-2 child-name">Lv</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">117</div>
+                    <div class="carbon-child-2 child-name">Ts</div>
+                </li>
+                <li class="element carbon-parent-disable">
+                    <div class="carbon-child-1">118</div>
+                    <div class="carbon-child-2 child-name">Og</div>
+                </li>
+            </ol>
+        </div>
+
+        <!-- PRODUCT GROUPS -->
+        <div class="others-conatiner slds-var-p-bottom_xx-large slds-var-m-top_large">
+            <div class="product_groups">
+                <h1 class="others-heading slds-p-vertical_x-large">Other Product Groups:</h1>
+                <div class="list-container slds-p-bottom_large">
+                    <ul class="horizontal-list">
+                        <li data-element="Metal Scavenging Agents" onclick={handleNavigation2}><a>Metals Scavenging
+                                Agents</a></li>
+                        <li data-element="Molecular Sieve" onclick={handleNavigation2}><a>Molecular Sieves</a></li>
+                        <li data-element="Nanomaterials" onclick={handleNavigation2}><a>Nanomaterials</a></li>
+                        <li data-element="Kits" onclick={handleNavigation2}><a>Kits</a></li>
+                        <li data-element="Suba Seals" onclick={handleNavigation2}><a>Suba Seals</a></li>
+                        <li data-element="Ionic Liquids" onclick={handleNavigation2}><a>Ionic Liquids</a></li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <ul class="horizontal-list">
+                        <li data-element="Cylinders (CVD/ALD) & Adapters" onclick={handleNavigation2}><a>Cylinders
+                                (CVD/ALD)
+                                &amp; Adapters</a></li>
+                        <li data-element="Electropolished Stainless Steel Bubblers" onclick={handleNavigation2}>
+                            <a>Electropolished Stainless Steel Bubblers</a>
+                        </li>
+                        <li data-element="Biocatalyst" onclick={handleNavigation2}><a>Biocatalysts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>

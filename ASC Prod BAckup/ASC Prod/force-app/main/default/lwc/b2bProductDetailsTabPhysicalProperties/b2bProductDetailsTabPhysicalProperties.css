@@ -1,0 +1,20 @@
+.dummy{
+	color : black;
+}
+
+.font-size{
+	font-size: 20px;
+	font-family: Salesforce sans;
+}
+
+.table-container{
+	max-width: 1800px;
+    /* padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; */
+}
+
+.slds-table--cell-buffer tr>td:first-child, .slds-table--cell-buffer tr>th:first-child, .slds-table_cell-buffer tr>td:first-child, .slds-table_cell-buffer tr>th:first-child {
+    width: 22% !important;
+}

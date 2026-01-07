@@ -1,0 +1,155 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    position: absolute;
+    color: #f2f2f2;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.prev {
+    left: 30px;
+    font-size: xxx-large;
+}
+
+.next {
+    right: 30px;
+    font-size: xxx-large;
+}
+
+
+/* .carousel-container{
+    height: 450px;
+    overflow : hidden;
+} */
+
+.description-heading{
+    color: #f2f2f2;
+    font-size: 5em;
+}
+
+.description-value{
+    color: #f2f2f2;
+    font-size: 3em;
+}
+
+.dot-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 2px;
+    display: inline-block;
+}
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@media (max-width: 600px) {
+    .description {
+        font-size: 1em;
+    }
+}
+
+
+.carousel-container {
+  position: relative; 
+  overflow: hidden; 
+  height: 100%;
+}
+
+
+.carousel-slides {
+  display: flex; 
+  scroll-behavior: smooth; 
+}
+
+.carousel-container img {
+  display: block; 
+  width: 100%; 
+  height: auto; 
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.carousel-container .carousel-slides > div {
+  flex: 0 0 100%;
+}
+
+
+.carousel-container .dot-container {
+  position: absolute; 
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.carousel-container .dot-container span {
+  cursor: pointer;
+}
+
+.carousel-container .dot-container span.slds-is-active,
+.carousel-container .dot-container span.active {
+  background: #fff;
+}
+
+.carousel-container.slds-is-relative { position: relative; }

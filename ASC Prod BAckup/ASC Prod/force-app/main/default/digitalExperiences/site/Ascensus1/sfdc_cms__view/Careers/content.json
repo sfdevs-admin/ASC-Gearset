@@ -1,0 +1,213 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Careers",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC7BLLZ764XBGJPJO7QYWF3ASOTA?lastModifiedDate=Wed May 01 17:25:25 GMT 2024&height=144&width=192\",\"contentKey\":\"MC7BLLZ764XBGJPJO7QYWF3ASOTA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center right\",\"bgSizeOrRepeat\":\"repeat-y\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"47d096d8-be69-442f-80e8-ed5a6045e0dd\",\"columns\":[{\"UUID\":\"fae3896d-1473-4559-a5c3-d553687a19d0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2%",
+                    "left" : "6%",
+                    "right" : "",
+                    "top" : "2%"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Careers",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "0cadda3e-b13c-48ba-b762-08a0de0e1749",
+              "type" : "component"
+            } ],
+            "id" : "fae3896d-1473-4559-a5c3-d553687a19d0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "47d096d8-be69-442f-80e8-ed5a6045e0dd",
+          "scopedBrandingSetId" : "Static_Page_Background",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"dd3e18e1-145e-420f-92ad-a72f6b4afc0b\",\"columns\":[{\"UUID\":\"9b2f0b42-fb34-472f-a654-984cc39f25e9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "5%"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC5FNO7LZW6RFIPKBYR4ZTERAEPQ?lastModifiedDate=Sun Jun 09 16:17:21 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC5FNO7LZW6RFIPKBYR4ZTERAEPQ\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "fe574aa3-3e17-4dcd-b665-641d303065cd",
+              "type" : "component"
+            } ],
+            "id" : "9b2f0b42-fb34-472f-a654-984cc39f25e9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dd3e18e1-145e-420f-92ad-a72f6b4afc0b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"19f6d18c-0fca-4641-ad89-7976edb8f7e6\",\"columns\":[{\"UUID\":\"55f01310-0f23-421f-8ec6-66e419294d16\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">At Ascensus you can help make a real difference in the everyday lives of people around the world.</p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">For more information visit:</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d91105e4-b507-490e-af35-fcc80290a2e2",
+              "type" : "component"
+            } ],
+            "id" : "55f01310-0f23-421f-8ec6-66e419294d16",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "19f6d18c-0fca-4641-ad89-7976edb8f7e6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"625f6be5-4835-4ddd-8d56-979f7a4ac424\",\"columns\":[{\"UUID\":\"8bf1d1d6-3f23-4acd-abda-3bfd978e4ea9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "5%",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Career Opportunities",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://ascensusspecialties.pinpointhq.com/\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "5aeaf83a-a892-44c2-8574-8e8ae885ef62",
+              "type" : "component"
+            } ],
+            "id" : "8bf1d1d6-3f23-4acd-abda-3bfd978e4ea9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "625f6be5-4835-4ddd-8d56-979f7a4ac424",
+          "type" : "component"
+        } ],
+        "id" : "b4de2bb2-3f18-4d44-9811-4195aa22fe50",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Careers",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c9dd487a-96ec-4c2e-a3f3-89aa1d64c32f",
+          "type" : "component"
+        } ],
+        "id" : "1c892058-d88c-4b74-8305-ef6c85572618",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "caf4e8e1-4343-46de-8841-7c3f43610a2d",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-careers"
+  },
+  "urlName" : "careers"
+}

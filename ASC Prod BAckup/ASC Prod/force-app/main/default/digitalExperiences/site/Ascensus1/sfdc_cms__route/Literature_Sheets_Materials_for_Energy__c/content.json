@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets - Materials for Energy",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_Materials_for_Energy",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-materials-for-energy",
+    "urlPrefix" : "literature-sheets-materials-for-energy"
+  },
+  "urlName" : "literature-sheets---materials-for-energy"
+}

@@ -1,0 +1,195 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Periodic Table",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC7BLLZ764XBGJPJO7QYWF3ASOTA?lastModifiedDate=Wed May 01 17:25:25 GMT 2024&height=144&width=192\",\"contentKey\":\"MC7BLLZ764XBGJPJO7QYWF3ASOTA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center right\",\"bgSizeOrRepeat\":\"repeat-y\"}",
+            "backgroundImageOverlay" : "rgba(0, 0, 0, 0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c61172f6-3ac1-49be-8488-985ba5727221\",\"columns\":[{\"UUID\":\"7e2a92c0-c506-4a14-ad6a-219abca9ab54\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2%",
+                    "left" : "2%",
+                    "right" : "",
+                    "top" : "2%"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Periodic Table",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f81b0a30-f95f-44a9-b732-9e2671a0a75a",
+              "type" : "component"
+            } ],
+            "id" : "7e2a92c0-c506-4a14-ad6a-219abca9ab54",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c61172f6-3ac1-49be-8488-985ba5727221",
+          "scopedBrandingSetId" : "Static_Page_Background",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1a879695-fd5e-4f35-b839-56c77d5c32f1\",\"columns\":[{\"UUID\":\"437ac94a-f376-415c-987f-d5175bce2e0e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Select an element to search for your product",
+                "textAlign" : "center",
+                "textColor" : "rgb(0, 0, 0)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a83e80ca-edc8-445e-8a9e-edd47b15b7da",
+              "type" : "component"
+            } ],
+            "id" : "437ac94a-f376-415c-987f-d5175bce2e0e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1a879695-fd5e-4f35-b839-56c77d5c32f1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"59eb5b64-c08f-47a9-bb9f-9e642a2e29b2\",\"columns\":[{\"UUID\":\"f87ab5b9-a1a9-4002-8a5e-4b9bdc6ada04\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "lineStyle" : "solid",
+                "size" : 3,
+                "width" : 100
+              },
+              "definition" : "dxp_base:horizontalLine",
+              "id" : "bacb2331-c957-417a-87fc-0c390e89085c",
+              "type" : "component"
+            } ],
+            "id" : "f87ab5b9-a1a9-4002-8a5e-4b9bdc6ada04",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "59eb5b64-c08f-47a9-bb9f-9e642a2e29b2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8a3927fa-f951-4fff-b77b-154fd80eabb9\",\"columns\":[{\"UUID\":\"7a541f74-9da9-4e80-81c4-8914a22972dc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:periodicTable2",
+              "id" : "cb680369-36ef-4740-a786-695bedc604ce",
+              "type" : "component"
+            } ],
+            "id" : "7a541f74-9da9-4e80-81c4-8914a22972dc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8a3927fa-f951-4fff-b77b-154fd80eabb9",
+          "scopedBrandingSetId" : "GreyTextSection",
+          "type" : "component"
+        } ],
+        "id" : "77f547d7-8829-4519-93c3-be26486e1d50",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Periodic Table",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "88267555-0d12-4609-91d3-f64964171a6e",
+          "type" : "component"
+        } ],
+        "id" : "a034b748-495a-4cc1-a74a-fae6e56ca05a",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "a2b25787-6cc2-4fc9-8d8e-ec43d98f8842",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-periodic-table"
+  },
+  "urlName" : "periodic-table"
+}

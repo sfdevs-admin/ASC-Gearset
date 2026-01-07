@@ -1,0 +1,57 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 12-17-2025
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <!-- <table>
+        <tr>
+            <td>{sizeValue}</td>
+            <td>
+                <lightning-formatted-number value={pricingData.unitPrice} format-style="currency" currency-code={pricingData.currencyIsoCode} currency-display-as="symbol"></lightning-formatted-number>
+            </td>
+            <td>Availability</td>
+            <td>Quantity</td>
+        </tr>
+    </table> -->
+    <div if:true={showSpinner}>
+        <div class="loader-dots">{messageState}</div>
+        <div class="back-drop"></div>
+    </div>
+    <div class="table-container-child">
+        <div class="table-column-child">{sizeValue}</div>
+        <template if:true={pricingData}>
+            <div class="table-column-child">
+                <lightning-formatted-number 
+                    value={pricingData.unitPrice} 
+                    format-style="currency" 
+                    currency-code={pricingData.currencyIsoCode} 
+                    currency-display-as="symbol">
+                </lightning-formatted-number>
+            </div>
+        </template>
+
+        <template if:false={pricingData}>
+            <div class="table-column-child"> 
+                <a href="/request-quote">Inquire</a> 
+            </div>
+        </template>
+
+        <div class="table-column-child">
+            <div class="quantity-selector">
+                <div class="quantity-control" onclick={handleDecrement}>-</div>
+                <input type="number" class="quantity-input" id={qtySelectorId} value="1" min="1" onkeyup={handleKeyUp}>
+                <div class="quantity-control" onclick={handleIncrement}>+</div>
+            </div>
+        </div>
+        <div class="table-column-child">
+            <template for:each={inventoryValue} for:item="item">
+                <div key={item} style="font-size: smaller;">
+                    {item}
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

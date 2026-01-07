@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Literature Sheets - Raft Agents",
+  "contentBody" : {
+    "activeViewId" : "Literature_Sheets_Raft_Agents",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-literature-sheets-raft-agents",
+    "urlPrefix" : "literature-sheets-raft-agents"
+  },
+  "urlName" : "literature-sheets---raft-agents"
+}

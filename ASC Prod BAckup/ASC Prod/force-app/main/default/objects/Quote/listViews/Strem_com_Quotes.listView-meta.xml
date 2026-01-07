@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strem_com_Quotes</fullName>
+    <columns>QUOTE.NAME</columns>
+    <columns>QUOTE.STATUS</columns>
+    <columns>QUOTE.DESCRIPTION</columns>
+    <columns>Company_Name__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>QuoteCountry__c</columns>
+    <columns>Address__c</columns>
+    <columns>Created_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company_Name__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Strem.com - Quotes</label>
+</ListView>

@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Elements__c</fullName>
+    <label>Elements</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actinium (Ac)</fullName>
+                <default>false</default>
+                <label>Actinium (Ac)</label>
+            </value>
+            <value>
+                <fullName>Aluminum</fullName>
+                <default>false</default>
+                <label>Aluminum</label>
+            </value>
+            <value>
+                <fullName>Aluminum (Al)</fullName>
+                <default>false</default>
+                <label>Aluminum (Al)</label>
+            </value>
+            <value>
+                <fullName>Americium (Am)</fullName>
+                <default>false</default>
+                <label>Americium (Am)</label>
+            </value>
+            <value>
+                <fullName>Ammonium</fullName>
+                <default>false</default>
+                <label>Ammonium</label>
+            </value>
+            <value>
+                <fullName>Antimony</fullName>
+                <default>false</default>
+                <label>Antimony</label>
+            </value>
+            <value>
+                <fullName>Antimony (Sb)</fullName>
+                <default>false</default>
+                <label>Antimony (Sb)</label>
+            </value>
+            <value>
+                <fullName>Argon (Ar)</fullName>
+                <default>false</default>
+                <label>Argon (Ar)</label>
+            </value>
+            <value>
+                <fullName>Arsenic</fullName>
+                <default>false</default>
+                <label>Arsenic</label>
+            </value>
+            <value>
+                <fullName>Arsenic (As)</fullName>
+                <default>false</default>
+                <label>Arsenic (As)</label>
+            </value>
+            <value>
+                <fullName>Astatine (At)</fullName>
+                <default>false</default>
+                <label>Astatine (At)</label>
+            </value>
+            <value>
+                <fullName>Barium</fullName>
+                <default>false</default>
+                <label>Barium</label>
+            </value>
+            <value>
+                <fullName>Barium (Ba)</fullName>
+                <default>false</default>
+                <label>Barium (Ba)</label>
+            </value>
+            <value>
+                <fullName>Berkelium (Bk)</fullName>
+                <default>false</default>
+                <label>Berkelium (Bk)</label>
+            </value>
+            <value>
+                <fullName>Beryllium</fullName>
+                <default>false</default>
+                <label>Beryllium</label>
+            </value>
+            <value>
+                <fullName>Beryllium (Be)</fullName>
+                <default>false</default>
+                <label>Beryllium (Be)</label>
+            </value>
+            <value>
+                <fullName>Biocatalysts</fullName>
+                <default>false</default>
+                <label>Biocatalysts</label>
+            </value>
+            <value>
+                <fullName>Bismuth</fullName>
+                <default>false</default>
+                <label>Bismuth</label>
+            </value>
+            <value>
+                <fullName>Bismuth (Bi)</fullName>
+                <default>false</default>
+                <label>Bismuth (Bi)</label>
+            </value>
+            <value>
+                <fullName>Bohrium (Bh)</fullName>
+                <default>false</default>
+                <label>Bohrium (Bh)</label>
+            </value>
+            <value>
+                <fullName>Boron</fullName>
+                <default>false</default>
+                <label>Boron</label>
+            </value>
+            <value>
+                <fullName>Boron (B)</fullName>
+                <default>false</default>
+                <label>Boron (B)</label>
+            </value>
+            <value>
+                <fullName>Bromine</fullName>
+                <default>false</default>
+                <label>Bromine</label>
+            </value>
+            <value>
+                <fullName>Bromine (Br)</fullName>
+                <default>false</default>
+                <label>Bromine (Br)</label>
+            </value>
+            <value>
+                <fullName>Cadmium</fullName>
+                <default>false</default>
+                <label>Cadmium</label>
+            </value>
+            <value>
+                <fullName>Cadmium (Cd)</fullName>
+                <default>false</default>
+                <label>Cadmium (Cd)</label>
+            </value>
+            <value>
+                <fullName>Calcium</fullName>
+                <default>false</default>
+                <label>Calcium</label>
+            </value>
+            <value>
+                <fullName>Calcium (Ca)</fullName>
+                <default>false</default>
+                <label>Calcium (Ca)</label>
+            </value>
+            <value>
+                <fullName>Californium (Cf)</fullName>
+                <default>false</default>
+                <label>Californium (Cf)</label>
+            </value>
+            <value>
+                <fullName>Carbon</fullName>
+                <default>false</default>
+                <label>Carbon</label>
+            </value>
+            <value>
+                <fullName>Carbon (C)</fullName>
+                <default>false</default>
+                <label>Carbon (C)</label>
+            </value>
+            <value>
+                <fullName>Cerium</fullName>
+                <default>false</default>
+                <label>Cerium</label>
+            </value>
+            <value>
+                <fullName>Cerium (Ce)</fullName>
+                <default>false</default>
+                <label>Cerium (Ce)</label>
+            </value>
+            <value>
+                <fullName>Cesium</fullName>
+                <default>false</default>
+                <label>Cesium</label>
+            </value>
+            <value>
+                <fullName>Cesium (Cs)</fullName>
+                <default>false</default>
+                <label>Cesium (Cs)</label>
+            </value>
+            <value>
+                <fullName>Chlorine (Cl)</fullName>
+                <default>false</default>
+                <label>Chlorine (Cl)</label>
+            </value>
+            <value>
+                <fullName>Chromium</fullName>
+                <default>false</default>
+                <label>Chromium</label>
+            </value>
+            <value>
+                <fullName>Chromium (Cr)</fullName>
+                <default>false</default>
+                <label>Chromium (Cr)</label>
+            </value>
+            <value>
+                <fullName>Cobalt</fullName>
+                <default>false</default>
+                <label>Cobalt</label>
+            </value>
+            <value>
+                <fullName>Cobalt (Co)</fullName>
+                <default>false</default>
+                <label>Cobalt (Co)</label>
+            </value>
+            <value>
+                <fullName>Copernicium (Cn)</fullName>
+                <default>false</default>
+                <label>Copernicium (Cn)</label>
+            </value>
+            <value>
+                <fullName>Copper</fullName>
+                <default>false</default>
+                <label>Copper</label>
+            </value>
+            <value>
+                <fullName>Copper (Cu)</fullName>
+                <default>false</default>
+                <label>Copper (Cu)</label>
+            </value>
+            <value>
+                <fullName>Curium (Cm)</fullName>
+                <default>false</default>
+                <label>Curium (Cm)</label>
+            </value>
+            <value>
+                <fullName>Cylinders (CVD/ALD) &amp; Adapters</fullName>
+                <default>false</default>
+                <label>Cylinders (CVD/ALD) &amp; Adapters</label>
+            </value>
+            <value>
+                <fullName>Darmstadtium (Ds)</fullName>
+                <default>false</default>
+                <label>Darmstadtium (Ds)</label>
+            </value>
+            <value>
+                <fullName>Dubnium (Db)</fullName>
+                <default>false</default>
+                <label>Dubnium (Db)</label>
+            </value>
+            <value>
+                <fullName>Dysprosium</fullName>
+                <default>false</default>
+                <label>Dysprosium</label>
+            </value>
+            <value>
+                <fullName>Dysprosium (Dy)</fullName>
+                <default>false</default>
+                <label>Dysprosium (Dy)</label>
+            </value>
+            <value>
+                <fullName>Einsteinium (Es)</fullName>
+                <default>false</default>
+                <label>Einsteinium (Es)</label>
+            </value>
+            <value>
+                <fullName>Electropolished Stainless Steel Bubblers</fullName>
+                <default>false</default>
+                <label>Electropolished Stainless Steel Bubblers</label>
+            </value>
+            <value>
+                <fullName>Erbium</fullName>
+                <default>false</default>
+                <label>Erbium</label>
+            </value>
+            <value>
+                <fullName>Erbium (Er)</fullName>
+                <default>false</default>
+                <label>Erbium (Er)</label>
+            </value>
+            <value>
+                <fullName>Europium</fullName>
+                <default>false</default>
+                <label>Europium</label>
+            </value>
+            <value>
+                <fullName>Europium (Eu)</fullName>
+                <default>false</default>
+                <label>Europium (Eu)</label>
+            </value>
+            <value>
+                <fullName>Fermium (Fm)</fullName>
+                <default>false</default>
+                <label>Fermium (Fm)</label>
+            </value>
+            <value>
+                <fullName>Flerovium (Fl)</fullName>
+                <default>false</default>
+                <label>Flerovium (Fl)</label>
+            </value>
+            <value>
+                <fullName>Fluorine</fullName>
+                <default>false</default>
+                <label>Fluorine</label>
+            </value>
+            <value>
+                <fullName>Fluorine (F)</fullName>
+                <default>false</default>
+                <label>Fluorine (F)</label>
+            </value>
+            <value>
+                <fullName>Francium (Fr)</fullName>
+                <default>false</default>
+                <label>Francium (Fr)</label>
+            </value>
+            <value>
+                <fullName>Gadolinium</fullName>
+                <default>false</default>
+                <label>Gadolinium</label>
+            </value>
+            <value>
+                <fullName>Gadolinium (Gd)</fullName>
+                <default>false</default>
+                <label>Gadolinium (Gd)</label>
+            </value>
+            <value>
+                <fullName>Gallium</fullName>
+                <default>false</default>
+                <label>Gallium</label>
+            </value>
+            <value>
+                <fullName>Gallium (Ga)</fullName>
+                <default>false</default>
+                <label>Gallium (Ga)</label>
+            </value>
+            <value>
+                <fullName>Germanium</fullName>
+                <default>false</default>
+                <label>Germanium</label>
+            </value>
+            <value>
+                <fullName>Germanium (Ge)</fullName>
+                <default>false</default>
+                <label>Germanium (Ge)</label>
+            </value>
+            <value>
+                <fullName>Gold</fullName>
+                <default>false</default>
+                <label>Gold</label>
+            </value>
+            <value>
+                <fullName>Gold (Au)</fullName>
+                <default>false</default>
+                <label>Gold (Au)</label>
+            </value>
+            <value>
+                <fullName>Hafnium</fullName>
+                <default>false</default>
+                <label>Hafnium</label>
+            </value>
+            <value>
+                <fullName>Hafnium (Hf)</fullName>
+                <default>false</default>
+                <label>Hafnium (Hf)</label>
+            </value>
+            <value>
+                <fullName>Hassium (Hs)</fullName>
+                <default>false</default>
+                <label>Hassium (Hs)</label>
+            </value>
+            <value>
+                <fullName>Helium (He)</fullName>
+                <default>false</default>
+                <label>Helium (He)</label>
+            </value>
+            <value>
+                <fullName>Holmium</fullName>
+                <default>false</default>
+                <label>Holmium</label>
+            </value>
+            <value>
+                <fullName>Holmium (Ho)</fullName>
+                <default>false</default>
+                <label>Holmium (Ho)</label>
+            </value>
+            <value>
+                <fullName>Hydrogen (H)</fullName>
+                <default>false</default>
+                <label>Hydrogen (H)</label>
+            </value>
+            <value>
+                <fullName>Indium</fullName>
+                <default>false</default>
+                <label>Indium</label>
+            </value>
+            <value>
+                <fullName>Indium (In)</fullName>
+                <default>false</default>
+                <label>Indium (In)</label>
+            </value>
+            <value>
+                <fullName>Iodine (I)</fullName>
+                <default>false</default>
+                <label>Iodine (I)</label>
+            </value>
+            <value>
+                <fullName>Ionic Liquids</fullName>
+                <default>false</default>
+                <label>Ionic Liquids</label>
+            </value>
+            <value>
+                <fullName>Iridium</fullName>
+                <default>false</default>
+                <label>Iridium</label>
+            </value>
+            <value>
+                <fullName>Iridium (Ir)</fullName>
+                <default>false</default>
+                <label>Iridium (Ir)</label>
+            </value>
+            <value>
+                <fullName>Iron</fullName>
+                <default>false</default>
+                <label>Iron</label>
+            </value>
+            <value>
+                <fullName>Iron (Fe)</fullName>
+                <default>false</default>
+                <label>Iron (Fe)</label>
+            </value>
+            <value>
+                <fullName>Kits</fullName>
+                <default>false</default>
+                <label>Kits</label>
+            </value>
+            <value>
+                <fullName>Krypton (Kr)</fullName>
+                <default>false</default>
+                <label>Krypton (Kr)</label>
+            </value>
+            <value>
+                <fullName>Lanthanum</fullName>
+                <default>false</default>
+                <label>Lanthanum</label>
+            </value>
+            <value>
+                <fullName>Lanthanum (La)</fullName>
+                <default>false</default>
+                <label>Lanthanum (La)</label>
+            </value>
+            <value>
+                <fullName>Lawrencium (Lr)</fullName>
+                <default>false</default>
+                <label>Lawrencium (Lr)</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Lead (Pb)</fullName>
+                <default>false</default>
+                <label>Lead (Pb)</label>
+            </value>
+            <value>
+                <fullName>Lithium</fullName>
+                <default>false</default>
+                <label>Lithium</label>
+            </value>
+            <value>
+                <fullName>Lithium (Li)</fullName>
+                <default>false</default>
+                <label>Lithium (Li)</label>
+            </value>
+            <value>
+                <fullName>Livermorium (Lv)</fullName>
+                <default>false</default>
+                <label>Livermorium (Lv)</label>
+            </value>
+            <value>
+                <fullName>Lutetium</fullName>
+                <default>false</default>
+                <label>Lutetium</label>
+            </value>
+            <value>
+                <fullName>Lutetium (Lu)</fullName>
+                <default>false</default>
+                <label>Lutetium (Lu)</label>
+            </value>
+            <value>
+                <fullName>Magnesium</fullName>
+                <default>false</default>
+                <label>Magnesium</label>
+            </value>
+            <value>
+                <fullName>Magnesium (Mg)</fullName>
+                <default>false</default>
+                <label>Magnesium (Mg)</label>
+            </value>
+            <value>
+                <fullName>Manganese</fullName>
+                <default>false</default>
+                <label>Manganese</label>
+            </value>
+            <value>
+                <fullName>Manganese (Mn)</fullName>
+                <default>false</default>
+                <label>Manganese (Mn)</label>
+            </value>
+            <value>
+                <fullName>Meitnerium (Mt)</fullName>
+                <default>false</default>
+                <label>Meitnerium (Mt)</label>
+            </value>
+            <value>
+                <fullName>Mendelevium (Md)</fullName>
+                <default>false</default>
+                <label>Mendelevium (Md)</label>
+            </value>
+            <value>
+                <fullName>Mercury</fullName>
+                <default>false</default>
+                <label>Mercury</label>
+            </value>
+            <value>
+                <fullName>Mercury (Hg)</fullName>
+                <default>false</default>
+                <label>Mercury (Hg)</label>
+            </value>
+            <value>
+                <fullName>Metals Scavenging Agents</fullName>
+                <default>false</default>
+                <label>Metals Scavenging Agents</label>
+            </value>
+            <value>
+                <fullName>MOFs and Ligands for MOF Synthesis</fullName>
+                <default>false</default>
+                <label>MOFs and Ligands for MOF Synthesis</label>
+            </value>
+            <value>
+                <fullName>Molecular Sieves</fullName>
+                <default>false</default>
+                <label>Molecular Sieves</label>
+            </value>
+            <value>
+                <fullName>Molybdenum</fullName>
+                <default>false</default>
+                <label>Molybdenum</label>
+            </value>
+            <value>
+                <fullName>Molybdenum (Mo)</fullName>
+                <default>false</default>
+                <label>Molybdenum (Mo)</label>
+            </value>
+            <value>
+                <fullName>Moscovium (Mc)</fullName>
+                <default>false</default>
+                <label>Moscovium (Mc)</label>
+            </value>
+            <value>
+                <fullName>Nanomaterials</fullName>
+                <default>false</default>
+                <label>Nanomaterials</label>
+            </value>
+            <value>
+                <fullName>Neodymium</fullName>
+                <default>false</default>
+                <label>Neodymium</label>
+            </value>
+            <value>
+                <fullName>Neodymium (Nd)</fullName>
+                <default>false</default>
+                <label>Neodymium (Nd)</label>
+            </value>
+            <value>
+                <fullName>Neon (Ne)</fullName>
+                <default>false</default>
+                <label>Neon (Ne)</label>
+            </value>
+            <value>
+                <fullName>Neptunium (Np)</fullName>
+                <default>false</default>
+                <label>Neptunium (Np)</label>
+            </value>
+            <value>
+                <fullName>Nickel</fullName>
+                <default>false</default>
+                <label>Nickel</label>
+            </value>
+            <value>
+                <fullName>Nickel (Ni)</fullName>
+                <default>false</default>
+                <label>Nickel (Ni)</label>
+            </value>
+            <value>
+                <fullName>Nihonium (Nh)</fullName>
+                <default>false</default>
+                <label>Nihonium (Nh)</label>
+            </value>
+            <value>
+                <fullName>Niobium</fullName>
+                <default>false</default>
+                <label>Niobium</label>
+            </value>
+            <value>
+                <fullName>Niobium (Nb)</fullName>
+                <default>false</default>
+                <label>Niobium (Nb)</label>
+            </value>
+            <value>
+                <fullName>Nitrogen</fullName>
+                <default>false</default>
+                <label>Nitrogen</label>
+            </value>
+            <value>
+                <fullName>Nitrogen (N)</fullName>
+                <default>false</default>
+                <label>Nitrogen (N)</label>
+            </value>
+            <value>
+                <fullName>Nobelium (No)</fullName>
+                <default>false</default>
+                <label>Nobelium (No)</label>
+            </value>
+            <value>
+                <fullName>Oganesson (Og)</fullName>
+                <default>false</default>
+                <label>Oganesson (Og)</label>
+            </value>
+            <value>
+                <fullName>Osmium</fullName>
+                <default>false</default>
+                <label>Osmium</label>
+            </value>
+            <value>
+                <fullName>Osmium (Os)</fullName>
+                <default>false</default>
+                <label>Osmium (Os)</label>
+            </value>
+            <value>
+                <fullName>Oxygen</fullName>
+                <default>false</default>
+                <label>Oxygen</label>
+            </value>
+            <value>
+                <fullName>Oxygen (O)</fullName>
+                <default>false</default>
+                <label>Oxygen (O)</label>
+            </value>
+            <value>
+                <fullName>Palladium</fullName>
+                <default>false</default>
+                <label>Palladium</label>
+            </value>
+            <value>
+                <fullName>Palladium (Pd)</fullName>
+                <default>false</default>
+                <label>Palladium (Pd)</label>
+            </value>
+            <value>
+                <fullName>Phosphorus</fullName>
+                <default>false</default>
+                <label>Phosphorus</label>
+            </value>
+            <value>
+                <fullName>Phosphorus (P)</fullName>
+                <default>false</default>
+                <label>Phosphorus (P)</label>
+            </value>
+            <value>
+                <fullName>Photochemical Equipment</fullName>
+                <default>false</default>
+                <label>Photochemical Equipment</label>
+            </value>
+            <value>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+                <label>Platinum</label>
+            </value>
+            <value>
+                <fullName>Platinum (Pt)</fullName>
+                <default>false</default>
+                <label>Platinum (Pt)</label>
+            </value>
+            <value>
+                <fullName>Plutonium (Pu)</fullName>
+                <default>false</default>
+                <label>Plutonium (Pu)</label>
+            </value>
+            <value>
+                <fullName>Polonium (Po)</fullName>
+                <default>false</default>
+                <label>Polonium (Po)</label>
+            </value>
+            <value>
+                <fullName>Potassium</fullName>
+                <default>false</default>
+                <label>Potassium</label>
+            </value>
+            <value>
+                <fullName>Potassium (K)</fullName>
+                <default>false</default>
+                <label>Potassium (K)</label>
+            </value>
+            <value>
+                <fullName>Praseodymium</fullName>
+                <default>false</default>
+                <label>Praseodymium</label>
+            </value>
+            <value>
+                <fullName>Praseodymium (Pr)</fullName>
+                <default>false</default>
+                <label>Praseodymium (Pr)</label>
+            </value>
+            <value>
+                <fullName>Promethium (Pm)</fullName>
+                <default>false</default>
+                <label>Promethium (Pm)</label>
+            </value>
+            <value>
+                <fullName>Protactinium (Pa)</fullName>
+                <default>false</default>
+                <label>Protactinium (Pa)</label>
+            </value>
+            <value>
+                <fullName>Radium (Ra)</fullName>
+                <default>false</default>
+                <label>Radium (Ra)</label>
+            </value>
+            <value>
+                <fullName>Radon (Rn)</fullName>
+                <default>false</default>
+                <label>Radon (Rn)</label>
+            </value>
+            <value>
+                <fullName>Rhenium</fullName>
+                <default>false</default>
+                <label>Rhenium</label>
+            </value>
+            <value>
+                <fullName>Rhenium (Re)</fullName>
+                <default>false</default>
+                <label>Rhenium (Re)</label>
+            </value>
+            <value>
+                <fullName>Rhodium</fullName>
+                <default>false</default>
+                <label>Rhodium</label>
+            </value>
+            <value>
+                <fullName>Rhodium (Rh)</fullName>
+                <default>false</default>
+                <label>Rhodium (Rh)</label>
+            </value>
+            <value>
+                <fullName>Roentgenium (Rg)</fullName>
+                <default>false</default>
+                <label>Roentgenium (Rg)</label>
+            </value>
+            <value>
+                <fullName>Rubidium</fullName>
+                <default>false</default>
+                <label>Rubidium</label>
+            </value>
+            <value>
+                <fullName>Rubidium (Rb)</fullName>
+                <default>false</default>
+                <label>Rubidium (Rb)</label>
+            </value>
+            <value>
+                <fullName>Ruthenium</fullName>
+                <default>false</default>
+                <label>Ruthenium</label>
+            </value>
+            <value>
+                <fullName>Ruthenium (Ru)</fullName>
+                <default>false</default>
+                <label>Ruthenium (Ru)</label>
+            </value>
+            <value>
+                <fullName>Rutherfordium (Rf)</fullName>
+                <default>false</default>
+                <label>Rutherfordium (Rf)</label>
+            </value>
+            <value>
+                <fullName>Samarium</fullName>
+                <default>false</default>
+                <label>Samarium</label>
+            </value>
+            <value>
+                <fullName>Samarium (Sm)</fullName>
+                <default>false</default>
+                <label>Samarium (Sm)</label>
+            </value>
+            <value>
+                <fullName>Scandium</fullName>
+                <default>false</default>
+                <label>Scandium</label>
+            </value>
+            <value>
+                <fullName>Scandium (Sc)</fullName>
+                <default>false</default>
+                <label>Scandium (Sc)</label>
+            </value>
+            <value>
+                <fullName>Seaborgium (Sg)</fullName>
+                <default>false</default>
+                <label>Seaborgium (Sg)</label>
+            </value>
+            <value>
+                <fullName>Selenium</fullName>
+                <default>false</default>
+                <label>Selenium</label>
+            </value>
+            <value>
+                <fullName>Selenium (Se)</fullName>
+                <default>false</default>
+                <label>Selenium (Se)</label>
+            </value>
+            <value>
+                <fullName>Silicon</fullName>
+                <default>false</default>
+                <label>Silicon</label>
+            </value>
+            <value>
+                <fullName>Silicon (Si)</fullName>
+                <default>false</default>
+                <label>Silicon (Si)</label>
+            </value>
+            <value>
+                <fullName>Silver</fullName>
+                <default>false</default>
+                <label>Silver</label>
+            </value>
+            <value>
+                <fullName>Silver (Ag)</fullName>
+                <default>false</default>
+                <label>Silver (Ag)</label>
+            </value>
+            <value>
+                <fullName>Sodium</fullName>
+                <default>false</default>
+                <label>Sodium</label>
+            </value>
+            <value>
+                <fullName>Sodium (Na)</fullName>
+                <default>false</default>
+                <label>Sodium (Na)</label>
+            </value>
+            <value>
+                <fullName>Strontium</fullName>
+                <default>false</default>
+                <label>Strontium</label>
+            </value>
+            <value>
+                <fullName>Strontium (Sr)</fullName>
+                <default>false</default>
+                <label>Strontium (Sr)</label>
+            </value>
+            <value>
+                <fullName>Suba Seals</fullName>
+                <default>false</default>
+                <label>Suba Seals</label>
+            </value>
+            <value>
+                <fullName>Sulfur</fullName>
+                <default>false</default>
+                <label>Sulfur</label>
+            </value>
+            <value>
+                <fullName>Sulfur (S)</fullName>
+                <default>false</default>
+                <label>Sulfur (S)</label>
+            </value>
+            <value>
+                <fullName>Tantalum</fullName>
+                <default>false</default>
+                <label>Tantalum</label>
+            </value>
+            <value>
+                <fullName>Tantalum (Ta)</fullName>
+                <default>false</default>
+                <label>Tantalum (Ta)</label>
+            </value>
+            <value>
+                <fullName>Technetium (Tc)</fullName>
+                <default>false</default>
+                <label>Technetium (Tc)</label>
+            </value>
+            <value>
+                <fullName>Tellurium</fullName>
+                <default>false</default>
+                <label>Tellurium</label>
+            </value>
+            <value>
+                <fullName>Tellurium (Te)</fullName>
+                <default>false</default>
+                <label>Tellurium (Te)</label>
+            </value>
+            <value>
+                <fullName>Tennessine (Ts)</fullName>
+                <default>false</default>
+                <label>Tennessine (Ts)</label>
+            </value>
+            <value>
+                <fullName>Terbium</fullName>
+                <default>false</default>
+                <label>Terbium</label>
+            </value>
+            <value>
+                <fullName>Terbium (Tb)</fullName>
+                <default>false</default>
+                <label>Terbium (Tb)</label>
+            </value>
+            <value>
+                <fullName>Thallium</fullName>
+                <default>false</default>
+                <label>Thallium</label>
+            </value>
+            <value>
+                <fullName>Thallium (Tl)</fullName>
+                <default>false</default>
+                <label>Thallium (Tl)</label>
+            </value>
+            <value>
+                <fullName>Thorium</fullName>
+                <default>false</default>
+                <label>Thorium</label>
+            </value>
+            <value>
+                <fullName>Thorium (Th)</fullName>
+                <default>false</default>
+                <label>Thorium (Th)</label>
+            </value>
+            <value>
+                <fullName>Thulium</fullName>
+                <default>false</default>
+                <label>Thulium</label>
+            </value>
+            <value>
+                <fullName>Thulium (Tm)</fullName>
+                <default>false</default>
+                <label>Thulium (Tm)</label>
+            </value>
+            <value>
+                <fullName>Tin</fullName>
+                <default>false</default>
+                <label>Tin</label>
+            </value>
+            <value>
+                <fullName>Tin (Sn)</fullName>
+                <default>false</default>
+                <label>Tin (Sn)</label>
+            </value>
+            <value>
+                <fullName>Titanium</fullName>
+                <default>false</default>
+                <label>Titanium</label>
+            </value>
+            <value>
+                <fullName>Titanium (Ti)</fullName>
+                <default>false</default>
+                <label>Titanium (Ti)</label>
+            </value>
+            <value>
+                <fullName>Tungsten</fullName>
+                <default>false</default>
+                <label>Tungsten</label>
+            </value>
+            <value>
+                <fullName>Tungsten (W)</fullName>
+                <default>false</default>
+                <label>Tungsten (W)</label>
+            </value>
+            <value>
+                <fullName>Uranium (U)</fullName>
+                <default>false</default>
+                <label>Uranium (U)</label>
+            </value>
+            <value>
+                <fullName>Vanadium</fullName>
+                <default>false</default>
+                <label>Vanadium</label>
+            </value>
+            <value>
+                <fullName>Vanadium (V)</fullName>
+                <default>false</default>
+                <label>Vanadium (V)</label>
+            </value>
+            <value>
+                <fullName>Xenon</fullName>
+                <default>false</default>
+                <label>Xenon</label>
+            </value>
+            <value>
+                <fullName>Xenon (Xe)</fullName>
+                <default>false</default>
+                <label>Xenon (Xe)</label>
+            </value>
+            <value>
+                <fullName>Ytterbium</fullName>
+                <default>false</default>
+                <label>Ytterbium</label>
+            </value>
+            <value>
+                <fullName>Ytterbium (Yb)</fullName>
+                <default>false</default>
+                <label>Ytterbium (Yb)</label>
+            </value>
+            <value>
+                <fullName>Yttrium</fullName>
+                <default>false</default>
+                <label>Yttrium</label>
+            </value>
+            <value>
+                <fullName>Yttrium (Y)</fullName>
+                <default>false</default>
+                <label>Yttrium (Y)</label>
+            </value>
+            <value>
+                <fullName>Zinc</fullName>
+                <default>false</default>
+                <label>Zinc</label>
+            </value>
+            <value>
+                <fullName>Zinc (Zn)</fullName>
+                <default>false</default>
+                <label>Zinc (Zn)</label>
+            </value>
+            <value>
+                <fullName>Zirconium</fullName>
+                <default>false</default>
+                <label>Zirconium</label>
+            </value>
+            <value>
+                <fullName>Zirconium (Zr)</fullName>
+                <default>false</default>
+                <label>Zirconium (Zr)</label>
+            </value>
+            <value>
+                <fullName>Iodine</fullName>
+                <default>false</default>
+                <label>Iodine</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,55 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 06-04-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <div class="slds-grid">
+        <!-- Paging Control - paging navigation -->
+        <c-search-paging-control class="slds-p-top_x-large slds-p-bottom_medium pagination-control"
+            if:true={showPagingControl} current-page-number={_currentPageNumber} page-size={pageSize}
+            total-item-count={totalItemCount} onpageprevious={handlePreviousPageEvent} onpagenext={handleNextPageEvent}
+            onpagegoto={handleGotoPageEvent}>
+        </c-search-paging-control>
+        <!-- to match search and category view need to add this empty div with some height -->
+        <div if:false={showPagingControl} class="searchEmptyDiv">
+            <p>&nbsp;</p>
+        </div>
+    </div>
+    <article class="layout-container">
+        <!-- <div if:true={isLoading}>
+            <lightning-spinner alternative-text="Loading" size="large" class="slds-p-top_large"></lightning-spinner>
+        </div> -->
+        <aside if:true={hasResults} class="aside-section">
+            <c-builder-search-sort-menu sort-rule-id={sortRuleId} sort-rules={sortRules}></c-builder-search-sort-menu>
+            <c-builder-search-filters search-results={searchResults}></c-builder-search-filters>
+        </aside>
+        <section if:true={hasResults} class="section-results" style={customCssProperties}>
+            <!-- Product Grid - shows results as product cards in a grid  -->
+            <div class="search-label" if:true={searchTerm}>
+                <label>{searchTerm}</label>
+            </div>
+            <div class="search-label" if:false={searchTerm}>
+                <label>We found {totalItemCount} results</label>
+            </div>
+            <c-search-product-grid configuration={resultsConfiguration.layoutConfiguration}
+                display-data={normalizedSearchResults.cardCollection} onaddproducttocart={handleAddToCart}
+                onshowproduct={handleNavigateToProductPage}>
+            </c-search-product-grid>
+        </section>
+    </article>
+    <div class="slds-grid">
+        <!-- Paging Control - paging navigation -->
+        <c-search-paging-control class="slds-p-top_x-large slds-p-bottom_medium pagination-control"
+            if:true={showPagingControl} current-page-number={_currentPageNumber} page-size={pageSize}
+            total-item-count={totalItemCount} onpageprevious={handlePreviousPageEvent} onpagenext={handleNextPageEvent}
+            onpagegoto={handleGotoPageEvent}>
+        </c-search-paging-control>
+        <!-- to match search and category view need to add this empty div with some height -->
+        <div if:false={showPagingControl} class="searchEmptyDiv">
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</template>

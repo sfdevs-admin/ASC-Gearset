@@ -1,0 +1,705 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "CVD-ALD",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCP6H4QEXCWNB3XJUWTQ7WFYTNG4?lastModifiedDate=Mon Aug 19 20:04:59 GMT 2024&height=144&width=192\",\"contentKey\":\"MCP6H4QEXCWNB3XJUWTQ7WFYTNG4\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/contain no-repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "0px",
+                "left" : "10px",
+                "right" : "10px",
+                "top" : "0px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"6876fe1e-c0ec-44c8-a76f-ac67795e0acf\",\"columns\":[{\"UUID\":\"226978b3-40f0-4dfa-b71b-d28c614fce8a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "300px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "226978b3-40f0-4dfa-b71b-d28c614fce8a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6876fe1e-c0ec-44c8-a76f-ac67795e0acf",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d1f40f4f-17a3-4860-a134-dfcc09cdf5b8\",\"columns\":[{\"UUID\":\"819d4497-a001-4cba-9cf0-5552eae737d9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p><span style=\"color: rgb(136, 136, 136); font-size: 20px;\">Our more than fifty years of experience in manufacturing inorganic and organometallic chemicals has allowed us to expand our product offering of MOVCVD, CVD, and ALD precursors. We are continually adding new products for this dynamic and exciting field.</span></p><p><br></p><p><span style=\"color: rgb(136, 136, 136); font-size: 20px;\">We also offer electropolished stainless steel bubblers with a variety of horizontal-in-line and vertical bubbler configurations at capacities of 150ml to 3000ml. Standard bubblers are equipped with diaphragm valves rated to 121ºC (PCTFE stem tips), but high-temperature bellows valves rated to 315ºC are also available. We also offer cylinders for ALD. DOT approved configurations are available, as well as cylinder cleaning, precursor filling and refilling services. We are an ISO 9001 certified company.</span></p><p><br></p><p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fyu5/5QgJvmc7Dl_oq_xoMJ7IUawQ806NWM3MEsrR97etj2I\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 20px;\">Click here for a complete list of precursors for CVD/ALD.</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "17bedff6-e936-425c-a26e-3b82dda98dcb",
+              "type" : "component"
+            } ],
+            "id" : "819d4497-a001-4cba-9cf0-5552eae737d9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d1f40f4f-17a3-4860-a134-dfcc09cdf5b8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"94ea0782-6327-443e-a51e-1304d29c509a\",\"columns\":[{\"UUID\":\"0c8111dc-d43e-45f1-90b7-05e7efac966f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "CVD/ALD Precursors",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3cb72841-cb94-4532-b47f-612fa5575cf3",
+              "type" : "component"
+            } ],
+            "id" : "0c8111dc-d43e-45f1-90b7-05e7efac966f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "94ea0782-6327-443e-a51e-1304d29c509a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0.5rem",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6c7a901c-0a9e-4223-bccf-4ee44f46714e\",\"columns\":[{\"UUID\":\"4ce1f4c2-3d24-4cb7-b19e-4e949ecae8d6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">We currently offer over 500 metal precursors for CVD &amp; ALD applications. These materials are high quality and have purities that range from 99% to 99.9999%. Examples of these products include:</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f265cdc0-3b78-4f78-be5c-55fd836dafe7",
+              "type" : "component"
+            } ],
+            "id" : "4ce1f4c2-3d24-4cb7-b19e-4e949ecae8d6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6c7a901c-0a9e-4223-bccf-4ee44f46714e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7e74da16-6986-478b-9ee2-b36374a29764\",\"columns\":[{\"UUID\":\"6761c85e-2ee4-4085-ac71-78fa3fa85400\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"d9599d94-4f3f-46ac-8423-1c49134d8d4f\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"cb023e5f-9bf8-4933-8dfe-2102308c8a52\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"b3ed1555-345e-43e1-ab03-3a5255462c5f\",\"columnName\":\"Column 4\",\"columnKey\":\"11e45\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019H4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCU6IDINCKMJBJBKRF4J72N6RVNM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "99c80811-9c47-43cd-9968-e258249dad83",
+              "type" : "component"
+            } ],
+            "id" : "6761c85e-2ee4-4085-ac71-78fa3fa85400",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019G4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCMQPYKYVSAVHJXH5WLEXMTUZAJA}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "47bfcf3e-cb8f-4dcc-8802-134255944af6",
+              "type" : "component"
+            } ],
+            "id" : "d9599d94-4f3f-46ac-8423-1c49134d8d4f",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019O4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCG55W6YBEJ5A2VFXIRU7NGDWS3Q}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4f0c2319-20f3-44ec-9a56-a76e846394f0",
+              "type" : "component"
+            } ],
+            "id" : "cb023e5f-9bf8-4933-8dfe-2102308c8a52",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019K4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCWI3WVTAM45GRFBRQ7DT6S7OLHE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "39c75fd4-f638-492b-a42e-091266efc9b1",
+              "type" : "component"
+            } ],
+            "id" : "b3ed1555-345e-43e1-ab03-3a5255462c5f",
+            "name" : "11e45",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "imageBox",
+          "definition" : "community_layout:section",
+          "id" : "7e74da16-6986-478b-9ee2-b36374a29764",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1e047f5d-9bef-4104-9178-85071d902b86\",\"columns\":[{\"UUID\":\"53cca5be-bbf3-478a-925f-b6915c407bea\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"9f9ce0ce-d6bf-481b-b3c6-c08152c080d9\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"05c31cae-96b1-4b29-950d-3ba9eacc2eeb\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"79f9d3d1-6787-47f5-b030-957a21733d19\",\"columnName\":\"Column 4\",\"columnKey\":\"6d74b\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019L4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCRT4LFLXCLVFQFEIEZXN3QBSHLM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "8b69105e-bd96-48e8-b3f5-f98ad515df25",
+              "type" : "component"
+            } ],
+            "id" : "53cca5be-bbf3-478a-925f-b6915c407bea",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019N4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCLI2ZMBK3H5CZRDGOERN53BITZU}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7c11fede-c699-43fa-a50f-068a012d8e31",
+              "type" : "component"
+            } ],
+            "id" : "9f9ce0ce-d6bf-481b-b3c6-c08152c080d9",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019F4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCJRUK2MOCYNBKFFRDAZ4KHBG4W4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "c3eb0c4d-6cc7-4920-ba76-cd630b565db7",
+              "type" : "component"
+            } ],
+            "id" : "05c31cae-96b1-4b29-950d-3ba9eacc2eeb",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/elec.%20gr.?category=0ZGVN00000000rF4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCHRXH75U5YVGA3PKTMIKDMRKAOM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "395544f0-f8f8-4c02-80c7-ad95c6d1c64e",
+              "type" : "component"
+            } ],
+            "id" : "79f9d3d1-6787-47f5-b030-957a21733d19",
+            "name" : "6d74b",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "imageBox",
+          "definition" : "community_layout:section",
+          "id" : "1e047f5d-9bef-4104-9178-85071d902b86",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a46ecf07-b6aa-417e-8b74-c67883cfd384\",\"columns\":[{\"UUID\":\"7f09c698-f9c1-4ba1-b5d7-afcf452124b9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"091066f7-6b9c-4fdd-9be4-b5711ccae395\",\"columnName\":\"Column 2\",\"columnKey\":\"31493\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"64cb66b8-dd63-44cd-b3ba-e033d0712e9e\",\"columnName\":\"Column 3\",\"columnKey\":\"4c4be\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"ae0f75ed-1691-4742-ae8d-8659c88c6bf0\",\"columnName\":\"Column 4\",\"columnKey\":\"f65a2\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019J4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCYXEGK5E3JRE2PESTS4RWG6JLWI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7a239777-d210-4a45-a669-7870bd069650",
+              "type" : "component"
+            } ],
+            "id" : "7f09c698-f9c1-4ba1-b5d7-afcf452124b9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/thin-film-deposition/0ZGVN00000001494AA?category=0ZGVN000000019Q4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCUTU7W4PV3BCQVCJQTUOK4OC2NY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d060aa8c-c1d1-4ecb-85bc-8c897d8590e5",
+              "type" : "component"
+            } ],
+            "id" : "091066f7-6b9c-4fdd-9be4-b5711ccae395",
+            "name" : "31493",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fyu5/5QgJvmc7Dl_oq_xoMJ7IUawQ806NWM3MEsrR97etj2I\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCT53OWBNCYVDB5EQ33O5UWV2VGE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e039ad56-1e06-4a73-9e74-a368dd2024b9",
+              "type" : "component"
+            } ],
+            "id" : "64cb66b8-dd63-44cd-b3ba-e033d0712e9e",
+            "name" : "4c4be",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "id" : "ae0f75ed-1691-4742-ae8d-8659c88c6bf0",
+            "name" : "f65a2",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "imageBox imageBoxThirdNoBorder",
+          "definition" : "community_layout:section",
+          "id" : "a46ecf07-b6aa-417e-8b74-c67883cfd384",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"86e79d01-3b45-4e8a-955c-fefb0780ed0e\",\"columns\":[{\"UUID\":\"600005fa-73f7-4b65-af91-af29453809f3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "Bubblers & Cylinders for CVD/ALD are available in a variety of sizes",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "18778b3c-1ce3-4f0a-9f2b-8581ca0f069e",
+              "type" : "component"
+            } ],
+            "id" : "600005fa-73f7-4b65-af91-af29453809f3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "86e79d01-3b45-4e8a-955c-fefb0780ed0e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4c768099-20b6-48ba-9041-24fa8188e02c\",\"columns\":[{\"UUID\":\"4c81fcc0-3aef-40aa-a3ca-6a917779c274\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Our precursors can be filled into bubblers and cylinders. We also offer cleaning, filling and refilling services. Contact Customer Service at </span><span style=\"font-size: 20px; color: rgb(0, 102, 204);\">info@ascensusspecialties.com </span><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">for more details.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "acdb943c-44d6-4f3f-a988-a3e69e4fe7f1",
+              "type" : "component"
+            } ],
+            "id" : "4c81fcc0-3aef-40aa-a3ca-6a917779c274",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4c768099-20b6-48ba-9041-24fa8188e02c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0c02dba6-0913-4659-a37a-124d8b252166\",\"columns\":[{\"UUID\":\"bcc681c6-00ec-4e4b-ac41-2470a7057bf7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"75814269-2ca5-4e48-a98f-47fcd71b6457\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"eba90171-cd5c-4868-a216-a3c86d1b1f11\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/bubblers-other-equipment/0ZGVN00000000sr4AA?category=0ZGVN000000017P4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCD4UCOBABOBEJFJ7K6IFEMXPFI4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "3c3772c1-2402-4a40-a55a-39cd01d0aa37",
+              "type" : "component"
+            } ],
+            "id" : "bcc681c6-00ec-4e4b-ac41-2470a7057bf7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Swagelok Cylinders?category=0ZGVN00000000rF4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC44QKM6NGSJHO3BEH72R7GP64ME}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ef83418a-ed09-40f8-9117-a63b5accbbee",
+              "type" : "component"
+            } ],
+            "id" : "75814269-2ca5-4e48-a98f-47fcd71b6457",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/catalog/products/bubblers-other-equipment/0ZGVN00000000sr4AA?category=0ZGVN000000017R4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCQCA2HTJDIBAIXPCTGTELCISDN4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "2e22171b-ad59-4f57-bfc1-a311bf801eb0",
+              "type" : "component"
+            } ],
+            "id" : "eba90171-cd5c-4868-a216-a3c86d1b1f11",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "0c02dba6-0913-4659-a37a-124d8b252166",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7c7c3ee8-d61d-435b-a169-5774347a2282\",\"columns\":[{\"UUID\":\"7d87258a-5278-4a5d-9355-2d969c050255\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"cb49c781-0701-41b9-b754-e83b9df670c5\",\"columnName\":\"Column 2\",\"columnKey\":\"89b5d\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"9ccefadc-dcc1-4de7-a821-b2c0cecde766\",\"columnName\":\"Column 3\",\"columnKey\":\"e8a1e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Vertical Bubblers?category=0ZGVN00000000rF4AQ\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCDTPL2H3RIJGMZAD4TFKYZNSSNI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "fbb50f90-0539-4d77-994f-8810ca4480f8",
+              "type" : "component"
+            } ],
+            "id" : "7d87258a-5278-4a5d-9355-2d969c050255",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/global-search/Horizontal Bubblers?category=0ZGVN00000000sr4AA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCGJSNIQ3ISFFWHI4QIMAAQDAH6A}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "523ea1f2-76bd-4173-8a4a-f908a20e9922",
+              "type" : "component"
+            } ],
+            "id" : "cb49c781-0701-41b9-b754-e83b9df670c5",
+            "name" : "89b5d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "9ccefadc-dcc1-4de7-a821-b2c0cecde766",
+            "name" : "e8a1e",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox contentBoxThirdNoBorder",
+          "definition" : "community_layout:section",
+          "id" : "7c7c3ee8-d61d-435b-a169-5774347a2282",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"95c4e1eb-e046-4e70-a5c5-31cb99479a5c\",\"columns\":[{\"UUID\":\"7d351aea-1a48-4514-85b2-91860c4c63df\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "xx-small",
+                "text" : "Related Booklets",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3794b240-61dd-4620-a0aa-b260d86af4d8",
+              "type" : "component"
+            } ],
+            "id" : "7d351aea-1a48-4514-85b2-91860c4c63df",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "95c4e1eb-e046-4e70-a5c5-31cb99479a5c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "2px",
+                "left" : "2px",
+                "right" : "2px",
+                "top" : "2px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "1rem",
+            "sectionConfig" : "{\"UUID\":\"4c2a5b3a-ac3f-479f-9c1f-ee38428c5930\",\"columns\":[{\"UUID\":\"32a72e0d-9b1f-45f2-b83e-11e56c44529b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"ef06481d-07bd-47fd-afff-09b49ef061e6\",\"columnName\":\"Column 2\",\"columnKey\":\"ca3d2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e962fd42-8680-4449-970a-9e3bb269ffb8\",\"columnName\":\"Column 3\",\"columnKey\":\"13b2a\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fw5t/3SpxxaoacVNw16sx38wrX1pxdhjv995pgxIoK6tYPPI\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCMELL6N5FWBEO5JCXLC4NBF3TNA}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ded4b187-9151-4656-8bbb-f360774f5e28",
+              "type" : "component"
+            } ],
+            "id" : "32a72e0d-9b1f-45f2-b83e-11e56c44529b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fwHB/i1oS2mTO2LK9UQUY2SqQitVVQ2Kr6lPwpDLVdVgWQIA\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCDZ76TITZZFDXRJ2MVGTKP55SQI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6b8151c2-8c21-48ef-8c88-36d86e568d23",
+              "type" : "component"
+            } ],
+            "id" : "ef06481d-07bd-47fd-afff-09b49ef061e6",
+            "name" : "ca3d2",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fw5v/vdb13nFw.bH9y.a3MoUMt2LAEUGbFEcATPlq_zdMxd4\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC473IGKMUKFGTPHQAWWRQ73WBNY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "be85313d-7936-45e9-b94f-bf6b55b23f33",
+              "type" : "component"
+            } ],
+            "id" : "e962fd42-8680-4449-970a-9e3bb269ffb8",
+            "name" : "13b2a",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "4c2a5b3a-ac3f-479f-9c1f-ee38428c5930",
+          "type" : "component"
+        } ],
+        "id" : "500c7935-91a8-4f02-86d5-557a6d805546",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "CVD/ALD Precursor Landing Page",
+            "dxpStyle" : { },
+            "pageTitle" : "CVD-ALD",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1fc1a735-53ee-4852-a9ec-d37a56d7edd9",
+          "type" : "component"
+        } ],
+        "id" : "3a62fbec-fc8c-4080-9cca-f47a4dd8efc2",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "817f4c2e-f839-4bbb-96d4-45721b67df7a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "tdDoSzmGcBZil7G5v65AUMv2iWf9R6",
+    "viewType" : "custom-cvd-ald"
+  },
+  "urlName" : "cvd-ald"
+}

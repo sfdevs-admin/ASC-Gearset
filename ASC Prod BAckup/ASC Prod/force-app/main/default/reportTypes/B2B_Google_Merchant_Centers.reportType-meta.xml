@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>B2B_Google_Merchant_Center__c</baseObject>
+    <category>commerce</category>
+    <deployed>true</deployed>
+    <description>Reports of google merchant centers from PDP</description>
+    <label>B2B Google Merchant Centers</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>B2B_Product__c</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>B2B_Contact__c</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>B2B_Key__c</field>
+            <table>B2B_Google_Merchant_Center__c</table>
+        </columns>
+        <masterLabel>B2B Google Merchant Centers</masterLabel>
+    </sections>
+</ReportType>

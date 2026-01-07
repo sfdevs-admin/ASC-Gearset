@@ -1,0 +1,25 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 05-21-2024
+  @last modified by  : surya.thakur
+-->
+<template lwc:render-mode="light">
+    <template if:true={showView}>
+        <div class="table-containerDiv slds-m-top_large">
+            <div class="table-containerDiv-heading slds-p-around_small">
+                <h1>Check Available Stock</h1>
+            </div>
+            <div class="table-container">
+                <div class="table-column">Size</div>
+                <div class="table-column">Price</div>
+                <div class="table-column">Quantity</div>
+                <div class="table-column">Availability</div>
+            </div>
+            <template for:each={variationInfoList} for:item="item">
+                <c-b2b-product-detail-variants-child key={item.productId} product-data={item} product-id={item.productId}></c-b2b-product-detail-variants-child>
+            </template>
+        </div>
+    </template>
+</template>

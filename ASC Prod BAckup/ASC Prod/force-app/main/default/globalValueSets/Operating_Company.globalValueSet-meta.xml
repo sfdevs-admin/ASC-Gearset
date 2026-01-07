@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Strem</fullName>
+        <default>false</default>
+        <label>Strem</label>
+    </customValue>
+    <customValue>
+        <fullName>Ascensus</fullName>
+        <default>false</default>
+        <label>Ascensus</label>
+    </customValue>
+    <description>Used to determine what company the data is for (account and contact)</description>
+    <masterLabel>Operating Company</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

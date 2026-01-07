@@ -1,0 +1,628 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Chemical Manufacturer | Specialty Chemicals | High Purity",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"927e3575-4d9f-44d0-9815-ee484380bd8e\",\"columns\":[{\"UUID\":\"f6900c03-94f1-4fc6-953f-cac4d7986e06\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "400px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:b2bHomepageCarousel",
+              "id" : "5d983b4f-3251-442d-b674-58b271485d80",
+              "type" : "component"
+            } ],
+            "id" : "f6900c03-94f1-4fc6-953f-cac4d7986e06",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "927e3575-4d9f-44d0-9815-ee484380bd8e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "0px"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"a3211754-e88d-4fc2-a1e1-0a408690b09f\",\"columns\":[{\"UUID\":\"2e14c386-502a-4dcd-b637-8812374fcde6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "2%"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Discover the Strem Catalog",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "77b56074-a095-4151-808f-934fc174ce01",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:hexTiles",
+              "id" : "b905efea-e65b-42c5-a5d4-359d55999645",
+              "type" : "component"
+            } ],
+            "id" : "2e14c386-502a-4dcd-b637-8812374fcde6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a3211754-e88d-4fc2-a1e1-0a408690b09f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"114b660d-2bee-4f7a-bdaf-47d177ec7368\",\"columns\":[{\"UUID\":\"e2c6b498-d1b5-460d-8c3a-cc9bdf86145b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Features",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e5f8afdd-e460-49d7-b07d-479bfb6b77b8",
+              "type" : "component"
+            } ],
+            "id" : "e2c6b498-d1b5-460d-8c3a-cc9bdf86145b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "114b660d-2bee-4f7a-bdaf-47d177ec7368",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0d5c4d7f-37a1-48e1-813d-95155b13fd52\",\"columns\":[{\"UUID\":\"18fd3967-45fd-449e-b776-66dcf071e164\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"559d4897-472d-4f16-b47c-ae0fe773b873\",\"columnName\":\"Column 2\",\"columnKey\":\"dee63\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a769207f-086d-4c6c-b470-a628640b978d\",\"columnName\":\"Column 3\",\"columnKey\":\"0941b\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "rgb(0, 0, 0)",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "dxp:dataProviders" : "",
+                "dxpStyle" : { },
+                "height" : 550,
+                "imageFit" : "contain",
+                "imageHeight" : 75,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCJULEIBJROFDF5ORG6352PETXKA?lastModifiedDate=Fri Jun 14 12:51:27 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCJULEIBJROFDF5ORG6352PETXKA\",\"contentType\":null}}",
+                "imagePosition" : "center center",
+                "isLink" : true,
+                "linkAssistiveText" : "",
+                "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Register\"}}}}",
+                "showButtons" : false,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "id" : "928197e6-43cb-443f-9841-76c2fac65dc6",
+                "name" : "topContentRegion",
+                "title" : "topContentRegion",
+                "type" : "region"
+              }, {
+                "id" : "4be29b58-bd9f-4d82-961f-09861c51ebba",
+                "name" : "contentRegion",
+                "title" : "contentRegion",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "27%",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "75%"
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Contact_Us__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "32e3d1d2-8a0d-4b9a-a50c-2ddc26352ca6",
+                  "type" : "component"
+                } ],
+                "id" : "1751f1ff-b5b9-425b-b0e9-da97947b7052",
+                "name" : "tilePrimaryButton",
+                "title" : "tilePrimaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "6a625a4f-c4fb-4522-8b5f-c7a659904af6",
+                  "type" : "component"
+                } ],
+                "id" : "e44415a0-289e-46d1-a093-d2cc21819899",
+                "name" : "tileSecondaryButton",
+                "title" : "tileSecondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "ccdaf3e0-0e15-4cd4-b97c-86a5076280ec",
+                  "type" : "component"
+                } ],
+                "id" : "7de0557f-3c62-4e3a-9912-39b7b68c698c",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "cce3e220-3b75-468e-88db-d7bf15b18e92",
+              "type" : "component"
+            } ],
+            "id" : "18fd3967-45fd-449e-b776-66dcf071e164",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "rgb(0, 0, 0)",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "dxpStyle" : { },
+                "height" : 550,
+                "imageFit" : "contain",
+                "imageHeight" : 75,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCZ54R6XGQCBB27FL7WMCGHTCLB4?lastModifiedDate=Fri Jun 14 12:49:08 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCZ54R6XGQCBB27FL7WMCGHTCLB4\",\"contentType\":null}}",
+                "imagePosition" : "center center",
+                "isLink" : true,
+                "linkAssistiveText" : "",
+                "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://ascensusspecialties.my.salesforce.com/sfc/p/#2E000000pAb6/a/VN000001fvRZ/gKLbeTYhtg_WoFDgzulgGP0F4eoyM7vHeg1XLWT.gw0\"}}}}",
+                "showButtons" : false,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "id" : "34c3749e-2287-4c7e-a173-c0121f5c371c",
+                "name" : "topContentRegion",
+                "title" : "topContentRegion",
+                "type" : "region"
+              }, {
+                "id" : "da2e1cd6-7c01-4f2b-90ee-a3682c2d8951",
+                "name" : "contentRegion",
+                "title" : "contentRegion",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "27%",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "75%"
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.strem.com/resource/22/317/specialty_applications\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "14a0fa67-9b9c-4ebe-875c-cd84f065ddfa",
+                  "type" : "component"
+                } ],
+                "id" : "d456b9b8-31eb-4539-9331-dc43713c3d51",
+                "name" : "tilePrimaryButton",
+                "title" : "tilePrimaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "fe92e802-5ac2-4957-9a43-6650dbb9216c",
+                  "type" : "component"
+                } ],
+                "id" : "ac0ff501-0af1-470f-9408-1a647a6e1245",
+                "name" : "tileSecondaryButton",
+                "title" : "tileSecondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "55be5365-439e-4224-9d1f-a491cc8ff6f0",
+                  "type" : "component"
+                } ],
+                "id" : "15c7d5f7-b594-4306-bb99-3b823999eb0c",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "8728d8db-19da-4140-bafc-99a1b8e448a0",
+              "type" : "component"
+            } ],
+            "id" : "559d4897-472d-4f16-b47c-ae0fe773b873",
+            "name" : "dee63",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "rgb(0, 0, 0)",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "dxpStyle" : { },
+                "height" : 550,
+                "imageFit" : "contain",
+                "imageHeight" : 75,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCQHDCMGJOOFDBRBSE6XUJDPNVI4?lastModifiedDate=Thu Jun 27 18:40:04 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCQHDCMGJOOFDBRBSE6XUJDPNVI4\",\"contentType\":null}}",
+                "imagePosition" : "center center",
+                "isLink" : true,
+                "linkAssistiveText" : "Blog",
+                "linkUrl" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://blog.strem.com/blog\"}}}}",
+                "showButtons" : false,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "id" : "38b1fcfa-ac75-4770-8395-5706c1810981",
+                "name" : "topContentRegion",
+                "title" : "topContentRegion",
+                "type" : "region"
+              }, {
+                "id" : "c0305ffc-a7d3-45d5-8d6d-5aa65ffbe71b",
+                "name" : "contentRegion",
+                "title" : "contentRegion",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "27%",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "75%"
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.ascensusspecialties.com/blog-article/78-1350-a-stable-volatile-platinum-precursor-for-ald-and-cvd-applications\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "2ab616ea-727b-4d8f-bce5-b5d85101923d",
+                  "type" : "component"
+                } ],
+                "id" : "64bac31e-9d66-49ab-a290-b0ebb50548c8",
+                "name" : "tilePrimaryButton",
+                "title" : "tilePrimaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "af7b9088-4c10-4215-abf7-9d61427983a3",
+                  "type" : "component"
+                } ],
+                "id" : "b65000fe-689b-4706-b2bb-5c7da1141351",
+                "name" : "tileSecondaryButton",
+                "title" : "tileSecondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "7026b984-b0a1-4137-81fc-c7ae298c2406",
+                  "type" : "component"
+                } ],
+                "id" : "da99f01c-6dbe-413e-a6dc-4e504aa934a6",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "54b23e12-c9d1-411b-97a1-b8f27db5f326",
+              "type" : "component"
+            } ],
+            "id" : "a769207f-086d-4c6c-b470-a628640b978d",
+            "name" : "0941b",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0d5c4d7f-37a1-48e1-813d-95155b13fd52",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fdd15ad4-69a5-4698-a838-61fc4f400fc9\",\"columns\":[{\"UUID\":\"ee99397e-57ec-44dc-b245-157dc4fadf65\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "bannerAlignment" : "center",
+                "bannerLinkAssistiveText" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center right",
+                "contentWidth" : 50,
+                "dxpStyle" : { },
+                "height" : 325,
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCIVXJSWCMYBF7BA3BKKZUCAJHJ4?lastModifiedDate=Tue Jun 11 17:23:48 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCIVXJSWCMYBF7BA3BKKZUCAJHJ4\",\"contentType\":null}}",
+                "imagePosition" : "center center",
+                "isBannerLink" : false,
+                "overlayColor" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "richTextValue" : "<p style=\"text-align: right;\"><span style=\"font-size: 28px;\">About </span><strong style=\"font-size: 28px;\">Ascensus</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "c387c60c-5d1a-4450-9640-b978cc8947e0",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "richTextValue" : "<p style=\"text-align: right;\">We are a chemical company that helps our partners make a difference in the world. We challenge ourselves to develop chemistries that simplify, advance and optimize life in every way.</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "a991ffb3-3de1-4aa8-a614-9f1f3d75bc98",
+                  "type" : "component"
+                } ],
+                "id" : "05cb9756-6c4a-437b-9ca3-6644282b375a",
+                "name" : "contentRegion",
+                "title" : "contentRegion",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.ascensusspecialties.com/\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "ad1aa9f9-b7a3-401a-84c6-b689e3104722",
+                  "type" : "component"
+                } ],
+                "id" : "05adfe0f-9589-42f1-9470-1a83d36ec6c2",
+                "name" : "bannerPrimaryButton",
+                "title" : "bannerPrimaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "173e82c7-b0af-46ee-beba-49aaec0bb144",
+                  "type" : "component"
+                } ],
+                "id" : "07d74365-cc20-42b6-9e22-371863ea0b59",
+                "name" : "bannerSecondaryButton",
+                "title" : "bannerSecondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "3dc2d1c0-bd19-41eb-a93b-b8a52210abf6",
+                  "type" : "component"
+                } ],
+                "id" : "58008c94-da64-48ff-86c3-92a70fe33bb2",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:banner",
+              "id" : "59b3691c-8b29-4497-a6ad-26cd75fa9960",
+              "type" : "component"
+            } ],
+            "id" : "ee99397e-57ec-44dc-b245-157dc4fadf65",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fdd15ad4-69a5-4698-a838-61fc4f400fc9",
+          "type" : "component"
+        } ],
+        "id" : "5bac2757-c9d3-4e24-8114-b096753f0089",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "Strem Catalog markets and manufactures specialty chemicals of high purity.",
+            "dxpStyle" : { },
+            "pageTitle" : "Chemical Manufacturer | Specialty Chemicals | High Purity",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "2a9efd02-7762-4b98-be54-e50e8418e8f9",
+          "type" : "component"
+        } ],
+        "id" : "d2fa56ff-5083-4e4c-bb4b-a61dc59b8015",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "932f3497-a758-4185-b3e2-9099a76f878f",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

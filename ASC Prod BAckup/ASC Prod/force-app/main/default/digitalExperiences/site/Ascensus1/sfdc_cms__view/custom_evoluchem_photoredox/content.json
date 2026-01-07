@@ -1,0 +1,1094 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "EvoluChem™ PhotoRedOx",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC43VZOLOUBZGKPGID5TCHYT353E?lastModifiedDate=Mon Aug 26 18:44:06 GMT 2024&height=144&width=192\",\"contentKey\":\"MC43VZOLOUBZGKPGID5TCHYT353E\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/contain no-repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "10px",
+                "right" : "10px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"285d7163-f0ca-4a75-bd9e-ed5cfcaf39d1\",\"columns\":[{\"UUID\":\"6c602128-e213-4c85-9e6f-d20032ac16f7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "300px",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "6c602128-e213-4c85-9e6f-d20032ac16f7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "285d7163-f0ca-4a75-bd9e-ed5cfcaf39d1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"70f5ecad-3495-4d77-a8b5-acb8acbed052\",\"columns\":[{\"UUID\":\"91fee12d-16e0-4c90-8f7a-2c19199dc52f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Strem offers the below products in collaboration with HepatoChem.",
+                "textAlign" : "center",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{\"italic\":true,\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "4a11f20d-19a7-41b6-8548-19b8060c6920",
+              "type" : "component"
+            } ],
+            "id" : "91fee12d-16e0-4c90-8f7a-2c19199dc52f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "70f5ecad-3495-4d77-a8b5-acb8acbed052",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"cc23d073-f473-4a60-b293-ada90beea285\",\"columns\":[{\"UUID\":\"3cc7b449-ab6f-488c-b227-391b94f6e3e6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">The EvoluChem™ PhotoRedOx Box device (98-7500, 98-7501, 98-7550 &amp; 98-7551) is designed to facilitate photochemical experiments. This device is compatible with most vial formats (see below). Its compact design allows for use with any stirring plate. A built-in fan keeps the reaction conditions at room temperature. Below is a list of some additional features and benefits of this device. We also offer a variety of related products to be used with this PhotoRedOx Box.</span></p><p><br></p><p><br></p><p><span style=\"font-size: 22px; color: rgb(136, 136, 136);\">Features</span></p><p><br></p><ul><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Light source</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Photochemistry chamber to evenly distribute light</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Flexible vial formats</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Magnetic stirring on standard stirring plate</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Cooling by fan to maintain experiment at room temperature</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Pre-designed array of catalysts and reagents available</span></li></ul><p><br></p><p><br></p><p><span style=\"font-size: 22px; color: rgb(136, 136, 136);\">Benefits</span></p><p><br></p><ul><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Easy set-up on a standard stirring plate</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Performs up to 32 reaction conditions simultaneously</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Individually sealed vials enable flexible study design</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Save your substrate using low scale reaction conditions</span></li><li><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Save time on optimization</span></li></ul><p><br></p><p><br></p><p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">For additional details see our full product sheet, </span><a href=\"https://www.strem.com/global-search/PhotoRedOx?category=0ZGVN00000000rF4AQ\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 20px; color: rgb(0, 102, 204);\"><u>EvoluChem™ PhotoRedOx Products</u></a><span style=\"font-size: 20px; color: rgb(0, 102, 204);\">.</span></p><p><br></p><p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">Kit protocols are also available on the individual item pages under the \"Technical Note\" tab.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "c25a4eba-a2a6-4fbc-82d9-237950f5b7b8",
+              "type" : "component"
+            } ],
+            "id" : "3cc7b449-ab6f-488c-b227-391b94f6e3e6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cc23d073-f473-4a60-b293-ada90beea285",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"47803350-e6f5-4de3-acb7-f87468edae98\",\"columns\":[{\"UUID\":\"6af02890-6559-4a25-8c8a-b047e929c7d5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Photochemical Equipment - Type A Plug",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{\"italic\":false,\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "cba12882-d263-4201-8a02-7295aa8d46f3",
+              "type" : "component"
+            } ],
+            "id" : "6af02890-6559-4a25-8c8a-b047e929c7d5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "47803350-e6f5-4de3-acb7-f87468edae98",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"08cddd9f-a1c2-4fd8-9477-794aac09195a\",\"columns\":[{\"UUID\":\"f3cf9d63-6c79-467d-b286-a9004f309b21\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"color: rgb(136, 136, 136); font-size: 20px;\">(USA electrical outlet)</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5a69fd8d-4009-4ea7-a5cc-9ae59b32ac2f",
+              "type" : "component"
+            } ],
+            "id" : "f3cf9d63-6c79-467d-b286-a9004f309b21",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "08cddd9f-a1c2-4fd8-9477-794aac09195a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3d11fe1e-a8a2-4871-a80e-b9338156d6c9\",\"columns\":[{\"UUID\":\"419afaca-93fa-48cc-82ba-a6f4182e695d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"1ccc4def-7dfe-4124-ba7c-3bfb6de842a7\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2378f2c6-71a2-47b0-908f-49ea31a398ba\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-110v-type-a-plug-usa-electrical-outlet/01tVN000003kCCOYA2\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOT5DC2P4F5AWPGBBVJVIFMN4P4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5ac53ccd-76f6-4545-beba-47146835993e",
+              "type" : "component"
+            } ],
+            "id" : "419afaca-93fa-48cc-82ba-a6f4182e695d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-temperature-controlled-110v-type-a-plug-usa-electrical-outlet/01tVN000003kCCSYA2\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOOH4PWMSDRHMJATXVU6WMRHHNI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "c33a9fdb-ee64-41d8-968d-d05eda2f9fb1",
+              "type" : "component"
+            } ],
+            "id" : "1ccc4def-7dfe-4124-ba7c-3bfb6de842a7",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-365nm-electric-power-18w-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEt2YAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCOJJ2FZBE6BEN5BQTTFA4M6BJFE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d82aeec7-2599-41ef-996b-7823237600b0",
+              "type" : "component"
+            } ],
+            "id" : "2378f2c6-71a2-47b0-908f-49ea31a398ba",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "3d11fe1e-a8a2-4871-a80e-b9338156d6c9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7137cb10-6c74-4064-b07d-f20f58cc842b\",\"columns\":[{\"UUID\":\"263e768c-485e-4d5f-966e-f61f52580098\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"63092a78-4045-4c8c-b4e5-52549fd1e55b\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a5892d9b-d733-4c3d-841c-468c37f2191c\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-electric-power-par2018w-lg-wavelength-380nm-25-degrees-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEt6YAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCHKHUGDC6WBDA5AGJLBGN426XEI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "dc39771a-0e94-456a-bdb2-201c8af01a5e",
+              "type" : "component"
+            } ],
+            "id" : "263e768c-485e-4d5f-966e-f61f52580098",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-405nm-electric-power-18w-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEssYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCP4MAJSJN3NA5HNFUHENFZPGNII}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "29d6640c-4b11-4b14-a6e7-e0728165b334",
+              "type" : "component"
+            } ],
+            "id" : "63092a78-4045-4c8c-b4e5-52549fd1e55b",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-425nm-electric-power-18w-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEsyYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC3FFDB7DZZFC63LT7OZFYWMPUOY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "812dd458-2264-4dce-9644-d9acce76c475",
+              "type" : "component"
+            } ],
+            "id" : "a5892d9b-d733-4c3d-841c-468c37f2191c",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "7137cb10-6c74-4064-b07d-f20f58cc842b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"466a0ddb-3093-45e6-aecb-cb0ea786907b\",\"columns\":[{\"UUID\":\"31c7016d-3795-4bdd-bfa4-8bd8ac2ec83e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"456e2a41-e35b-470e-80dd-f19cc21d8259\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a7371268-d134-4031-a206-5e791009a98b\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-450nm-electric-power-18w-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEsoYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC4JWI7O2Y7FBJDJ5EY43KGO7YMQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f001766e-327a-44d8-9be9-8484467f962b",
+              "type" : "component"
+            } ],
+            "id" : "31c7016d-3795-4bdd-bfa4-8bd8ac2ec83e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-525nm-electric-power-18w-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEtAYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCJ4R6FGQLIJG4RBCSKKQIOWZSQQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "895f4b8c-e008-4850-b552-d293bd5d8751",
+              "type" : "component"
+            } ],
+            "id" : "456e2a41-e35b-470e-80dd-f19cc21d8259",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-650nm-electric-power-18w-110v-type-a-plug-usa-electrical-outlet/01tVN000003kEuJYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC5VUYZI6H25BSTLRTENZB4YZ4OQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d5eeee20-9142-4550-8a72-bfa378476ad6",
+              "type" : "component"
+            } ],
+            "id" : "a7371268-d134-4031-a206-5e791009a98b",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "466a0ddb-3093-45e6-aecb-cb0ea786907b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4553b463-e2df-4092-abf0-49547455cb51\",\"columns\":[{\"UUID\":\"355de6b7-5529-43e1-b206-8b49b71b26dc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Photochemical Equipment - Type C Plug",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{\"italic\":false,\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "cae631f1-4bd9-4e5c-8cc9-b03224647fd3",
+              "type" : "component"
+            } ],
+            "id" : "355de6b7-5529-43e1-b206-8b49b71b26dc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4553b463-e2df-4092-abf0-49547455cb51",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3aeb364e-3ef1-4d8e-9b61-e38da9cac3cf\",\"columns\":[{\"UUID\":\"cb214799-de0c-405a-a47a-75a322ea9868\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(136, 136, 136);\">(EU electrical outlet)</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "658c5211-f940-41d7-a6e7-78edd1b21857",
+              "type" : "component"
+            } ],
+            "id" : "cb214799-de0c-405a-a47a-75a322ea9868",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3aeb364e-3ef1-4d8e-9b61-e38da9cac3cf",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"918ba63d-5b36-4d77-958a-d0e0f87901a5\",\"columns\":[{\"UUID\":\"46f79ec6-f7e7-4c45-bde6-4ebc3aa54853\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"cdd6eddf-157f-4838-9fe6-7b20f2751934\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"89102d9e-a5ba-4fa0-ac4d-508043c31019\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-220v-type-c-plug-eu-electrical-outlet/01tVN000003kCCQYA2\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCSRRBYIC4GFERFIXDLHSBK2IPQA}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a8c2ba59-551c-4804-9680-a7b6ccf74fad",
+              "type" : "component"
+            } ],
+            "id" : "46f79ec6-f7e7-4c45-bde6-4ebc3aa54853",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-temperature-controlled-220v-type-c-plug-eu-electrical-outlet/01tVN000003kCCUYA2\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCG66T6OPMC5E7VMLBZE63S4IHZE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "23fd66d4-fbb3-4253-b57d-3177903b1de5",
+              "type" : "component"
+            } ],
+            "id" : "cdd6eddf-157f-4838-9fe6-7b20f2751934",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-365nm-electric-power-18w-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEt4YAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCFQ5ZVRYVVRHXVLKCDJBNDMM2BU}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "fd79b895-d9e4-4c9d-9b73-ae8248fc8238",
+              "type" : "component"
+            } ],
+            "id" : "89102d9e-a5ba-4fa0-ac4d-508043c31019",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "918ba63d-5b36-4d77-958a-d0e0f87901a5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"965dc060-76e8-4244-b041-287cd0cb7ff3\",\"columns\":[{\"UUID\":\"5afe10e7-3fa8-4a5b-b591-ef90e3cd6cec\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2f07a9ed-5bac-4c5a-9ed0-1b9cef2d0a6a\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"63a667f6-2dcc-433c-8d11-ac060ef80374\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-electric-power-par2018w-lg-wavelength-380nm-25-degrees-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEt8YAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCSDK5MPOYSJGRPPQBRXDGSMJHRE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "51cfb1f4-e555-4f31-b5a7-9f92323dce50",
+              "type" : "component"
+            } ],
+            "id" : "5afe10e7-3fa8-4a5b-b591-ef90e3cd6cec",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-405nm-electric-power-18w-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEswYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MC6T7T4AYFJVEHFJECQVLHAYDMME}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "fc7b6988-049b-461e-9a0e-780a01fd4ceb",
+              "type" : "component"
+            } ],
+            "id" : "2f07a9ed-5bac-4c5a-9ed0-1b9cef2d0a6a",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><u>﻿</u><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-425nm-electric-power-18w-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEt0YAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCINOIRWVTNBFQLDGXP5QGCQWR6Q}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "883dbe28-5d25-428d-8c96-cf2627f0231b",
+              "type" : "component"
+            } ],
+            "id" : "63a667f6-2dcc-433c-8d11-ac060ef80374",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "965dc060-76e8-4244-b041-287cd0cb7ff3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c8d9627b-ad0b-4db1-85c2-2c9fe5c453f4\",\"columns\":[{\"UUID\":\"a2e9d52e-846f-47ac-a4bc-bb45b21c179e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7baed1de-16d0-49ff-be81-df56046b272d\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"f323aa3d-ae93-40b5-a13d-a95abc14d65b\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-450nm-electric-power-18w-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEsqYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCWYTYFLQDOBDULODADTGEONJ3J4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "350d427f-5b72-4a96-9a6d-eaf2f8aa5702",
+              "type" : "component"
+            } ],
+            "id" : "a2e9d52e-846f-47ac-a4bc-bb45b21c179e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-525nm-electric-power-18w-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEtCYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCLLAUTUEN5FC35EWG3LDZZ3KAFM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "252fbdc1-ef31-4c1e-91cd-e58cf55a7d89",
+              "type" : "component"
+            } ],
+            "id" : "7baed1de-16d0-49ff-be81-df56046b272d",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-light-source-wavelength-650nm-electric-power-18w-220v-type-c-plug-eu-electrical-outlet/01tVN000003kEuLYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCWG5GBJXS6NA7PJGMQLTHQQIBS4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b6162f6c-599f-40b6-92fa-b6557e87e20f",
+              "type" : "component"
+            } ],
+            "id" : "f323aa3d-ae93-40b5-a13d-a95abc14d65b",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "c8d9627b-ad0b-4db1-85c2-2c9fe5c453f4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fccd13a4-b994-43b8-a440-1ce6a8d77237\",\"columns\":[{\"UUID\":\"04014b8e-ec47-4d8c-9ae1-14d286f5ccf2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Photochemical Holders and Upgrades Compatible with EvoluChem™ PhotoRedOx Box",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{\"italic\":false,\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "64c39a6d-c1e1-478d-9f9b-7836d016fb34",
+              "type" : "component"
+            } ],
+            "id" : "04014b8e-ec47-4d8c-9ae1-14d286f5ccf2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fccd13a4-b994-43b8-a440-1ce6a8d77237",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d0d180a9-4a8f-46af-aa41-a4d43e219970\",\"columns\":[{\"UUID\":\"d3ba602c-c2e8-4214-9d8e-7b39dddf5f90\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4a9ce13b-2ace-4c13-8fe9-8cc27d7046dc\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"57b8cde6-ede2-4e4f-9a45-30a6976d16d9\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-photochemistry-holder-32-x-03-ml-vials/01tVN000003kCCWYA2\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCYYZLGVBNT5DF3PVEQGXHX6ETCY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "0242afec-3357-4a41-b140-99cbb7bc92e7",
+              "type" : "component"
+            } ],
+            "id" : "d3ba602c-c2e8-4214-9d8e-7b39dddf5f90",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-photochemistry-holder-8-x-2-ml-vials/01tVN000003kEsgYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCQYAL5K7WA5CB5BGSZPUYDOVS2E}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b71916fc-084b-4cce-9305-871d3b2bc06e",
+              "type" : "component"
+            } ],
+            "id" : "4a9ce13b-2ace-4c13-8fe9-8cc27d7046dc",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-photochemistry-holder-8-x-8-ml-vials/01tVN000003kEsiYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCHFNSDAQPH5ET3LAY665PI5FG4M}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "33856f91-7e45-446a-bf0b-6cdfebbd6486",
+              "type" : "component"
+            } ],
+            "id" : "57b8cde6-ede2-4e4f-9a45-30a6976d16d9",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "d0d180a9-4a8f-46af-aa41-a4d43e219970",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5e09acf7-f1d6-42f0-b85d-5c497141fa65\",\"columns\":[{\"UUID\":\"a264c9a8-f6aa-4ad0-ad7e-98f756f79a25\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"570fc476-c914-4bba-a8c1-f17d5d02d845\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b63f32aa-a5ca-43e3-848c-70880d9ba617\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-photochemistry-holder-2-x-20-ml-vials/01tVN000003kEskYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCYYXYYEDVTJEKVK2S55GQ64GMQU}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ce294236-02bc-47fc-8d7c-b2cf297ad5b9",
+              "type" : "component"
+            } ],
+            "id" : "a264c9a8-f6aa-4ad0-ad7e-98f756f79a25",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photoredox-box-photochemistry-holder-8-x-4-ml-vials/01tVN000003kEsmYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCSGXGSVQEKBCI3HGZ7TA65A3QWM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a5a94567-4d5d-4f2a-9bb6-363f3a04b37d",
+              "type" : "component"
+            } ],
+            "id" : "570fc476-c914-4bba-a8c1-f17d5d02d845",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-light-proofing-upgrade/01tVN000003kEsuYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCSEQOC2WXSNDCPNCB2UXM7DIKGY}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9034b891-f87a-40d9-a60b-8d61eb96e176",
+              "type" : "component"
+            } ],
+            "id" : "b63f32aa-a5ca-43e3-848c-70880d9ba617",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "5e09acf7-f1d6-42f0-b85d-5c497141fa65",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"87f94b27-fecd-4590-b728-69d2ffbe72cd\",\"columns\":[{\"UUID\":\"6ce7bcd6-2a83-4a63-a8c9-111406656251\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Kits Compatible with EvoluChem™ PhotoRedOx Box (98-7500) - Iridium/Nickel PhotoRedOx Kits",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{\"italic\":false,\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "7ad12f43-460f-4ed9-9860-6d3c04054d94",
+              "type" : "component"
+            } ],
+            "id" : "6ce7bcd6-2a83-4a63-a8c9-111406656251",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "87f94b27-fecd-4590-b728-69d2ffbe72cd",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4fe96f31-7096-4a82-b8fd-ec6c14bac87d\",\"columns\":[{\"UUID\":\"890cade6-a265-49e7-99b7-4d9ddba3e057\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"86dbabcd-0f86-4aae-8c64-01ef3eeaab43\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"294c5c1e-962a-418a-86b1-5f0bbeb45ab4\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-iridiumnickel-photoredox-base-and-solvent-screening-kit-1/01tVN000003kDI4YAM\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCRW2ME4W2VRA3XE4GN4DHMOPQOE}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "2529ea3c-6bc7-42a3-b221-b638b034de2c",
+              "type" : "component"
+            } ],
+            "id" : "890cade6-a265-49e7-99b7-4d9ddba3e057",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-iridiumnickel-photoredox-base-and-ligand-screening-kit-1/01tVN000003kDI6YAM\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCU2ROPUJKCFABDETNHV3HZ77XO4}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "65df39cd-1673-4da4-bfec-ed62ad8ecc8c",
+              "type" : "component"
+            } ],
+            "id" : "86dbabcd-0f86-4aae-8c64-01ef3eeaab43",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-iridiumnickel-photoredox-base-and-ligand-screening-kit-2/01tVN000003kAeVYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCNXK56FUVBNC2ZNPZHZMZ2LCVOM}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "636e9764-ce65-4198-83cd-bb88cdde7534",
+              "type" : "component"
+            } ],
+            "id" : "294c5c1e-962a-418a-86b1-5f0bbeb45ab4",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "4fe96f31-7096-4a82-b8fd-ec6c14bac87d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"028c6905-d7d2-4476-865f-4f33c0a3e907\",\"columns\":[{\"UUID\":\"14041a01-ad46-4348-b22e-3a92cf8e45b3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d9ff37a1-aa9a-421b-bb7b-673bfd4e586a\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"bc2d46b4-376a-428c-b165-a0b94cd7c7d7\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-iridiumnickel-photoredox-base-and-iridium-catalyst-screening-kit/01tVN000003kAeXYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCVEZANY4LFJGILO67TDBV6SLE3M}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "82bc4d9c-6479-40be-b052-60c13d10b166",
+              "type" : "component"
+            } ],
+            "id" : "14041a01-ad46-4348-b22e-3a92cf8e45b3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-iridiumnickel-photoredox-base-and-solvent-screening-kit-2-co-coupling/01tVN000003kAebYAE\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCAHTQ27IRFZCA7NHLE2VMTG2C24}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b5a9543f-7265-40ca-9afa-bf8167620c72",
+              "type" : "component"
+            } ],
+            "id" : "d9ff37a1-aa9a-421b-bb7b-673bfd4e586a",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/contact-us\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCPEBCDDYKRRDKVBIYSGB2CINM7M}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9b504e1f-3430-442b-b150-c3425bd5bff5",
+              "type" : "component"
+            } ],
+            "id" : "bc2d46b4-376a-428c-b165-a0b94cd7c7d7",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox",
+          "definition" : "community_layout:section",
+          "id" : "028c6905-d7d2-4476-865f-4f33c0a3e907",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"77e459ab-df0f-40b2-bed5-7cc80207b9a5\",\"columns\":[{\"UUID\":\"6fafbbf1-cba1-4807-9ca9-6647756e6ebd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Other Compatible Kits",
+                "textAlign" : "left",
+                "textColor" : "rgb(98, 77, 55)",
+                "textDecoration" : "{\"italic\":false,\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "5b05be2b-46ca-478d-8d80-ed271131b0a1",
+              "type" : "component"
+            } ],
+            "id" : "6fafbbf1-cba1-4807-9ca9-6647756e6ebd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "77e459ab-df0f-40b2-bed5-7cc80207b9a5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fd0b6dd7-4f6f-412f-9748-8d792b8340d9\",\"columns\":[{\"UUID\":\"6f570ca3-104a-4a61-8e34-64df4ecf6ccd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"8ccada3e-709f-42a9-b382-be44207e6893\",\"columnName\":\"Column 2\",\"columnKey\":\"cf164\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d2af3289-a428-41ea-ab75-cff6d2968c02\",\"columnName\":\"Column 3\",\"columnKey\":\"d8962\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photochemical-methylation-array-kit/01tVN000003kDI2YAM\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCSQOXEQCHARG5RMLPAEVXJRAYLQ}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6f385acc-ec3a-468e-89cd-51305ab88496",
+              "type" : "component"
+            } ],
+            "id" : "6f570ca3-104a-4a61-8e34-64df4ecf6ccd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><a href=\"https://www.strem.com/product/evoluchem-photocatalytic-alkylation-kit/01tVN000003kAeZYAU\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"{!cmsMedia.MCGMEX7JCI3RD23NOUM45HG2J3YI}\" alt=\"\"></a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a437e061-b3bc-402e-9db7-11bf7c9fb82a",
+              "type" : "component"
+            } ],
+            "id" : "8ccada3e-709f-42a9-b382-be44207e6893",
+            "name" : "cf164",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "d2af3289-a428-41ea-ab75-cff6d2968c02",
+            "name" : "d8962",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "contentBox contentBoxThirdNoBorder",
+          "definition" : "community_layout:section",
+          "id" : "fd0b6dd7-4f6f-412f-9748-8d792b8340d9",
+          "type" : "component"
+        } ],
+        "id" : "e9717fe3-a6a6-49fe-b482-9a3b51ac8802",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "EvoluChem™ PhotoRedOx Products Landing Page",
+            "dxpStyle" : { },
+            "pageTitle" : "EvoluChem™ PhotoRedOx",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "2ed25dfe-812a-463a-a289-a53154404364",
+          "type" : "component"
+        } ],
+        "id" : "5bf0702c-7805-4a03-9692-8434e8dbc059",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "bd4ea005-08a4-4379-9396-81507cd24a78",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "tdDoSzmGcBZil7G5v65AUMv2iWf9R6",
+    "viewType" : "custom-evoluchem-photoredox"
+  },
+  "urlName" : "evoluchem-photoredox"
+}

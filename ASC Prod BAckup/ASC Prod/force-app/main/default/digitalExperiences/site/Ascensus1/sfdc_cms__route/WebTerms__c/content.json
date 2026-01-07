@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Website Terms Page",
+  "contentBody" : {
+    "activeViewId" : "Website_Terms_Page",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-website-terms-page",
+    "urlPrefix" : "website-terms-page"
+  },
+  "urlName" : "website-terms-page"
+}

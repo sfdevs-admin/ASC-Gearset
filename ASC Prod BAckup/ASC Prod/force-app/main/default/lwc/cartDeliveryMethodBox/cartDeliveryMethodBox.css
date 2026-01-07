@@ -1,0 +1,8 @@
+.cart-delivery {
+    width: 300px;
+}
+
+.showError .slds-input {
+    --border-color: red;
+    --border-width: 2px;
+}

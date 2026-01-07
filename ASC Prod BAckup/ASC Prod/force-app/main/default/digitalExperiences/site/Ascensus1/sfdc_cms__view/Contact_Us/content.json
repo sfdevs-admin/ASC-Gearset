@@ -1,0 +1,285 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Contact Us",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCFVBZLBQW7BCONLLNPZ2QK33ZOM?lastModifiedDate=Fri Jun 07 11:26:26 GMT 2024&height=144&width=192\",\"contentKey\":\"MCFVBZLBQW7BCONLLNPZ2QK33ZOM\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(0, 0, 0, 0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "125px"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"289b7483-89aa-4b70-a4b3-0e2518f74036\",\"columns\":[{\"UUID\":\"e33f7fe0-4f61-4c3b-9e7c-6a7ee1c99f8d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "5%",
+                    "left" : "5%",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Contact Us",
+                "textAlign" : "left",
+                "textColor" : "rgb(0, 0, 0)",
+                "textDecoration" : "{\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "cbf3adc4-0436-4e4c-9ba1-c12f422cc4ca",
+              "type" : "component"
+            } ],
+            "id" : "e33f7fe0-4f61-4c3b-9e7c-6a7ee1c99f8d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "289b7483-89aa-4b70-a4b3-0e2518f74036",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"abf21803-d6eb-401e-a1fb-688eb6080d4b\",\"columns\":[{\"UUID\":\"87b6f8c6-d156-4620-b038-4945a188b6db\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"9e31b61c-13d4-410e-ae2f-cefc1298920c\",\"columns\":[{\"UUID\":\"ee14216e-8221-4e29-88a5-db76a1e1b2bf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0%",
+                        "left" : "5%",
+                        "right" : "5%",
+                        "top" : "0%"
+                      }
+                    },
+                    "flowName" : "{\"flowName\":\"SCRN_ContactUs_Form\",\"flowLabel\":\"SCRN_ContactUs_Form\"}"
+                  },
+                  "definition" : "dxp_flow:flow",
+                  "id" : "d17e3684-02fb-4cc0-b99c-e2a9dc296ae1",
+                  "type" : "component"
+                } ],
+                "id" : "ee14216e-8221-4e29-88a5-db76a1e1b2bf",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "9e31b61c-13d4-410e-ae2f-cefc1298920c",
+              "type" : "component"
+            } ],
+            "id" : "87b6f8c6-d156-4620-b038-4945a188b6db",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "abf21803-d6eb-401e-a1fb-688eb6080d4b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a9520dee-d1dc-4b2f-90f5-1850765c2f22\",\"columns\":[{\"UUID\":\"2f8e4c8f-2a9f-4f71-b855-e31afbda6cb5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a4fce499-1ac6-496f-a94c-8a40d2c11a70\",\"columnName\":\"Column 2\",\"columnKey\":\"9d14b\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"63efe09b-1323-43b4-93b2-da2f98b74aa8\",\"columnName\":\"Column 3\",\"columnKey\":\"25775\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "7%",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p><strong style=\"font-size: 24px;\">Catalog Contact Information</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4a5b678e-dbf6-4647-b1a5-b423c09288f6",
+              "type" : "component"
+            } ],
+            "id" : "2f8e4c8f-2a9f-4f71-b855-e31afbda6cb5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "a4fce499-1ac6-496f-a94c-8a40d2c11a70",
+            "name" : "9d14b",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "63efe09b-1323-43b4-93b2-da2f98b74aa8",
+            "name" : "25775",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a9520dee-d1dc-4b2f-90f5-1850765c2f22",
+          "scopedBrandingSetId" : "Black",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"dc0b2d31-0a38-4185-b58e-af6559295904\",\"columns\":[{\"UUID\":\"c819b58c-adf1-4c50-b1d5-45db11adac00\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "40px",
+                    "left" : "40px",
+                    "right" : "40px",
+                    "top" : "40px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "sectionConfig" : "{\"UUID\":\"779560c8-3038-474a-9a5c-1fc060f72ce7\",\"columns\":[{\"UUID\":\"e6d76a09-78f6-474b-9f74-d524a2fd2f58\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"738f7440-e2cd-4113-800c-f7b4201c3e8e\",\"columnName\":\"Column 2\",\"columnKey\":\"125c2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"9b7af3e2-bc54-4d1a-bb98-4f6a5938696d\",\"columnName\":\"Column 3\",\"columnKey\":\"482fe\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      },
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"font-size: 20px;\">USA / Global</span></p><p>7 Mulliken Way</p><p>Newburyport, MA 01950-4098 USA</p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">Tel: (978) 499 1600</span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">Fax: (978) 465 3104</span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">info@ascensusspecialties.com</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "58c46d08-283e-4f3a-9e62-cc6cc5aa98b7",
+                  "type" : "component"
+                } ],
+                "id" : "e6d76a09-78f6-474b-9f74-d524a2fd2f58",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"font-size: 20px;\">﻿Europe</span></p><p>15 rue de l'Atome, Z.I.</p><p>67800 BISCHHEIM (France)</p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">Tel: (33) 03 88 62 52 60</span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">Fax: (33) 03 88 62 26 81</span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">info-europe@ascensusspecialties.com</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "0db3925f-89e6-4233-9565-401021f70e06",
+                  "type" : "component"
+                } ],
+                "id" : "738f7440-e2cd-4113-800c-f7b4201c3e8e",
+                "name" : "125c2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "id" : "9b7af3e2-bc54-4d1a-bb98-4f6a5938696d",
+                "name" : "482fe",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "779560c8-3038-474a-9a5c-1fc060f72ce7",
+              "type" : "component"
+            } ],
+            "id" : "c819b58c-adf1-4c50-b1d5-45db11adac00",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dc0b2d31-0a38-4185-b58e-af6559295904",
+          "scopedBrandingSetId" : "Black",
+          "type" : "component"
+        } ],
+        "id" : "212c60a5-39b3-43c1-a09f-8c3ea776623c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Contact Us",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1f9a70d3-2887-41eb-bac6-8492e1e5da99",
+          "type" : "component"
+        } ],
+        "id" : "6f288e2a-271a-42ef-a456-50106b403c46",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "4151afa9-89b9-4b77-8f65-a9ae045dce87",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-contact-us"
+  },
+  "urlName" : "contact-us"
+}

@@ -1,0 +1,31 @@
+<template>
+    <!-- <template if:true={showOtherInput}>
+        <input type="text" onchange={handleInputChange}/>
+    </template>    -->
+
+    <!-- <div if:true={showOtherInput}> -->
+        <label if:true={showError} class="slds-text-color_error">
+            {errorMessage}
+        </label>
+        <lightning-input
+            class="cart-delivery customOtherMethodDetail"
+            type="text"
+            tabindex="0"
+            max-length="80"
+            label="Only enter if using Other method"
+            value={txtDeliveryOption}
+            onchange={handleDeliveryOption}
+            onblur={handleLostFocus}
+        ></lightning-input>
+        <!-- <lightning-input
+            class="cart-delivery"
+            type="text"
+            tabindex="0"
+            max-length="80"
+            label="Order Notes"
+            value={txtOrderNotes}
+            onchange={handleOrderNotes}
+            onblur={handleLostFocus}
+        ></lightning-input> -->
+    <!-- </div> -->
+</template>

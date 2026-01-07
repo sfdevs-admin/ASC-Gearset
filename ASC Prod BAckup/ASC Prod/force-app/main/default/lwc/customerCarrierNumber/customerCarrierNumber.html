@@ -1,0 +1,29 @@
+<template>
+    <template if:true={isLoading} >
+        <lightning-spinner  alternative-text='Loading' class="slds-is-absolute slds-align_absolute-center"></lightning-spinner>
+    </template>
+    <div>
+        <lightning-input
+            class="customer-carrier-number"
+            type="text"
+            data-id="txtCarrierNumber"
+            tabindex="0"
+            max-length="80"
+            placeholder="Optional"
+            label="Customer Carrier Number"
+            value={txtCarrierNumber}
+            onchange={handleCarrierNumberChange}
+            onblur={handleLostFocus}
+        ></lightning-input>
+    </div>
+    <div class="shipcost" style="width: 840px;">
+        If you prefer to charge your shipping costs to your own shipping account, please enter the account number above.
+    </div>
+    <br>
+
+    <div>
+        <label if:true={showError} class="slds-text-color_error">
+            {errorMessage}
+        </label>
+    </div>
+</template>

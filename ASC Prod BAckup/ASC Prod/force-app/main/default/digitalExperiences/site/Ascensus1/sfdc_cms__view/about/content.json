@@ -1,0 +1,1077 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "About Strem",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCTBIHMDMMHBCUXGY6GDMSQLKXLM?lastModifiedDate=Fri Jun 07 14:32:21 GMT 2024&height=144&width=192\",\"contentKey\":\"MCTBIHMDMMHBCUXGY6GDMSQLKXLM\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center right\",\"bgSizeOrRepeat\":\"repeat-y\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "0px"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"4f69eef5-f272-4642-93e4-ecb481cd13c7\",\"columns\":[{\"UUID\":\"02db2231-82c5-4326-aa50-65271f51d0b1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"ca7ee515-4a44-4e72-b9d3-429103691264\",\"columns\":[{\"UUID\":\"836eb84d-a007-4652-b929-268f4d00f4c0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "dxpStyle" : { },
+                    "sectionConfig" : "{\"UUID\":\"67f2df8e-3fab-48d7-ad2f-ae5c933ef845\",\"columns\":[{\"UUID\":\"1514f4c3-8df7-4c7e-9528-0e7da085d35e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "lineStyle" : "dashed",
+                        "size" : 1,
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:horizontalLine",
+                      "id" : "80f75d2a-35a7-411c-b354-03dad2d05e58",
+                      "type" : "component"
+                    } ],
+                    "id" : "1514f4c3-8df7-4c7e-9528-0e7da085d35e",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "67f2df8e-3fab-48d7-ad2f-ae5c933ef845",
+                  "type" : "component"
+                } ],
+                "id" : "836eb84d-a007-4652-b929-268f4d00f4c0",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "ca7ee515-4a44-4e72-b9d3-429103691264",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "0rem",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "6%",
+                    "left" : "8%",
+                    "right" : "6%",
+                    "top" : "6%"
+                  }
+                },
+                "sectionConfig" : "{\"UUID\":\"d565cce0-63eb-4de8-8d4f-ac11c5af6d91\",\"columns\":[{\"UUID\":\"ced4b3e0-7c48-4827-a59b-5d19ec14f349\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"624e883b-f65d-4227-aeb3-0a9a2ad0e853\",\"columnName\":\"Column 2\",\"columnKey\":\"80eb5\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "richTextValue" : "<p><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">﻿High Quality Specialty Chemicals</span></p><p><br></p><p><br></p><p><span style=\"color: rgb(255, 255, 255);\">Strem established in 1964, is a company that manufactures and markets specialty chemicals of high purity. Strem was acquired by Ascensus Specialties in 2021. Its clients include academic, industrial and government research and development laboratories as well as commercial scale businesses in the pharmaceutical, microelectronic and chemical / petrochemical industries. Strem also provides custom synthesis (including high pressure synthesis) and cGMP manufacturing services.</span></p><p><br></p><p><span style=\"color: rgb(255, 255, 255);\">Strem is located in Newburyport 38 miles (60km) north of Boston, Massachusetts, USA. This facility covers 48,000 sq. ft (4,460 m2). Its cGMP facility is FDA inspected. The European office and warehouse are located in Bischheim, France.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "84b366e0-ee72-4dbf-9794-1140964f395c",
+                  "type" : "component"
+                } ],
+                "id" : "ced4b3e0-7c48-4827-a59b-5d19ec14f349",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCDBJWAXP4BBFT5OIPAOX4H5V22E?lastModifiedDate=Tue Apr 30 01:13:21 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCDBJWAXP4BBFT5OIPAOX4H5V22E\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "4b02320c-1f5a-45c7-8b0d-6f41e0a0f0b7",
+                  "type" : "component"
+                } ],
+                "id" : "624e883b-f65d-4227-aeb3-0a9a2ad0e853",
+                "name" : "80eb5",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "d565cce0-63eb-4de8-8d4f-ac11c5af6d91",
+              "type" : "component"
+            } ],
+            "id" : "02db2231-82c5-4326-aa50-65271f51d0b1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4f69eef5-f272-4642-93e4-ecb481cd13c7",
+          "scopedBrandingSetId" : "Tsst_Background",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCC32EIID2TBBKNPEQYODQCL7XGI?lastModifiedDate=Fri Jun 07 14:31:54 GMT 2024&height=144&width=192\",\"contentKey\":\"MCC32EIID2TBBKNPEQYODQCL7XGI\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(255, 255, 255, 0.7)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "5%",
+                "left" : "0%",
+                "right" : "0%",
+                "top" : "5%"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"37e482fc-78ea-4590-b7e8-73f5af28f76c\",\"columns\":[{\"UUID\":\"f625a94b-927c-428f-85e9-60c639318ce7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "2%",
+                    "left" : "8%",
+                    "right" : "6%",
+                    "top" : "6%"
+                  }
+                },
+                "sectionConfig" : "{\"UUID\":\"5117b2aa-3a06-4217-bc24-1d0cec9c0ebf\",\"columns\":[{\"UUID\":\"445eb66e-63db-482e-8664-3b9289941583\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"1a1c4ba2-cb61-450c-ab5e-0ff909dee84e\",\"columnName\":\"Column 2\",\"columnKey\":\"55e32\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "dxpStyle" : { },
+                    "sectionConfig" : "{\"UUID\":\"41e5daf8-7182-4bd8-a7db-8c48bc50401f\",\"columns\":[{\"UUID\":\"28614aaa-b952-4cca-b1ff-e3f543c37f8f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCF2DHE56AFREYTG5K3NTEPIQTPI?lastModifiedDate=Tue Apr 30 01:16:22 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCF2DHE56AFREYTG5K3NTEPIQTPI\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "08bafb2b-7b58-433e-975e-efde2649a12d",
+                      "type" : "component"
+                    } ],
+                    "id" : "28614aaa-b952-4cca-b1ff-e3f543c37f8f",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "41e5daf8-7182-4bd8-a7db-8c48bc50401f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCN6XP3CIVKZE5JAFGHSIUMU2PIQ?lastModifiedDate=Fri Jun 07 14:25:29 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCN6XP3CIVKZE5JAFGHSIUMU2PIQ\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "cee650be-cced-4d64-ae41-97552e8fc641",
+                  "type" : "component"
+                } ],
+                "id" : "445eb66e-63db-482e-8664-3b9289941583",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      },
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "42px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p class=\"ql-indent-1\"><span style=\"font-size: 28px;\">Expertise and Experience in Manufacturing High Purity, High Quality Chemicals</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 28px;\">﻿</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "3c63bb20-b650-424b-97b6-cb86d5e0895a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "6%",
+                        "left" : "8%",
+                        "right" : "6%",
+                        "top" : "2%"
+                      }
+                    },
+                    "sectionConfig" : "{\"UUID\":\"6dab1db6-d1c2-4ebe-b871-907adf838a9a\",\"columns\":[{\"UUID\":\"656b8ef5-3ee1-4f0e-ba8b-143035c6104e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"4e3f2c1f-e481-4a8c-9cd9-ce741b60265c\",\"columnName\":\"Column 2\",\"columnKey\":\"80eb5\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "dxpStyle" : { },
+                        "sectionConfig" : "{\"UUID\":\"f2a53b96-1e97-4abf-8b5b-d284be164a4c\",\"columns\":[{\"UUID\":\"e907ac18-b506-49ac-854e-541dda1a0f9b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "2%",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<p>Our mission: Deliver high-purity specialty chemicals promptly. Quality is paramount. Most products are 99% pure, with some reaching 99.9999% metals purity</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "9832fa4f-7f23-4859-9879-3cf59551288b",
+                          "type" : "component"
+                        } ],
+                        "id" : "e907ac18-b506-49ac-854e-541dda1a0f9b",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "f2a53b96-1e97-4abf-8b5b-d284be164a4c",
+                      "type" : "component"
+                    } ],
+                    "id" : "656b8ef5-3ee1-4f0e-ba8b-143035c6104e",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "4%",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p>In research, reliance on supplier quality is crucial. Strem's rigorous procedures and tailored analytical techniques ensure top-notch quality. Our catalogs always include \"Color and Form\" as primary quality indicators.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "33840262-7820-46ea-b501-e4131b334900",
+                      "type" : "component"
+                    } ],
+                    "id" : "4e3f2c1f-e481-4a8c-9cd9-ce741b60265c",
+                    "name" : "80eb5",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "6dab1db6-d1c2-4ebe-b871-907adf838a9a",
+                  "type" : "component"
+                } ],
+                "id" : "1a1c4ba2-cb61-450c-ab5e-0ff909dee84e",
+                "name" : "55e32",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "5117b2aa-3a06-4217-bc24-1d0cec9c0ebf",
+              "type" : "component"
+            } ],
+            "id" : "f625a94b-927c-428f-85e9-60c639318ce7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "37e482fc-78ea-4590-b7e8-73f5af28f76c",
+          "scopedBrandingSetId" : "GreyTextSection",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "5%",
+                "left" : "8%",
+                "right" : "6%",
+                "top" : "5%"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d0a1132f-2bd7-4c85-80c2-f7d2de439572\",\"columns\":[{\"UUID\":\"aa1a154a-ae83-4be2-aea1-a7a53deee006\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "0%",
+                    "left" : "0%",
+                    "right" : "0%",
+                    "top" : "0%"
+                  }
+                },
+                "sectionConfig" : "{\"UUID\":\"255b418e-d5e7-4ec2-b6bc-592017f66530\",\"columns\":[{\"UUID\":\"51481a8d-ad90-43ec-ab5b-6569dabc0e9f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"cb42988c-3c98-43a4-af2b-2bab33d6a06f\",\"columnName\":\"Column 2\",\"columnKey\":\"95143\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "2%",
+                        "left" : "2%",
+                        "right" : "2%",
+                        "top" : "2%"
+                      }
+                    },
+                    "richTextValue" : "<p><br></p><p><br></p><p><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">Long Term Focus in Inorganics, Organometallics and Metals</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "bfbe180c-cda7-458e-ac02-a6c8f11062bc",
+                  "type" : "component"
+                } ],
+                "id" : "51481a8d-ad90-43ec-ab5b-6569dabc0e9f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "id" : "cb42988c-3c98-43a4-af2b-2bab33d6a06f",
+                "name" : "95143",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "255b418e-d5e7-4ec2-b6bc-592017f66530",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "0%",
+                    "left" : "0%",
+                    "right" : "0%",
+                    "top" : "0%"
+                  }
+                },
+                "sectionConfig" : "{\"UUID\":\"6b29ac94-74be-4395-995d-1aa29b313631\",\"columns\":[{\"UUID\":\"df15d872-1bdb-40f8-9f96-a68a3144faa1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"eb86b961-5a0e-468c-9c08-4a22b0f38aa1\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"0ad5f101-a00f-4930-95e9-bdbc73e62a57\",\"columnName\":\"Column 3\",\"columnKey\":\"db383\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "3%",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"font-size: 28px; color: rgb(255, 255, 255);\">Strem offers over 6,000 specialty products in the area of metals, inorganics, organometallics and nanomaterials.</span></p><p><br></p><p><span style=\"color: rgb(255, 255, 255);\">Its first commercial product was cobalt carbonyl, manufactured in Strem's high pressure autoclaves. The first catalog also contained catalysts/precatalysts and phosphorus ligands, which continue to be important classes of products offered by Strem.</span></p><p><br></p><p><span style=\"color: rgb(255, 255, 255);\">Key product lines include metal carbonyls, metal catalysts for organic synthesis, ligands, especially phosphines and N-heterocyclic carbenes, metal organic chemical vapor deposition (MOCVD) and atomic layer deposition (ALD) precursors and nanomaterials. Many products are also available on a bulk basis.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "f6920246-3604-46f9-9d8e-b41038fd2793",
+                  "type" : "component"
+                } ],
+                "id" : "df15d872-1bdb-40f8-9f96-a68a3144faa1",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "10%",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"font-size: 28px; color: rgb(255, 255, 255);\">Our Product Portfolio﻿</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "b780ae19-0888-4dae-bf3e-a2c760dd6d2c",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "richTextValue" : "<ul><li><span style=\"color: rgb(255, 255, 255);\">Metal foils, wires, powders &amp; elements</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal halides &amp; hyrides</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal oxides, nitrates &amp; chalcogenides</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal acetates &amp; carbonates</span></li><li><span style=\"color: rgb(255, 255, 255);\">Precious metails &amp; rare earth chemicals</span></li><li><span style=\"color: rgb(255, 255, 255);\">Fullerenes</span></li><li><span style=\"color: rgb(255, 255, 255);\">Catalysts &amp; chiral catalysts</span></li><li><span style=\"color: rgb(255, 255, 255);\">Organometallics</span></li><li><span style=\"color: rgb(255, 255, 255);\">Organophosphines &amp; arsines</span></li><li><span style=\"color: rgb(255, 255, 255);\">Organofluorines</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metallocenes</span></li></ul>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "67aa2de7-c302-49cc-b214-254a80bd1809",
+                  "type" : "component"
+                } ],
+                "id" : "eb86b961-5a0e-468c-9c08-4a22b0f38aa1",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "3%"
+                      }
+                    },
+                    "richTextValue" : "<p><br></p><p><br></p><ul><li><span style=\"color: rgb(255, 255, 255);\">Porphines &amp; phthalocyanines</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal carbonyls &amp; derivatives</span></li><li><span style=\"color: rgb(255, 255, 255);\">Ligands &amp; chiral ligands</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal alkoxides &amp; beta-diketonates</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal alkyls &amp; alkyl amides</span></li><li><span style=\"color: rgb(255, 255, 255);\">Volatile precursors for MOCVD &amp; CVD and ALD</span></li><li><span style=\"color: rgb(255, 255, 255);\">Electronic grade chemicals</span></li><li><span style=\"color: rgb(255, 255, 255);\">Stainless steel bubblers for CVD</span></li><li><span style=\"color: rgb(255, 255, 255);\">Ionic liquids</span></li><li><span style=\"color: rgb(255, 255, 255);\">Nanomaterials</span></li><li><span style=\"color: rgb(255, 255, 255);\">Metal Scavengers</span></li></ul>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "cd00fb8b-e493-4e8b-b99f-0f16612abff5",
+                  "type" : "component"
+                } ],
+                "id" : "0ad5f101-a00f-4930-95e9-bdbc73e62a57",
+                "name" : "db383",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "6b29ac94-74be-4395-995d-1aa29b313631",
+              "type" : "component"
+            } ],
+            "id" : "aa1a154a-ae83-4be2-aea1-a7a53deee006",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d0a1132f-2bd7-4c85-80c2-f7d2de439572",
+          "scopedBrandingSetId" : "Grey",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCZK2JEWBXKFAM3L2G2I4S3MCJ2I?lastModifiedDate=Fri Jun 07 14:26:56 GMT 2024&height=144&width=192\",\"contentKey\":\"MCZK2JEWBXKFAM3L2G2I4S3MCJ2I\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(0, 0, 0, 0.67)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "5%",
+                "left" : "8%",
+                "right" : "8%",
+                "top" : "5%"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"abe51e45-5fed-4f57-9af9-83d9b4b664b8\",\"columns\":[{\"UUID\":\"53a2c9be-e43a-4592-a6e3-ace0c5e946b2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"48a126f0-4e06-4ea5-829c-507c3dd67bbd\",\"columns\":[{\"UUID\":\"9e285450-903c-40ef-8f2b-67dba3aa0306\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "4%"
+                      }
+                    },
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">Rapid﻿ Customer Service﻿</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "f5309ce5-d8c4-4cca-bf17-a50e5bfc9a3d",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "15%",
+                        "right" : "15%",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Strem's large inventory of research chemicals allows most orders to be shipped the same day they are received. If same day shipment is not possible, expected shipping dates are provided and customers are kept informed of order status.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "f4f95020-d2ac-44cc-bf9b-efd50abc6006",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "4%",
+                        "left" : "15%",
+                        "right" : "15%",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Technical service is provided with the same enthusiasm and speed to ensure that customers have the chemicals and information they need.</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "5d5d1f24-816b-4d80-bbc9-f1e30a9ecf9a",
+                  "type" : "component"
+                } ],
+                "id" : "9e285450-903c-40ef-8f2b-67dba3aa0306",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "48a126f0-4e06-4ea5-829c-507c3dd67bbd",
+              "type" : "component"
+            } ],
+            "id" : "53a2c9be-e43a-4592-a6e3-ace0c5e946b2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "abe51e45-5fed-4f57-9af9-83d9b4b664b8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "4%",
+                "left" : "8%",
+                "right" : "8%",
+                "top" : "0%"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"0626e104-4212-4647-8a34-8221cd1d5a63\",\"columns\":[{\"UUID\":\"23041947-b20f-4a55-b558-41a96e893521\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"801e1669-65d6-4fbc-85c2-161ebe8ff7eb\",\"columns\":[{\"UUID\":\"cc0de95f-afed-4c81-8039-b3c50a42e924\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "dxpStyle" : { },
+                    "sectionConfig" : "{\"UUID\":\"b86ee357-c9ca-4fb4-b2a9-f58e884dab52\",\"columns\":[{\"UUID\":\"0caa0381-8507-4cfc-998d-751e5d97bb42\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "dxpStyle" : { },
+                        "sectionConfig" : "{\"UUID\":\"cc26a12f-4663-40d3-8fb8-674c136f6472\",\"columns\":[{\"UUID\":\"6fa73684-cac3-4a2e-855e-df19a05a4ee7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "4%"
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"color: rgb(255, 255, 255); font-size: 36px;\">ISO 9001:2015 Certified</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "a61b1dd2-0605-4a5b-86a2-68124d6719f3",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "dxpStyle" : { },
+                            "sectionConfig" : "{\"UUID\":\"a6e85dd3-f90d-4ef3-9c6a-3fd4b8bfadc0\",\"columns\":[{\"UUID\":\"390821f8-c2a9-4512-a3be-4567f24e8b4a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"524028f8-88f5-4431-a02c-f46a68940927\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "dxpStyle" : { },
+                                "richTextValue" : "<p><span style=\"color: rgb(255, 255, 255);\">Our site in Newburyport, Massachusetts was ISO 9001:2015 certified by NQA (National Quality Assurance) for Quality Management System (QMS) standard. Our mission has always been to provide high quality specialty chemicals and outstanding customer service. This certification allows our customers to have even more confidence in our ability to meet the standards they have grown to expect from Strem products and services.</span></p>"
+                              },
+                              "definition" : "community_builder:richTextEditor",
+                              "id" : "133c3217-fc00-42b0-a342-8124cd91a376",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "alignment" : "left",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "4%"
+                                  }
+                                },
+                                "size" : "standard",
+                                "stretch" : "standard",
+                                "text" : "Download our ISO 9001:2015 Certificate",
+                                "type" : "primary",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://resources.strem.com/StremISO9001.pdf\"}}}}"
+                              },
+                              "definition" : "dxp_base:button",
+                              "id" : "579c65da-96b8-4a97-b1e4-d52fcb83e126",
+                              "type" : "component"
+                            } ],
+                            "id" : "390821f8-c2a9-4512-a3be-4567f24e8b4a",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "id" : "524028f8-88f5-4431-a02c-f46a68940927",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "a6e85dd3-f90d-4ef3-9c6a-3fd4b8bfadc0",
+                          "type" : "component"
+                        } ],
+                        "id" : "6fa73684-cac3-4a2e-855e-df19a05a4ee7",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "cc26a12f-4663-40d3-8fb8-674c136f6472",
+                      "type" : "component"
+                    } ],
+                    "id" : "0caa0381-8507-4cfc-998d-751e5d97bb42",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "b86ee357-c9ca-4fb4-b2a9-f58e884dab52",
+                  "type" : "component"
+                } ],
+                "id" : "cc0de95f-afed-4c81-8039-b3c50a42e924",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "801e1669-65d6-4fbc-85c2-161ebe8ff7eb",
+              "type" : "component"
+            } ],
+            "id" : "23041947-b20f-4a55-b558-41a96e893521",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0626e104-4212-4647-8a34-8221cd1d5a63",
+          "scopedBrandingSetId" : "Test_background3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCSCS2EY7QN5H6VPLM7J4M7TOFHY?lastModifiedDate=Fri Jun 07 14:22:59 GMT 2024&height=144&width=192\",\"contentKey\":\"MCSCS2EY7QN5H6VPLM7J4M7TOFHY\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(0, 0, 0, 0.72)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "5%",
+                "left" : "0%",
+                "right" : "0%",
+                "top" : "5%"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"d1394825-7853-4a84-a171-31fe9ca2c36e\",\"columns\":[{\"UUID\":\"10150481-8bdf-46e8-8df9-34e6096a11f6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "0rem",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "2%",
+                    "left" : "2%",
+                    "right" : "2%",
+                    "top" : "2%"
+                  }
+                },
+                "sectionConfig" : "{\"UUID\":\"5fd044c8-d186-4add-9e52-f66f39db66cb\",\"columns\":[{\"UUID\":\"6f4dd0e3-f599-472e-8004-b2b7a59fb472\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "0%",
+                        "left" : "0%",
+                        "right" : "0%",
+                        "top" : "4%"
+                      }
+                    },
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">New Products and Proprietary Technologies</span></p><p style=\"text-align: center;\"><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "68477287-e8a2-4a80-9d76-6e224ee49323",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "5%",
+                        "left" : "22%",
+                        "right" : "22%",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Strem has a history of collaborating with academic scientists which has led to the introduction of new products. Industrial partnerships have also led to the introduction of proprietary technologies and facilitated their commercialization. Suggests for new products are gladly received.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "fb76fda5-3d31-4510-a68e-610326e14951",
+                  "type" : "component"
+                } ],
+                "id" : "6f4dd0e3-f599-472e-8004-b2b7a59fb472",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "5fd044c8-d186-4add-9e52-f66f39db66cb",
+              "type" : "component"
+            } ],
+            "id" : "10150481-8bdf-46e8-8df9-34e6096a11f6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d1394825-7853-4a84-a171-31fe9ca2c36e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "5%",
+                "left" : "8%",
+                "right" : "0%",
+                "top" : "5%"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"cc830662-f79e-4982-b7d5-0a9c90651c50\",\"columns\":[{\"UUID\":\"d2da2240-46bd-4593-8b0d-0ab8e76f6cae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"28835f85-f46e-40a5-a6c0-2de37a71d3f4\",\"columns\":[{\"UUID\":\"6b21b951-7d10-4ee9-b26f-f92a8375e5fd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "dxpStyle" : { },
+                    "sectionConfig" : "{\"UUID\":\"5e16aedb-3d5d-4644-86a7-5faacc6a19fe\",\"columns\":[{\"UUID\":\"4db1415a-e927-476e-86f9-576864918a7d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "dxpStyle" : { },
+                        "sectionConfig" : "{\"UUID\":\"acf7a029-f8f0-46a0-8ee8-8ff6106c3da2\",\"columns\":[{\"UUID\":\"c7e3c5b4-1f99-44a1-9a1d-3ec67fcf0bd2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "0%",
+                                "left" : "0%",
+                                "right" : "0%",
+                                "top" : "6%"
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"font-size: 36px;\">Strem Chemicals Supports Innovation</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "8abe372a-c236-4111-b923-406cdc04a73f",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "6%",
+                                "left" : "0%",
+                                "right" : "0%",
+                                "top" : "2%"
+                              }
+                            },
+                            "richTextValue" : "<p>We sponsor the American Chemical Society Award for Distinguished Service in the Advancement of Inorganic</p><p>Chemistry and the Canadian Society for Chemistry Award for Pure or Applied Inorganic Chemistry.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "fbf4ddf8-7de3-4e49-82d2-20ed84288f88",
+                          "type" : "component"
+                        } ],
+                        "id" : "c7e3c5b4-1f99-44a1-9a1d-3ec67fcf0bd2",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "acf7a029-f8f0-46a0-8ee8-8ff6106c3da2",
+                      "type" : "component"
+                    } ],
+                    "id" : "4db1415a-e927-476e-86f9-576864918a7d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "5e16aedb-3d5d-4644-86a7-5faacc6a19fe",
+                  "type" : "component"
+                } ],
+                "id" : "6b21b951-7d10-4ee9-b26f-f92a8375e5fd",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "28835f85-f46e-40a5-a6c0-2de37a71d3f4",
+              "type" : "component"
+            } ],
+            "id" : "d2da2240-46bd-4593-8b0d-0ab8e76f6cae",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cc830662-f79e-4982-b7d5-0a9c90651c50",
+          "scopedBrandingSetId" : "GreyTextSection",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCBTFXAGB6GVEQRJNRA4IAMXQA4I?lastModifiedDate=Fri Jun 07 14:44:03 GMT 2024&height=144&width=192\",\"contentKey\":\"MCBTFXAGB6GVEQRJNRA4IAMXQA4I\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgba(0, 0, 0, 0.27)",
+            "componentSpacerSize" : "4rem",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "0%",
+                "left" : "8%",
+                "right" : "8%",
+                "top" : "0%"
+              }
+            },
+            "maxContentWidth" : "none",
+            "sectionColumnGutterWidth" : "10rem",
+            "sectionConfig" : "{\"UUID\":\"dc17258e-421e-4054-b2b8-66a54fc7b90f\",\"columns\":[{\"UUID\":\"cb2df332-fc5a-4884-9579-d45a095674c6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"ff333d93-5bec-49a7-8504-c00a6c7953d8\",\"columns\":[{\"UUID\":\"5ce7494a-fe7a-4666-a35c-298bc63662e4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "dxpStyle" : { },
+                    "sectionConfig" : "{\"UUID\":\"db003798-42fb-4b26-83d3-21dd8920d84b\",\"columns\":[{\"UUID\":\"053f94d8-c406-4b55-b20d-a02c7e4fcbc2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "dxpStyle" : { },
+                        "sectionConfig" : "{\"UUID\":\"2949a6f2-67d4-4d6c-b714-cf1cdcae97fa\",\"columns\":[{\"UUID\":\"c6ae4788-0397-4129-b82b-39b2d9ab8657\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7e50549b-349e-4369-8a49-fd997034941e\",\"columnName\":\"Column 2\",\"columnKey\":\"4ac69\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "0%",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "8%"
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"color: rgb(255, 255, 255); font-size: 36px;\">Environmental, Health, </span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 36px;\">﻿Safety and Security Program</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "7a466631-40da-4c13-b484-4783692f6915",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "2%",
+                                "left" : "0%",
+                                "right" : "2%",
+                                "top" : "0%"
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"color: rgb(255, 255, 255);\">We are a member of SOCMA (Society of Chemical Manufacturers and Affiliates) and we are committed to the ChemStewards®&nbsp;program. ChemStewards is an adaptable environmental, health, safety and security (EHS&amp;S) program that promotes continuous performance improvement in batch chemical manufacturing. Strem has received Gold, Silver and Bronze Improvement Awards in 2011-2019, 2021, as well as an award for Educational Outreach sponsored by the Chemical Educational Foundation.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "e9345b42-c3de-4fb0-9164-b7dbbfb17090",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : { },
+                            "richTextValue" : "<p><br></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "81da213d-e5b9-4b77-99a9-a1d66e0b6f83",
+                          "type" : "component"
+                        } ],
+                        "id" : "c6ae4788-0397-4129-b82b-39b2d9ab8657",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "5%",
+                                "left" : "20%",
+                                "right" : "20%",
+                                "top" : "30%"
+                              }
+                            },
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUZ77AUFIOZAVNDSGR7BRS7ZZIY?lastModifiedDate=Fri Jun 07 14:45:14 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCUZ77AUFIOZAVNDSGR7BRS7ZZIY\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "52ac3e27-bbea-4385-9e85-f0627f019d6a",
+                          "type" : "component"
+                        } ],
+                        "id" : "7e50549b-349e-4369-8a49-fd997034941e",
+                        "name" : "4ac69",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "2949a6f2-67d4-4d6c-b714-cf1cdcae97fa",
+                      "type" : "component"
+                    } ],
+                    "id" : "053f94d8-c406-4b55-b20d-a02c7e4fcbc2",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "db003798-42fb-4b26-83d3-21dd8920d84b",
+                  "type" : "component"
+                } ],
+                "id" : "5ce7494a-fe7a-4666-a35c-298bc63662e4",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "ff333d93-5bec-49a7-8504-c00a6c7953d8",
+              "type" : "component"
+            } ],
+            "id" : "cb2df332-fc5a-4884-9579-d45a095674c6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dc17258e-421e-4054-b2b8-66a54fc7b90f",
+          "type" : "component"
+        } ],
+        "id" : "cc2cb068-b383-432c-a2d6-7a8ea1167f72",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "About Strem",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "132ea9c2-e053-4fc2-a865-0d73bd2b7776",
+          "type" : "component"
+        } ],
+        "id" : "d7e3f586-71a8-448c-a601-ba6c01e12f0c",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8ef7e729-862e-447e-a6ae-755a077febd1",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-about"
+  },
+  "urlName" : "about-strem"
+}

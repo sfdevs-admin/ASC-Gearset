@@ -1,0 +1,288 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Custom Synthesis and cGMP Page",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCTBIHMDMMHBCUXGY6GDMSQLKXLM?lastModifiedDate=Fri Jun 07 14:32:21 GMT 2024&height=144&width=192\",\"contentKey\":\"MCTBIHMDMMHBCUXGY6GDMSQLKXLM\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center right\",\"bgSizeOrRepeat\":\"repeat-y\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "75px",
+                "left" : "75px",
+                "right" : "75px",
+                "top" : "75px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "maxContentWidth" : "none",
+            "sectionColumnGutterWidth" : "1rem",
+            "sectionConfig" : "{\"UUID\":\"af3ab1c7-98ab-4f2d-bb00-784a13558f52\",\"columns\":[{\"UUID\":\"21f03763-d0ef-4ec5-a385-d0679b7ec711\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Custom Synthesis & cGMP",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "6d771a99-f566-4613-b13a-159b969104cb",
+              "type" : "component"
+            } ],
+            "id" : "21f03763-d0ef-4ec5-a385-d0679b7ec711",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "af3ab1c7-98ab-4f2d-bb00-784a13558f52",
+          "scopedBrandingSetId" : "Tsst_Background",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3a5a1308-b34b-447b-98f0-b1ce382f684a\",\"columns\":[{\"UUID\":\"df03e316-b25c-4ba2-957a-1f4e010f468f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"2f6bb9bb-c2a1-4bd0-9455-67c32a298d29\",\"columnName\":\"Column 2\",\"columnKey\":\"d637c\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h2><span style=\"font-size: 36px;\">Custom synthesis and process development are conducted under the strictest confidence.</span></h2><p><br></p><p>Project planning and regular communication are utilized to ensure that customer expectations of quality and delivery are met. Manufacturing is conducted by an experienced staff of technicians, Bachelor–degreed and Ph.D. chemists.</p><p><br></p><p>Custom Synthesis work is provided over a broad range of reactions, including those requiring the use of high pressure reactors and conditions. Pilot–scale quantities can also be supplied.</p><p><br></p><h3><span style=\"font-size: 28px;\">Reaction capabilities include:</span></h3><p><br></p><ul><li>Alkylations, reductive</li><li>Amination</li><li>Ammonolysis</li><li>Asymmetric synthesis</li><li>Carbonylation</li><li>Chiral chemistry</li><li>Dehydrogenation</li><li>Formylation</li><li>Hydroformylation</li><li>Hydrogenation</li><li>Liquid ammonia reactions</li><li>Quaternization</li><li>Reduction, catalytic</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b8afe0c3-98d9-4aa0-8b71-50e2aa362f3f",
+              "type" : "component"
+            } ],
+            "id" : "df03e316-b25c-4ba2-957a-1f4e010f468f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "65px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCF6SHOKFMIRGDXH4TIORV2HE3RE?lastModifiedDate=Wed May 01 19:12:33 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCF6SHOKFMIRGDXH4TIORV2HE3RE\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "778af1f2-996c-4226-b6ee-a71d178ea3d4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "65px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCDLCLFFCPG5FZ7L7OCJNGX6GLMU?lastModifiedDate=Fri Jun 07 10:34:43 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCDLCLFFCPG5FZ7L7OCJNGX6GLMU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a055e0a7-c5b9-4810-adbf-53a959e0e2b3",
+              "type" : "component"
+            } ],
+            "id" : "2f6bb9bb-c2a1-4bd0-9455-67c32a298d29",
+            "name" : "d637c",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3a5a1308-b34b-447b-98f0-b1ce382f684a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "75px",
+                "left" : "",
+                "right" : "",
+                "top" : "75px"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"504ce2fd-5309-425a-b70f-f3c5e50ff6ca\",\"columns\":[{\"UUID\":\"34462bad-2852-4d29-a563-9a47fdf20a48\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d6b99072-c24b-4cf8-9cf8-aa7ab8c2925f\",\"columnName\":\"Column 2\",\"columnKey\":\"3d1e0\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC7ORADR3U25GQ3AHZJLJ3ESJMCY?lastModifiedDate=Wed May 01 19:10:59 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC7ORADR3U25GQ3AHZJLJ3ESJMCY\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 75
+              },
+              "definition" : "dxp_base:image",
+              "id" : "9bc05029-683d-4dff-961c-e653544b0503",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCLNHIDOLWSRDJ5LT6J2QCWKCETM?lastModifiedDate=Fri Jun 07 11:26:16 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCLNHIDOLWSRDJ5LT6J2QCWKCETM\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 75
+              },
+              "definition" : "dxp_base:image",
+              "id" : "25ba1290-cfc6-4de4-bbb1-682629a768cc",
+              "type" : "component"
+            } ],
+            "id" : "34462bad-2852-4d29-a563-9a47fdf20a48",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<h2><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">&nbsp;cGMP Current Good Manufacturing Practices</span></h2><p><br></p><p><span style=\"color: rgb(255, 255, 255);\">For pharmaceutical applications, manufacturing of API's (active pharmaceutical ingredients) and intermediates is conducted under current Good Manufacturing Practices (cGMP) in our kilo–lab facility (class 10,000) which has been operational since 1988.</span></p><p><br></p><p><span style=\"color: rgb(255, 255, 255);\">Complete documentation is available for manufacturing under cGMP including validation of stability studies. Active Drug Master Files (DMF's) are maintained in over 20 countries including USA, Europe and Australia (see below).</span></p><p><br></p><h3><span style=\"color: rgb(255, 255, 255);\">The Newburyport facility was inspected by the Food and Drug Administration in 2020.</span></h3>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e2ad69c9-43a4-4b4c-aa3b-37c1fa76665d",
+              "type" : "component"
+            } ],
+            "id" : "d6b99072-c24b-4cf8-9cf8-aa7ab8c2925f",
+            "name" : "3d1e0",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "504ce2fd-5309-425a-b70f-f3c5e50ff6ca",
+          "scopedBrandingSetId" : "Test_background3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "100px",
+                "right" : "100px",
+                "top" : "100px"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ce8e6262-ff3b-4dce-95f3-aaaef5fa7ea9\",\"columns\":[{\"UUID\":\"bfa73f72-88ee-4cfa-92e6-be7fcd0340ba\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3c879b50-8c48-4a17-8116-e5e98b646c5b\",\"columnName\":\"Column 2\",\"columnKey\":\"8395f\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Strem's Regulatory Filings</span></h3><p><br></p><h4>Cisplatin</h4><ul><li>US FDA DMF #7017 15 June 1987</li><li>France EDMF Reference Number 2004–006, 18 March, 2004</li><li>Germany EDMF Reference Number 11.02–3620–629 23 December, 2007</li><li>Czech Republic EDMF Reference Number 4309STREM1105A04 December, 2007</li><li>Austria EDMF ASMF07263; December, 2007</li><li>Belgium EDMF 2007–1328; December, 2007</li><li>Spain EDMF 237/2007 December, 2007</li><li>Italy EDMF AIN/2007/5202 December, 2007</li><li>EDMF have also been filed in 2007 in Cyprus, Estonia, France, Greece, Ireland, Latvia, Lithuania, Luxembourg, Malta, The Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, UK</li></ul><p><br></p><h4>Fomepizole</h4><ul><li>FDA DMF #19978, 13 December, 2006</li></ul><p><br></p><h4>Dexmedetomidine Hydrochloride</h4><ul><li>US Drug Master File 24202, 15 December 2011 (Administered by Strem's partner)</li></ul><p><br></p><p>Additional products have been made under cGMP where no public regulatory filing is available.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9d516b81-777a-4199-96b7-660b51449a73",
+              "type" : "component"
+            } ],
+            "id" : "bfa73f72-88ee-4cfa-92e6-be7fcd0340ba",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<h4><br></h4><h4><br></h4><h4><br></h4><h4>Carboplatin</h4><ul><li>US Drug Master File 15938, 11 April 2002</li><li>European Certificate of Suitability Reference Number R1–CEP 2002–129–Rev 01, 18 January, 2008</li><li>Australia Drug Master File 2003/18057, 7 May, 2003</li><li>Belgium Drug Master File 671, 12 March 2002</li><li>Norway Drug Master File 03–2687, 14 March 2003</li><li>Luxembourg Drug Master File (11/2005)</li><li>Unregistered filings of the Applicants part have been submitted on 2/5/2003 to Denmark, England, Finland, France, Greece, Ireland, Italy, The Netherlands, Portugal, Spain, Sweden</li></ul><p><br></p><h4>Pamidronic Acid</h4><ul><li>FDA DMF #12803 22 December 1997</li><li>Canada Drug Master File 2001–007, updated February, 2007</li><li>Australia Drug Master File 2007/8380, August 2007</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e80b6490-d658-4ed6-b257-4fa09cb0e90a",
+              "type" : "component"
+            } ],
+            "id" : "3c879b50-8c48-4a17-8116-e5e98b646c5b",
+            "name" : "8395f",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ce8e6262-ff3b-4dce-95f3-aaaef5fa7ea9",
+          "type" : "component"
+        } ],
+        "id" : "0acda8c4-6f56-443a-93cf-6b6eee333060",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Custom Synthesis and cGMP Page",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "283d5a13-fb37-4309-b558-c00f3b32277f",
+          "type" : "component"
+        } ],
+        "id" : "4b8059d1-4c2f-4180-910c-f9af5c4257a5",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "848b5e0a-e102-4978-9d0b-49c43fefcba9",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-custom-synthesis-and-cgmp-page"
+  },
+  "urlName" : "custom-synthesis-and-cgmp-page"
+}
