@@ -2,14 +2,11 @@
  * @description       : 
  * @author            : surya.thakur
  * @group             : 
- * @last modified on  : 06-03-2024
- * @last modified by  : surya.thakur
+ * @last modified on  : 12-19-2025
+ * @last modified by  : Swati Chilap
 **/
 public with sharing class b2bHomepageCarouselController {
-    public b2bHomepageCarouselController() {
-
-    }
-
+    
     @AuraEnabled
     public static Map<String,Object> getData(Map<String,Object> mapParams){
         try {
@@ -20,103 +17,5 @@ public with sharing class b2bHomepageCarouselController {
             mapParams.put('message',e.getMessage());
         }
         return mapParams;
-    }
-    
-    public static void testCoverage(){
-        Integer i = 0;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
-        i++;
     }
 }
